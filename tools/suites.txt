@@ -1,0 +1,100 @@
+# Every game/**/tests/test_*.gd, one row per run: name | res://path | flags.
+# Flags are the ones each unit's status/ "How to verify" section documents. A tracked test with no
+# row fails tools/suites.sh's coverage check. tools/suites.sh reads this file.
+core_input|res://core/tests/test_core_input.gd|
+core_input_quad|res://core/tests/test_input_quad.gd|
+core_pad_atom|res://core/tests/test_pad_atom.gd|--sandbox --god --no-enemies --timeout=300
+core_readme|res://core/tests/test_readme_controls.gd|
+fx_feel|res://fx/tests/test_feel.gd|
+fx_clocks|res://fx/tests/test_clocks.gd|
+fx_swarm|res://fx/tests/test_swarm.gd|
+fx_skate|res://fx/tests/test_skate.gd|
+fx_boss_kill|res://fx/tests/test_boss_kill.gd|
+mech_locomotion|res://player/mech/tests/test_locomotion.gd|--timeout=600
+mech_damage|res://player/mech/tests/test_damage.gd|--timeout=600
+mech_stepping|res://player/mech/tests/test_stepping.gd|--timeout=600
+mech_clocks|res://player/mech/tests/test_clocks.gd|--timeout=600
+mech_flight_input|res://player/mech/tests/test_flight_input.gd|--timeout=900
+mech_death|res://player/mech/tests/test_death.gd|--timeout=1200
+mech_step_coast|res://player/mech/tests/test_step_coast.gd|--timeout=600
+mech_platform|res://player/mech/tests/test_platform.gd|--timeout=600
+melee|res://combat/melee/tests/test_melee.gd|
+melee_hud_first_frame|res://combat/melee/tests/test_hud_first_frame.gd|
+defense|res://combat/defense/tests/test_defense.gd|
+defense_guard_capture|res://combat/defense/tests/test_guard_capture.gd|
+skills|res://combat/skills/tests/test_skills.gd|
+weapons|res://combat/weapons/tests/test_weapons.gd|
+weapons_feel_rows|res://combat/weapons/tests/test_feel_rows.gd|--audio-trace
+aim|res://player/aim/tests/test_aim.gd|
+camera|res://player/camera/tests/test_camera.gd|
+camera_audit|res://player/camera/tests/test_camera_audit.gd|
+camera_cockpit|res://player/camera/tests/test_camera_cockpit.gd|
+camera_feel|res://player/camera/tests/test_camera_feel.gd|
+camera_flight|res://player/camera/tests/test_camera_flight.gd|
+camera_flow|res://player/camera/tests/test_camera_flow.gd|--sandbox --flow --spawn=0,1,60
+camera_large|res://player/camera/tests/test_camera_large.gd|
+hud|res://ui/tests/test_hud.gd|
+hud_death_pause|res://ui/tests/test_death_pause.gd|--timeout=600 --sandbox --flow --spawn=0,1,60 --no-enemies --no-post
+hud_title_tutorial|res://ui/tests/test_title_tutorial.gd|--timeout=900
+audio|res://audio/tests/test_audio.gd|
+audio_clocks|res://audio/tests/test_audio_clocks.gd|
+audio_call_sites|res://audio/tests/test_audio_call_sites.gd|
+audio_enemies|res://audio/tests/test_audio_enemies.gd|
+post|res://world/post/tests/test_post.gd|
+kit_textures|res://world/kit/tests/test_kit_textures.gd|
+art_no_abs_paths|res://world/art/tests/test_no_abs_paths.gd|
+art_design_copy|res://world/art/tests/test_design_copy.gd|
+art_roof_map|res://world/art/tests/test_roof_map.gd|
+art_settle|res://world/art/tests/test_settle.gd|
+art_surface_static|res://world/art/tests/test_surface_static.gd|
+art_settle_cache|res://world/art/tests/test_settle_cache.gd|
+art_float|res://world/art/tests/test_float.gd|
+art|res://world/art/tests/test_art.gd|
+art_occlusion|res://world/art/tests/test_occlusion.gd|
+art_shadows|res://world/art/tests/test_shadows.gd|
+art_sky_pano|res://world/art/tests/test_sky_pano.gd|
+props|res://world/props/tests/test_props.gd|
+city|res://world/city/tests/test_city.gd|
+enemies_status|res://enemies/tests/test_status.gd|
+enemies_projectile|res://enemies/tests/test_projectile.gd|--timeout=300
+enemies_audit|res://enemies/tests/test_audit.gd|--timeout=300
+enemies_spawner_mix|res://enemies/tests/test_spawner.gd|--enemies=ripper:4,mantis:1 --timeout=300
+enemies_spawner_none|res://enemies/tests/test_spawner.gd|--no-enemies --timeout=300
+main_spawn_r6|res://enemies/tests/test_main_spawn.gd|--sandbox --enemies=ripper:6 --timeout=300
+main_spawn_none|res://enemies/tests/test_main_spawn.gd|--sandbox --no-enemies --timeout=300
+main_spawn_stub|res://enemies/tests/test_main_spawn.gd|--sandbox --enemies=ripper:4 --stub=enemies --timeout=300
+enemies_fight|res://enemies/tests/test_fight.gd|--timeout=400
+enemies_ai|res://enemies/tests/test_ai.gd|--timeout=400
+enemies_los_loss|res://enemies/tests/test_los_loss.gd|--timeout=600
+enemies_near_miss|res://enemies/tests/test_near_miss.gd|--timeout=300
+enemies_spawn_safety|res://enemies/tests/test_spawn_safety.gd|--sandbox --no-enemies --timeout=400
+models|res://enemies/models/tests/test_models.gd|
+boss|res://enemies/boss/tests/test_boss.gd|
+boss_city|res://enemies/boss/tests/test_boss_city.gd|
+flow|res://flow/tests/test_flow.gd|--sandbox --flow --spawn=0,1,60
+flow_idle|res://flow/tests/test_flow_idle.gd|--sandbox --spawn=0,1,60
+flow_perf|res://flow/tests/test_flow_perf.gd|--skip-menu --no-enemies --spawn=-514.5,112,105.1,-66.4 --timeout=300
+flow_collapse_camera|res://flow/tests/test_collapse_camera.gd|
+flow_die_once|res://flow/tests/test_die_once.gd|
+hero3|res://player/model/hero3/tests/test_hero3.gd|
+hero3_pelvis|res://player/model/hero3/tests/test_hero3_pelvis.gd|
+hero3_body|res://player/model/hero3/tests/test_hero3_body.gd|
+hero3_release|res://player/model/hero3/tests/test_hero3_release.gd|
+hero3_states|res://player/model/hero3/tests/test_hero3_states.gd|
+hero3_ground|res://player/model/hero3/tests/test_hero3_ground.gd|
+hero3_aim|res://player/model/hero3/tests/test_hero3_aim.gd|
+hero3_reach|res://player/model/hero3/tests/test_hero3_reach.gd|
+hero3_casts|res://player/model/hero3/tests/test_hero3_casts.gd|
+hero3_melee|res://player/model/hero3/tests/test_hero3_melee.gd|
+hero3_fk|res://player/model/hero3/tests/test_hero3_fk.gd|
+hero3_ik|res://player/model/hero3/tests/test_hero3_ik.gd|
+hero3_pose|res://player/model/hero3/tests/test_hero3_pose.gd|
+hero3_tree|res://player/model/hero3/tests/test_hero3_tree.gd|
+hero3_skin|res://player/model/hero3/tests/test_hero3_skin.gd|
+hero3_pieces|res://player/model/hero3/tests/test_hero3_pieces.gd|
+hero3_shade|res://player/model/hero3/tests/test_hero3_shade.gd|
+hero3_drones|res://player/model/hero3/tests/test_hero3_drones.gd|
+hero3_flight|res://player/model/hero3/tests/test_hero3_flight.gd|
+hero3_thruster|res://player/model/hero3/tests/test_hero3_thruster.gd|
+# tooling's own harness suites
+tools_capture_clock|res://tools/tests/test_capture_clock.gd|

@@ -1,0 +1,9 @@
+{
+  "_doc": "g6_guard -- block (1.3 s), catch field (held past the 0.3 s threshold while a spitter lob is in the air), and a perfect parry on every parryable telegraph.",
+  "rules": [
+    { "on": "t", "at": 1.3, "press": "guard", "hold": 1.5, "max": 1 },
+    { "on": "t", "at": 3.6, "press": "guard", "hold": 2.4, "max": 1 },
+    { "on": "telegraph", "kind": "parryable", "after": 0.22, "press": "guard", "hold": 0.05, "max": 4 },
+    { "on": "telegraph", "kind": "unblockable", "after": 0.30, "press": "boost", "hold": 0.05, "max": 2 }
+  ]
+}

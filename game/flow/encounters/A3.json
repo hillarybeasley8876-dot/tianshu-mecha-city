@@ -1,0 +1,40 @@
+{
+  "arena": "A3",
+  "label": "尖塔广场 SPIRE PLAZA",
+  "music": 0.5,
+  "waves": [
+    {
+      "id": "A3_w1",
+      "start": { "kind": "on_enter" },
+      "groups": [
+        { "type": "ripper", "count": 6, "socket": "A3_sp1", "escalate": true },
+        { "type": "ripper", "count": 4, "socket": "A3_sp5", "escalate": true }
+      ]
+    },
+    {
+      "id": "A3_w2",
+      "start": { "kind": "previous_half" },
+      "groups": [
+        { "type": "mantis", "count": 2, "socket": "A3_sp2" },
+        { "type": "ripper", "count": 6, "socket": "A3_sp3", "escalate": true }
+      ]
+    },
+    {
+      "id": "A3_w3",
+      "start": { "kind": "timer", "delay": 8.0 },
+      "groups": [
+        { "type": "harrier", "count": 2, "socket": "A3_sp4" },
+        { "type": "spitter", "count": 1, "socket": "A3_sp2" }
+      ]
+    },
+    {
+      "id": "A3_w4",
+      "start": { "kind": "previous_cleared" },
+      "groups": [
+        { "type": "mantis", "count": 2, "socket": "A3_sp3" },
+        { "type": "ripper", "count": 8, "socket": "A3_sp1", "escalate": true },
+        { "type": "ripper", "count": 6, "socket": "A3_sp5", "escalate": true }
+      ]
+    }
+  ]
+}

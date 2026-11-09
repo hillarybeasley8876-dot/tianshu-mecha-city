@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="FeelEvent" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://fx/feel_event.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = &"land_light"
+trauma = 0.16
+kick_deg = 1.2
+kick_dir = Vector3(0, -1, 0)
+kick_seconds = 0.16
+fov_delta = -1.0
+fov_seconds = 0.05
+vfx = Array[StringName]([&"dust_puff"])
+vfx_scale = 1.1
+audio = Array[StringName]([&"land_thud", &"land_hydraulics"])
+rumble_weak = 0.15
+rumble_strong = 0.45
+rumble_ms = 100
+cooldown = 0.1

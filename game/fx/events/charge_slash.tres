@@ -1,0 +1,30 @@
+[gd_resource type="Resource" script_class="FeelEvent" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://fx/feel_event.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = &"charge_slash"
+hitstop_kind = 1
+hitstop_seconds = 0.1667
+trauma = 0.35
+flash_color = Color(1, 1, 1, 0.18)
+flash_frames = 2
+fov_delta = -4.0
+fov_seconds = 0.3
+vfx = Array[StringName]([&"shockwave_ring", &"impact_star", &"spark_burst"])
+vfx_scale = 1.2
+light_color = Color(0.31, 0.9, 1, 1)
+light_energy = 7.0
+light_range = 18.0
+light_frames = 3
+audio = Array[StringName]([&"charge_slash_transient", &"charge_slash_body", &"charge_slash_sub",
+&"charge_slash_tail"])
+rumble_weak = 0.6
+rumble_strong = 0.8
+rumble_ms = 200
+falloff = 120.0
+cooldown = 0.1
+ring_radius = 20.0
+ring_seconds = 0.22
+ring_color = Color(0.75, 0.95, 1, 1)

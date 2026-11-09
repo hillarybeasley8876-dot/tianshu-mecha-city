@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="FeelEvent" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://fx/feel_event.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = &"gatling_jam"
+trauma = 0.18
+kick_deg = 0.6
+kick_dir = Vector3(0, -1, 0)
+kick_seconds = 0.2
+flash_color = Color(1, 0.15, 0.1, 0.2)
+flash_frames = 2
+post = Array[StringName]([&"vignette"])
+vignette = 0.15
+post_seconds = 0.3
+vfx = Array[StringName]([&"dust_puff", &"spark_bullet"])
+vfx_scale = 0.5
+audio = Array[StringName]([&"gatling_jam"])
+rumble_weak = 0.5
+rumble_strong = 0.6
+rumble_ms = 200
+falloff = 40.0
+cooldown = 0.5

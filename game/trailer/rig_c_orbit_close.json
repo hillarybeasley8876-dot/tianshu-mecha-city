@@ -1,0 +1,23 @@
+{
+  "_doc": "melee combo on a close orbit around the hero (cam_rig.gd). r3: the sweep of the A6 mark (stages_a6.json) says the clear envelope is d=44 h=+3 and bearings 150-330, so the orbit runs 230 -> 302 deg at that geometry; fov 55 because a 48 deg lens at 44 m sees a 39 m window and the pack falls out of it (lead r3 note 2: c_melee showed no enemy for 4.37 s).",
+  "id": "orbit_close",
+  "rig": "orbit",
+  "kind": "combat",
+  "from": 0.0,
+  "to": 14.0,
+  "radius": 44.0,
+  "height": 3.0,
+  "rate": 6.0,
+  "start": 230.0,
+  "look": [
+    0.0,
+    1.0,
+    0.0
+  ],
+  "frame": [
+    0.0,
+    0.0
+  ],
+  "fov": 55.0,
+  "min_bbox": 0.26
+}

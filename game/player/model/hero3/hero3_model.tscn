@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://player/model/hero3/hero3_model.gd" id="1_model"]
+[ext_resource type="PackedScene" uid="uid://ckipdvg5tk1a4" path="res://player/model/hero3/hero3.glb" id="2_hero3"]
+
+[node name="Hero3Model" type="Node3D"]
+script = ExtResource("1_model")
+
+[node name="Model" parent="." instance=ExtResource("2_hero3")]

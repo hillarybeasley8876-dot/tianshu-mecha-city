@@ -1,0 +1,26 @@
+[gd_resource type="Resource" script_class="FeelEvent" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://fx/feel_event.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = &"missile_hit"
+hitstop_kind = 1
+hitstop_seconds = 0.05
+trauma = 0.25
+vfx = Array[StringName]([&"missile_blast", &"shockwave_ring"])
+vfx_scale = 1.2
+decal = &"scorch"
+light_color = Color(1, 0.54, 0.17, 1)
+light_energy = 8.0
+light_range = 12.0
+light_frames = 3
+audio = Array[StringName]([&"missile_hit_transient", &"missile_hit_body", &"missile_hit_sub",
+&"missile_hit_tail", &"missile_hit_debris"])
+rumble_weak = 0.35
+rumble_strong = 0.6
+rumble_ms = 180
+falloff = 160.0
+cooldown = 0.05
+ring_radius = 20.0
+ring_seconds = 0.18

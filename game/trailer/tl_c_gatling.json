@@ -1,0 +1,8 @@
+[
+ { "t": 0.0,  "look_rate": [0, 0] },
+ { "t": 0.4,  "tap": ["lock_on"] },
+ { "t": 0.9,  "tap": ["weapon_next"] },
+ { "t": 1.6,  "press": ["fire"] },
+ { "t": 5.0,  "release": ["fire"] },
+ { "t": 6.0,  "end": true }
+]

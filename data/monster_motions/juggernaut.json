@@ -1,0 +1,39 @@
+{
+ "presets": {
+  "idle": "idle",
+  "walk": "walk",
+  "hit_light": "hit_to_body_01"
+ },
+ "motions": [
+  [
+   "charge",
+   2.0,
+   "A huge hulking gorilla-like alien brute monster drops onto its fists and charges forward at full speed on all fours like a gorilla"
+  ],
+  [
+   "ground_slam",
+   2.0,
+   "A huge hulking gorilla-like alien brute monster raises both huge fists above its head and slams them into the ground in front of it"
+  ],
+  [
+   "swipe",
+   1.4,
+   "A huge hulking gorilla-like alien brute monster swings its massive right arm in a wide horizontal backhand sweep"
+  ],
+  [
+   "roar",
+   2.4,
+   "A huge hulking gorilla-like alien brute monster beats its chest with both fists and roars with its head thrown back"
+  ],
+  [
+   "stagger",
+   1.6,
+   "A huge hulking gorilla-like alien brute monster is hit hard, staggers back two heavy steps and shakes its head, then recovers"
+  ],
+  [
+   "death",
+   2.8,
+   "A huge hulking gorilla-like alien brute monster loses its strength, sinks slowly to its knees and lies down on the ground, still"
+  ]
+ ]
+}

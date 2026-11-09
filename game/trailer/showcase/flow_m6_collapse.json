@@ -1,0 +1,16 @@
+[
+ { "t": 1.0,  "cmd": "god" },
+ { "t": 2.0,  "cmd": "wait_state", "args": ["tutorial", 40] },
+ { "t": 3.0,  "cmd": "clear_arena", "args": ["A1"] },
+ { "t": 4.0,  "cmd": "wait_state", "args": ["district", 30] },
+ { "t": 9.0,  "cmd": "approach_spire", "args": [2, 62, 18] },
+ { "t": 12.0, "cmd": "hurt_spire", "args": [2, 4000, "pod_0"] },
+ { "t": 13.5, "cmd": "hurt_spire", "args": [2, 4000, "pod_1"] },
+ { "t": 15.0, "cmd": "hurt_spire", "args": [2, 4000, "pod_2"] },
+ { "t": 16.5, "cmd": "hurt_spire", "args": [2, 4000, "pod_3"] },
+ { "t": 18.0, "cmd": "hurt_spire", "args": [2, 7000, "core"] },
+ { "t": 20.0, "cmd": "state" },
+ { "t": 22.0, "cmd": "mark", "args": ["hive_a6"] },
+ { "t": 23.0, "cmd": "film_collapse", "args": [2, 8, 0.25] },
+ { "t": 26.0, "cmd": "probe" }
+]

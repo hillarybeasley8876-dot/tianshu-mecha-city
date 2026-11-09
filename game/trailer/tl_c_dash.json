@@ -1,0 +1,8 @@
+[
+ { "t": 0.0,  "look_rate": [0, 0] },
+ { "t": 0.2,  "press": ["move_forward"] },
+ { "t": 1.4,  "tap": ["boost"] },
+ { "t": 2.0,  "release": ["move_forward"] },
+ { "t": 2.3,  "tap": ["melee"] },
+ { "t": 4.0,  "end": true }
+]

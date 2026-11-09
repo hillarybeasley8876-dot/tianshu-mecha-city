@@ -1,0 +1,122 @@
+[
+ {
+  "name": "hovercar_a",
+  "prompt": "A sleek four-seat hover car with no wheels, smooth white and bronze body, dark glass canopy, glowing cyan underside thruster pads, about 5 m long. Single object only, isolated, full object visible, centered, three-quarter view from slightly above, plain light grey studio background, soft even lighting, no text, no logo, no people, highly detailed realistic 3D game asset render. Design language: clean Chinese neo-futurist city of the 2180s, pale stone, white panels, dark glass, brushed steel and bronze accents, small cyan and amber light strips."
+ },
+ {
+  "name": "hovercar_b",
+  "prompt": "A boxy utility hover van with no wheels, matte graphite and amber stripes, side sliding door, roof rack, glowing thruster pads, about 6 m long. Single object only, isolated, full object visible, centered, three-quarter view from slightly above, plain light grey studio background, soft even lighting, no text, no logo, no people, highly detailed realistic 3D game asset render. Design language: clean Chinese neo-futurist city of the 2180s, pale stone, white panels, dark glass, brushed steel and bronze accents, small cyan and amber light strips."
+ },
+ {
+  "name": "truck",
+  "prompt": "A heavy autonomous cargo truck with a cab-less front, large container trailer section, 8 thick wheels, graphite and safety orange panels, about 14 m long. Single object only, isolated, full object visible, centered, three-quarter view from slightly above, plain light grey studio background, soft even lighting, no text, no logo, no people, highly detailed realistic 3D game asset render. Design language: clean Chinese neo-futurist city of the 2180s, pale stone, white panels, dark glass, brushed steel and bronze accents, small cyan and amber light strips."
+ },
+ {
+  "name": "bus",
+  "prompt": "A long futuristic articulated city bus on wheels, white and teal livery, panoramic dark windows, rounded nose, about 18 m long. Single object only, isolated, full object visible, centered, three-quarter view from slightly above, plain light grey studio background, soft even lighting, no text, no logo, no people, highly detailed realistic 3D game asset render. Design language: clean Chinese neo-futurist city of the 2180s, pale stone, white panels, dark glass, brushed steel and bronze accents, small cyan and amber light strips."
+ },
+ {
+  "name": "maglev_car",
+  "prompt": "A single maglev train carriage, aerodynamic white body with a bronze stripe and long dark window band, floating rail shoe underneath, about 25 m long. Single object only, isolated, full object visible, centered, three-quarter view from slightly above, plain light grey studio background, soft even lighting, no text, no logo, no people, highly detailed realistic 3D game asset render. Design language: clean Chinese neo-futurist city of the 2180s, pale stone, white panels, dark glass, brushed steel and bronze accents, small cyan and amber light strips."
+ },
+ {
+  "name": "streetlamp",
+  "prompt": "A tall futuristic street lamp post, slender bronze pole with a curved arm and a long warm light bar, a small cyan ring light at the base, about 12 m tall. Single object only, isolated, full object visible, centered, three-quarter view from slightly above, plain light grey studio background, soft even lighting, no text, no logo, no people, highly detailed realistic 3D game asset render. Design language: clean Chinese neo-futurist city of the 2180s, pale stone, white panels, dark glass, brushed steel and bronze accents, small cyan and amber light strips."
+ },
+ {
+  "name": "vending",
+  "prompt": "A futuristic vending machine kiosk with a glowing screen face, white body with bronze trim, small product shelves behind glass. Single object only, isolated, full object visible, centered, three-quarter view from slightly above, plain light grey studio background, soft even lighting, no text, no logo, no people, highly detailed realistic 3D game asset render. Design language: clean Chinese neo-futurist city of the 2180s, pale stone, white panels, dark glass, brushed steel and bronze accents, small cyan and amber light strips."
+ },
+ {
+  "name": "bus_shelter",
+  "prompt": "A futuristic bus stop shelter with a curved glass roof, bench, holographic route display panel and bronze frame. Single object only, isolated, full object visible, centered, three-quarter view from slightly above, plain light grey studio background, soft even lighting, no text, no logo, no people, highly detailed realistic 3D game asset render. Design language: clean Chinese neo-futurist city of the 2180s, pale stone, white panels, dark glass, brushed steel and bronze accents, small cyan and amber light strips."
+ },
+ {
+  "name": "barrier",
+  "prompt": "A heavy concrete and steel road traffic barrier segment with cyan LED strip and hazard chevrons, about 4 m long. Single object only, isolated, full object visible, centered, three-quarter view from slightly above, plain light grey studio background, soft even lighting, no text, no logo, no people, highly detailed realistic 3D game asset render. Design language: clean Chinese neo-futurist city of the 2180s, pale stone, white panels, dark glass, brushed steel and bronze accents, small cyan and amber light strips."
+ },
+ {
+  "name": "food_stall",
+  "prompt": "A small traditional Chinese street food stall reimagined futuristic: wooden counter, red lanterns, cloth awning, steaming pots, neon sign frame without text. Single object only, isolated, full object visible, centered, three-quarter view from slightly above, plain light grey studio background, soft even lighting, no text, no logo, no people, highly detailed realistic 3D game asset render. Design language: clean Chinese neo-futurist city of the 2180s, pale stone, white panels, dark glass, brushed steel and bronze accents, small cyan and amber light strips."
+ },
+ {
+  "name": "planter_tree",
+  "prompt": "A large round stone planter with a sculpted Chinese elm tree, lush green canopy, bronze rim. Single object only, isolated, full object visible, centered, three-quarter view from slightly above, plain light grey studio background, soft even lighting, no text, no logo, no people, highly detailed realistic 3D game asset render. Design language: clean Chinese neo-futurist city of the 2180s, pale stone, white panels, dark glass, brushed steel and bronze accents, small cyan and amber light strips."
+ },
+ {
+  "name": "blossom_tree",
+  "prompt": "A blooming cherry blossom tree with pink flowers on a raised hexagonal stone planter. Single object only, isolated, full object visible, centered, three-quarter view from slightly above, plain light grey studio background, soft even lighting, no text, no logo, no people, highly detailed realistic 3D game asset render. Design language: clean Chinese neo-futurist city of the 2180s, pale stone, white panels, dark glass, brushed steel and bronze accents, small cyan and amber light strips."
+ },
+ {
+  "name": "ac_cluster",
+  "prompt": "A rooftop cluster of industrial air conditioning units and ducts on a steel frame, weathered white and grey. Single object only, isolated, full object visible, centered, three-quarter view from slightly above, plain light grey studio background, soft even lighting, no text, no logo, no people, highly detailed realistic 3D game asset render. Design language: clean Chinese neo-futurist city of the 2180s, pale stone, white panels, dark glass, brushed steel and bronze accents, small cyan and amber light strips."
+ },
+ {
+  "name": "water_tank",
+  "prompt": "A rooftop water tank on a steel stilt frame with ladder and pipes, weathered metal. Single object only, isolated, full object visible, centered, three-quarter view from slightly above, plain light grey studio background, soft even lighting, no text, no logo, no people, highly detailed realistic 3D game asset render. Design language: clean Chinese neo-futurist city of the 2180s, pale stone, white panels, dark glass, brushed steel and bronze accents, small cyan and amber light strips."
+ },
+ {
+  "name": "antenna_array",
+  "prompt": "A rooftop communication antenna array with satellite dishes, masts and blinking red aviation lights on a steel base. Single object only, isolated, full object visible, centered, three-quarter view from slightly above, plain light grey studio background, soft even lighting, no text, no logo, no people, highly detailed realistic 3D game asset render. Design language: clean Chinese neo-futurist city of the 2180s, pale stone, white panels, dark glass, brushed steel and bronze accents, small cyan and amber light strips."
+ },
+ {
+  "name": "solar_array",
+  "prompt": "A tilted rooftop solar panel array on a steel rack, dark blue panels with bronze frames. Single object only, isolated, full object visible, centered, three-quarter view from slightly above, plain light grey studio background, soft even lighting, no text, no logo, no people, highly detailed realistic 3D game asset render. Design language: clean Chinese neo-futurist city of the 2180s, pale stone, white panels, dark glass, brushed steel and bronze accents, small cyan and amber light strips."
+ },
+ {
+  "name": "pipe_cluster",
+  "prompt": "An industrial pipe cluster with valves, flanges and a small control box, steel and rust, hazard stripes. Single object only, isolated, full object visible, centered, three-quarter view from slightly above, plain light grey studio background, soft even lighting, no text, no logo, no people, highly detailed realistic 3D game asset render. Design language: clean Chinese neo-futurist city of the 2180s, pale stone, white panels, dark glass, brushed steel and bronze accents, small cyan and amber light strips."
+ },
+ {
+  "name": "storage_tank",
+  "prompt": "A large cylindrical industrial storage tank with ladder, walkway ring and pipes, weathered white metal, about 20 m tall. Single object only, isolated, full object visible, centered, three-quarter view from slightly above, plain light grey studio background, soft even lighting, no text, no logo, no people, highly detailed realistic 3D game asset render. Design language: clean Chinese neo-futurist city of the 2180s, pale stone, white panels, dark glass, brushed steel and bronze accents, small cyan and amber light strips."
+ },
+ {
+  "name": "holo_projector",
+  "prompt": "A tall holographic billboard projector tower: a slim dark steel mast with an emitter head and a faint empty cyan hologram frame. Single object only, isolated, full object visible, centered, three-quarter view from slightly above, plain light grey studio background, soft even lighting, no text, no logo, no people, highly detailed realistic 3D game asset render. Design language: clean Chinese neo-futurist city of the 2180s, pale stone, white panels, dark glass, brushed steel and bronze accents, small cyan and amber light strips."
+ },
+ {
+  "name": "billboard_frame",
+  "prompt": "A large empty rooftop billboard frame with steel truss support and a blank glowing panel. Single object only, isolated, full object visible, centered, three-quarter view from slightly above, plain light grey studio background, soft even lighting, no text, no logo, no people, highly detailed realistic 3D game asset render. Design language: clean Chinese neo-futurist city of the 2180s, pale stone, white panels, dark glass, brushed steel and bronze accents, small cyan and amber light strips."
+ },
+ {
+  "name": "guardian_lion",
+  "prompt": "A futuristic Chinese guardian lion statue (shishi) in white stone and bronze armor plates, sitting on a pedestal, with subtle cyan inlays. Single object only, isolated, full object visible, centered, three-quarter view from slightly above, plain light grey studio background, soft even lighting, no text, no logo, no people, highly detailed realistic 3D game asset render. Design language: clean Chinese neo-futurist city of the 2180s, pale stone, white panels, dark glass, brushed steel and bronze accents, small cyan and amber light strips."
+ },
+ {
+  "name": "mech_statue",
+  "prompt": "A monumental statue of a heroic giant humanoid robot standing with a sword planted in front of it, carved in pale stone with bronze details, on a stepped plinth. Single object only, isolated, full object visible, centered, three-quarter view from slightly above, plain light grey studio background, soft even lighting, no text, no logo, no people, highly detailed realistic 3D game asset render. Design language: clean Chinese neo-futurist city of the 2180s, pale stone, white panels, dark glass, brushed steel and bronze accents, small cyan and amber light strips."
+ },
+ {
+  "name": "koi_dragon",
+  "prompt": "A sinuous Chinese dragon-koi hybrid creature in a flowing S-curve pose, long whiskers and fins, ornate scales, rendered as a single sculpture. Single object only, isolated, full object visible, centered, three-quarter view from slightly above, plain light grey studio background, soft even lighting, no text, no logo, no people, highly detailed realistic 3D game asset render. Design language: clean Chinese neo-futurist city of the 2180s, pale stone, white panels, dark glass, brushed steel and bronze accents, small cyan and amber light strips."
+ },
+ {
+  "name": "pagoda_top",
+  "prompt": "The top tiers of a futuristic Chinese pagoda tower: three stacked curved metal roofs with upturned eaves, bronze and white, lantern lights, slender spire. Single object only, isolated, full object visible, centered, three-quarter view from slightly above, plain light grey studio background, soft even lighting, no text, no logo, no people, highly detailed realistic 3D game asset render. Design language: clean Chinese neo-futurist city of the 2180s, pale stone, white panels, dark glass, brushed steel and bronze accents, small cyan and amber light strips."
+ },
+ {
+  "name": "wreck_mech",
+  "prompt": "A destroyed wrecked giant robot lying on its side, broken armor plates, exposed internal frame and cables, burnt marks, white and grey paint. Single object only, isolated, full object visible, centered, three-quarter view from slightly above, plain light grey studio background, soft even lighting, no text, no logo, no people, highly detailed realistic 3D game asset render. Design language: clean Chinese neo-futurist city of the 2180s, pale stone, white panels, dark glass, brushed steel and bronze accents, small cyan and amber light strips."
+ },
+ {
+  "name": "wreck_car",
+  "prompt": "A burnt crashed hover car wreck, crumpled body, broken canopy glass, scorch marks. Single object only, isolated, full object visible, centered, three-quarter view from slightly above, plain light grey studio background, soft even lighting, no text, no logo, no people, highly detailed realistic 3D game asset render. Design language: clean Chinese neo-futurist city of the 2180s, pale stone, white panels, dark glass, brushed steel and bronze accents, small cyan and amber light strips."
+ },
+ {
+  "name": "crane",
+  "prompt": "A tall harbor gantry container crane with a horizontal boom and operator cab, yellow and white steel truss structure, standing on rails. Single object only, isolated, full object visible, centered, three-quarter view from slightly above, plain light grey studio background, soft even lighting, no text, no logo, no people, highly detailed realistic 3D game asset render. Design language: clean Chinese neo-futurist city of the 2180s, pale stone, white panels, dark glass, brushed steel and bronze accents, small cyan and amber light strips."
+ },
+ {
+  "name": "container_stack",
+  "prompt": "A stack of six weathered cargo shipping containers in faded red, blue and teal, two high, three wide. Single object only, isolated, full object visible, centered, three-quarter view from slightly above, plain light grey studio background, soft even lighting, no text, no logo, no people, highly detailed realistic 3D game asset render. Design language: clean Chinese neo-futurist city of the 2180s, pale stone, white panels, dark glass, brushed steel and bronze accents, small cyan and amber light strips."
+ },
+ {
+  "name": "lift_platform",
+  "prompt": "A large square freight elevator platform with yellow-black hazard edges, four steel guide pillars with cyan light strips and a control pylon. Single object only, isolated, full object visible, centered, three-quarter view from slightly above, plain light grey studio background, soft even lighting, no text, no logo, no people, highly detailed realistic 3D game asset render. Design language: clean Chinese neo-futurist city of the 2180s, pale stone, white panels, dark glass, brushed steel and bronze accents, small cyan and amber light strips."
+ },
+ {
+  "name": "anchor_node",
+  "prompt": "A glowing grappling anchor node fixture: a heavy steel mounting bracket with a bright cyan-white glowing ring core, to be bolted onto building edges. Single object only, isolated, full object visible, centered, three-quarter view from slightly above, plain light grey studio background, soft even lighting, no text, no logo, no people, highly detailed realistic 3D game asset render. Design language: clean Chinese neo-futurist city of the 2180s, pale stone, white panels, dark glass, brushed steel and bronze accents, small cyan and amber light strips."
+ }
+]

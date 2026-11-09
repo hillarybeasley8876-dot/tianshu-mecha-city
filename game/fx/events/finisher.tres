@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="FeelEvent" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://fx/feel_event.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = &"finisher"
+hitstop_kind = 1
+hitstop_seconds = 0.1667
+trauma = 0.55
+flash_color = Color(1, 1, 1, 0.3)
+flash_frames = 6
+post = Array[StringName]([&"chromatic"])
+chromatic_px = 3.0
+post_seconds = 0.3
+impact_frames = 2
+fov_delta = -10.0
+fov_seconds = 0.3
+slow_scale = 0.3
+slow_seconds = 0.3
+vfx = Array[StringName]([&"spark_burst", &"impact_star", &"missile_blast", &"shockwave_ring"])
+vfx_scale = 1.4
+light_color = Color(1, 0.54, 0.17, 1)
+light_energy = 9.0
+light_range = 18.0
+light_frames = 4
+audio = Array[StringName]([&"finisher_swell", &"finisher_transient", &"finisher_body",
+&"finisher_sub", &"finisher_tail"])
+rumble_weak = 0.8
+rumble_strong = 1.0
+rumble_ms = 250
+falloff = 140.0
+cooldown = 0.5
+ring_radius = 12.0
+ring_seconds = 0.2
+ring_color = Color(0.31, 0.9, 1, 1)

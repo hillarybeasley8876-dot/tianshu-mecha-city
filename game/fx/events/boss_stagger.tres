@@ -1,0 +1,33 @@
+[gd_resource type="Resource" script_class="FeelEvent" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://fx/feel_event.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = &"boss_stagger"
+hitstop_kind = 2
+hitstop_seconds = 0.15
+trauma = 0.6
+flash_color = Color(1, 1, 1, 0.4)
+flash_frames = 2
+impact_frames = 1
+fov_delta = -6.0
+fov_seconds = 0.12
+slow_scale = 0.5
+slow_seconds = 0.4
+vfx = Array[StringName]([&"debris", &"steam", &"shockwave_ring"])
+vfx_scale = 1.5
+decal = &"scorch_ring"
+light_color = Color(1, 0.72, 0.2, 1)
+light_energy = 10.0
+light_range = 24.0
+light_frames = 4
+audio = Array[StringName]([&"boss_groan", &"boss_stagger_sub", &"boss_stagger_stinger"])
+rumble_weak = 0.6
+rumble_strong = 1.0
+rumble_ms = 400
+falloff = 260.0
+cooldown = 0.5
+ring_radius = 16.0
+ring_seconds = 0.25
+ring_color = Color(1, 0.72, 0.2, 1)

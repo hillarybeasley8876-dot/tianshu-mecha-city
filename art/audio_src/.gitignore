@@ -1,0 +1,7 @@
+# Raw third-party source audio: downloaded archives and their extracted members.
+# Only the layered composites under game/audio/sfx are committed (see CREDITS_AUDIO.md),
+# plus each pack's licence record (oga_sources.json), so the credits check runs on a clean checkout.
+*
+!.gitignore
+!*/
+!*/oga_sources.json

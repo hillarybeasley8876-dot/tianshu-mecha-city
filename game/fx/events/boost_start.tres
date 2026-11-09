@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="FeelEvent" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://fx/feel_event.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = &"boost_start"
+trauma = 0.08
+post = Array[StringName]([&"speed_lines"])
+speed_lines = 0.8
+post_seconds = 0.6
+fov_delta = 6.0
+fov_seconds = 0.2
+vfx = Array[StringName]([&"thruster_burst", &"dust_ring"])
+vfx_scale = 0.8
+audio = Array[StringName]([&"boost_ignition", &"boost_roar_loop", &"boost_sub_40hz"])
+rumble_weak = 0.2
+rumble_strong = 0.4
+rumble_ms = 200
+cooldown = 0.2

@@ -1,0 +1,5 @@
+[
+ { "t": 0.0,  "player": { "method": "debug_teleport", "args": [[-560.0, 52.5, 600.0], 54.0] } },
+ { "t": 0.05, "look_rate": [0, 0] },
+ { "t": 5.0,  "end": true }
+]

@@ -1,0 +1,41 @@
+{
+	"large": [
+		{
+			"biggest_aabb": "-446,1,-122 .. 688,9,576",
+			"biggest_pct": 22.0746887966805,
+			"cx": 0,
+			"cy": 0,
+			"dropped": 810,
+			"islands": 226,
+			"over_1pct": 8,
+			"path": "res://world/city/nav/nav_large_0_0.res",
+			"polys": 4010
+		}
+	],
+	"medium": [
+		{
+			"biggest_aabb": "-692,1,-172 .. 693,28,581",
+			"biggest_pct": 20.3242217814952,
+			"cx": 0,
+			"cy": 0,
+			"dropped": 2084,
+			"islands": 574,
+			"over_1pct": 10,
+			"path": "res://world/city/nav/nav_medium_0_0.res",
+			"polys": 9513
+		}
+	],
+	"small": [
+		{
+			"biggest_aabb": "-695,0,-190 .. 696,29,647",
+			"biggest_pct": 21.3594617160257,
+			"cx": 0,
+			"cy": 0,
+			"dropped": 3180,
+			"islands": 1239,
+			"over_1pct": 4,
+			"path": "res://world/city/nav/nav_small_0_0.res",
+			"polys": 17181
+		}
+	]
+}

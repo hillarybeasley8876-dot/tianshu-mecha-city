@@ -1,0 +1,9 @@
+{
+  "_doc": "m2_mantis -- the guard button belongs to the assist for the whole take: two held blocks on the clock, then a tap 0.22 s after every parryable telegraph (the glint is 0.35 s ahead of contact and the perfect window is the last 0.167 s).",
+  "rules": [
+    { "on": "t", "at": 1.3, "press": "guard", "hold": 1.4, "max": 1 },
+    { "on": "t", "at": 3.4, "press": "guard", "hold": 1.4, "max": 1 },
+    { "on": "telegraph", "kind": "parryable", "after": 0.22, "press": "guard", "hold": 0.05, "max": 4 },
+    { "on": "telegraph", "kind": "unblockable", "after": 0.30, "press": "boost", "hold": 0.05, "max": 2 }
+  ]
+}

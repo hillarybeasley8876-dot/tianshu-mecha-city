@@ -1,0 +1,119 @@
+{
+ "id": "f04",
+ "band": "industrial",
+ "districts": [
+  "D6"
+ ],
+ "archetypes": [
+  "stack"
+ ],
+ "tags": [],
+ "tileable": false,
+ "glb": "f04/f04.glb",
+ "tris": 19999,
+ "budget": 20000,
+ "tex": 1024,
+ "size": [
+  54.342,
+  57.26,
+  96.0
+ ],
+ "footprint": [
+  54.34,
+  57.26
+ ],
+ "aspect": 0.5811,
+ "parts_kept": 1,
+ "parts_dropped": 0,
+ "look": {
+  "neon_pct": 2.83,
+  "interior_pct": 0.0,
+  "emit_off": 1,
+  "wall_px": 186893,
+  "wall_pct": 17.82,
+  "top_px": 66366,
+  "top_pct": 6.33,
+  "emit_masked_pct": 56.06,
+  "luma_before": 0.3568,
+  "luma_after": 0.2231,
+  "gain": 0.588,
+  "pane_before": 0.0,
+  "pane_after": 0.0,
+  "pane_carved": 1.82,
+  "wall_luma": 0.21097353100776672,
+  "rough_before": 0.18,
+  "rough_after": 0.631,
+  "metal_before": 0.016,
+  "metal_after": 0.016,
+  "normal_flat_pct": 56.06,
+  "orm_flat_pct": 56.06,
+  "walls": 71,
+  "pane_pct": 1.82,
+  "pane_px": 19125,
+  "uv_px": 74579,
+  "wall_m2": 5849.9,
+  "texel_m2": 0.0784,
+  "small_pct": 5.94,
+  "pruned_pct": 5.94,
+  "side": 1024,
+  "wall_area_pct": 65.11,
+  "top_area_pct": 30.26
+ },
+ "weld": 0.0,
+ "open_edges": 6,
+ "custom_normals_cleared": 1,
+ "planar": {
+  "planar_pct": 45.95,
+  "regions": 90,
+  "faces_moved": 2943,
+  "verts_moved": 2943,
+  "max_move_m": 0.3423,
+  "regions_rejected": 1322,
+  "verts_skipped": 286,
+  "planes_found": 90
+ },
+ "plane_normals": {
+  "plane_area_pct": 92.42,
+  "plane_face_pct": 68.94,
+  "plane_regions": 1778,
+  "dev_m": 0.96
+ },
+ "win": "f04/f04_win.png",
+ "file_kb": 2432,
+ "far": {
+  "glb": "f04/f04_far.glb",
+  "tris": 3998,
+  "tex": 256,
+  "file_kb": 551,
+  "open_before": 8,
+  "open_after": 12,
+  "holes_filled": 0,
+  "tear": 1.5,
+  "gate": {
+   "holes": 0.0,
+   "views": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "detail": 0.0,
+   "limit": 0.02,
+   "pass": true
+  }
+ },
+ "roof": {
+  "cell_m": 2.0,
+  "nx": 28,
+  "ny": 29,
+  "origin": [
+   -27.171,
+   -28.63
+  ],
+  "z0": 0.0,
+  "z_span": 96.0,
+  "flat_deg": 15.0,
+  "h": "AAAAAAAAAAAAADMzJgsnJygAAAAAAAAAAAAAAAAAAAAAAAAAQUVLTlFQTUxKRUEzMzMxMAAAAAAAAAAAABBFRUtVXGG7u1tfWFBLRTMzMDAwAAAAAAAABTBFRU1ZZbyvr6+vsbxfVUtFRTAwMAAAAAAMMDEwRUtau6+vr6+vr6+vvGJVSUUwMDAMAAAABTA3N0VVZLGvr6+vr6+vr6+8XlBFNzcwBQAAAAUwNzdMW7yvr6+vr6+vr6+vr2VWRTc3MAUAAAATSjc4UGG2r6+vr6+vr6+vr6+7Wks4N0oTEAAAE0pKSkpcsq+vr6+vr6+vr6+vvFZKSkpKExEAABhLTEpQYLOvr6+vr6+vr6+vr7tbS0pLSzgRAAAiTExKTl28r6+vr6+vr6+vr69nV0pKS0s7EgAAE0pKSkpWZq+vr6+vr6+vr6+8YFJKSkpKExEAABk8NzdET1y8r6+vr6+vr6+xZVdLRDc3ORsQAAA3Nzc3RERQXbuxr6+vr6+8ZFhNRUQ3Nzc3AAA2Nzc3Nz1CRE9bYbu8vLxjXVVLREI9Nzc3NzYANzc3Nzc9PT1gYGBgYJtgYGBgYEE9PTc3Nzc3ADc3Nzc3PT09YGBgYHqbaWBgYGM8PDw3Nzc3NwAsNzc3Nzw8PFtbXWCbm3pgYFtbPDw8Nzc3NzUAADc4Nzc8PDxFRVx6m5ubemBFRTw8PDc3NzcAAAAANT48PDxRUVGbm5ubm5t6dVFRPDw8PDUFAAAAPDU+PDw8UZWbm0RERESbnenrVDw8PDw1PQAAADk8RERDQ53s8NDQ0NDQ0NDp7VNEQ0NEPDYLAAAJQENFRESd7OzQ0NBDQ0NRnM56REREQ0AJCQAACUJCRUREUp2tRDw8PDw8RETOzlFRREJCQQkAAEJCQkVEREREREQ8PDw8PERERM7393VDQkIAAAAFBTtFREREREREPDw8PDxERESr9fWrPAUFAAAAAAU7RkRERERERDw8PDw8REREUfWsUTwFBQAAAAAFO0NDQ0NDQ0U7Ozs8PEVDQ0NDQ0M8BQUAAAAAAAAAAAAAAAAbGwAAABsdAAAAAAAAAAAAAAA=",
+  "flat": "AAAAAAAAAAAAAAAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP8AAAAAAAAA/wD///8A/wAAAAAAAAAAAP///wAAAAAAAAAAAAAA////////AAAAAAAA/////wAAAP//////AP8AAAD//////wAAAAAA/////wAAAP///////////wAAAP//////AAAA//////8AAAD/////////////AAD//////wAAAP////8AAP///////////////wAAAP////8AAAD/////AAAA//////////////8AAAD//////wAA//////8AAP///////////////wD///////8AAAD///8AAAD//////////////wAAAP8AAAAAAAAA////AAD///////////////8AAP//AP8AAAAA//////8AAP//////////////AAD///////8AAAAA////AAD///////////8AAAAA////AP//AAD///////8AAAAA////////AAAA//////8AAAAA/////////wD/AAD///8AAAAA/wD//////wAA/////////////////////////wD///////8AAP//////////////////////////////////AAAA////////////AP///////////////////wAAAAD//////////wD/////AAD//////////wAAAAAA////////////////////AP//////////AAAAAP///////wD/////////AP8AAP//////AAAAAAD//////wD//////wD/////AAD/////////AAD///8A//8A/wD///8AAAD/AP///////////wAA////AP//AAAA//////////////////////8AAP///wD//////////wD///////8AAAD//wAAAAD///8A//////////////////8A//8A////AAAAAP//AP///////////////////wAA/////wAAAAD//wD//////////wAAAP////////////8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA="
+ }
+}

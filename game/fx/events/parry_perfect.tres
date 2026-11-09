@@ -1,0 +1,30 @@
+[gd_resource type="Resource" script_class="FeelEvent" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://fx/feel_event.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = &"parry_perfect"
+hitstop_kind = 1
+hitstop_seconds = 0.1333
+trauma = 0.1
+flash_color = Color(1, 0.95, 0.75, 0.12)
+flash_frames = 2
+post = Array[StringName]([&"chromatic"])
+chromatic_px = 4.0
+post_seconds = 0.07
+vfx = Array[StringName]([&"spark_burst", &"shockwave_ring"])
+vfx_scale = 0.8
+light_color = Color(1, 0.9, 0.55, 1)
+light_energy = 6.0
+light_range = 12.0
+light_frames = 3
+audio = Array[StringName]([&"parry_ting", &"parry_thump"])
+rumble_weak = 0.8
+rumble_strong = 0.2
+rumble_ms = 80
+falloff = 50.0
+cooldown = 0.1
+ring_radius = 6.0
+ring_seconds = 0.15
+ring_color = Color(1, 0.9, 0.55, 1)

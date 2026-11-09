@@ -1,0 +1,13 @@
+{
+  "_doc": "Bearing pick for the showcase rigs (trailer unit, r5). Same measurement as stages_clear.json but at 15 deg resolution and only on the main stage, so a rig can be re-aimed away from the skybridge that crosses the district ~100 m out. Read `near` as: fraction of the frame covered by scenery closer than the radius passed with --near.",
+  "stages": [
+    {
+      "id": "A6_pick",
+      "spawn": [-60.0, 155.0, 450.0],
+      "yaw": 225.0,
+      "note": "the showcase stage",
+      "az": [0.0, 15.0, 30.0, 45.0, 60.0, 75.0, 90.0, 105.0, 120.0, 135.0, 150.0, 165.0,
+             180.0, 195.0, 210.0, 225.0, 240.0, 255.0, 270.0, 285.0, 300.0, 315.0, 330.0, 345.0]
+    }
+  ]
+}

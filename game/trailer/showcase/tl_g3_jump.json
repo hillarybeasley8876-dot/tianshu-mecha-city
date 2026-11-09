@@ -1,0 +1,81 @@
+[
+ {
+  "t": 0.0,
+  "look_rate": [
+   0,
+   0
+  ]
+ },
+ {
+  "t": 0.4,
+  "press": [
+   "move_forward"
+  ]
+ },
+ {
+  "t": 1.0,
+  "tap": [
+   "jump"
+  ]
+ },
+ {
+  "t": 1.15,
+  "press": [
+   "jump"
+  ]
+ },
+ {
+  "t": 2.2,
+  "tap": [
+   "boost"
+  ]
+ },
+ {
+  "t": 2.5,
+  "release": [
+   "jump"
+  ]
+ },
+ {
+  "t": 3.0,
+  "release": [
+   "move_forward"
+  ]
+ },
+ {
+  "t": 4.5,
+  "player": {
+   "method": "debug_teleport",
+   "args": [
+    [
+     -60.0,
+     240.0,
+     450.0
+    ],
+    200.0
+   ]
+  }
+ },
+ {
+  "t": 8.6,
+  "tap": [
+   "jump"
+  ]
+ },
+ {
+  "t": 8.75,
+  "press": [
+   "jump"
+  ]
+ },
+ {
+  "t": 10.0,
+  "release": [
+   "jump"
+  ]
+ },
+ {
+  "t": 11.5,
+  "end": true
+ }
+]

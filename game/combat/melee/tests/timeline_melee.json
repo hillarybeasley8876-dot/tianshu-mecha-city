@@ -1,0 +1,22 @@
+[
+  {"t": 0.3, "player": {"method": "debug_lock", "args": [0]}},
+  {"t": 0.8, "tap": ["melee"]},
+  {"t": 1.15, "tap": ["melee"]},
+  {"t": 1.45, "tap": ["melee"]},
+  {"t": 2.4, "press": ["melee"]},
+  {"t": 3.4, "release": ["melee"]},
+  {"t": 4.4, "player": {"method": "debug_lock", "args": [2]}},
+  {"t": 4.8, "tap": ["melee"]},
+  {"t": 6.0, "player": {"method": "debug_teleport", "args": [[0, 8, 0], 0]}},
+  {"t": 6.2, "player": {"method": "debug_lock", "args": [-1]}},
+  {"t": 6.6, "press": ["guard"]},
+  {"t": 8.4, "release": ["guard"]},
+  {"t": 9.2, "player": {"method": "debug_spit", "args": []}},
+  {"t": 10.35, "press": ["guard"]},
+  {"t": 10.6, "release": ["guard"]},
+  {"t": 10.7, "tap": ["melee"]},
+  {"t": 11.6, "player": {"method": "debug_stagger", "args": [0]}},
+  {"t": 11.8, "player": {"method": "debug_lock", "args": [0]}},
+  {"t": 12.2, "tap": ["melee"]},
+  {"t": 14.5, "end": true}
+]

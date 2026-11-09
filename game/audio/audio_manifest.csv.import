@@ -1,0 +1,11 @@
+[remap]
+
+importer="keep"
+type="Resource"
+uid="uid://c15jmbf1favlr"
+
+[deps]
+
+files=[]
+source_file="res://audio/audio_manifest.csv"
+dest_files=[]

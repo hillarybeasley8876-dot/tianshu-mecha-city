@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="FeelEvent" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://fx/feel_event.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = &"perfect_dodge"
+post = Array[StringName]([&"desaturate"])
+desaturate = 0.55
+post_seconds = 0.35
+fov_delta = 6.0
+fov_seconds = 0.25
+slow_scale = 0.3
+slow_seconds = 0.35
+slow_witch = true
+ghosts = 3
+ghost_spread = 0.05
+ghost_life = 0.3
+audio = Array[StringName]([&"dodge_reverse_whoosh", &"dodge_heartbeat"])
+rumble_weak = 0.3
+rumble_strong = 0.1
+rumble_ms = 80
+cooldown = 0.5

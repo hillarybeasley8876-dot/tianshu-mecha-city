@@ -1,0 +1,116 @@
+{
+ "id": "r03",
+ "band": "megablock",
+ "districts": [],
+ "archetypes": [],
+ "tags": [
+  "ring_only"
+ ],
+ "tileable": false,
+ "glb": "r03/r03.glb",
+ "tris": 40000,
+ "budget": 40000,
+ "tex": 1024,
+ "size": [
+  94.47,
+  72.543,
+  100.0
+ ],
+ "footprint": [
+  94.47,
+  72.54
+ ],
+ "aspect": 0.8278,
+ "parts_kept": 2,
+ "parts_dropped": 0,
+ "look": {
+  "neon_pct": 3.79,
+  "interior_pct": 0.16,
+  "wall_px": 75600,
+  "wall_pct": 7.21,
+  "top_px": 31431,
+  "top_pct": 3.0,
+  "emit_masked_pct": 47.17,
+  "luma_before": 0.3216,
+  "luma_after": 0.2991,
+  "gain": 0.933,
+  "pane_before": 0.23,
+  "pane_after": 0.26,
+  "pane_carved": 1.89,
+  "wall_luma": 0.2328801453113556,
+  "rough_before": 0.373,
+  "rough_after": 0.712,
+  "metal_before": 0.024,
+  "metal_after": 0.024,
+  "normal_flat_pct": 47.17,
+  "orm_flat_pct": 47.17,
+  "walls": 1267,
+  "pane_pct": 1.87,
+  "pane_px": 78584,
+  "uv_px": 295319,
+  "wall_m2": 39219.2,
+  "texel_m2": 0.1328,
+  "small_pct": 9.27,
+  "pruned_pct": 9.27,
+  "side": 2048,
+  "wall_area_pct": 58.52,
+  "top_area_pct": 37.44
+ },
+ "weld": 0.0,
+ "open_edges": 52,
+ "custom_normals_cleared": 1,
+ "planar": {
+  "planar_pct": 51.09,
+  "regions": 90,
+  "faces_moved": 4786,
+  "verts_moved": 4786,
+  "max_move_m": 0.35,
+  "regions_rejected": 3283,
+  "verts_skipped": 815,
+  "planes_found": 90
+ },
+ "plane_normals": {
+  "plane_area_pct": 93.64,
+  "plane_face_pct": 60.22,
+  "plane_regions": 3307,
+  "dev_m": 1.0
+ },
+ "win": "r03/r03_win.png",
+ "file_kb": 5349,
+ "far": {
+  "glb": "r03/r03_far.glb",
+  "tris": 12380,
+  "tex": 256,
+  "file_kb": 1696,
+  "open_before": 56,
+  "open_after": 77,
+  "holes_filled": 0,
+  "tear": 1.375,
+  "gate": {
+   "holes": 0.0,
+   "views": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "detail": 0.0,
+   "limit": 0.02,
+   "pass": true
+  }
+ },
+ "roof": {
+  "cell_m": 2.0,
+  "nx": 48,
+  "ny": 37,
+  "origin": [
+   -47.235,
+   -36.271
+  ],
+  "z0": 0.0,
+  "z_span": 100.0,
+  "flat_deg": 15.0,
+  "h": "zc3Nzc3NzdrZzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Z2dnNzc3Nzc0Azc7V1tXO29zc2s7Ozs7Ozs7Ozs7Ozs7Ozs7W2NfOzs7Ozs7Oztrb3Nzazs7Ozs0AzdbW1tXO2tvb2c7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7a3NvOzs7Ozs0AzdbWzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Ozs0Azc7Ozc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Ozs0Azc7Uzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Ozs0Azc7Ozc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Ozs0Azc7Uzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Ozs0Azc7Uzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Ozs0AzdnOzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3O2c0Azdzazc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3b29oA2tzbzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3b3NsAzdvazc3NzfDS8+rOzs7Ozs3Nzc3Nzc3Nzc3Nzc3Nzc7r6fPRzvPkzc3Nzc3a29kAzc7Ozc3NzfPz8/Pz8/Pz883Nzc3Nzc3Nzc3Nzc3NzfPz8/Pz8/Pzzc3Nzc3Ozs0Azc7Uzc3NzfPz8/Pz8/Pz883Nzc3Nzc3Nzc3Nzc3NzfPz8/Pz8/Pzzc3Nzc3Ozs0Azc7Ozc3NzfPz8/Pz8/Pz883Nzc3Nzc3Nzc3Nzc3NzfPz8/Pz8/Pzzc3Nzc3Ozs0Azc7Ozc3NzfPz8/Pz8/Pz883Nzc3Nzc3Nzc3Nzc3NzfPz8/Pz8/Pzzc3Nzc3Ozs0Azc7Ozc3NzfPz8/Pz8//z883Nzc3Nzc3Nzc3Nzc3NzfPz//Pz8/Pzzc3Nzc3O080Azc7Tzc3NzfPz8/Pz8/Pz883Nzc3Nzc3Nzc3Nzc3NzfPz8/Pz8/Pzzc3Nzc3O1M0Azc7Ozc3NzfPz8/Pz8/Pz883Nzc3Nzc3Nzc3Nzc3NzfPz8/Pz8/Pzzc3Nzc3Ozs0Azc7Ozc3NzfPz8/Pz8/Pz883Nzc3Nzc3Nzc3Nzc3NzfPz8/Pz8/Pzzc3Nzc3Ozs0Azc7Ozc3NzfPz8/Pz8/Pz883Nzc3Nzc3Nzc3Nzc3NzfPz8/Pz8/Pzzc3Nzc3O1M0Azc7Ozc3Nzc7Ozs3Nzc3Nzs3Nzc3Nzc3Nzc3Nzc3Nzc3Ozs7Ozs7Ozc3Nzc3Ozs0Azdvazc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Ozs0A2dzbzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Ozs0A2dvbzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Ozs0AzdnOzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Ozs0Azc7Uzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3O1M0Azc7Uzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3O080Azc7Ozc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Ozs0Azc7Ozc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Ozs0Azc7Ozc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Ozs0AzdXVzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3U1c0AzdbWzs7O2tvazs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7a2trOztXW180Azc7Vzs7O29zc28/U1M/Tz9TP2NjXz9PPz8/U19jX1M/T1NXU0drb3Nza1dbW1c0AzdDQ0NDQ2tva2dDQ0NDQ0NDQ0NDQ0NDQ0NDQ1tfQ0NDQ0NDQ0NDa29rQ0NDQ0M0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+  "flat": "AP///////wAA//////////////////////////////////////8AAAD///////8AAP8AAAD///8AAP////////////////////8AAAD//////////wAA/wAA//////8AAAD/AAAAAAAAAP////////////////////////////////////8AAAD///8A//8AAAAA//////////////////////////////////////////////////////////8AAP////////////////////////////////////////////////////////////8AAP8A//////////////////////////////////////////////////////////8AAP////////////////////////////////////////////////////////////8AAP8A//////////////////////////////////////////////////////////8AAP8A//////////////////////////////////////////////////////////8AAAD/////////////////////////////////////////////////////////AP8AAAAA//////////////////////////////////////////////////////8A/wAAAP8A//////////////////////////////////////////////////////8AAAAAAAD//////wAAAAD///////////////////////////8AAAAA/wAA////////AAAAAP////////////////////////////////////////////////////////////8AAP8A//////////////////////////////////////////////////////////8AAP////////////////////////////////////////////////////////////8AAP////////////////////////////////////////////////////////////8AAP//////////////////////////////////////////////////////////AP8AAP8A////////////////////////////////////////////////////////AP8AAP////////////////////////////////////////////////////////////8AAP////////////////////////////////////////////////////////////8AAP//////////////////////////////////////////////////////////AP8AAP////////8AAP///wAA/////////////////////wAAAAAAAAD///////////8AAAAA//////////////////////////////////////////////////////////8AAP8A//////////////////////////////////////////////////////////8AAP////////////////////////////////////////////////////////////8AAP////////////////////////////////////////////////////////////8AAAAA////////////////////////////////////////////////////////AP8AAAAA////////////////////////////////////////////////////////AP8A/wD///////////////////////////////////////////////////////////8A//////////////////////////////////////////////////////////////8A//////////////////////////////////////////////////////////////8A/wAA//////////////////////////////////////////////////////8AAP8A/wAA/wD/AAAA//////////////////////////////////////8AAAD//wAA//8A//8A////////AP8AAP8A/wD///8A/wD///8AAP8AAP8AAAAA/wAA/wAAAAAAAP8A/wAAAAAAAAAAAP//////AAAAAAAAAAAA////AAAAAAAAAAAAAAAAAAAAAAAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+ }
+}

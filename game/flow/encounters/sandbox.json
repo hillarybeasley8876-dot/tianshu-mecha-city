@@ -1,0 +1,17 @@
+{
+  "arena": "sandbox",
+  "label": "测试场 SANDBOX RANGE",
+  "music": 0.5,
+  "waves": [
+    {
+      "id": "sandbox_w1",
+      "start": { "kind": "on_enter" },
+      "groups": [{ "type": "ripper", "count": 4 }]
+    },
+    {
+      "id": "sandbox_w2",
+      "start": { "kind": "previous_half" },
+      "groups": [{ "type": "ripper", "count": 4 }, { "type": "mantis", "count": 1 }]
+    }
+  ]
+}

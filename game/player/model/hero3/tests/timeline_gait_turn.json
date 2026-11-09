@@ -1,0 +1,8 @@
+[
+ { "t": 0.0,  "player": { "method": "debug_teleport", "args": [[-420.0, 8.0, 120.0], 0.0] } },
+ { "t": 0.6,  "press": ["aim"], "pad": { "axis": ["lx", 0.5] } },
+ { "t": 6.6,  "pad": { "axis": ["lx", 0.0] }, "release": ["aim"] },
+ { "t": 7.6,  "press": ["aim"], "look_rate": [700, 0] },
+ { "t": 9.1,  "look_rate": [0, 0], "release": ["aim"] },
+ { "t": 10.5, "end": true }
+]

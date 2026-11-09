@@ -1,0 +1,2 @@
+- (audit, 2026-11-02) Robustness findings for your files: reviews/skills-audit.md — fix them in this round after your current items (regression checks for the high ones).
+- (r3) When camera-aim lands the floor, replace the lance's per-tick top-up with `Feel.shake_floor(0.15, beam_s)`.

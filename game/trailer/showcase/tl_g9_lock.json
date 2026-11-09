@@ -1,0 +1,11 @@
+[
+ { "t": 0.0,  "look_rate": [0, 0] },
+ { "t": 1.0,  "tap": ["lock_on"] },
+ { "t": 2.2,  "tap": ["lock_next"] },
+ { "t": 3.4,  "tap": ["lock_next"] },
+ { "t": 4.6,  "tap": ["lock_next"] },
+ { "t": 5.8,  "tap": ["lock_on"] },
+ { "t": 6.6,  "tap": ["lock_on"] },
+ { "t": 7.8,  "tap": ["lock_next"] },
+ { "t": 9.5,  "end": true }
+]

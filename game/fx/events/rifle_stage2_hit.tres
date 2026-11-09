@@ -1,0 +1,26 @@
+[gd_resource type="Resource" script_class="FeelEvent" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://fx/feel_event.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = &"rifle_stage2_hit"
+hitstop_kind = 1
+hitstop_seconds = 0.05
+trauma = 0.12
+vfx = Array[StringName]([&"spark_beam", &"shockwave_ring"])
+vfx_scale = 0.6
+decal = &"scorch_ring"
+light_color = Color(0.31, 0.9, 1, 1)
+light_energy = 6.0
+light_range = 14.0
+light_frames = 3
+audio = Array[StringName]([&"beam_stage2_hit", &"beam_stage2_body", &"beam_stage2_sub"])
+rumble_weak = 0.3
+rumble_strong = 0.5
+rumble_ms = 90
+falloff = 120.0
+cooldown = 0.05
+ring_radius = 8.0
+ring_seconds = 0.18
+ring_color = Color(0.31, 0.9, 1, 1)

@@ -1,0 +1,18 @@
+[
+  { "t": 0.5, "player": { "method": "debug_lock", "args": [0] } },
+  { "t": 0.8, "player": { "method": "debug_close", "args": [0, 11] } },
+
+  { "t": 1.6, "press": ["guard"] },
+  { "t": 3.4, "release": ["guard"] },
+
+  { "t": 4.2, "press": ["guard"] },
+  { "t": 4.7, "player": { "method": "debug_spit", "args": [] } },
+  { "t": 5.1, "player": { "method": "debug_spit", "args": [] } },
+  { "t": 6.8, "release": ["guard"] },
+
+  { "t": 7.6, "player": { "method": "debug_spit", "args": [] } },
+  { "t": 8.83, "press": ["guard"] },
+  { "t": 8.98, "release": ["guard"] },
+
+  { "t": 10.5, "end": true }
+]

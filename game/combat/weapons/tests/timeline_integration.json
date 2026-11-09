@@ -1,0 +1,81 @@
+[
+ {
+  "t": 0.3,
+  "player": {
+   "method": "debug_teleport",
+   "args": [
+    [
+     0,
+     6,
+     60
+    ],
+    0
+   ]
+  }
+ },
+ {
+  "t": 0.6,
+  "look": [
+   0,
+   -120
+  ]
+ },
+ {
+  "t": 1.2,
+  "tap": [
+   "fire"
+  ]
+ },
+ {
+  "t": 1.7,
+  "tap": [
+   "fire"
+  ]
+ },
+ {
+  "t": 2.4,
+  "press": [
+   "fire"
+  ]
+ },
+ {
+  "t": 3.8,
+  "release": [
+   "fire"
+  ]
+ },
+ {
+  "t": 4.6,
+  "tap": [
+   "weapon_next"
+  ]
+ },
+ {
+  "t": 5.2,
+  "press": [
+   "fire"
+  ]
+ },
+ {
+  "t": 6.8,
+  "release": [
+   "fire"
+  ]
+ },
+ {
+  "t": 7.4,
+  "press": [
+   "missiles"
+  ]
+ },
+ {
+  "t": 9.0,
+  "release": [
+   "missiles"
+  ]
+ },
+ {
+  "t": 12.0,
+  "end": true
+ }
+]

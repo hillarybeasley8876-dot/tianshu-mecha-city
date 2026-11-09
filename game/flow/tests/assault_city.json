@@ -1,0 +1,17 @@
+[
+ { "t": 1,  "cmd": "god" },
+ { "t": 2,  "cmd": "wait_state", "args": ["tutorial", 60] },
+ { "t": 4,  "cmd": "goto", "args": ["A1", 30] },
+ { "t": 6,  "cmd": "wait_arena", "args": ["A1", 30] },
+ { "t": 8,  "cmd": "assault_arena", "args": ["A1"] },
+ { "t": 10, "cmd": "wait_beat", "args": [0, 40] },
+ { "t": 12, "cmd": "cease" },
+ { "t": 14, "cmd": "clear_arena", "args": ["A1"] },
+ { "t": 16, "cmd": "wait_state", "args": ["district", 60] },
+ { "t": 18, "cmd": "approach_spire", "args": [2, 60, 25] },
+ { "t": 22, "cmd": "assault_spire", "args": [2] },
+ { "t": 24, "cmd": "wait_down", "args": [1, 60] },
+ { "t": 26, "cmd": "cease" },
+ { "t": 28, "cmd": "state" },
+ { "t": 30, "cmd": "report" }
+]

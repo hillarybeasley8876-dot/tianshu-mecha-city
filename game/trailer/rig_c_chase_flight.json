@@ -1,0 +1,6 @@
+{
+  "_doc": "flight: a lagged chase from behind and below so the climb and the roof-line pass read as speed. The mech-move double tap (mech-move r6) toggles 飞行 from any state.",
+  "id": "chase_flight", "rig": "chase", "kind": "hero", "from": 0.0, "to": 12.0,
+  "offset": [10.0, 6.0, 52.0], "lag": 0.5,
+  "look": [0.0, 4.0, 0.0], "frame": [0.0, 0.0], "fov": 55.0, "min_bbox": 0.24
+}

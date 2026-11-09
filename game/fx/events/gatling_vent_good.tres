@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="FeelEvent" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://fx/feel_event.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = &"gatling_vent_good"
+trauma = 0.03
+vfx = Array[StringName]([&"steam"])
+vfx_scale = 0.45
+audio = Array[StringName]([&"gatling_vent_hiss"])
+rumble_weak = 0.2
+rumble_strong = 0.1
+rumble_ms = 60
+falloff = 30.0
+cooldown = 0.2

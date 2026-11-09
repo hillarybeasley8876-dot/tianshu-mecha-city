@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="FeelEvent" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://fx/feel_event.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = &"hurt_light"
+trauma = 0.18
+post = Array[StringName]([&"vignette"])
+vignette = 0.25
+vignette_color = Color(0.55, 0.03, 0.03, 1)
+post_seconds = 0.15
+vfx = Array[StringName]([&"spark_bullet"])
+vfx_scale = 0.7
+audio = Array[StringName]([&"hurt_light_ping", &"hurt_light_body"])
+rumble_weak = 0.3
+rumble_strong = 0.2
+rumble_ms = 100
+cooldown = 0.08

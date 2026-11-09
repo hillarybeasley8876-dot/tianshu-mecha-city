@@ -1,0 +1,32 @@
+[gd_resource type="Resource" script_class="FeelEvent" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://fx/feel_event.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = &"lance_fire"
+trauma = 0.8
+flash_color = Color(1, 1, 1, 0.22)
+flash_frames = 2
+post = Array[StringName]([&"chromatic", &"radial_blur"])
+chromatic_px = 3.0
+radial_blur = 0.05
+post_seconds = 0.3
+impact_frames = 2
+fov_delta = 14.0
+fov_seconds = 0.35
+vfx = Array[StringName]([&"spark_beam", &"steam", &"shockwave_ring"])
+vfx_scale = 1.5
+light_color = Color(0.31, 0.9, 1, 1)
+light_energy = 10.0
+light_range = 26.0
+light_frames = 4
+audio = Array[StringName]([&"lance_riser", &"lance_roar", &"lance_sub"])
+rumble_weak = 0.3
+rumble_strong = 0.6
+rumble_ms = 250
+falloff = 200.0
+cooldown = 0.25
+ring_radius = 20.0
+ring_seconds = 0.25
+ring_color = Color(0.31, 0.9, 1, 1)

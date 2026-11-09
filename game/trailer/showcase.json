@@ -1,0 +1,1386 @@
+{
+  "_doc": "TIANSHU gameplay showcase reel (trailer unit, lead brief trailer-r3). Three chapters -- 打怪 / 技能展示 / 机制展示 -- one segment per enemy, per skill and per mechanic, each long enough to read the verb. `takes` is what gets RECORDED (tools/trailer/render_all.py --spec game/trailer/showcase.json -> captures/trailer/shots_showcase/<id>.avi); `shots` is how those takes are CUT (tools/trailer/cut.py --spec ...). Camera rigs are inline objects (TrailerShot accepts a rig as JSON or as a res:// path). Every take runs on the A6 Sky Garden stage at --tod=0.6 with the HUD on; the hive spire and the Brood Titan are the two exceptions and say so in their flags.",
+  "output": "captures/trailer/TIANSHU_showcase.mp4",
+  "dir": "captures/trailer/shots_showcase",
+  "logdir": "captures/trailer/logs_showcase",
+  "size": [
+    1920,
+    1080
+  ],
+  "fps": 60,
+  "crf": 16,
+  "sfx_db": -6.0,
+  "loudness": {
+    "lufs": -14.0,
+    "tp": -1.0
+  },
+  "grade": "curves=all='0/0 0.15/0.115 0.5/0.5 0.85/0.885 1/1'",
+  "music": [
+    {
+      "clip": "combat",
+      "at": 0.0,
+      "from": 10.0,
+      "dur": 66.5,
+      "gain_db": -3.0
+    },
+    {
+      "clip": "boss",
+      "at": 66.5,
+      "from": 4.0,
+      "dur": 24.0,
+      "gain_db": -2.5
+    },
+    {
+      "clip": "tension",
+      "at": 90.5,
+      "from": 6.0,
+      "dur": 67.7,
+      "gain_db": -3.0
+    },
+    {
+      "clip": "explore",
+      "at": 158.2,
+      "from": 8.0,
+      "dur": 94.8,
+      "gain_db": -3.5
+    }
+  ],
+  "stingers": [
+    {
+      "clip": "stinger_stagger",
+      "at": 49.0,
+      "gain_db": -5.0
+    },
+    {
+      "clip": "stinger_spire_cleared",
+      "at": 62.5,
+      "gain_db": -4.0
+    },
+    {
+      "clip": "stinger_boss_phase",
+      "at": 66.5,
+      "gain_db": -5.0
+    },
+    {
+      "clip": "stinger_victory",
+      "at": 249.0,
+      "gain_db": -4.0
+    }
+  ],
+  "cards": [
+    {
+      "before": "m1_ripper",
+      "dur": 1.5,
+      "bg_at": 0.35,
+      "lines": [
+        [
+          "第一章",
+          "cardno"
+        ],
+        [
+          "打怪",
+          "card"
+        ],
+        [
+          "FIGHTING THE HUSK SWARM",
+          "cardsub"
+        ]
+      ]
+    },
+    {
+      "before": "s1_anchor",
+      "dur": 1.5,
+      "bg_at": 0.35,
+      "lines": [
+        [
+          "第二章",
+          "cardno"
+        ],
+        [
+          "技能展示",
+          "card"
+        ],
+        [
+          "EVERY SKILL IN THE KIT",
+          "cardsub"
+        ]
+      ]
+    },
+    {
+      "before": "g1_move",
+      "dur": 1.5,
+      "bg_at": 0.35,
+      "lines": [
+        [
+          "第三章",
+          "cardno"
+        ],
+        [
+          "机制展示",
+          "card"
+        ],
+        [
+          "MOVEMENT · DEFENCE · WEAPONS · CAMERA",
+          "cardsub"
+        ]
+      ]
+    }
+  ],
+  "shots": [
+    {
+      "id": "m1_ripper",
+      "note": "chapter 1 -- Ripper swarm: melee L1-L3 twice, then the gatling into the pack",
+      "take": "m1_ripper",
+      "in": 0.9,
+      "out": 11.4,
+      "speed": 1.0,
+      "transition": "cut",
+      "lower": {
+        "label": "打怪 · 裂爪 RIPPER",
+        "key": "F / LMB",
+        "detail": "近战连段 + 机炮清群  melee combo into the pack"
+      }
+    },
+    {
+      "id": "m2_mantis",
+      "note": "chapter 1 -- Mantis: two blocks, then the perfect parry of a telegraphed strike",
+      "take": "m2_mantis",
+      "in": 0.9,
+      "out": 11.9,
+      "speed": 1.0,
+      "transition": "cut",
+      "lower": {
+        "label": "打怪 · 镰影 MANTIS",
+        "key": "Q",
+        "detail": "格挡与完美反击  block, then a perfect parry"
+      }
+    },
+    {
+      "id": "m3_spitter",
+      "note": "chapter 1 -- Spitter: dodge the acid lob, answer with a charged rifle shot. r6: ONE spitter, not three -- three overlapping acid clouds covered 10-13 % of the frame for the whole cut (tools/trailer/vfx_cover.py) and one covers 0.9 %. The lens stays on the r5 bearing 225: bearing 180 reads clean in a still sweep but leaves the camera->chest ray blocked for 9.5 s of the take, and 225 with one spitter measures the LOWEST coverage of the four bearings swept (0.74 % / 0.91 % at t=3.0 / 7.5).",
+      "take": "m3_spitter",
+      "in": 0.8,
+      "out": 10.8,
+      "speed": 1.0,
+      "transition": "cut",
+      "lower": {
+        "label": "打怪 · 酸巢 SPITTER",
+        "key": "SHIFT / LMB",
+        "detail": "闪避酸弹 · 蓄力狙击  dodge the lob, charged shot"
+      }
+    },
+    {
+      "id": "m4_harrier",
+      "note": "chapter 1 -- Harrier: lock the fliers and put a Hailstorm salvo into them",
+      "take": "m4_harrier",
+      "in": 0.8,
+      "out": 9.6,
+      "speed": 1.0,
+      "transition": "cut",
+      "lower": {
+        "label": "打怪 · 鸣翼 HARRIER",
+        "key": "1",
+        "detail": "锁定空中目标 · 齐射  lock the fliers, salvo"
+      }
+    },
+    {
+      "id": "m5_juggernaut",
+      "note": "chapter 1 -- Juggernaut: break its stability, then the Core Rend execution",
+      "take": "m5_juggernaut",
+      "in": 3.4,
+      "out": 12.9,
+      "speed": 1.0,
+      "transition": "cut",
+      "lower": {
+        "label": "打怪 · 裂山 JUGGERNAUT",
+        "key": "F",
+        "detail": "破防失衡 · 处决  stagger, then execute"
+      }
+    },
+    {
+      "id": "m6_spire",
+      "note": "chapter 1 -- the hive spire: the four pods burst and the core opens (un-stubbed flow, flow_debug hurt_spire on hive_a6). flow r5b fixed the collapse camera, so the collapse is now its own slow-motion cut below instead of being left out.",
+      "take": "m6_spire",
+      "in": 11.0,
+      "out": 18.8,
+      "speed": 1.0,
+      "transition": "cut",
+      "lower": {
+        "label": "打怪 · 蚀巢 HIVE SPIRE",
+        "key": "LMB",
+        "detail": "击破囊荚 · 核心暴露 · 崩塌  pods, core, collapse"
+      }
+    },
+    {
+      "id": "m6b_collapse",
+      "note": "chapter 1 -- the hive spire falling: the real FlowHiveCollapse on film, at half speed. The lens is solved by flow's own FlowCollapseShot; it holds the burning spire from 19.0 s to 20.9 s and hands the view back to the player at 21.0 s.",
+      "take": "m6_spire",
+      "in": 18.9,
+      "out": 20.9,
+      "speed": 0.5,
+      "transition": "cut",
+      "lower": {
+        "label": "打怪 · 蚀巢 HIVE SPIRE",
+        "key": "",
+        "detail": "巢塔崩塌  the spire falls"
+      }
+    },
+    {
+      "id": "m7a_titan",
+      "note": "chapter 1 -- the Brood Titan: the reveal on the Crown deck, the cores lit",
+      "take": "m7_titan",
+      "in": 2.0,
+      "out": 14.2,
+      "speed": 1.0,
+      "transition": "cut",
+      "lower": {
+        "label": "打怪 · 巢母 BROOD TITAN",
+        "key": "",
+        "detail": "三阶段 BOSS  the three-phase boss"
+      }
+    },
+    {
+      "id": "m7b_titan",
+      "note": "chapter 1 -- the Brood Titan: the breath beam sweeping the deck and the death explosion at 26.4 s",
+      "take": "m7_titan",
+      "in": 16.8,
+      "out": 27.0,
+      "speed": 1.0,
+      "transition": "cut",
+      "lower": {
+        "label": "打怪 · 巢母 BROOD TITAN",
+        "key": "",
+        "detail": "吐息扫射 · 核心破碎 · 终结  beam sweep, core, finisher"
+      }
+    },
+    {
+      "id": "s1_anchor",
+      "note": "chapter 2 -- S2 Skyhook Anchor: the cable bites a locked target and yanks it in",
+      "take": "s1_anchor",
+      "in": 0.8,
+      "out": 10.4,
+      "speed": 1.0,
+      "transition": "cut",
+      "lower": {
+        "label": "技能 · 天钩锚 SKYHOOK ANCHOR",
+        "key": "E",
+        "detail": "钩索拉近目标  grapple and yank"
+      }
+    },
+    {
+      "id": "s2_rift",
+      "note": "chapter 2 -- S1 Rift Step: the blink, four directions",
+      "take": "s2_rift",
+      "in": 0.8,
+      "out": 9.9,
+      "speed": 1.0,
+      "transition": "cut",
+      "lower": {
+        "label": "技能 · 裂隙步 RIFT STEP",
+        "key": "C",
+        "detail": "瞬闪位移  blink through space"
+      }
+    },
+    {
+      "id": "s3_fins",
+      "note": "chapter 2 -- S4 Corona Fins: the drones go out twice, then the ward barrier",
+      "take": "s3_fins",
+      "in": 0.8,
+      "out": 10.4,
+      "speed": 1.0,
+      "transition": "cut",
+      "lower": {
+        "label": "技能 · 日冕翼片 CORONA FINS",
+        "key": "Z",
+        "detail": "翼片出击 · 长按展开护罩  send the fins, hold for the ward"
+      }
+    },
+    {
+      "id": "s4_burst",
+      "note": "chapter 2 -- S6 Shockcore Burst: the 360 shockwave, three times",
+      "take": "s4_burst",
+      "in": 0.8,
+      "out": 9.4,
+      "speed": 1.0,
+      "transition": "cut",
+      "lower": {
+        "label": "技能 · 震核爆 SHOCKCORE BURST",
+        "key": "X",
+        "detail": "全向冲击波  a 360 shockwave"
+      }
+    },
+    {
+      "id": "s5_well",
+      "note": "chapter 2 -- S7 Undertow Well: the gravity well pulls the pack in, then detonates",
+      "take": "s5_well",
+      "in": 0.8,
+      "out": 10.9,
+      "speed": 1.0,
+      "transition": "cut",
+      "lower": {
+        "label": "技能 · 暗流引井 UNDERTOW WELL",
+        "key": "G",
+        "detail": "引力井牵引并坍缩  pull them in, collapse"
+      }
+    },
+    {
+      "id": "s6_od",
+      "note": "chapter 2 -- Zenith Overdrive, then the Zenith Lance finale",
+      "take": "s6_od",
+      "in": 0.8,
+      "out": 9.9,
+      "speed": 1.0,
+      "transition": "cut",
+      "lower": {
+        "label": "技能 · 天顶超驱 ZENITH OVERDRIVE",
+        "key": "V",
+        "detail": "长按超驱 · 再按释放天顶光枪  hold for OD, press for the Lance"
+      }
+    },
+    {
+      "id": "s7_msl",
+      "note": "chapter 2 -- S3 Hailstorm Volley: paint the locks, release the salvo",
+      "take": "s7_msl",
+      "in": 0.8,
+      "out": 10.9,
+      "speed": 1.0,
+      "transition": "cut",
+      "lower": {
+        "label": "技能 · 雹暴齐射 HAILSTORM VOLLEY",
+        "key": "1",
+        "detail": "长按标记 · 松开齐射  paint up to 12 locks"
+      }
+    },
+    {
+      "id": "g1_move",
+      "note": "chapter 3 -- dash in four directions, then the boost skate and the slide",
+      "take": "g1_move",
+      "in": 0.6,
+      "out": 10.9,
+      "speed": 1.0,
+      "transition": "cut",
+      "lower": {
+        "label": "机制 · 冲刺 DASH · BOOST SLIDE",
+        "key": "SHIFT",
+        "detail": "四向冲刺 · 长按滑行  dash any direction, hold to skate"
+      }
+    },
+    {
+      "id": "g2_assault",
+      "note": "chapter 3 -- assault boost and the ram kick, straight at the lens",
+      "take": "g2_assault",
+      "in": 0.8,
+      "out": 10.0,
+      "speed": 1.0,
+      "transition": "cut",
+      "lower": {
+        "label": "机制 · 强攻推进 ASSAULT BOOST",
+        "key": "LEFT ALT",
+        "detail": "高速突进 · 撞击踢  charge in, ram kick"
+      }
+    },
+    {
+      "id": "g3_jump",
+      "note": "chapter 3 -- jump, hover, the boost-jump, and a heavy landing",
+      "take": "g3_jump",
+      "in": 0.4,
+      "out": 10.8,
+      "speed": 1.0,
+      "transition": "cut",
+      "lower": {
+        "label": "机制 · 跳跃 / 悬停 JUMP · HOVER",
+        "key": "SPACE",
+        "detail": "起跳 · 悬停上升 · 推进跃迁 · 重着陆  hop, hover, boost-jump, land"
+      }
+    },
+    {
+      "id": "g4_flight",
+      "note": "chapter 3 -- flight: the double tap, climb, cruise, bank, flight boost and the start of the descent. The landing is NOT in this cut: from 9.4 s a tower sits between the lens and the mech for 2.0 s. r6: the chase came in from 38 m / lag 0.35 to 27 m / lag 0.18 (fov 55 -> 50), picked from a five-configuration rendered sweep -- the mech was nearly out of frame through the climb.",
+      "take": "g4_flight",
+      "in": 0.6,
+      "out": 8.4,
+      "speed": 1.0,
+      "transition": "cut",
+      "lower": {
+        "label": "机制 · 飞行 FLIGHT",
+        "key": "SPACE ×2",
+        "detail": "双击起飞 · 爬升 · 巡航 · 侧倾 · 下降  take off, climb, bank, land"
+      }
+    },
+    {
+      "id": "g5_dodge",
+      "note": "chapter 3 -- the perfect dodge and the witch time it opens",
+      "take": "g5_dodge",
+      "in": 1.5,
+      "out": 9.3,
+      "speed": 1.0,
+      "transition": "cut",
+      "lower": {
+        "label": "机制 · 完美闪避 PERFECT DODGE",
+        "key": "SHIFT",
+        "detail": "极限闪避触发魔女时间  the world drops to 0.3x"
+      }
+    },
+    {
+      "id": "g6_guard",
+      "note": "chapter 3 -- Mirror Guard: the block, the perfect parry, the catch field",
+      "take": "g6_guard",
+      "in": 0.8,
+      "out": 9.3,
+      "speed": 1.0,
+      "transition": "cut",
+      "lower": {
+        "label": "机制 · 镜返盾 MIRROR GUARD",
+        "key": "Q",
+        "detail": "格挡 · 完美反击 · 接化力场  block, parry, catch field"
+      }
+    },
+    {
+      "id": "g7_melee",
+      "note": "chapter 3 -- Dawn Edge: L1-L3, the charged slash, the lunge, the air combo, the execution",
+      "take": "g7_melee",
+      "in": 0.8,
+      "out": 12.8,
+      "speed": 1.0,
+      "transition": "cut",
+      "lower": {
+        "label": "机制 · 曦刃 DAWN EDGE",
+        "key": "F",
+        "detail": "三段连段 · 蓄力斩 · 突进 · 空中连段 · 处决  the whole saber"
+      }
+    },
+    {
+      "id": "g8_weapon",
+      "note": "chapter 3 -- the rifle charge shot, the gatling spin-up and its perfect vent, the swap",
+      "take": "g8_weapon",
+      "in": 0.8,
+      "out": 12.8,
+      "speed": 1.0,
+      "transition": "cut",
+      "lower": {
+        "label": "机制 · 贯光步枪 / 雷纺机炮 RIFLE · GATLING",
+        "key": "LMB / WHEEL",
+        "detail": "蓄力穿透 · 转管加速 · 完美排气 · 换武器  charge, spin up, vent, swap"
+      }
+    },
+    {
+      "id": "g9_lock",
+      "note": "chapter 3 -- lock-on and target switching across a pack",
+      "take": "g9_lock",
+      "in": 0.8,
+      "out": 8.8,
+      "speed": 1.0,
+      "transition": "cut",
+      "lower": {
+        "label": "机制 · 锁定 LOCK-ON",
+        "key": "TAB",
+        "detail": "锁定与切换目标  lock and switch targets"
+      }
+    },
+    {
+      "id": "g10_fp",
+      "note": "chapter 3 -- first person: toggle in, fire from the cockpit, look around, toggle back",
+      "take": "g10_fp",
+      "in": 0.8,
+      "out": 8.8,
+      "speed": 1.0,
+      "transition": "cut",
+      "lower": {
+        "label": "机制 · 第一人称 FIRST PERSON",
+        "key": "B",
+        "detail": "座舱视角 · 开火 · 环视  cockpit view, fire, look around"
+      }
+    }
+  ],
+  "takes": [
+    {
+      "id": "m1_ripper",
+      "scene": "res://trailer/shot.tscn",
+      "timeline": "res://trailer/showcase/tl_m1_ripper.json",
+      "flags": [
+        "--skip-menu",
+        "--god",
+        "--tod=0.35",
+        "--quality=high",
+        "--stub=flow",
+        "--spawn=-60,155,450,225",
+        "--trailer-pack=15,ripper:10,mantis:2",
+        "--trailer-hud=1",
+        "--trailer-mark=-60,155,450,8,20",
+        "--trailer-pack-arc=45,150"
+      ],
+      "rig": {
+        "id": "m1_orbit",
+        "kind": "combat",
+        "from": 0.0,
+        "to": 13.0,
+        "frame": [
+          0.0,
+          0.0
+        ],
+        "rig": "wide",
+        "pos_hero": [
+          -31.1,
+          3.0,
+          -31.1
+        ],
+        "look": [
+          0,
+          0,
+          0
+        ],
+        "fov": 55.0,
+        "min_bbox": 0.26
+      }
+    },
+    {
+      "id": "m2_mantis",
+      "scene": "res://trailer/shot.tscn",
+      "timeline": "res://trailer/showcase/tl_m2_mantis.json",
+      "assist": "res://trailer/assist/parry_mantis.json",
+      "flags": [
+        "--skip-menu",
+        "--god",
+        "--tod=0.35",
+        "--quality=high",
+        "--stub=flow",
+        "--spawn=-60,155,450,225",
+        "--trailer-pack=15,mantis:3,ripper:4",
+        "--trailer-hud=1",
+        "--trailer-mark=-60,155,450,8,20",
+        "--trailer-pack-arc=75,150"
+      ],
+      "rig": {
+        "id": "m2_parry",
+        "kind": "combat",
+        "from": 0.0,
+        "to": 14.0,
+        "frame": [
+          0.0,
+          0.0
+        ],
+        "rig": "wide",
+        "pos_hero": [
+          -11.4,
+          3.0,
+          -42.5
+        ],
+        "look": [
+          0,
+          0,
+          0
+        ],
+        "fov": 55.0,
+        "min_bbox": 0.26
+      }
+    },
+    {
+      "id": "m3_spitter",
+      "scene": "res://trailer/shot.tscn",
+      "timeline": "res://trailer/showcase/tl_m3_spitter.json",
+      "assist": "res://trailer/assist/dodge_lob.json",
+      "flags": [
+        "--skip-menu",
+        "--god",
+        "--tod=0.35",
+        "--quality=high",
+        "--stub=flow",
+        "--spawn=-60,155,450,225",
+        "--trailer-pack=60,spitter:1,ripper:6",
+        "--trailer-hud=1",
+        "--trailer-mark=-60,155,450,8,20",
+        "--trailer-pack-arc=45,150"
+      ],
+      "rig": {
+        "id": "m3_wide",
+        "kind": "combat",
+        "from": 0.0,
+        "to": 13.0,
+        "frame": [
+          0.0,
+          0.0
+        ],
+        "rig": "wide",
+        "pos_hero": [
+          -35.4,
+          14.0,
+          -35.4
+        ],
+        "look": [
+          0,
+          0,
+          0
+        ],
+        "fov": 50.0,
+        "min_bbox": 0.2
+      }
+    },
+    {
+      "id": "m4_harrier",
+      "scene": "res://trailer/shot.tscn",
+      "timeline": "res://trailer/showcase/tl_m4_harrier.json",
+      "flags": [
+        "--skip-menu",
+        "--god",
+        "--tod=0.0",
+        "--quality=high",
+        "--stub=flow",
+        "--spawn=-60,155,450,225",
+        "--trailer-pack=20,harrier:4",
+        "--trailer-hud=1",
+        "--trailer-mark=-60,155,450,8,20",
+        "--trailer-pack-arc=30,150"
+      ],
+      "rig": {
+        "id": "m4_crane",
+        "kind": "combat",
+        "from": 0.0,
+        "to": 12.0,
+        "frame": [
+          0.0,
+          0.0
+        ],
+        "rig": "crane",
+        "az": 210.0,
+        "dist": 40.0,
+        "from_h": 3.0,
+        "to_h": 22.0,
+        "fov": 58.0,
+        "min_bbox": 0.16,
+        "look": [
+          0,
+          24,
+          0
+        ]
+      }
+    },
+    {
+      "id": "m5_juggernaut",
+      "scene": "res://trailer/shot.tscn",
+      "timeline": "res://trailer/showcase/tl_m5_juggernaut.json",
+      "assist": "res://trailer/assist/poise_juggernaut.json",
+      "flags": [
+        "--skip-menu",
+        "--god",
+        "--tod=0.35",
+        "--quality=high",
+        "--stub=flow",
+        "--spawn=-60,155,450,225",
+        "--trailer-pack=22,juggernaut:1,ripper:6",
+        "--trailer-hud=1",
+        "--trailer-mark=-60,155,450,8,20",
+        "--trailer-pack-arc=0,150"
+      ],
+      "rig": {
+        "id": "m5_low",
+        "kind": "combat",
+        "from": 0.0,
+        "to": 15.0,
+        "frame": [
+          0.0,
+          0.0
+        ],
+        "rig": "wide",
+        "pos_hero": [
+          -44.0,
+          3.0,
+          0.0
+        ],
+        "look": [
+          0,
+          0,
+          0
+        ],
+        "fov": 52.0,
+        "min_bbox": 0.24
+      }
+    },
+    {
+      "id": "m6_spire",
+      "scene": "res://trailer/shot.tscn",
+      "timeline": "res://trailer/showcase/tl_m6_spire.json",
+      "flow_script": "res://trailer/showcase/flow_m6_spire.json",
+      "flags": [
+        "--skip-menu",
+        "--god",
+        "--tod=0.35",
+        "--quality=high",
+        "--trailer-hud=0"
+      ]
+    },
+    {
+      "id": "m7_titan",
+      "scene": "res://trailer/boss_shot.tscn",
+      "timeline": "res://trailer/tl_s08_boss.json",
+      "rig": "res://trailer/rig_boss_showcase.json",
+      "flags": [
+        "--god",
+        "--tod=0.9",
+        "--boss-beats=intro,damage,phase2,beam,core,death"
+      ]
+    },
+    {
+      "id": "s1_anchor",
+      "scene": "res://trailer/shot.tscn",
+      "timeline": "res://trailer/showcase/tl_s1_anchor.json",
+      "flags": [
+        "--skip-menu",
+        "--god",
+        "--tod=0.35",
+        "--quality=high",
+        "--stub=flow",
+        "--spawn=-60,155,450,225",
+        "--trailer-pack=38,ripper:6,mantis:2",
+        "--trailer-hud=1",
+        "--trailer-mark=-60,155,450,8,20",
+        "--trailer-pack-arc=60,150"
+      ],
+      "rig": {
+        "id": "s1_wide",
+        "kind": "combat",
+        "from": 0.0,
+        "to": 12.0,
+        "frame": [
+          0.0,
+          0.0
+        ],
+        "rig": "wide",
+        "pos_hero": [
+          -25.0,
+          14.0,
+          -43.3
+        ],
+        "look": [
+          0,
+          0,
+          0
+        ],
+        "fov": 58.0,
+        "min_bbox": 0.2
+      }
+    },
+    {
+      "id": "s2_rift",
+      "scene": "res://trailer/shot.tscn",
+      "timeline": "res://trailer/showcase/tl_s2_rift.json",
+      "flags": [
+        "--skip-menu",
+        "--god",
+        "--tod=0.35",
+        "--quality=high",
+        "--stub=flow",
+        "--spawn=-60,155,450,225",
+        "--trailer-pack=16,ripper:8,mantis:2",
+        "--trailer-hud=1",
+        "--trailer-mark=-60,155,450,45,40",
+        "--trailer-pack-arc=225,220"
+      ],
+      "rig": {
+        "id": "s2_chase",
+        "kind": "hero",
+        "from": 0.0,
+        "to": 12.0,
+        "frame": [
+          0.0,
+          0.0
+        ],
+        "rig": "chase",
+        "offset": [
+          12.0,
+          10.0,
+          40.0
+        ],
+        "lag": 0.3,
+        "fov": 55.0,
+        "min_bbox": 0.24,
+        "look": [
+          0,
+          2,
+          0
+        ]
+      }
+    },
+    {
+      "id": "s3_fins",
+      "scene": "res://trailer/shot.tscn",
+      "timeline": "res://trailer/showcase/tl_s3_fins.json",
+      "flags": [
+        "--skip-menu",
+        "--god",
+        "--tod=0.35",
+        "--quality=high",
+        "--stub=flow",
+        "--spawn=-60,155,450,225",
+        "--trailer-pack=16,ripper:8,mantis:2",
+        "--trailer-hud=1",
+        "--trailer-mark=-60,155,450,8,20",
+        "--trailer-pack-arc=90,150"
+      ],
+      "rig": {
+        "id": "s3_crane",
+        "kind": "combat",
+        "from": 0.0,
+        "to": 12.0,
+        "frame": [
+          0.0,
+          0.0
+        ],
+        "rig": "crane",
+        "az": 270.0,
+        "dist": 50.0,
+        "from_h": 3.0,
+        "to_h": 32.0,
+        "fov": 55.0,
+        "min_bbox": 0.22,
+        "look": [
+          0,
+          2,
+          0
+        ]
+      }
+    },
+    {
+      "id": "s4_burst",
+      "scene": "res://trailer/shot.tscn",
+      "timeline": "res://trailer/showcase/tl_s4_burst.json",
+      "flags": [
+        "--skip-menu",
+        "--god",
+        "--tod=0.35",
+        "--quality=high",
+        "--stub=flow",
+        "--spawn=-60,155,450,225",
+        "--trailer-pack=14,ripper:10,mantis:2",
+        "--trailer-hud=1",
+        "--trailer-mark=-60,155,450,8,20",
+        "--trailer-pack-arc=120,150"
+      ],
+      "rig": {
+        "id": "s4_wide",
+        "kind": "combat",
+        "from": 0.0,
+        "to": 11.0,
+        "frame": [
+          0.0,
+          0.0
+        ],
+        "rig": "wide",
+        "pos_hero": [
+          22.0,
+          3.0,
+          -38.1
+        ],
+        "look": [
+          0,
+          0,
+          0
+        ],
+        "fov": 55.0,
+        "min_bbox": 0.24
+      }
+    },
+    {
+      "id": "s5_well",
+      "scene": "res://trailer/shot.tscn",
+      "timeline": "res://trailer/showcase/tl_s5_well.json",
+      "flags": [
+        "--skip-menu",
+        "--god",
+        "--tod=0.35",
+        "--quality=high",
+        "--stub=flow",
+        "--spawn=-60,155,450,225",
+        "--trailer-pack=16,ripper:10,mantis:2",
+        "--trailer-hud=1",
+        "--trailer-mark=-60,155,450,8,20",
+        "--trailer-pack-arc=105,150"
+      ],
+      "rig": {
+        "id": "s5_orbit",
+        "kind": "combat",
+        "from": 0.0,
+        "to": 13.0,
+        "frame": [
+          0.0,
+          0.0
+        ],
+        "rig": "wide",
+        "pos_hero": [
+          12.9,
+          14.0,
+          -48.3
+        ],
+        "look": [
+          0,
+          0,
+          0
+        ],
+        "fov": 55.0,
+        "min_bbox": 0.2
+      }
+    },
+    {
+      "id": "s6_od",
+      "scene": "res://trailer/shot.tscn",
+      "timeline": "res://trailer/showcase/tl_s6_od.json",
+      "flags": [
+        "--skip-menu",
+        "--god",
+        "--tod=0.35",
+        "--quality=high",
+        "--stub=flow",
+        "--spawn=-60,155,450,225",
+        "--trailer-pack=18,ripper:8,mantis:2",
+        "--trailer-hud=1",
+        "--trailer-mark=-60,155,450,8,20",
+        "--trailer-pack-arc=225,220"
+      ],
+      "rig": {
+        "id": "s6_chase",
+        "kind": "hero",
+        "from": 0.0,
+        "to": 12.0,
+        "frame": [
+          0.0,
+          0.0
+        ],
+        "rig": "chase",
+        "offset": [
+          16.0,
+          12.0,
+          42.0
+        ],
+        "lag": 0.35,
+        "fov": 55.0,
+        "min_bbox": 0.24,
+        "look": [
+          0,
+          2,
+          0
+        ]
+      }
+    },
+    {
+      "id": "s7_msl",
+      "scene": "res://trailer/shot.tscn",
+      "timeline": "res://trailer/showcase/tl_s7_msl.json",
+      "flags": [
+        "--skip-menu",
+        "--god",
+        "--tod=0.35",
+        "--quality=high",
+        "--stub=flow",
+        "--spawn=-60,155,450,225",
+        "--trailer-pack=24,ripper:10,mantis:3",
+        "--trailer-hud=1",
+        "--trailer-mark=-60,155,450,8,20",
+        "--trailer-pack-arc=165,150"
+      ],
+      "rig": {
+        "id": "s7_wide",
+        "kind": "combat",
+        "from": 0.0,
+        "to": 12.0,
+        "frame": [
+          0.0,
+          0.0
+        ],
+        "rig": "wide",
+        "pos_hero": [
+          48.3,
+          14.0,
+          -12.9
+        ],
+        "look": [
+          0,
+          0,
+          0
+        ],
+        "fov": 52.0,
+        "min_bbox": 0.2
+      }
+    },
+    {
+      "id": "g1_move",
+      "scene": "res://trailer/shot.tscn",
+      "timeline": "res://trailer/showcase/tl_g1_move.json",
+      "flags": [
+        "--skip-menu",
+        "--god",
+        "--tod=0.35",
+        "--quality=high",
+        "--stub=flow",
+        "--spawn=-60,155,450,225",
+        "--trailer-pack=22,ripper:6,mantis:2",
+        "--trailer-hud=1",
+        "--trailer-mark=-60,155,450,55,60",
+        "--trailer-pack-arc=225,220"
+      ],
+      "rig": {
+        "id": "g1_chase",
+        "kind": "hero",
+        "from": 0.0,
+        "to": 13.0,
+        "frame": [
+          0.0,
+          0.0
+        ],
+        "rig": "chase",
+        "offset": [
+          0.0,
+          10.0,
+          42.0
+        ],
+        "lag": 0.25,
+        "fov": 55.0,
+        "min_bbox": 0.24,
+        "look": [
+          0,
+          2,
+          0
+        ]
+      }
+    },
+    {
+      "id": "g2_assault",
+      "scene": "res://trailer/shot.tscn",
+      "timeline": "res://trailer/showcase/tl_g2_assault.json",
+      "flags": [
+        "--skip-menu",
+        "--god",
+        "--tod=0.35",
+        "--quality=high",
+        "--stub=flow",
+        "--spawn=-60,155,450,45",
+        "--trailer-pack=24,ripper:8,mantis:2",
+        "--trailer-hud=1",
+        "--trailer-mark=-83,155,427,70,60",
+        "--trailer-pack-arc=338,150"
+      ],
+      "rig": {
+        "id": "g2_lock",
+        "kind": "hero",
+        "from": 0.0,
+        "to": 11.5,
+        "frame": [
+          0.0,
+          0.0
+        ],
+        "rig": "chase",
+        "fov": 55.0,
+        "min_bbox": 0.26,
+        "look": [
+          0,
+          2,
+          0
+        ],
+        "offset": [
+          38.0,
+          8.0,
+          6.0
+        ],
+        "lag": 0.2
+      }
+    },
+    {
+      "id": "g3_jump",
+      "scene": "res://trailer/shot.tscn",
+      "timeline": "res://trailer/showcase/tl_g3_jump.json",
+      "flags": [
+        "--skip-menu",
+        "--god",
+        "--tod=0.0",
+        "--quality=high",
+        "--stub=flow",
+        "--spawn=-60,155,450,225",
+        "--trailer-pack=20,ripper:6,mantis:2",
+        "--trailer-hud=1",
+        "--trailer-mark=-60,155,450,40,220",
+        "--trailer-pack-arc=180,150"
+      ],
+      "rig": {
+        "id": "g3_low",
+        "kind": "hero",
+        "from": 0.0,
+        "to": 12.5,
+        "frame": [
+          0.0,
+          0.0
+        ],
+        "rig": "wide",
+        "pos_hero": [
+          46.0,
+          3.0,
+          0.0
+        ],
+        "look": [
+          0,
+          0,
+          0
+        ],
+        "fov": 55.0,
+        "min_bbox": 0.22
+      }
+    },
+    {
+      "id": "g4_flight",
+      "scene": "res://trailer/shot.tscn",
+      "timeline": "res://trailer/showcase/tl_g4_flight.json",
+      "flags": [
+        "--skip-menu",
+        "--god",
+        "--tod=0.0",
+        "--quality=high",
+        "--stub=flow",
+        "--spawn=-60,155,450,225",
+        "--trailer-pack=40,harrier:3,ripper:3",
+        "--trailer-hud=1",
+        "--trailer-mark=-60,155,450,130,220",
+        "--trailer-pack-arc=225,220"
+      ],
+      "rig": {
+        "id": "g4_chase",
+        "kind": "hero",
+        "from": 0.0,
+        "to": 13.0,
+        "frame": [
+          0.0,
+          0.0
+        ],
+        "rig": "chase",
+        "offset": [
+          6.0,
+          11.0,
+          27.0
+        ],
+        "lag": 0.18,
+        "fov": 50.0,
+        "min_bbox": 0.3,
+        "look": [
+          0,
+          4,
+          0
+        ]
+      }
+    },
+    {
+      "id": "g5_dodge",
+      "scene": "res://trailer/shot.tscn",
+      "timeline": "res://trailer/showcase/tl_g5_dodge.json",
+      "flags": [
+        "--skip-menu",
+        "--god",
+        "--tod=0.35",
+        "--quality=high",
+        "--stub=flow",
+        "--spawn=-60,155,450,225",
+        "--trailer-pack=14,ripper:6,mantis:3",
+        "--trailer-hud=1",
+        "--trailer-mark=-60,155,450,8,20",
+        "--trailer-pack-arc=195,150"
+      ],
+      "rig": {
+        "id": "g5_parry",
+        "kind": "combat",
+        "from": 0.0,
+        "to": 11.0,
+        "frame": [
+          0.0,
+          0.0
+        ],
+        "rig": "wide",
+        "pos_hero": [
+          42.5,
+          3.0,
+          11.4
+        ],
+        "look": [
+          0,
+          0,
+          0
+        ],
+        "fov": 55.0,
+        "min_bbox": 0.26
+      }
+    },
+    {
+      "id": "g6_guard",
+      "scene": "res://trailer/shot.tscn",
+      "timeline": "res://trailer/showcase/tl_g6_guard.json",
+      "assist": "res://trailer/assist/guard_full.json",
+      "flags": [
+        "--skip-menu",
+        "--god",
+        "--tod=0.35",
+        "--quality=high",
+        "--stub=flow",
+        "--spawn=-60,155,450,225",
+        "--trailer-pack=38,ripper:8,mantis:2",
+        "--trailer-hud=1",
+        "--trailer-mark=-60,155,450,8,20",
+        "--trailer-pack-arc=135,150"
+      ],
+      "rig": {
+        "id": "g6_wide",
+        "kind": "combat",
+        "from": 0.0,
+        "to": 12.0,
+        "frame": [
+          0.0,
+          0.0
+        ],
+        "rig": "wide",
+        "pos_hero": [
+          32.5,
+          3.0,
+          -32.5
+        ],
+        "look": [
+          0,
+          0,
+          0
+        ],
+        "fov": 55.0,
+        "min_bbox": 0.24
+      }
+    },
+    {
+      "id": "g7_melee",
+      "scene": "res://trailer/shot.tscn",
+      "timeline": "res://trailer/showcase/tl_g7_melee.json",
+      "assist": "res://trailer/assist/poise_melee.json",
+      "flags": [
+        "--skip-menu",
+        "--god",
+        "--tod=0.35",
+        "--quality=high",
+        "--stub=flow",
+        "--spawn=-60,155,450,225",
+        "--trailer-pack=15,mantis:3,ripper:6",
+        "--trailer-hud=1",
+        "--trailer-mark=-60,155,450,8,20",
+        "--trailer-pack-arc=150,150"
+      ],
+      "rig": {
+        "id": "g7_orbit",
+        "kind": "combat",
+        "from": 0.0,
+        "to": 15.0,
+        "frame": [
+          0.0,
+          0.0
+        ],
+        "rig": "wide",
+        "pos_hero": [
+          38.1,
+          3.0,
+          -22.0
+        ],
+        "look": [
+          0,
+          0,
+          0
+        ],
+        "fov": 52.0,
+        "min_bbox": 0.26
+      }
+    },
+    {
+      "id": "g8_weapon",
+      "scene": "res://trailer/shot.tscn",
+      "timeline": "res://trailer/showcase/tl_g8_weapon.json",
+      "assist": "res://trailer/assist/vent.json",
+      "flags": [
+        "--skip-menu",
+        "--god",
+        "--tod=0.35",
+        "--quality=high",
+        "--stub=flow",
+        "--spawn=-60,155,450,225",
+        "--trailer-pack=26,ripper:10,mantis:2",
+        "--trailer-hud=1",
+        "--trailer-mark=-60,155,450,8,20",
+        "--trailer-pack-arc=55,150"
+      ],
+      "rig": {
+        "id": "g8_low",
+        "kind": "combat",
+        "from": 0.0,
+        "to": 15.0,
+        "frame": [
+          0.0,
+          0.0
+        ],
+        "rig": "wide",
+        "pos_hero": [
+          -25.2,
+          3.0,
+          -36.0
+        ],
+        "look": [
+          0,
+          0,
+          0
+        ],
+        "fov": 55.0,
+        "min_bbox": 0.26
+      }
+    },
+    {
+      "id": "g9_lock",
+      "scene": "res://trailer/shot.tscn",
+      "timeline": "res://trailer/showcase/tl_g9_lock.json",
+      "flags": [
+        "--skip-menu",
+        "--god",
+        "--tod=0.35",
+        "--quality=high",
+        "--stub=flow",
+        "--spawn=-60,155,450,225",
+        "--trailer-pack=30,ripper:8,mantis:3",
+        "--trailer-hud=1",
+        "--trailer-mark=-60,155,450,8,20",
+        "--trailer-pack-arc=30,150"
+      ],
+      "rig": {
+        "id": "g9_wide",
+        "kind": "combat",
+        "from": 0.0,
+        "to": 11.0,
+        "frame": [
+          0.0,
+          0.0
+        ],
+        "rig": "wide",
+        "pos_hero": [
+          -39.8,
+          3.0,
+          -23.0
+        ],
+        "look": [
+          0,
+          0,
+          0
+        ],
+        "fov": 55.0,
+        "min_bbox": 0.24
+      }
+    },
+    {
+      "id": "g10_fp",
+      "scene": "res://trailer/shot.tscn",
+      "timeline": "res://trailer/showcase/tl_g10_fp.json",
+      "flags": [
+        "--skip-menu",
+        "--god",
+        "--tod=0.35",
+        "--quality=high",
+        "--stub=flow",
+        "--spawn=-540,10,570,45",
+        "--trailer-pack=26,ripper:6,mantis:2",
+        "--trailer-hud=1",
+        "--trailer-mark=-540,10,570,40,40"
+      ]
+    }
+  ]
+}

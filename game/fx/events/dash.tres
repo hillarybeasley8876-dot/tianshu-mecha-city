@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="FeelEvent" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://fx/feel_event.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = &"dash"
+trauma = 0.06
+kick_deg = 0.6
+kick_dir = Vector3(0, 0, 1)
+kick_seconds = 0.15
+post = Array[StringName]([&"chromatic", &"radial_blur"])
+chromatic_px = 2.0
+radial_blur = 0.04
+post_seconds = 0.12
+fov_delta = 10.0
+fov_seconds = 0.25
+vfx = Array[StringName]([&"thruster_burst"])
+ghosts = 3
+ghost_spread = 0.05
+ghost_life = 0.22
+vfx_scale = 0.9
+audio = Array[StringName]([&"dash_chuff", &"dash_whoosh"])
+rumble_weak = 0.5
+rumble_strong = 0.3
+rumble_ms = 90
+cooldown = 0.08

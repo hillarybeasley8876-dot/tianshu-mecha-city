@@ -1,0 +1,70 @@
+[
+ {
+  "t": 0.0,
+  "look_rate": [
+   0,
+   0
+  ]
+ },
+ {
+  "t": 0.6,
+  "tap": [
+   "lock_on"
+  ]
+ },
+ {
+  "t": 1.0,
+  "player": {
+   "method": "add_overdrive",
+   "args": [
+    100.0
+   ]
+  }
+ },
+ {
+  "t": 1.6,
+  "press": [
+   "overdrive"
+  ]
+ },
+ {
+  "t": 2.1,
+  "release": [
+   "overdrive"
+  ]
+ },
+ {
+  "t": 3.2,
+  "tap": [
+   "melee"
+  ]
+ },
+ {
+  "t": 4.2,
+  "tap": [
+   "melee"
+  ]
+ },
+ {
+  "t": 5.4,
+  "tap": [
+   "overdrive"
+  ]
+ },
+ {
+  "t": 7.2,
+  "tap": [
+   "melee"
+  ]
+ },
+ {
+  "t": 8.0,
+  "tap": [
+   "melee"
+  ]
+ },
+ {
+  "t": 10.5,
+  "end": true
+ }
+]

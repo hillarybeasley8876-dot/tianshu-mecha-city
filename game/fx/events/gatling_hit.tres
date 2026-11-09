@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="FeelEvent" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://fx/feel_event.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = &"gatling_hit"
+trauma = 0.01
+vfx = Array[StringName]([&"spark_bullet"])
+vfx_scale = 0.55
+audio = Array[StringName]([&"gatling_hit"])
+falloff = 40.0
+cooldown = 0.03

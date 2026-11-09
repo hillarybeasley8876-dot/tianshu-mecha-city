@@ -1,0 +1,9 @@
+[
+ { "t": 0.0,  "look_rate": [0, 0] },
+ { "t": 0.4,  "tap": ["lock_on"] },
+ { "t": 0.8,  "player": { "method": "add_overdrive", "args": [100.0] } },
+ { "t": 1.4,  "press": ["overdrive"] },
+ { "t": 1.9,  "release": ["overdrive"] },
+ { "t": 3.4,  "tap": ["overdrive"] },
+ { "t": 6.5,  "end": true }
+]

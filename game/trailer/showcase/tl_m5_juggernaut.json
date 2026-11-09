@@ -1,0 +1,8 @@
+[
+ { "t": 0.0,  "look_rate": [0, 0] },
+ { "t": 0.6,  "tap": ["lock_on"] },
+ { "t": 1.4,  "tap": ["melee"] },
+ { "t": 2.0,  "tap": ["melee"] },
+ { "t": 2.6,  "tap": ["melee"] },
+ { "t": 13.5, "end": true }
+]

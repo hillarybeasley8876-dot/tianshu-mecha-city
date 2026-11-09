@@ -1,0 +1,17 @@
+[
+  {"t": 0.0, "press": ["move_forward"]},
+  {"t": 2.0, "tap": ["jump"]},
+  {"t": 4.0, "look": [220, 0]},
+  {"t": 6.0, "press": ["boost"]},
+  {"t": 10.0, "release": ["boost"]},
+  {"t": 12.0, "tap": ["melee"]},
+  {"t": 16.0, "release": ["move_forward"]},
+  {"t": 18.0, "press": ["move_left"]},
+  {"t": 24.0, "release": ["move_left"]},
+  {"t": 26.0, "look_rate": [90, 0]},
+  {"t": 34.0, "look_rate": [0, 0]},
+  {"t": 36.0, "press": ["move_forward"]},
+  {"t": 44.0, "tap": ["jump"]},
+  {"t": 50.0, "release": ["move_forward"]},
+  {"t": 60.0, "end": true}
+]

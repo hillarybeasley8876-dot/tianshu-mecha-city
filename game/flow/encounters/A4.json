@@ -1,0 +1,48 @@
+{
+  "arena": "A4",
+  "label": "巨构峡谷 MEGABLOCK CANYON",
+  "music": 0.6,
+  "waves": [
+    {
+      "id": "A4_w1",
+      "start": { "kind": "on_enter" },
+      "groups": [
+        { "type": "ripper", "count": 6, "socket": "A4_sp6", "escalate": true },
+        { "type": "ripper", "count": 4, "socket": "A4_sp4", "escalate": true }
+      ]
+    },
+    {
+      "id": "A4_w2",
+      "start": { "kind": "previous_half" },
+      "groups": [
+        { "type": "harrier", "count": 3, "socket": "A4_sp3" },
+        { "type": "ripper", "count": 5, "socket": "A4_sp1", "escalate": true }
+      ]
+    },
+    {
+      "id": "A4_w3",
+      "start": { "kind": "previous_half" },
+      "groups": [
+        { "type": "spitter", "count": 2, "socket": "A4_sp2" },
+        { "type": "mantis", "count": 2, "socket": "A4_sp5" }
+      ]
+    },
+    {
+      "id": "A4_w4",
+      "start": { "kind": "timer", "delay": 12.0 },
+      "groups": [
+        { "type": "juggernaut", "count": 1, "socket": "A4_sp4" },
+        { "type": "ripper", "count": 8, "socket": "A4_sp6", "escalate": true }
+      ]
+    },
+    {
+      "id": "A4_w5",
+      "start": { "kind": "previous_cleared" },
+      "groups": [
+        { "type": "harrier", "count": 3, "socket": "A4_sp3" },
+        { "type": "mantis", "count": 2, "socket": "A4_sp1" },
+        { "type": "ripper", "count": 6, "socket": "A4_sp5", "escalate": true }
+      ]
+    }
+  ]
+}

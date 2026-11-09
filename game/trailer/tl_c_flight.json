@@ -1,0 +1,12 @@
+[
+ { "t": 0.0,  "look_rate": [0, 0] },
+ { "t": 0.4,  "tap": ["jump"] },
+ { "t": 0.65, "tap": ["jump"] },
+ { "t": 1.2,  "press": ["jump"] },
+ { "t": 4.0,  "release": ["jump"] },
+ { "t": 4.3,  "press": ["move_forward"] },
+ { "t": 5.0,  "tap": ["assault"] },
+ { "t": 6.6,  "tap": ["melee"] },
+ { "t": 8.0,  "release": ["move_forward"] },
+ { "t": 9.0,  "end": true }
+]

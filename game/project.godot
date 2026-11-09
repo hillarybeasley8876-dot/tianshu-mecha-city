@@ -1,0 +1,116 @@
+; Engine configuration file. Core-owned (MECHA CITY lead). Units must not edit this file:
+; put requests in status/<unit>.md. Input actions are registered at runtime by core/input_setup.gd.
+
+config_version=5
+
+[application]
+
+run/max_fps=60
+
+config/name="天枢 TIANSHU — Mecha City"
+config/description="Original future-city mech action demo"
+run/main_scene="res://main.tscn"
+config/features=PackedStringArray("4.7", "Forward Plus")
+boot_splash/bg_color=Color(0.02, 0.025, 0.04, 1)
+
+[autoload]
+
+Events="*res://core/events.gd"
+Game="*res://core/game.gd"
+Feel="*res://core/feel.gd"
+PadInput="*res://core/pad_input.gd"
+Settings="*res://core/settings.gd"
+Audio="*res://audio/audio.gd"
+InputQuad="*res://core/input_quad.gd"
+
+[display]
+
+window/vsync/vsync_mode=1
+window/size/viewport_width=1920
+window/size/viewport_height=1080
+window/size/window_width_override=1600
+window/size/window_height_override=900
+window/size/mode=3
+window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"
+
+[input_devices]
+
+pointing/emulate_touch_from_mouse=false
+
+[layer_names]
+
+3d_physics/layer_1="world"
+3d_physics/layer_2="props"
+3d_physics/layer_3="player"
+3d_physics/layer_4="enemy"
+3d_physics/layer_5="player_hurtbox"
+3d_physics/layer_6="enemy_hurtbox"
+3d_physics/layer_7="player_shot"
+3d_physics/layer_8="enemy_shot"
+3d_physics/layer_9="trigger"
+3d_physics/layer_10="barrier"
+3d_physics/layer_11="debris"
+
+[physics]
+
+3d/physics_engine="Jolt Physics"
+common/physics_ticks_per_second=120
+common/max_physics_steps_per_frame=8
+common/physics_interpolation=false
+
+[rendering]
+
+renderer/rendering_method="forward_plus"
+rendering_device/driver.macos="metal"
+anti_aliasing/quality/screen_space_aa=0
+anti_aliasing/quality/use_taa=true
+occlusion_culling/use_occlusion_culling=true
+textures/vram_compression/import_s3tc_bptc=true
+textures/vram_compression/import_etc2_astc=true
+textures/default_filters/anisotropic_filtering_level=4
+lights_and_shadows/directional_shadow/size=4096
+environment/defaults/default_clear_color=Color(0.03, 0.04, 0.07, 1)
+
+[shader_globals]
+
+mc_time={
+"type": "float",
+"value": 0.0
+}
+mc_lit_fraction={
+"type": "float",
+"value": 0.42
+}
+mc_infection={
+"type": "float",
+"value": 1.0
+}
+mc_hive0={
+"type": "vec4",
+"value": Vector4(0, 0, 0, 0)
+}
+mc_hive1={
+"type": "vec4",
+"value": Vector4(0, 0, 0, 0)
+}
+mc_hive2={
+"type": "vec4",
+"value": Vector4(0, 0, 0, 0)
+}
+mc_hive3={
+"type": "vec4",
+"value": Vector4(0, 0, 0, 0)
+}
+mc_hive_levels={
+"type": "vec4",
+"value": Vector4(0, 0, 0, 0)
+}
+fx_opacity={
+"type": "float",
+"value": 1.0
+}
+fx_pixel_scale={
+"type": "float",
+"value": 0.002
+}

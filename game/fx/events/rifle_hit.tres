@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="FeelEvent" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://fx/feel_event.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = &"rifle_hit"
+trauma = 0.02
+vfx = Array[StringName]([&"spark_beam"])
+vfx_scale = 0.8
+decal = &"scorch"
+audio = Array[StringName]([&"beam_rifle_hit", &"beam_rifle_hit_body"])
+rumble_weak = 0.15
+rumble_ms = 30
+falloff = 40.0
+cooldown = 0.02

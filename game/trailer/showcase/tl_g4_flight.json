@@ -1,0 +1,16 @@
+[
+ { "t": 0.0,  "look_rate": [0, 0] },
+ { "t": 0.5,  "tap": ["jump"] },
+ { "t": 0.75, "tap": ["jump"] },
+ { "t": 1.3,  "press": ["jump"] },
+ { "t": 3.0,  "release": ["jump"] },
+ { "t": 3.3,  "press": ["move_forward"] },
+ { "t": 4.6,  "look_rate": [40, 0] },
+ { "t": 5.4,  "look_rate": [0, 0] },
+ { "t": 5.8,  "tap": ["assault"] },
+ { "t": 7.0,  "press": ["descend"] },
+ { "t": 8.2,  "release": ["descend"] },
+ { "t": 8.6,  "release": ["move_forward"] },
+ { "t": 9.2,  "tap": ["jump"] },
+ { "t": 11.5, "end": true }
+]

@@ -1,0 +1,128 @@
+{
+ "id": "u01",
+ "band": "tileable",
+ "districts": [],
+ "archetypes": [],
+ "tags": [
+  "fascia"
+ ],
+ "tileable": true,
+ "glb": "u01/u01.glb",
+ "tris": 6000,
+ "budget": 6000,
+ "tex": 1024,
+ "size": [
+  5.726,
+  28.822,
+  6.0
+ ],
+ "footprint": [
+  5.73,
+  28.82
+ ],
+ "aspect": 2.1411,
+ "parts_kept": 1,
+ "parts_dropped": 0,
+ "look": {
+  "neon_pct": 6.04,
+  "interior_pct": 0.0,
+  "emit_off": 1,
+  "wall_px": 139943,
+  "wall_pct": 13.35,
+  "top_px": 149153,
+  "top_pct": 14.22,
+  "emit_masked_pct": 45.09,
+  "luma_before": 0.5989,
+  "luma_after": 0.3035,
+  "gain": 0.467,
+  "pane_before": 0.01,
+  "pane_after": 0.01,
+  "pane_carved": 0.0,
+  "wall_luma": 0.30050384998321533,
+  "rough_before": 0.557,
+  "rough_after": 0.801,
+  "metal_before": 0.043,
+  "metal_after": 0.043,
+  "normal_flat_pct": 45.09,
+  "orm_flat_pct": 45.09,
+  "walls": 6,
+  "pane_pct": 0.0,
+  "pane_px": 0,
+  "uv_px": 19648,
+  "wall_m2": 252.0,
+  "texel_m2": 0.0128,
+  "small_pct": 0.0,
+  "pruned_pct": 0.0,
+  "side": 512,
+  "wall_area_pct": 46.68,
+  "top_area_pct": 48.52
+ },
+ "weld": 0.0,
+ "open_edges": 10,
+ "custom_normals_cleared": 1,
+ "planar": {
+  "planar_pct": 78.85,
+  "regions": 27,
+  "faces_moved": 1237,
+  "verts_moved": 1237,
+  "max_move_m": 0.2663,
+  "regions_rejected": 655,
+  "verts_skipped": 14,
+  "planes_found": 28
+ },
+ "plane_normals": {
+  "plane_area_pct": 83.82,
+  "plane_face_pct": 34.75,
+  "plane_regions": 32,
+  "dev_m": 0.5
+ },
+ "file_kb": 1066,
+ "lod": {
+  "glb": "u01/u01_lod.glb",
+  "tris": 2500,
+  "file_kb": 775,
+  "reshaded": 1,
+  "plane_normals": {
+   "plane_area_pct": 89.09,
+   "plane_face_pct": 28.56,
+   "plane_regions": 32,
+   "dev_m": 0.5
+  }
+ },
+ "far": {
+  "glb": "u01/u01_far.glb",
+  "tris": 3989,
+  "tex": 256,
+  "file_kb": 516,
+  "open_before": 10,
+  "open_after": 33,
+  "holes_filled": 0,
+  "tear": 3.3,
+  "gate": {
+   "holes": 0.0,
+   "views": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "detail": 0.0,
+   "limit": 0.02,
+   "pass": true
+  }
+ },
+ "roof": {
+  "cell_m": 2.0,
+  "nx": 3,
+  "ny": 15,
+  "origin": [
+   -2.863,
+   -14.411
+  ],
+  "z0": 0.0,
+  "z_span": 6.0,
+  "flat_deg": 15.0,
+  "h": "6Onj6PHr8/Dm+vf2+vf2+ff2+ff2+ff2+ff2+fb2+PXx+PHm8e7j5unjAAAA",
+  "flat": "////////////////////////////////////////////////AP//////AAAA"
+ }
+}

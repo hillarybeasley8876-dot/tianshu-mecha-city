@@ -1,0 +1,19 @@
+[
+ { "t": 0.0,  "player": { "method": "debug_teleport", "args": [[-560.0, 7.5, 600.0], 0.0] } },
+ { "t": 1.0,  "press": ["move_forward"] },
+ { "t": 2.4,  "release": ["move_forward"] },
+ { "t": 3.0,  "tap": ["melee"] },
+ { "t": 3.5,  "tap": ["melee"] },
+ { "t": 4.0,  "tap": ["melee"] },
+ { "t": 4.6,  "tap": ["melee"] },
+ { "t": 6.0,  "press": ["guard"] },
+ { "t": 6.9,  "player": { "method": "debug_model_action", "args": ["parry"] } },
+ { "t": 7.6,  "release": ["guard"] },
+ { "t": 8.4,  "press": ["aim"] },
+ { "t": 9.0,  "press": ["fire"] },
+ { "t": 10.4, "release": ["fire", "aim"] },
+ { "t": 11.4, "tap": ["boost"] },
+ { "t": 12.4, "press": ["boost"] },
+ { "t": 13.6, "release": ["boost"] },
+ { "t": 15.0, "end": true }
+]

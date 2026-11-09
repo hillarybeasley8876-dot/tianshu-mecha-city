@@ -1,0 +1,12 @@
+[
+  {"t": 0.6, "tap": ["fire"]},
+  {"t": 0.9, "tap": ["fire"]},
+  {"t": 1.2, "tap": ["fire"]},
+  {"t": 1.5, "tap": ["fire"]},
+  {"t": 2.2, "press": ["fire"]},
+  {"t": 3.5, "release": ["fire"]},
+  {"t": 4.2, "tap": ["reload"]},
+  {"t": 5.8, "press": ["fire"]},
+  {"t": 6.5, "release": ["fire"]},
+  {"t": 7.4, "end": true}
+]

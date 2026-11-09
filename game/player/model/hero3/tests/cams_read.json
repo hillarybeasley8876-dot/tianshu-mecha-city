@@ -1,0 +1,10 @@
+[
+ {"name": "s01_cold", "mode": "fixed", "spawn": [-560.0, 7.5, 600.0, 54.0],
+  "pos": [-584.0, 6.5, 582.0], "look_hero": [0.0, 11.0, 0.0], "fov": 42,
+  "note": "trailer s01 cold open, the first key (trailer/cam_s01_cold.json)"},
+ {"name": "s03_drop", "mode": "fixed", "spawn": [-560.0, 7.5, 600.0, 54.0],
+  "pos": [-610.0, 6.0, 570.0], "look_hero": [0.0, 1.0, 0.0], "fov": 48,
+  "note": "trailer s03 drop-in, the wide key (trailer/cam_s03_drop.json)"},
+ {"name": "s04_combat", "mode": "game", "spawn": [-200.0, 39.5, -260.0, 180.0],
+  "note": "trailer s04 combat: the game's own third-person rig, the spawn every s04 take uses"}
+]

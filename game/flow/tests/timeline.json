@@ -1,0 +1,9 @@
+[
+ { "t": 14.0, "look_rate": [40, 0] },
+ { "t": 16.0, "press": ["fire"] },
+ { "t": 17.5, "release": ["fire"] },
+ { "t": 18.0, "tap": ["melee"] },
+ { "t": 19.0, "tap": ["boost"] },
+ { "t": 20.0, "look_rate": [0, 0] },
+ { "t": 74.0, "end": true }
+]

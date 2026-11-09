@@ -1,0 +1,26 @@
+{
+  "_doc": "Brood Titan rig for the showcase reel and the v2 re-cut (lead r3 note 1). The r2b boss_orbit failed three ways, all visible in captures/trailer/sheets/: (a) blocked 28.41 s of 31 — the 130 m orbit walks the lens through the Crown rim and a fin at t=14 s and t=24 s; (b) the arena's emissive floor ring fills the bottom half as a blown-out cyan-white disc at t=16-26 s, because the lens sat 34 m up and aimed 12 m up a 90 m titan, i.e. straight down at the deck; (c) after the death explosion at t=28 s the titan is gone and the rig holds an empty floor. Fixes: pull IN to 112 m (well inside the 150 m deck radius, clear of the rim), lift to 46 m and aim at the titan's CHEST (45 m) so the look direction is level and the floor is a strip at the bottom edge, and HOLD the lens for the whole take. Handing back at t=28 was tried and is worse: the boss showcase's own camera then frames an empty Crown deck (the titan is removed on death), which is exactly the defect the lead's r3 note 1 names. r5: the lens is blocked for 1.9 s by a Crown fin during the beam beat and 1.1 s at 24 s — the titan CHARGES, and the swing-clear repair at the default 3/s arrives after the fin already has. `repair_rate` 12 makes the lens step aside in time. r6: at 12 the r6 take still measured blocked 0.23 s inside the cut windows (a Crown fin wiping the lens during the beam beat at t=16.7-18.7 s) against a 0.20 s gate, so the rate is 24.",
+  "id": "boss_showcase",
+  "rig": "orbit",
+  "kind": "free",
+  "subject": "BroodTitan",
+  "height_m": 90.0,
+  "from": 0.0,
+  "to": 40.0,
+  "radius": 112.0,
+  "height": 46.0,
+  "rate": 3.0,
+  "start": 205.0,
+  "look": [
+    0.0,
+    45.0,
+    0.0
+  ],
+  "frame": [
+    0.0,
+    0.0
+  ],
+  "fov": 50.0,
+  "min_bbox": 0.3,
+  "repair_rate": 24.0
+}

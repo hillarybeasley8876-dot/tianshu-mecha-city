@@ -1,0 +1,44 @@
+{
+ "presets": {
+  "idle": "idle",
+  "walk": "walk",
+  "hit_light": "hit_to_body_01"
+ },
+ "motions": [
+  [
+   "roar",
+   3.0,
+   "A colossal heavy bipedal kaiju monster with a long tail throws its head back and roars at the sky with arms spread wide"
+  ],
+  [
+   "stomp",
+   2.0,
+   "A colossal heavy bipedal kaiju monster with a long tail lifts its right leg high and stomps down with enormous force"
+  ],
+  [
+   "swipe",
+   1.8,
+   "A colossal heavy bipedal kaiju monster with a long tail sweeps its right clawed arm in a wide horizontal arc in front of it"
+  ],
+  [
+   "beam_breath",
+   4.0,
+   "A colossal heavy bipedal kaiju monster with a long tail rears back, then lunges its head forward and breathes a continuous beam, sweeping its head slowly from left to right"
+  ],
+  [
+   "summon",
+   2.4,
+   "A colossal heavy bipedal kaiju monster with a long tail crouches, spreads its arms and arches its back as if releasing a swarm from its body"
+  ],
+  [
+   "stagger",
+   2.0,
+   "A colossal heavy bipedal kaiju monster with a long tail is hit by a huge blast, reels backward and drops to one knee, then rises"
+  ],
+  [
+   "death",
+   3.5,
+   "A colossal heavy bipedal kaiju monster with a long tail shudders, falls to its knees and collapses forward, crashing to the ground"
+  ]
+ ]
+}

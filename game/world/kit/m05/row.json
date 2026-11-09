@@ -1,0 +1,124 @@
+{
+ "id": "m05",
+ "band": "megablock",
+ "districts": [
+  "D5",
+  "D4",
+  "D7"
+ ],
+ "archetypes": [
+  "megablock",
+  "slab",
+  "podium_tower"
+ ],
+ "tags": [
+  "hole"
+ ],
+ "tileable": false,
+ "glb": "m05/m05.glb",
+ "tris": 40000,
+ "budget": 40000,
+ "tex": 1024,
+ "size": [
+  77.247,
+  77.283,
+  200.0
+ ],
+ "footprint": [
+  77.25,
+  77.28
+ ],
+ "aspect": 0.3863,
+ "parts_kept": 1,
+ "parts_dropped": 0,
+ "look": {
+  "neon_pct": 3.18,
+  "interior_pct": 0.05,
+  "wall_px": 159624,
+  "wall_pct": 15.22,
+  "top_px": 44454,
+  "top_pct": 4.24,
+  "emit_masked_pct": 59.11,
+  "luma_before": 0.3581,
+  "luma_after": 0.3013,
+  "gain": 0.838,
+  "pane_before": 0.01,
+  "pane_after": 0.01,
+  "pane_carved": 4.21,
+  "wall_luma": 0.21243369579315186,
+  "rough_before": 0.235,
+  "rough_after": 0.656,
+  "metal_before": 0.012,
+  "metal_after": 0.012,
+  "normal_flat_pct": 59.11,
+  "orm_flat_pct": 59.11,
+  "walls": 1164,
+  "pane_pct": 4.19,
+  "pane_px": 175934,
+  "uv_px": 635138,
+  "wall_m2": 63887.7,
+  "texel_m2": 0.1006,
+  "small_pct": 5.49,
+  "pruned_pct": 5.49,
+  "side": 2048,
+  "wall_area_pct": 73.21,
+  "top_area_pct": 23.06
+ },
+ "weld": 0.0,
+ "open_edges": 11,
+ "custom_normals_cleared": 1,
+ "planar": {
+  "planar_pct": 48.94,
+  "regions": 90,
+  "faces_moved": 5596,
+  "verts_moved": 5596,
+  "max_move_m": 0.3436,
+  "regions_rejected": 1666,
+  "verts_skipped": 797,
+  "planes_found": 90
+ },
+ "plane_normals": {
+  "plane_area_pct": 96.19,
+  "plane_face_pct": 71.05,
+  "plane_regions": 3280,
+  "dev_m": 2.0
+ },
+ "win": "m05/m05_win.png",
+ "file_kb": 4659,
+ "far": {
+  "glb": "m05/m05_far.glb",
+  "tris": 4105,
+  "tex": 256,
+  "file_kb": 604,
+  "open_before": 11,
+  "open_after": 24,
+  "holes_filled": 0,
+  "tear": 2.182,
+  "gate": {
+   "holes": 0.0,
+   "views": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "detail": 0.0,
+   "limit": 0.02,
+   "pass": true
+  }
+ },
+ "roof": {
+  "cell_m": 2.0,
+  "nx": 39,
+  "ny": 39,
+  "origin": [
+   -38.623,
+   -38.641
+  ],
+  "z0": 0.0,
+  "z_span": 200.0,
+  "flat_deg": 15.0,
+  "h": "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",
+  "flat": "AAAAAAAAAAAAAAAAAAAA//////////////////8AAAAAAAAAAAAAAP///////////////////////////////wAA/////wD///////8AAP///////////////////////////////////////wD//////wAAAP///////////////////////////////////////wD//////wAAAP///////wAA////AAD/AP//////////////////AAAAAAD//wAAAP//////////////////AP//AAAAAP//////////AAAAAAD//wAAAP//////////////////AP//////////////////AAAAAAD//wAAAP///wD/////////////AP//AAAAAAD///////////8AAAD//wAAAP////////////////////////////////////////8AAAD///8AAP///wD///////////////8A//////////////8A/////wD///8AAP//////////AP////////8A//////////////8A/////wD///8AAP//////////AP////////8AAP//AP////8A//8A//////////8AAP////////////////////////////////////8A//////////8AAP////////////////////////////////////8A//////////8AAP////////////////////////////////////8A////////AP8AAP//////////AP///////////wD///////////8A////////AP8AAP//////////AP///////////////////////////wD/////AP8AAP//////////AP////////8AAAD///////////////8A/////wAAAP////8A/wD///////////////////////////////8A/////wAAAP////8A/wD//////////////wD//////wD//////////////wAAAP////8A/wD//////////////////////////////////wD//wAAAP///////wD///8A/////////////////////////////////wAA/////////wD///////////////////8A/////////////////wAA//////////8A/////////////////////////////////////wAAAAD//////////////////////////////////////////////wAA/wD/////////////////////AP8A/////////////////////wAA/wD///////////8A/////////////////////////////////wAA/wD//////////////////////////////////////////////wAAAAAAAP///////////////////////////////////////////wAA/////wAA/////////////////////////////////////////wAA/////wAA//////////////////8AAAAAAAAAAAAA/////////wAAAP///wAA/////////////wD/////AP///////////////////wAAAP///wAAAAAA////////////////AP///////////////////wAAAP///wAAAAAA/////////////////////////////////////wAAAAD//wAAAAAAAAD//////////wAA/////////////////////wAA/wD//////////////////////////////////////////////wAAAAD///////////////8AAP///////////////////////////wAAAAAAAAAAAP///////wD//wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+ }
+}

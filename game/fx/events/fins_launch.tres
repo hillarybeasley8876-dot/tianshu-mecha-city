@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="FeelEvent" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://fx/feel_event.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = &"fins_launch"
+trauma = 0.03
+vfx = Array[StringName]([&"thruster_burst"])
+vfx_scale = 0.4
+audio = Array[StringName]([&"fins_launch_chime"])
+rumble_weak = 0.1
+rumble_ms = 40
+cooldown = 0.05

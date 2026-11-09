@@ -1,0 +1,13 @@
+[
+ { "t": 1.0,  "cmd": "state" },
+ { "t": 3.0,  "cmd": "clear_arena", "args": ["A1"] },
+ { "t": 5.0,  "cmd": "state" },
+ { "t": 7.0,  "cmd": "kill_spire", "args": [0] },
+ { "t": 10.0, "cmd": "kill_spire", "args": [1] },
+ { "t": 13.0, "cmd": "kill_spire", "args": [2] },
+ { "t": 15.0, "cmd": "state" },
+ { "t": 19.0, "cmd": "teleport", "args": [0.0, 244.0, -40.0, 180.0] },
+ { "t": 21.0, "cmd": "look_at", "args": [0.0, 250.0, -140.0] },
+ { "t": 34.0, "cmd": "state" },
+ { "t": 36.0, "cmd": "state" }
+]

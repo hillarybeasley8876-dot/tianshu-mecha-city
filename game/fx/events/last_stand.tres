@@ -1,0 +1,28 @@
+[gd_resource type="Resource" script_class="FeelEvent" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://fx/feel_event.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = &"last_stand"
+trauma = 0.3
+kick_deg = 1.0
+kick_dir = Vector3(0, 0, 1)
+kick_seconds = 0.3
+post = Array[StringName]([&"desaturate", &"vignette"])
+desaturate = 0.5
+vignette = 0.3
+vignette_color = Color(0.31, 0.9, 1, 1)
+post_seconds = 1.5
+fov_delta = -5.0
+fov_seconds = 0.25
+slow_scale = 0.5
+slow_seconds = 1.5
+slow_witch = false
+vfx = Array[StringName]([&"thruster_burst", &"steam"])
+vfx_scale = 1.1
+audio = Array[StringName]([&"cockpit_alarm"])
+rumble_weak = 0.5
+rumble_strong = 0.8
+rumble_ms = 400
+cooldown = 60.0

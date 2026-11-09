@@ -1,0 +1,15 @@
+[
+  {"t": 0.0, "pad": {"axis": ["ly", -0.9]}},
+  {"t": 1.0, "pad": {"button": "a", "down": true}},
+  {"t": 1.1, "pad": {"button": "a", "down": false}},
+  {"t": 3.0, "pad": {"button": "b", "down": true}},
+  {"t": 3.1, "pad": {"button": "b", "down": false}},
+  {"t": 5.0, "pad": {"axis": ["rt", 1.0]}},
+  {"t": 5.5, "pad": {"axis": ["rt", 0.0]}},
+  {"t": 7.0, "pad": {"button": "rb", "down": true}},
+  {"t": 7.1, "pad": {"button": "x", "down": true}},
+  {"t": 7.3, "pad": {"button": "x", "down": false}},
+  {"t": 7.4, "pad": {"button": "rb", "down": false}},
+  {"t": 9.0, "pad": {"axis": ["ly", 0.0]}},
+  {"t": 12.0, "end": true}
+]

@@ -1,0 +1,121 @@
+{
+ "id": "b05",
+ "band": "midrise",
+ "districts": [
+  "D2",
+  "D4",
+  "D7"
+ ],
+ "archetypes": [
+  "slab",
+  "setback"
+ ],
+ "tags": [],
+ "tileable": false,
+ "glb": "b05/b05.glb",
+ "tris": 25000,
+ "budget": 25000,
+ "tex": 1024,
+ "size": [
+  17.213,
+  14.869,
+  60.0
+ ],
+ "footprint": [
+  17.21,
+  14.87
+ ],
+ "aspect": 0.2666,
+ "parts_kept": 1,
+ "parts_dropped": 0,
+ "look": {
+  "neon_pct": 0.29,
+  "interior_pct": 0.0,
+  "wall_px": 231943,
+  "wall_pct": 22.12,
+  "top_px": 88593,
+  "top_pct": 8.45,
+  "emit_masked_pct": 62.64,
+  "luma_before": 0.432,
+  "luma_after": 0.3208,
+  "gain": 0.718,
+  "pane_before": 0.0,
+  "pane_after": 0.0,
+  "pane_carved": 5.08,
+  "wall_luma": 0.25177818536758423,
+  "rough_before": 0.478,
+  "rough_after": 0.764,
+  "metal_before": 0.02,
+  "metal_after": 0.02,
+  "normal_flat_pct": 62.64,
+  "orm_flat_pct": 62.64,
+  "walls": 436,
+  "pane_pct": 5.08,
+  "pane_px": 13325,
+  "uv_px": 61449,
+  "wall_m2": 4171.5,
+  "texel_m2": 0.0679,
+  "small_pct": 21.93,
+  "pruned_pct": 21.93,
+  "side": 512,
+  "wall_area_pct": 64.72,
+  "top_area_pct": 27.68
+ },
+ "weld": 0.0,
+ "open_edges": 3,
+ "custom_normals_cleared": 1,
+ "planar": {
+  "planar_pct": 68.74,
+  "regions": 90,
+  "faces_moved": 7036,
+  "verts_moved": 7036,
+  "max_move_m": 0.3195,
+  "regions_rejected": 2832,
+  "verts_skipped": 144,
+  "planes_found": 90
+ },
+ "plane_normals": {
+  "plane_area_pct": 81.63,
+  "plane_face_pct": 46.12,
+  "plane_regions": 518,
+  "dev_m": 0.6
+ },
+ "win": "b05/b05_win.png",
+ "file_kb": 2809,
+ "far": {
+  "glb": "b05/b05_far.glb",
+  "tris": 3996,
+  "tex": 256,
+  "file_kb": 495,
+  "open_before": 3,
+  "open_after": 42,
+  "holes_filled": 0,
+  "tear": 14.0,
+  "gate": {
+   "holes": 0.0,
+   "views": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "detail": 0.0,
+   "limit": 0.02,
+   "pass": true
+  }
+ },
+ "roof": {
+  "cell_m": 2.0,
+  "nx": 9,
+  "ny": 8,
+  "origin": [
+   -8.606,
+   -7.435
+  ],
+  "z0": 0.0,
+  "z_span": 60.0,
+  "flat_deg": 15.0,
+  "h": "ANXV1QDV1dQA4ODg1QDV1dIA4ODq6+vu7swAAM7q6+vu7swAAD/m5ubm5j8A2Nnm5ubm3tgA2NjY5vXm2NgAAAAAAAAAAAAA",
+  "flat": "AP///wD//wAA////AAD//wAA//////////8AAAD///////8AAAD///////8A//////////8AAP///wD///8AAAAAAAAAAAAA"
+ }
+}

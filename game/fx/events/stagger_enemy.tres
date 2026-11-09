@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="FeelEvent" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://fx/feel_event.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = &"stagger_enemy"
+hitstop_kind = 1
+hitstop_seconds = 0.1
+trauma = 0.2
+vfx = Array[StringName]([&"spark_burst"])
+vfx_scale = 0.8
+light_color = Color(1, 0.72, 0.2, 1)
+light_energy = 4.0
+light_range = 12.0
+light_frames = 2
+audio = Array[StringName]([&"stagger_groan", &"ui_stagger"])
+rumble_weak = 0.3
+rumble_strong = 0.4
+rumble_ms = 120
+falloff = 100.0
+cooldown = 0.2

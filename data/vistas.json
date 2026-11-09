@@ -1,0 +1,213 @@
+{
+ "_doc": "Lead-owned vista cameras (ART.md §8). Blender coords X east, Y north, Z up; Godot = (X, Z, -Y). fov = vertical degrees. Lead adopted V1/V2/V3/V6/V8 from data/vistas.proposed.json (r2); V4/V5/V7 re-solve. r3: V4/V5/V7 adopted after viewing the frames.",
+ "vistas": [
+  {
+   "id": "V1",
+   "desc": "Insertion Pier -> NE across the canal at the backlit Spire",
+   "pos_blender": [
+    -583.0,
+    -640.0,
+    14.0
+   ],
+   "look_blender": [
+    0.0,
+    120.0,
+    200.0
+   ],
+   "pos_godot": [
+    -583.0,
+    14.0,
+    640.0
+   ],
+   "look_godot": [
+    0.0,
+    200.0,
+    -120.0
+   ],
+   "fov": 50.0,
+   "status": "adopted from city-build solver r2 (2026-11-02)"
+  },
+  {
+   "id": "V2",
+   "desc": "Top of the Knot (+80) -> east to the Spire",
+   "pos_blender": [
+    -514.5,
+    -105.1,
+    112.0
+   ],
+   "look_blender": [
+    0.0,
+    120.0,
+    180.0
+   ],
+   "pos_godot": [
+    -514.5,
+    112.0,
+    105.1
+   ],
+   "look_godot": [
+    0.0,
+    180.0,
+    -120.0
+   ],
+   "fov": 50.0,
+   "status": "adopted from city-build solver r2 (2026-11-02)"
+  },
+  {
+   "id": "V3",
+   "desc": "Old Town terraces (+64) -> ESE over the terraces, pagoda left, Spire far",
+   "pos_blender": [
+    -636.9,
+    372.6,
+    64.0
+   ],
+   "look_blender": [
+    0.0,
+    200.0,
+    150.0
+   ],
+   "pos_godot": [
+    -636.9,
+    64.0,
+    -372.6
+   ],
+   "look_godot": [
+    0.0,
+    150.0,
+    -200.0
+   ],
+   "fov": 50.0,
+   "status": "adopted from city-build solver r2 (2026-11-02)"
+  },
+  {
+   "id": "V4",
+   "desc": "Megablock canyon floor -> up at Block 9 and the koi-dragon hologram",
+   "pos_blender": [
+    480.0,
+    410.0,
+    100.0
+   ],
+   "look_blender": [
+    330.0,
+    250.0,
+    150.0
+   ],
+   "pos_godot": [
+    480.0,
+    100.0,
+    -410.0
+   ],
+   "look_godot": [
+    330.0,
+    150.0,
+    -250.0
+   ],
+   "fov": 58.0,
+   "status": "adopted from city-build solver r3 (2026-11-02, lead judged the frame)"
+  },
+  {
+   "id": "V5",
+   "desc": "Foundry deck (+44) -> reactor stacks and plumes",
+   "pos_blender": [
+    250.0,
+    -300.0,
+    104.0
+   ],
+   "look_blender": [
+    600.0,
+    -80.0,
+    110.0
+   ],
+   "pos_godot": [
+    250.0,
+    104.0,
+    300.0
+   ],
+   "look_godot": [
+    600.0,
+    110.0,
+    80.0
+   ],
+   "fov": 50.0,
+   "status": "adopted from city-build solver r3 (2026-11-02, lead judged the frame)"
+  },
+  {
+   "id": "V6",
+   "desc": "Sky Garden (+156) -> the Spire across the Financial towers",
+   "pos_blender": [
+    -42.0,
+    -500.0,
+    176.0
+   ],
+   "look_blender": [
+    0.0,
+    120.0,
+    200.0
+   ],
+   "pos_godot": [
+    -42.0,
+    176.0,
+    500.0
+   ],
+   "look_godot": [
+    0.0,
+    200.0,
+    -120.0
+   ],
+   "fov": 50.0,
+   "status": "adopted from city-build solver r2 (2026-11-02)"
+  },
+  {
+   "id": "V7",
+   "desc": "Spire Plaza (0) -> straight up the Spire",
+   "pos_blender": [
+    85.0,
+    -200.0,
+    52.0
+   ],
+   "look_blender": [
+    0.0,
+    120.0,
+    300.0
+   ],
+   "pos_godot": [
+    85.0,
+    52.0,
+    200.0
+   ],
+   "look_godot": [
+    0.0,
+    300.0,
+    -120.0
+   ],
+   "fov": 65.0,
+   "status": "adopted from city-build solver r3 (2026-11-02, lead judged the frame)"
+  },
+  {
+   "id": "V8",
+   "desc": "Crown deck (+240) panorama at storm",
+   "pos_blender": [
+    -119.9,
+    -28.0,
+    260.0
+   ],
+   "look_blender": [
+    150.0,
+    260.0,
+    215.0
+   ],
+   "pos_godot": [
+    -119.9,
+    260.0,
+    28.0
+   ],
+   "look_godot": [
+    150.0,
+    215.0,
+    -260.0
+   ],
+   "fov": 55.0,
+   "status": "adopted from city-build solver r2 (2026-11-02)"
+  }
+ ]
+}

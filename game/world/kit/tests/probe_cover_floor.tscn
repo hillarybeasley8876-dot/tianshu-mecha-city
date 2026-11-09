@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://world/kit/tests/probe_cover_floor.gd" id="1_floor"]
+
+[node name="ProbeCoverFloor" type="Node3D"]
+script = ExtResource("1_floor")

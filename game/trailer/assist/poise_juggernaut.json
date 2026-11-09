@@ -1,0 +1,23 @@
+{
+ "_doc": "m5_juggernaut -- feed the juggernaut real poise damage through take_hit() until its stability breaks (damage is 0: only the stagger bar moves), then walk the mech into the 14 m Core Rend window and press melee the moment it opens.",
+ "rules": [
+  {
+   "on": "poise",
+   "type": "juggernaut",
+   "at": 2.5,
+   "amount": 900,
+   "every": 0.45,
+   "max": 8
+  },
+  {
+   "on": "stagger",
+   "type": "juggernaut",
+   "press": "melee",
+   "hold": 0.05,
+   "max": 2,
+   "close": 12.0,
+   "speed": 34.0,
+   "after": 0.2
+  }
+ ]
+}

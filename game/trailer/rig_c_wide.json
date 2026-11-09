@@ -1,0 +1,6 @@
+{
+  "_doc": "missile salvo on a wide: hero and the whole pack in one frame, tracking the hero.",
+  "id": "wide_missiles", "rig": "wide", "kind": "combat", "from": 0.0, "to": 14.0,
+  "pos_hero": [-50.0, 24.0, -50.0], "look": [0.0, 0.0, 0.0],
+  "frame": [0.0, 0.0], "fov": 46.0, "min_bbox": 0.16
+}

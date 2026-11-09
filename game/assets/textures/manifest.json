@@ -1,0 +1,82 @@
+{
+ "brushed_concrete": {
+  "licence": "CC0",
+  "maps": [
+   "diff",
+   "nor_gl",
+   "rough"
+  ],
+  "name": "Brushed Concrete ",
+  "note": "downscaled to 1k by city-art: tiling architecture, not hero textures",
+  "res": "1k",
+  "size_m": [
+   2.5,
+   2.5
+  ],
+  "source": "polyhaven"
+ },
+ "clay_plaster": {
+  "licence": "CC0",
+  "maps": [
+   "diff",
+   "nor_gl",
+   "rough"
+  ],
+  "name": "Clay Plaster",
+  "note": "downscaled to 1k by city-art: tiling architecture, not hero textures",
+  "res": "1k",
+  "size_m": [
+   1.9999996423721313,
+   1.9999996423721313
+  ],
+  "source": "polyhaven"
+ },
+ "clay_roof_tiles_02": {
+  "licence": "CC0",
+  "maps": [
+   "diff",
+   "nor_gl",
+   "rough"
+  ],
+  "name": "Clay Roof Tiles 02",
+  "note": "downscaled to 1k by city-art: tiling architecture, not hero textures",
+  "res": "1k",
+  "size_m": [
+   2.5,
+   2.5
+  ],
+  "source": "polyhaven"
+ },
+ "concrete_panels": {
+  "licence": "CC0",
+  "maps": [
+   "diff",
+   "nor_gl",
+   "rough"
+  ],
+  "name": "Concrete Panels",
+  "note": "downscaled to 1k by city-art: tiling architecture, not hero textures",
+  "res": "1k",
+  "size_m": [
+   8.0,
+   8.0
+  ],
+  "source": "polyhaven"
+ },
+ "metal_plate": {
+  "licence": "CC0",
+  "maps": [
+   "diff",
+   "nor_gl",
+   "rough"
+  ],
+  "name": "Metal Plate",
+  "note": "downscaled to 1k by city-art: tiling architecture, not hero textures",
+  "res": "1k",
+  "size_m": [
+   0.5,
+   0.5
+  ],
+  "source": "polyhaven"
+ }
+}

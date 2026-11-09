@@ -1,0 +1,132 @@
+{
+ "id": "f03",
+ "band": "industrial",
+ "districts": [
+  "D6"
+ ],
+ "archetypes": [
+  "industrial"
+ ],
+ "tags": [
+  "pipe_rack"
+ ],
+ "tileable": true,
+ "glb": "f03/f03.glb",
+ "tris": 20000,
+ "budget": 20000,
+ "tex": 1024,
+ "size": [
+  2.909,
+  23.425,
+  8.0
+ ],
+ "footprint": [
+  2.91,
+  23.42
+ ],
+ "aspect": 1.0319,
+ "parts_kept": 1,
+ "parts_dropped": 0,
+ "look": {
+  "neon_pct": 0.45,
+  "interior_pct": 0.0,
+  "emit_off": 1,
+  "wall_px": 22594,
+  "wall_pct": 2.15,
+  "top_px": 9480,
+  "top_pct": 0.9,
+  "emit_masked_pct": 22.02,
+  "luma_before": 0.3705,
+  "luma_after": 0.2192,
+  "gain": 0.567,
+  "pane_before": 0.0,
+  "pane_after": 0.0,
+  "pane_carved": 0.0,
+  "wall_luma": 0.22610200941562653,
+  "rough_before": 0.384,
+  "rough_after": 0.721,
+  "metal_before": 0.102,
+  "metal_after": 0.102,
+  "normal_flat_pct": 22.02,
+  "orm_flat_pct": 22.02,
+  "walls": 4,
+  "pane_pct": 0.0,
+  "pane_px": 0,
+  "uv_px": 646,
+  "wall_m2": 29.6,
+  "texel_m2": 0.0459,
+  "small_pct": 100.0,
+  "pruned_pct": 100.0,
+  "side": 512,
+  "wall_area_pct": 42.34,
+  "top_area_pct": 34.28
+ },
+ "weld": 0.0,
+ "open_edges": 25,
+ "custom_normals_cleared": 1,
+ "planar": {
+  "planar_pct": 30.01,
+  "regions": 46,
+  "faces_moved": 1457,
+  "verts_moved": 1457,
+  "max_move_m": 0.2167,
+  "regions_rejected": 7352,
+  "verts_skipped": 17,
+  "planes_found": 77
+ },
+ "plane_normals": {
+  "plane_area_pct": 32.38,
+  "plane_face_pct": 10.77,
+  "plane_regions": 54,
+  "dev_m": 0.5
+ },
+ "file_kb": 2939,
+ "lod": {
+  "glb": "f03/f03_lod.glb",
+  "tris": 10122,
+  "file_kb": 1908,
+  "reshaded": 1,
+  "plane_normals": {
+   "plane_area_pct": 36.27,
+   "plane_face_pct": 4.73,
+   "plane_regions": 83,
+   "dev_m": 0.5
+  }
+ },
+ "far": {
+  "glb": "f03/f03_far.glb",
+  "tris": 13991,
+  "tex": 256,
+  "file_kb": 1778,
+  "open_before": 29,
+  "open_after": 43,
+  "holes_filled": 0,
+  "tear": 1.483,
+  "gate": {
+   "holes": 0.0,
+   "views": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "detail": 0.0,
+   "limit": 0.02,
+   "pass": true
+  }
+ },
+ "roof": {
+  "cell_m": 2.0,
+  "nx": 2,
+  "ny": 12,
+  "origin": [
+   -1.455,
+   -11.712
+  ],
+  "z0": 0.0,
+  "z_span": 8.0,
+  "flat_deg": 15.0,
+  "h": "7QDtAO0A7QDtAO0A7QDtAO0A7QDtAOAA",
+  "flat": "/wD/AP8A/wD/AP8A/wD/AP8A/wD/AAAA"
+ }
+}

@@ -1,0 +1,7 @@
+{
+  "_doc": "shot 1 — cold open: a low push in on the Tianshu's head and cockpit, angled up so the dusk sky is the backdrop instead of the deck. Camera NORTH-WEST of the hero (sun behind it).",
+  "keys": [
+    {"t": 0.0, "pos": [-584, 6.5, 582], "look_hero": [0, 11, 0], "fov": 42},
+    {"t": 4.5, "pos": [-573, 9.0, 589], "look_hero": [0, 12, 0], "fov": 32}
+  ]
+}

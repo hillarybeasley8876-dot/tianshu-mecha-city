@@ -1,0 +1,664 @@
+{
+ "units": {
+  "hud": [
+   {
+    "id": "1_combat",
+    "note": "flight cue, third person + canopy",
+    "argv": [
+     "tools/godot.sh",
+     "shot",
+     "--scene=res://ui/tests/hud_shots.tscn",
+     "--out=hud_r6_combat",
+     "--hud=combat",
+     "--sandbox",
+     "--skip-menu",
+     "--god",
+     "--enemies=mantis:3,ripper:3,spitter:1",
+     "--times=1.7,3.2,4.7,6.2,7.7,9.2,10.7,12.2,13.7"
+    ]
+   },
+   {
+    "id": "2_menus",
+    "note": "every menu page, credits + licences both ends",
+    "argv": [
+     "tools/godot.sh",
+     "shot",
+     "--scene=res://ui/tests/hud_shots.tscn",
+     "--out=hud_r6_menus",
+     "--hud=menus",
+     "--sandbox",
+     "--skip-menu",
+     "--god",
+     "--no-enemies",
+     "--times=1.7,3.2,4.7,6.2,7.7,9.2,10.7,12.2,13.7,15.2,16.7,18.2"
+    ]
+   },
+   {
+    "id": "3_title",
+    "note": "the real title path on screen",
+    "argv": [
+     "tools/godot.sh",
+     "shot",
+     "--scene=res://ui/tests/hud_shots.tscn",
+     "--out=hud_r6_title",
+     "--hud=title",
+     "--god",
+     "--times=3,9,14,16,17.5,19,20.5,22,23.5,25,26.5,28,29.5,31"
+    ]
+   },
+   {
+    "id": "4_flight",
+    "note": "the real flight strip (cue vs flying=true)",
+    "argv": [
+     "tools/godot.sh",
+     "drive",
+     "--sandbox",
+     "--timeline=res://player/mech/timelines/flight.json",
+     "--out=hud_r6_flight",
+     "--shots=0.9,2.2,3.6,4.9,5.9,7.4,8.8,10.2,11.2",
+     "--log=$HOME/m/mecha-city/tmp/hud/r6_flight.csv"
+    ]
+   }
+  ],
+  "melee-defense": [
+   {
+    "id": "A_front34",
+    "note": "block / catch / parry, 3-4 front",
+    "argv": [
+     "tools/godot.sh",
+     "drive",
+     "--timeout=600",
+     "--scene=res://combat/melee/tests/melee_range.tscn",
+     "--nocam",
+     "--cam=22,14,-20,-2,11,-5,45",
+     "--timeline=res://combat/melee/tests/timeline_guard_r7.json",
+     "--shots=1.82,6.35,8.88",
+     "--autoshot",
+     "--out=melee_r7_front34"
+    ]
+   },
+   {
+    "id": "B_side",
+    "note": "the same three beats, side on",
+    "argv": [
+     "tools/godot.sh",
+     "drive",
+     "--timeout=600",
+     "--scene=res://combat/melee/tests/melee_range.tscn",
+     "--nocam",
+     "--cam=28,13,-4,-3,11,-4,45",
+     "--timeline=res://combat/melee/tests/timeline_guard_r7.json",
+     "--shots=1.82,6.35,8.88",
+     "--autoshot",
+     "--out=melee_r7_side"
+    ]
+   },
+   {
+    "id": "C_close",
+    "note": "tight shot of the shield (interior transparency)",
+    "argv": [
+     "tools/godot.sh",
+     "drive",
+     "--timeout=600",
+     "--scene=res://combat/melee/tests/melee_range.tscn",
+     "--nocam",
+     "--cam=12,12,-14,-3,11,-5,38",
+     "--timeline=res://combat/melee/tests/timeline_guard_r7.json",
+     "--shots=1.82,6.35,8.88",
+     "--autoshot",
+     "--out=melee_r7_close"
+    ]
+   },
+   {
+    "id": "D_mantis",
+    "note": "a real mantis, blocking and parrying (9 beats)",
+    "argv": [
+     "tools/godot.sh",
+     "drive",
+     "--timeout=900",
+     "--scene=res://combat/melee/tests/integration.tscn",
+     "--sandbox",
+     "--enemies=mantis:2,ripper:6",
+     "--timeline=res://combat/melee/tests/timeline_integration.json",
+     "--nan-watch",
+     "--out=melee_r7_int"
+    ]
+   },
+   {
+    "id": "E_movie",
+    "note": "the guard reel (optional)",
+    "argv": [
+     "tools/godot.sh",
+     "movie",
+     "--timeout=900",
+     "--movie=$PWD/captures/melee_r7_guard.avi",
+     "--scene=res://combat/melee/tests/melee_range.tscn",
+     "--nocam",
+     "--cam=22,14,-20,-2,11,-5,45",
+     "--timeline=res://combat/melee/tests/timeline_guard_r7.json"
+    ]
+   }
+  ],
+  "weapons": [
+   {
+    "id": "1_fp_gatling",
+    "note": "first-person gatling burst, post-r6 (the before half needs a checkout)",
+    "argv": [
+     "tools/godot.sh",
+     "drive",
+     "--scene=res://trailer/shot.tscn",
+     "--timeline=res://trailer/tl_c_fp.json",
+     "--skip-menu",
+     "--god",
+     "--tod=0.6",
+     "--stub=flow",
+     "--spawn=-540,10,570,45",
+     "--trailer-pack=30,ripper:4,mantis:1",
+     "--trailer-hud=1",
+     "--out=weapons_r6_fp",
+     "--shots=3.4,3.8,4.4,5.0,5.6"
+    ]
+   },
+   {
+    "id": "2_tp_gatling",
+    "note": "third-person control at the same spot",
+    "argv": [
+     "tools/godot.sh",
+     "drive",
+     "--scene=res://trailer/shot.tscn",
+     "--timeline=res://trailer/tl_c_gatling.json",
+     "--skip-menu",
+     "--god",
+     "--tod=0.6",
+     "--stub=flow",
+     "--spawn=-540,10,570,45",
+     "--trailer-pack=30,ripper:4,mantis:1",
+     "--trailer-hud=1",
+     "--out=weapons_r6_tp",
+     "--shots=2.2,2.6,3.0,3.4"
+    ]
+   },
+   {
+    "id": "3_fp_kit",
+    "note": "first-person Hailstorm salvo",
+    "argv": [
+     "tools/godot.sh",
+     "drive",
+     "--scene=res://trailer/shot.tscn",
+     "--timeline=res://combat/weapons/tests/timeline_fp_kit.json",
+     "--skip-menu",
+     "--god",
+     "--tod=0.6",
+     "--stub=flow",
+     "--spawn=-540,10,570,45",
+     "--trailer-pack=30,ripper:4,mantis:1",
+     "--trailer-hud=1",
+     "--out=weapons_r6_kit",
+     "--shots=2.7,4.75,6.2,8.75,9.1"
+    ]
+   },
+   {
+    "id": "4_movie",
+    "note": "the 60 fps first-person movie",
+    "argv": [
+     "tools/godot.sh",
+     "movie",
+     "--movie=$PWD/captures/weapons_r6_fp.avi",
+     "--scene=res://trailer/shot.tscn",
+     "--timeline=res://combat/weapons/tests/timeline_fp_kit.json",
+     "--skip-menu",
+     "--god",
+     "--tod=0.6",
+     "--stub=flow",
+     "--spawn=-540,10,570,45",
+     "--trailer-pack=30,ripper:4,mantis:1",
+     "--trailer-hud=1"
+    ]
+   }
+  ],
+  "hero-v3": [
+   {
+    "id": "plume_behind",
+    "note": "the plume close-ups from behind",
+    "argv": [
+     "tools/godot.sh",
+     "drive",
+     "--scene=res://player/model/hero3/tests/hero3_city_shot.tscn",
+     "--timeline=res://player/model/hero3/tests/timeline_plume.json",
+     "--shots=3.0,6.4,10.6,15.0",
+     "--out=hero3_r10_plume_behind",
+     "--shots-dir=$HOME/m/mecha-city/captures",
+     "--side=0",
+     "--dist=15",
+     "--height=6",
+     "--look=5.5",
+     "--stub=camera,flow,hud",
+     "--sandbox",
+     "--skip-menu",
+     "--no-enemies",
+     "--god",
+     "--nan-watch"
+    ]
+   },
+   {
+    "id": "plume_side",
+    "note": "the same take from the side",
+    "argv": [
+     "tools/godot.sh",
+     "drive",
+     "--scene=res://player/model/hero3/tests/hero3_city_shot.tscn",
+     "--timeline=res://player/model/hero3/tests/timeline_plume.json",
+     "--shots=3.0,6.4,10.6,15.0",
+     "--out=hero3_r10_plume_side",
+     "--shots-dir=$HOME/m/mecha-city/captures",
+     "--side=90",
+     "--dist=15",
+     "--height=6",
+     "--look=5.5",
+     "--stub=camera,flow,hud",
+     "--sandbox",
+     "--skip-menu",
+     "--no-enemies",
+     "--god",
+     "--nan-watch"
+    ]
+   }
+  ],
+  "mech-move": [
+   {
+    "id": "0_kerb",
+    "note": "r8: the 2 m kerb climb, windowed",
+    "argv": [
+     "tools/godot.sh",
+     "drive",
+     "--timeout=900",
+     "--sandbox",
+     "--timeline=res://player/mech/timelines/kerb.json",
+     "--out=mech-move_kerb",
+     "--shots=2.2,2.5,2.8,3.1,3.4,3.7,4.0,4.4"
+    ]
+   },
+   {
+    "id": "1_death",
+    "note": "the death probe at the district checkpoint",
+    "argv": [
+     "tools/godot.sh",
+     "drive",
+     "--timeout=1500",
+     "--scene=res://player/mech/tests/death_probe.tscn",
+     "--timeline=res://player/mech/tests/death_probe_end.json",
+     "--skip-menu",
+     "--out=mech-move_death"
+    ]
+   },
+   {
+    "id": "2_death_stub",
+    "note": "the same probe with the menus stubbed out",
+    "argv": [
+     "tools/godot.sh",
+     "drive",
+     "--timeout=1500",
+     "--scene=res://player/mech/tests/death_probe.tscn",
+     "--timeline=res://player/mech/tests/death_probe_end.json",
+     "--skip-menu",
+     "--stub=hud",
+     "--out=mech-move_death_stub"
+    ]
+   },
+   {
+    "id": "3_sheet",
+    "note": "item 10: the death capture sheet",
+    "raw": "python3 tools/trailer/batch_death_sheet.py"
+   }
+  ],
+  "flow": [
+   {
+    "id": "1_collapse",
+    "note": "the three hive collapses on film, 8 frames each (slot timeout added: the pool default of 600 s killed the run)",
+    "argv": [
+     "tools/godot.sh",
+     "drive",
+     "--timeout=1500",
+     "--timeline=res://flow/tests/collapse_film_drive.json",
+     "--skip-menu",
+     "--god",
+     "--nan-watch",
+     "--flow-script=res://flow/tests/collapse_film.json",
+     "--out=flow_r5b_collapse"
+    ]
+   },
+   {
+    "id": "2_collapse_movie",
+    "note": "the same three collapses as a movie",
+    "argv": [
+     "tools/godot.sh",
+     "movie",
+     "--movie=$HOME/m/mecha-city/captures/flow_r5b_collapse.avi",
+     "--timeline=res://flow/tests/collapse_film_drive.json",
+     "--skip-menu",
+     "--god",
+     "--nan-watch",
+     "--flow-script=res://flow/tests/collapse_film.json",
+     "--out=flow_r5b_movie"
+    ]
+   },
+   {
+    "id": "3_city",
+    "note": "the whole city run, 17 captures (slot timeout added: the pool default of 600 s killed the run)",
+    "argv": [
+     "tools/godot.sh",
+     "drive",
+     "--timeout=1500",
+     "--timeline=res://flow/tests/e2e_city_drive.json",
+     "--skip-menu",
+     "--god",
+     "--nan-watch",
+     "--spire-hp-scale=0.05",
+     "--flow-script=res://flow/tests/e2e_city.json",
+     "--out=flow_r5b_city"
+    ]
+   },
+   {
+    "id": "4_assault",
+    "note": "the bot's real-kit assault, hive 2, 150 s (slot timeout added: the pool default of 600 s killed the run)",
+    "argv": [
+     "tools/godot.sh",
+     "drive",
+     "--timeout=900",
+     "--timeline=res://flow/tests/assault_city_drive.json",
+     "--skip-menu",
+     "--god",
+     "--nan-watch",
+     "--spire-hp-scale=0.05",
+     "--flow-script=res://flow/tests/assault_city.json",
+     "--out=flow_r5b_assault"
+    ]
+   }
+  ],
+  "enemies": [
+   {
+    "id": "r12_1_search",
+    "note": "r12: the LOS search and the walk home",
+    "argv": [
+     "tools/godot.sh",
+     "drive",
+     "--scene=res://enemies/tests/fight_probe.tscn",
+     "--timeline=res://enemies/tests/fight_timeline.json",
+     "--out=enemies_r12_search",
+     "--shots=6,14,22,30",
+     "--sandbox",
+     "--stub=hud",
+     "--nan-watch",
+     "--probe-cam=follow",
+     "--enemies=ripper:6,mantis:2,spitter:2,harrier:2,juggernaut:1"
+    ]
+   },
+   {
+    "id": "r12_2_movie",
+    "note": "the same fight as a movie",
+    "argv": [
+     "tools/godot.sh",
+     "movie",
+     "--movie=$HOME/m/mecha-city/captures/enemies_r12_search.avi",
+     "--scene=res://enemies/tests/fight_probe.tscn",
+     "--timeline=res://enemies/tests/fight_timeline.json",
+     "--sandbox",
+     "--stub=hud",
+     "--probe-cam=follow",
+     "--enemies=ripper:6,mantis:2,spitter:2,harrier:2,juggernaut:1"
+    ]
+   },
+   {
+    "id": "1_spawn",
+    "note": "the spawn probe: 10 trials, no flinging",
+    "argv": [
+     "tools/godot.sh",
+     "drive",
+     "--scene=res://enemies/tests/spawn_probe.tscn",
+     "--timeline=res://enemies/tests/spawn_probe.json",
+     "--sandbox",
+     "--god",
+     "--quality=low"
+    ]
+   },
+   {
+    "id": "2_fight",
+    "note": "the r11 fight: stills at 14/24/34 + near-miss lines",
+    "argv": [
+     "tools/godot.sh",
+     "drive",
+     "--scene=res://enemies/tests/fight_probe.tscn",
+     "--timeline=res://enemies/tests/fight_timeline.json",
+     "--out=enemies_r11",
+     "--shots=14,24,34",
+     "--sandbox",
+     "--stub=hud",
+     "--nan-watch",
+     "--enemies=ripper:8,mantis:2,spitter:2,harrier:2,juggernaut:1"
+    ]
+   },
+   {
+    "id": "3_near_miss",
+    "note": "the near-miss movie (harrier strafes)",
+    "argv": [
+     "tools/godot.sh",
+     "movie",
+     "--movie=$HOME/m/mecha-city/captures/enemies_r11_near_miss.avi",
+     "--scene=res://enemies/tests/fight_probe.tscn",
+     "--timeline=res://enemies/tests/fight_timeline.json",
+     "--sandbox",
+     "--stub=hud",
+     "--enemies=harrier:2,spitter:2"
+    ]
+   }
+  ],
+  "feel": [
+   {
+    "id": "1_gallery_movie",
+    "note": "the 49-row gallery movie",
+    "argv": [
+     "tools/godot.sh",
+     "movie",
+     "--movie=/Users/minimax/m/mecha-city/captures/feel_gallery.avi",
+     "--movie-size=1600x900",
+     "--scene=res://fx/tests/feel_gallery.tscn",
+     "--timeline=res://fx/tests/gallery_timeline.json"
+    ]
+   },
+   {
+    "id": "2_gallery_stills",
+    "note": "98 stills: frame 1 and 4 of every gallery row",
+    "argv": [
+     "tools/godot.sh",
+     "drive",
+     "--scene=res://fx/tests/feel_gallery.tscn",
+     "--timeline=res://fx/tests/gallery_timeline.json",
+     "--fx-stills=1"
+    ]
+   },
+   {
+    "id": "3_swarm_movie",
+    "note": "the swarm movie (r5 item 1)",
+    "argv": [
+     "tools/godot.sh",
+     "movie",
+     "--movie=$PWD/captures/feel_r5_swarm.avi",
+     "--movie-size=1600x900",
+     "--scene=res://fx/tests/swarm_feel.tscn",
+     "--timeline=res://fx/tests/swarm_timeline.json",
+     "--sandbox",
+     "--skip-menu",
+     "--no-enemies",
+     "--god"
+    ]
+   },
+   {
+    "id": "4_skate",
+    "note": "NEW item 4: the skate sparks and dust",
+    "raw": "TRAILER_SIZE=1600x900 tools/trailer/record.sh $PWD/captures/feel_r5b_skate.avi res://trailer/tl_c_gatling.json --scene=res://trailer/shot.tscn --trailer-rig=res://trailer/rig_c_low.json --skip-menu --god --tod=0.6 --stub=flow"
+   }
+  ],
+  "monster-assets": [
+   {
+    "id": "1_charge",
+    "note": "the juggernaut charge_run, 3-4 front",
+    "argv": [
+     "tools/godot.sh",
+     "shot",
+     "--scene=res://enemies/models/tests/model_gallery.tscn",
+     "--out=monsters_r6_charge",
+     "--cams=charge:40,13,-40:40,10,0:42",
+     "--warm=120",
+     "--gallery-gait=juggernaut:20"
+    ]
+   },
+   {
+    "id": "1b_charge_side",
+    "note": "the same cycle, side on",
+    "argv": [
+     "tools/godot.sh",
+     "shot",
+     "--scene=res://enemies/models/tests/model_gallery.tscn",
+     "--out=monsters_r6_charge_side",
+     "--cams=charge_side:0,11,-46:0,9,0:42",
+     "--warm=120",
+     "--gallery-gait=juggernaut:20"
+    ]
+   },
+   {
+    "id": "2_idle",
+    "note": "the juggernaut idle (+45 degree arm lift)",
+    "argv": [
+     "tools/godot.sh",
+     "shot",
+     "--scene=res://enemies/models/tests/model_gallery.tscn",
+     "--out=monsters_r6_idle",
+     "--cams=idle:40,13,-40:40,10,0:42;idle_side:0,11,-46:0,9,0:42",
+     "--warm=120",
+     "--gallery-clip=idle"
+    ]
+   },
+   {
+    "id": "3_lineup",
+    "note": "the whole line-up beside the 16 m hero placeholder",
+    "argv": [
+     "tools/godot.sh",
+     "shot",
+     "--scene=res://enemies/models/tests/model_gallery.tscn",
+     "--out=monsters_r6_lineup",
+     "--cams=lineup:40,45,-150:40,30,0:60",
+     "--warm=120"
+    ]
+   },
+   {
+    "id": "4_slam",
+    "note": "six-frame ground_slam strip",
+    "argv": [
+     "tools/godot.sh",
+     "shot",
+     "--scene=res://enemies/models/tests/model_gallery.tscn",
+     "--out=monsters_r6_slam",
+     "--times=0.2,0.5,0.8,1.1,1.4,1.7",
+     "--warm=120",
+     "--gallery-attack=juggernaut:ground_slam"
+    ]
+   },
+   {
+    "id": "5a_hive_intact",
+    "note": "the hive, intact",
+    "argv": [
+     "tools/godot.sh",
+     "shot",
+     "--scene=res://enemies/models/tests/model_gallery.tscn",
+     "--out=monsters_r6_hive_intact",
+     "--cams=hive:96,30,-95:96,26,0:45",
+     "--warm=120",
+     "--gallery-state=intact"
+    ]
+   },
+   {
+    "id": "5b_hive_cracked",
+    "note": "the hive, cracked",
+    "argv": [
+     "tools/godot.sh",
+     "shot",
+     "--scene=res://enemies/models/tests/model_gallery.tscn",
+     "--out=monsters_r6_hive_cracked",
+     "--cams=hive:96,30,-95:96,26,0:45",
+     "--warm=120",
+     "--gallery-state=cracked"
+    ]
+   },
+   {
+    "id": "5c_hive_destroyed",
+    "note": "the hive, destroyed",
+    "argv": [
+     "tools/godot.sh",
+     "shot",
+     "--scene=res://enemies/models/tests/model_gallery.tscn",
+     "--out=monsters_r6_hive_destroyed",
+     "--cams=hive:96,30,-95:96,26,0:45",
+     "--warm=120",
+     "--gallery-state=destroyed"
+    ]
+   },
+   {
+    "id": "5d_ingame",
+    "note": "a juggernaut in the sandbox under the dusk key",
+    "argv": [
+     "tools/godot.sh",
+     "shot",
+     "--scene=res://main.tscn",
+     "--sandbox",
+     "--skip-menu",
+     "--out=monsters_r6_ingame",
+     "--cams=juggernaut:34,12,-34:34,8,0:45",
+     "--warm=180",
+     "--enemies=juggernaut:1",
+     "--env-only"
+    ]
+   },
+   {
+    "id": "6_cycles_movie",
+    "note": "the cycles as a movie (foot slide, popping)",
+    "argv": [
+     "tools/godot.sh",
+     "movie",
+     "--movie=$PWD/captures/monsters_r6_cycles.avi",
+     "--scene=res://enemies/models/tests/model_gallery.tscn",
+     "--timeline=res://enemies/models/tests/gallery_timeline.json"
+    ]
+   }
+  ],
+  "audio": [
+   {
+    "id": "1_boss_movie",
+    "note": "the boss reel with the real mix",
+    "argv": [
+     "tools/godot.sh",
+     "movie",
+     "--movie=$PWD/captures/audio_r7_boss.avi",
+     "--timeline=res://audio/tests/timeline_reel.json",
+     "--scene=res://main.tscn",
+     "--sandbox",
+     "--skip-menu"
+    ]
+   },
+   {
+    "id": "2_fight_trace",
+    "note": "the r5 fight with --audio-trace",
+    "argv": [
+     "tools/godot.sh",
+     "drive",
+     "--timeline=res://audio/tests/timeline_fight_r5.json",
+     "--scene=res://main.tscn",
+     "--sandbox",
+     "--skip-menu",
+     "--enemies=juggernaut:1,mantis:2,ripper:5,spitter:1,harrier:1",
+     "--audio-trace",
+     "--nan-watch"
+    ]
+   }
+  ]
+ }
+}

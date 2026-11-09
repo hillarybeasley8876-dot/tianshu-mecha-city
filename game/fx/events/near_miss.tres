@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="FeelEvent" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://fx/feel_event.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = &"near_miss"
+trauma = 0.04
+kick_deg = 0.4
+kick_dir = Vector3(1, 0, 0)
+kick_seconds = 0.15
+audio = Array[StringName]([&"near_miss_flyby"])
+rumble_weak = 0.25
+rumble_ms = 60
+cooldown = 0.25

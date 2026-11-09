@@ -1,0 +1,6 @@
+{
+  "_doc": "gatling spin-up from deck level, looking up at the mech.",
+  "id": "low_gatling", "rig": "low", "kind": "combat", "from": 0.0, "to": 14.0,
+  "az": 225.0, "dist": 36.0, "height": -5.0,
+  "look": [0.0, 2.0, 0.0], "frame": [0.0, 0.0], "fov": 52.0, "min_bbox": 0.30
+}

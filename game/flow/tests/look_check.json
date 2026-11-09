@@ -1,0 +1,17 @@
+[
+ { "t": 1, "cmd": "god" },
+ { "t": 2, "cmd": "wait_state", "args": ["tutorial", 60] },
+ { "t": 4, "cmd": "clear_arena", "args": ["A1"] },
+ { "t": 6, "cmd": "wait_state", "args": ["district", 90] },
+ { "t": 40, "cmd": "approach_spire", "args": [2, 60, 25] },
+ { "t": 42, "cmd": "dump" },
+ { "t": 50, "cmd": "shot", "args": ["look_flow_pods"] },
+ { "t": 55, "cmd": "hurt_spire", "args": [2, 3500, "pod_0"] },
+ { "t": 58, "cmd": "shot", "args": ["look_flow_burst"] },
+ { "t": 62, "cmd": "hurt_spire", "args": [2, 3500, "pod_1"] },
+ { "t": 63, "cmd": "hurt_spire", "args": [2, 3500, "pod_2"] },
+ { "t": 64, "cmd": "hurt_spire", "args": [2, 3500, "pod_3"] },
+ { "t": 70, "cmd": "shot", "args": ["look_flow_core"] },
+ { "t": 74, "cmd": "state" },
+ { "t": 76, "cmd": "report" }
+]

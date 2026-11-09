@@ -1,0 +1,22 @@
+[
+ { "t": 1.0,  "cmd": "state" },
+ { "t": 13.0, "cmd": "state" },
+ { "t": 24.0, "cmd": "clear_arena", "args": ["sandbox"] },
+ { "t": 26.0, "cmd": "teleport", "args": [-220.0, 47.5, -8.0, 0.0] },
+ { "t": 26.5, "cmd": "look_at", "args": [-220.0, 62.0, -40.0] },
+ { "t": 31.0, "cmd": "hurt_spire", "args": [0, 3500.0, "pod_0"] },
+ { "t": 33.0, "cmd": "hurt_spire", "args": [0, 3500.0, "pod_1"] },
+ { "t": 36.0, "cmd": "hurt_spire", "args": [0, 3500.0, "pod_2"] },
+ { "t": 39.0, "cmd": "hurt_spire", "args": [0, 3500.0, "pod_3"] },
+ { "t": 41.0, "cmd": "look_at", "args": [-220.0, 80.0, -40.0] },
+ { "t": 42.0, "cmd": "hurt_spire", "args": [0, 6000.0, "core"] },
+ { "t": 48.0, "cmd": "teleport", "args": [-260.0, 19.5, 250.0, 0.0] },
+ { "t": 48.5, "cmd": "look_at", "args": [-260.0, 50.0, 300.0] },
+ { "t": 50.0, "cmd": "kill_spire", "args": [1] },
+ { "t": 56.0, "cmd": "teleport", "args": [120.0, 7.5, 60.0, 0.0] },
+ { "t": 56.5, "cmd": "look_at", "args": [185.0, 20.0, 0.0] },
+ { "t": 58.0, "cmd": "kill_spire", "args": [2] },
+ { "t": 62.0, "cmd": "state" },
+ { "t": 64.0, "cmd": "teleport", "args": [0.0, 8.0, 120.0, 0.0] },
+ { "t": 64.5, "cmd": "look_at", "args": [0.0, 200.0, 0.0] }
+]

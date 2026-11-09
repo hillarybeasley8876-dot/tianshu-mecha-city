@@ -1,0 +1,8 @@
+{
+  "_doc": "shot 3 — drop-in: a 45 m fall onto the Insertion Pier. A low camera 58 m SOUTH of the landing point looks up at the falling mech against the skyline and the Spire beam, holds through the impact so the debris comes at the lens, then pushes in. r6: the lens used to sit north-west, where a flat orange megablock facade filled two thirds of the frame for the whole fall and the impact (lead r6 item 3); the bearing was picked from a rendered 6-bearing sweep about the landing point (tools/trailer/rig_sweep.py --cam-bearings), and 240 deg is the arm where the city reads behind the mech at both the fall and the landing.",
+  "keys": [
+    {"t": 0.0, "pos": [-561.0, 6, 658.3], "look_hero": [0, 0, 0], "fov": 48, "ease": 0},
+    {"t": 1.2, "pos": [-561.0, 6, 658.3], "look_hero": [0, 0, 0], "fov": 48, "ease": 0},
+    {"t": 4.8, "pos": [-559.0, 8, 631.7], "look_hero": [0, 1, 0], "fov": 42}
+  ]
+}

@@ -1,0 +1,15 @@
+[
+ { "t": 0.0,  "look_rate": [0, 0] },
+ { "t": 0.4,  "tap": ["lock_on"] },
+ { "t": 1.1,  "tap": ["melee"] },
+ { "t": 1.6,  "tap": ["melee"] },
+ { "t": 2.1,  "tap": ["melee"] },
+ { "t": 2.9,  "press": ["melee"] },
+ { "t": 4.1,  "release": ["melee"] },
+ { "t": 4.8,  "tap": ["boost"] },
+ { "t": 5.4,  "tap": ["melee"] },
+ { "t": 6.2,  "press": ["missiles"] },
+ { "t": 7.6,  "release": ["missiles"] },
+ { "t": 8.4,  "tap": ["melee"] },
+ { "t": 9.5,  "end": true }
+]

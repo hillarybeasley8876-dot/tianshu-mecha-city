@@ -1,0 +1,5 @@
+[
+ { "t": 6.0,  "press": ["ui_accept"] },
+ { "t": 10.0, "press": ["ui_accept"] },
+ { "t": 34.0, "end": true }
+]

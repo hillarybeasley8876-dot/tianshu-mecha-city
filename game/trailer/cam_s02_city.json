@@ -1,0 +1,7 @@
+{
+  "_doc": "shot 2 — the city at dusk: a slow crane up from the Old Town terraces toward the Spire beam. The camera sits NORTH-WEST of the Spire so the low sun (azimuth 315) is behind it; the rise is deliberately small so the dark terraces stay in the foreground and the lit towers keep their contrast.",
+  "keys": [
+    {"t": 0.0, "pos": [-636.9, 64, -372.6], "look": [0, 140, -200], "fov": 52},
+    {"t": 6.0, "pos": [-622.0, 96, -362.0], "look": [0, 158, -185], "fov": 48}
+  ]
+}

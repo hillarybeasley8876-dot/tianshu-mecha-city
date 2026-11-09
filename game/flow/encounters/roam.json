@@ -1,0 +1,48 @@
+{
+  "packs": [
+    {
+      "id": "roam_ripper_pack",
+      "type": "ripper",
+      "count": 5,
+      "min_spires": 0,
+      "first_delay": 40.0,
+      "interval": 55.0,
+      "min_range": 170.0,
+      "max_range": 300.0,
+      "max_alive": 12
+    },
+    {
+      "id": "roam_mantis_pair",
+      "type": "mantis",
+      "count": 2,
+      "min_spires": 1,
+      "first_delay": 70.0,
+      "interval": 90.0,
+      "min_range": 180.0,
+      "max_range": 280.0,
+      "max_alive": 4
+    },
+    {
+      "id": "roam_harrier_patrol",
+      "type": "harrier",
+      "count": 2,
+      "min_spires": 1,
+      "first_delay": 55.0,
+      "interval": 80.0,
+      "min_range": 220.0,
+      "max_range": 380.0,
+      "max_alive": 4
+    },
+    {
+      "id": "roam_spitter_nest",
+      "type": "spitter",
+      "count": 2,
+      "min_spires": 2,
+      "first_delay": 95.0,
+      "interval": 110.0,
+      "min_range": 200.0,
+      "max_range": 300.0,
+      "max_alive": 4
+    }
+  ]
+}

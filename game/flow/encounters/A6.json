@@ -1,0 +1,49 @@
+{
+  "arena": "A6",
+  "label": "空中花园 SKY GARDEN",
+  "music": 0.8,
+  "waves": [
+    {
+      "id": "A6_w1",
+      "start": { "kind": "on_enter" },
+      "groups": [
+        { "type": "harrier", "count": 3, "socket": "A6_sp1" },
+        { "type": "ripper", "count": 5, "socket": "A6_sp4", "escalate": true }
+      ]
+    },
+    {
+      "id": "A6_w2",
+      "start": { "kind": "previous_half" },
+      "groups": [
+        { "type": "spitter", "count": 3, "socket": "A6_sp2" },
+        { "type": "ripper", "count": 6, "socket": "A6_sp3", "escalate": true }
+      ]
+    },
+    {
+      "id": "A6_w3",
+      "start": { "kind": "previous_half" },
+      "groups": [
+        { "type": "harrier", "count": 4, "socket": "A6_sp1" },
+        { "type": "mantis", "count": 2, "socket": "A6_sp4" }
+      ]
+    },
+    {
+      "id": "A6_w4",
+      "start": { "kind": "timer", "delay": 9.0 },
+      "groups": [
+        { "type": "spitter", "count": 3, "socket": "A6_sp2" },
+        { "type": "harrier", "count": 3, "socket": "A6_sp3" },
+        { "type": "ripper", "count": 6, "socket": "A6_sp4", "escalate": true }
+      ]
+    },
+    {
+      "id": "A6_w5",
+      "start": { "kind": "previous_cleared" },
+      "groups": [
+        { "type": "juggernaut", "count": 1, "socket": "A6_sp3" },
+        { "type": "harrier", "count": 4, "socket": "A6_sp1" },
+        { "type": "mantis", "count": 2, "socket": "A6_sp2" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+[gd_resource type="Resource" script_class="FeelEvent" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://fx/feel_event.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = &"kill_small"
+hitstop_kind = 1
+hitstop_seconds = 0.04
+trauma = 0.12
+flash_color = Color(1, 1, 1, 0.15)
+flash_frames = 1
+vfx = Array[StringName]([&"kill_small", &"debris"])
+vfx_scale = 1.0
+decal = &"scorch"
+light_color = Color(1, 0.54, 0.17, 1)
+light_energy = 6.0
+light_range = 12.0
+light_frames = 3
+audio = Array[StringName]([&"kill_small_body", &"kill_small_debris", &"ui_kill_confirm"])
+rumble_weak = 0.3
+rumble_strong = 0.3
+rumble_ms = 100
+falloff = 120.0
+cooldown = 0.05

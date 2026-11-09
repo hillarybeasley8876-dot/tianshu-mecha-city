@@ -1,0 +1,122 @@
+{
+ "id": "l01",
+ "band": "megablock",
+ "districts": [
+  "D5",
+  "D2"
+ ],
+ "archetypes": [
+  "megablock",
+  "slab"
+ ],
+ "tags": [
+  "long"
+ ],
+ "tileable": false,
+ "glb": "l01/l01.glb",
+ "tris": 40000,
+ "budget": 40000,
+ "tex": 1024,
+ "size": [
+  22.397,
+  145.874,
+  64.0
+ ],
+ "footprint": [
+  22.4,
+  145.87
+ ],
+ "aspect": 0.8931,
+ "parts_kept": 1,
+ "parts_dropped": 0,
+ "look": {
+  "neon_pct": 0.85,
+  "interior_pct": 0.03,
+  "wall_px": 196767,
+  "wall_pct": 18.77,
+  "top_px": 99284,
+  "top_pct": 9.47,
+  "emit_masked_pct": 59.35,
+  "luma_before": 0.4984,
+  "luma_after": 0.3183,
+  "gain": 0.602,
+  "pane_before": 0.0,
+  "pane_after": 0.0,
+  "pane_carved": 4.58,
+  "wall_luma": 0.26030248403549194,
+  "rough_before": 0.522,
+  "rough_after": 0.785,
+  "metal_before": 0.02,
+  "metal_after": 0.02,
+  "normal_flat_pct": 59.35,
+  "orm_flat_pct": 59.35,
+  "walls": 1020,
+  "pane_pct": 4.58,
+  "pane_px": 47993,
+  "uv_px": 198379,
+  "wall_m2": 20400.4,
+  "texel_m2": 0.1028,
+  "small_pct": 9.56,
+  "pruned_pct": 9.56,
+  "side": 1024,
+  "wall_area_pct": 66.15,
+  "top_area_pct": 29.07
+ },
+ "weld": 0.0,
+ "open_edges": 17,
+ "custom_normals_cleared": 1,
+ "planar": {
+  "planar_pct": 62.7,
+  "regions": 90,
+  "faces_moved": 5823,
+  "verts_moved": 5823,
+  "max_move_m": 0.3358,
+  "regions_rejected": 4630,
+  "verts_skipped": 308,
+  "planes_found": 90
+ },
+ "plane_normals": {
+  "plane_area_pct": 85.91,
+  "plane_face_pct": 48.16,
+  "plane_regions": 1913,
+  "dev_m": 1.459
+ },
+ "win": "l01/l01_win.png",
+ "file_kb": 4590,
+ "far": {
+  "glb": "l01/l01_far.glb",
+  "tris": 3998,
+  "tex": 256,
+  "file_kb": 581,
+  "open_before": 17,
+  "open_after": 34,
+  "holes_filled": 0,
+  "tear": 2.0,
+  "gate": {
+   "holes": 0.0,
+   "views": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "detail": 0.0,
+   "limit": 0.02,
+   "pass": true
+  }
+ },
+ "roof": {
+  "cell_m": 2.0,
+  "nx": 12,
+  "ny": 73,
+  "origin": [
+   -11.198,
+   -72.937
+  ],
+  "z0": 0.0,
+  "z_span": 64.0,
+  "flat_deg": 15.0,
+  "h": "zMzMzMvLx8fHAAAAzMzMy8vL0NHQuQAAzMzLy8vLx8fHuwAAzMvLy8vLx8fLvAAAzMvLy8vLx8fLAAAAy8vLy8vLx8fLAAAAy8vLy8vLx8fLAAAAy8vLy8vLx8fLAAAAy8vLy8vLx9HLvQAAy8vLy8vLx9HLvQAAy8vLy8vLx8fLvAAAy8vLy8vLx8fLAAAAy8vLy8vLx8fLAAAAy8vLy8vLx8fLvAAAy8vLy8vLx8fLvQAAy8vLy8vT08fLvQAAy8vLy8vT08fLvQAAy8vLy8vLx8fMvQAA29vb29vb29vb230A29vl29vb29vu2wAA29vl29vb29vb26oAy8vLy8vMx8fL2wAAy8vLy8vLx8fLvQAAy8vLy8vLx8fLvQAAy8vLy8vLx8fLPAAAy8vLy8vLx8fLAAAAy8vLy8vLx8fLAAAAy8vLy8vLx8fLuwAAy8vLy8vLx8fLuwAAy8vLy8vLx8fLuQAAy8vLy8vLx8fLAAAAy8vLy8vLx8fLAAAAy8vLy8vLx9LLkgAAy8vLy8vLx9LLuwAAy8vLy8vLx8fLuwAAy8vLy8vLx8fLAAAAy8vLy8vLx8fLAAAAy8vLy8vLx8fLAAAAy8vLy8vLx8fLAAAAy8vLy8vLx9LKvQAAy8vLy8vLx8fKvQAAy8vLy8vLx8fKvQAAy8vLy8vKxsbKvQAAy8vLy8vKxsbLcQAAy8vLy8rKxsbKAAAAy8vLysrKxsbKAAAAy8vKysrKxsbKYwAAy8rKysrKxsbKuwAAy8rKysrKxsbKuwAAysrKysrS0sbKvQAAysrKysrS0sbKvQAAysrKysrKxsbJvQAA2trj2tra2trl2gAA2trj2tra2tri2gAA2tra2tra2tra2gAAysrKysrKxsbKAAAAysrKysrS0sbJAAAAysrKysrS0sbKpgAAysrKysrKxsbKpwAAysrKysrKxsbJnQAAysrKysrKxsbKAAAAysrKysrKxsbKAAAAysrKysrKxsbKAAAAysrKysrKxs/KtwAAysrKysrKxs/KqgAAysrKysrKxsbKqgAAysrKysrKxsbKqgAAysrKysrLxsbHAAAAysrKysrKxsbHwgAAysrKysrKxsbJwgAAysrKysrKxszKwgAAysrKysrKxs7OwgAAysrKysrKAAAAAAAA",
+  "flat": "////////////AAAA////////AP8A/wAA/////////////wAA/////////////wAA//////////8AAAAA//////////8AAAAA//////////8AAAAA//////////8AAAAA/////////////wAA//////////8A/wAA////////////AAAA////////////AAAA////////////AAAA////////////AAAA//////////8AAAAA/////////////wAA/////////////wAA//////////8A/wAA/////////////wAA//////////8A/wAA//////////////8A//////8A////AAAA/////////////wAA/////////////wAA////////////AAAA////////////AAAA////////////AAAA//////////8A/wAA//////////8A/wAA////////////AAAA////////////AAAA////////////AAAA//////8A////AAAA/////////////wAA//////////8A/wAA////////////AAAA////////////AAAA////////////AAAA////////////AAAA/////////////wAA/////////////wAA/////////////wAA//////////8A/wAA//////////8A/wAA//////////8AAAAA//////////8AAAAA//////////8AAAAA//////////8A/wAA//////////8AAAAA//////////8A/wAA//////////8A/wAA//////////8AAAAA//////////8A/wAA//////////8A/wAA/////////////wAA////////////AAAA////////////AAAA////////////AAAA//////////8A/wAA//////////8A/wAA//////////8AAAAA//////////8AAAAA//////////8AAAAA//////////8AAAAA//////////8A/wAA/////////////wAA/////////////wAA//////8A//8AAAAA//////////8A/wAA//////////8A/wAA/////////wAA/wAA/////////////wAA////////AAAAAAAA"
+ }
+}

@@ -1,0 +1,33 @@
+[gd_resource type="Resource" script_class="FeelEvent" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://fx/feel_event.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = &"land_heavy"
+trauma = 0.55
+kick_deg = 3.0
+kick_dir = Vector3(0, -1, 0)
+kick_seconds = 0.22
+post = Array[StringName]([&"radial_blur"])
+radial_blur = 0.03
+post_seconds = 0.12
+fov_delta = -4.0
+fov_seconds = 0.09
+vfx = Array[StringName]([&"dust_ring", &"debris", &"shockwave_ring"])
+vfx_scale = 2.2
+decal = &"land_crater"
+ring_radius = 14.0
+ring_seconds = 0.25
+ring_color = Color(0.58, 0.55, 0.5, 1)
+light_color = Color(0.58, 0.55, 0.5, 1)
+light_energy = 2.0
+light_range = 12.0
+light_frames = 2
+audio = Array[StringName]([&"land_heavy_transient", &"land_heavy_body", &"land_heavy_sub",
+&"land_heavy_debris"])
+rumble_weak = 0.5
+rumble_strong = 1.0
+rumble_ms = 260
+falloff = 80.0
+cooldown = 0.1

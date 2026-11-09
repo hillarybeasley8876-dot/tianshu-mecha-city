@@ -1,0 +1,119 @@
+{
+ "id": "c01",
+ "band": "civic",
+ "districts": [
+  "D4"
+ ],
+ "archetypes": [
+  "colonnade",
+  "setback"
+ ],
+ "tags": [],
+ "tileable": false,
+ "glb": "c01/c01.glb",
+ "tris": 20000,
+ "budget": 20000,
+ "tex": 1024,
+ "size": [
+  108.884,
+  180.68,
+  60.0
+ ],
+ "footprint": [
+  108.88,
+  180.68
+ ],
+ "aspect": 2.3377,
+ "parts_kept": 1,
+ "parts_dropped": 0,
+ "look": {
+  "neon_pct": 1.35,
+  "interior_pct": 0.03,
+  "wall_px": 164460,
+  "wall_pct": 15.68,
+  "top_px": 127613,
+  "top_pct": 12.17,
+  "emit_masked_pct": 55.34,
+  "luma_before": 0.3099,
+  "luma_after": 0.3254,
+  "gain": 1.097,
+  "pane_before": 0.14,
+  "pane_after": 0.13,
+  "pane_carved": 4.05,
+  "wall_luma": 0.23118829727172852,
+  "rough_before": 0.557,
+  "rough_after": 0.788,
+  "metal_before": 0.031,
+  "metal_after": 0.031,
+  "normal_flat_pct": 55.34,
+  "orm_flat_pct": 55.34,
+  "walls": 641,
+  "pane_pct": 4.05,
+  "pane_px": 42452,
+  "uv_px": 165343,
+  "wall_m2": 30044.5,
+  "texel_m2": 0.1817,
+  "small_pct": 3.72,
+  "pruned_pct": 3.72,
+  "side": 1024,
+  "wall_area_pct": 39.03,
+  "top_area_pct": 51.38
+ },
+ "weld": 0.0,
+ "open_edges": 15,
+ "custom_normals_cleared": 1,
+ "planar": {
+  "planar_pct": 35.73,
+  "regions": 90,
+  "faces_moved": 3330,
+  "verts_moved": 3330,
+  "max_move_m": 0.3494,
+  "regions_rejected": 1677,
+  "verts_skipped": 981,
+  "planes_found": 90
+ },
+ "plane_normals": {
+  "plane_area_pct": 97.6,
+  "plane_face_pct": 83.25,
+  "plane_regions": 2283,
+  "dev_m": 1.807
+ },
+ "win": "c01/c01_win.png",
+ "file_kb": 2350,
+ "far": {
+  "glb": "c01/c01_far.glb",
+  "tris": 3998,
+  "tex": 256,
+  "file_kb": 492,
+  "open_before": 14,
+  "open_after": 21,
+  "holes_filled": 0,
+  "tear": 1.5,
+  "gate": {
+   "holes": 0.0,
+   "views": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "detail": 0.0,
+   "limit": 0.02,
+   "pass": true
+  }
+ },
+ "roof": {
+  "cell_m": 2.3012,
+  "nx": 48,
+  "ny": 79,
+  "origin": [
+   -54.442,
+   -90.34
+  ],
+  "z0": 0.0,
+  "z_span": 60.0,
+  "flat_deg": 15.0,
+  "h": "t7KurKupqKempaWkoqKioqKioqKioqKioqKioqKioaKio6OkpaWmpqepqqyusLQAtLOsqqqop6akpaSkpKSjoqKioqKio6KioaKioqKioqKkpKSkpKSmpqeoqaqrrbQArrGxq6urqqmop6enp6enpqampqWmpqalpaWlpaampqanp6enp6eoqaqqqqursK4ArKqxsqysrKyrq6urq6uqqampqampqqmpqampqamqqaqqqqqqqqurrKytrKywq6wAqamrsrSur6+urq6urq6ura2tra2trq2tra2sra2tra2trq2urq6urq+vrrKsqqoAp6iqrLW3srKysrGxsrGxsLCwsLCxsbGxsbCwsLGxsLGwsbGxsbGxsbGxta2rqKgAp6apq663ubW1tbW1tbW0tLS0tLS0tbW1tLS0tLW1tLW0tbS0tLS1tLS4sK2rqKcApqSnqqyxvL65ubi6ubi4ubm5ubm4ubm5ubm4uLm5ubm5ubm5ubq5uL20sKyqp6YApaSnqqyxtsDEvr6+vr6+vr6+vr6+vr6+vr6+vr6/vr++vr6+v7++wbezr6yppqUApKSnqqyxtrvHy8XFxcXFxcXFxcXFxcXFxcXFxcXFxcXFxcXFxcvIvLi0sKyppqUApKSnqq2wtbrAxtTPz8/Pz8/Pz8/Pz87Qz8/Pz8/Pz8/Pz8/P1c/CvLezr6yopaUAo6Snqq2wtbm/xc7h/fTf3t7d3t3d3d3d3t3d3d3d3t7f8vrk1MnCvLeyr6uopaQAoqKlqaywtbq/xc3Z9vDw8PDv7u3t7u7u7u7u7u/v7/Dv7/Xe0sjCvLezr6yopKMAoaKlqaywtbq/xc7Z9Ovr6+vr6+vr6+vr6+vr6+vr6+vr6/Pe0sjCvLeyr6unpKMAoaKmqq2wtLi/xc3Z8uvr6+vr6+vr6+vr6+vr6+vr6+vr6/He0sjCvLazr6unpKIAoqKlqayws7q/xc7Z8evr6+vr6+vr6+vr6+vr6+vr6+vr6/De0cjCvLezr6yopaIAoqKlqaywtLrAxc7Z8Ovr6+vr6+vr6+vr6+vr6+vr6+vr6+/e0sfBvLezr6yopKIAoqKlqaywtbm/xM3Z8Ovr6+vr6+vr6+vr6+vr6+vr6+vr6+/e0sfBu7eyr6unpKIAoqKlqaywtLm/xc3Z7+vr6+vr6+vr6+vr6+vr6+vr6+vr6+/e0sfBvLeyrqunpKIAoqKlqayws7i/xc7Z7+vr6+vr6+vr6+vr6+vr6+vr6+vr6+7e0sfBu7ayrqqno6IAoqKlqayws7i+xM7Z7uvr6+vr6+vr6+vr6+vr6+vr6+vr6+7e0sjCu7ezrqqno6IAoqKlqayws7m/xc3Z7uvr6+vr6+vr6+vr6+vr6+vr6+vr6+7e0sfBu7ayrquno6IAoqKlqaywtLq/xc7Z7uvr6+vr6+vr6+vr6+vr6+vr6+vr6+7e0sjCvLayr6yopaIAoqKlqa2wtLm/xc3Z7uvr6+vr6+vr6+vr6+vr6+vr6+vr6+7e0sfBvLeyrquno6IAoqKlqaywtbm/xc3Z7uvr6+vr6+vr6+vr6+vr6+vr6+vr6+7e0sfBvLezr6yopaIAoqKmqa2xtLq+xc7a7uvr6+vr6+vr6+vr6+vr6+vr6+vr6+7e0sfBvLazr6uno6IAoqKlqaywtbm+xM3Z7uvr6+vr6+vr6+vr6+vr6+vr6+vr6+7e0sfBvLeyr6uno6IAoqKlqaywtbm/xc7a7uvr6+vr6+vr6+vr6+vr6+vr6+vr6+7e0sfBvLezrqqno6IAoqKlqaywtLm/xc7a7uvr6+vr6+vr6+vr6+vr6+vr6+vr6+7e0sfBvLeyr6uno6IAoqKlqa6ytbq/xc7Z7uvr6+vr6+vr6+vr6+vr6+vr6+vr6+7e0sfCvLeyrquno6IAoqKmqq2xtbm/xc3Z7uvr6+vr6+vr6+vr6+vr6+vr6+vr6+7e0sfBu7ayr6yopKIAoqKlqa2xtbm/xM7a7uvr6+vr6+vr6+vr6+vr6+vr6+vr6+7e0sfBvLezr6uno6IAoqKlqa2xtbq/xc3Z7uvr6+vr6+vr6+vr6+vr6+vr6+vr6+7e0sfCvLezr6uno6IAoqKlqayws7m/xc3Z7uvr6+vr6+vr6+vr6+vr6+vr6+vr6+7e0sfBvLezr6uno6IAoqKlqayws7m/xM7a7uvr6+vr6+vr6+vr6+vr6+vr6+vr6+7e0sfBvLeyrquno6IAoqKmqa2wtLm/xc7a7uvr6+vr6+vr6+vr6+vr6+vr6+vr6+7e0sjCvbezr6uno6IAoqKmqa2xtbq/xc7a7uvr6+vr6+vr6+vr6+vr6+vr6+vr6+7e0sfBvLeyr6uno6IAoqKmqq6xtbvAxc7Z7uvr6+vr6+vr6+vr6+vr6+vr6+vr6+7e0sfCvbizr6uno6IAoqKlqa2wtLm+xM7a7uvr6+vr6+vr6+vr6+vr6+vr6+vr6+7e0sfBvLezr6uno6IAoqKmqq6xtbq/xc7a7uvr6+vr6+vr6+vr6+vr6+vr6+vr6+7e08fCvbezr6uno6IAoqKmqq2xtbrAxc7Z7uvr6+vr6+vr6+vr6+vr6+vr6+vr6+7d0sfBvLeyr6uno6IAoqKmqa2xtbq/xc7a7uvr6+vr6+vr6+vr6+vr6+vr6+vr6+7e0sfCvLezr6uno6IAoqKmqq6xtbm/xc7Z7uvr6+vr6+vr6+vr6+vr6+vr6+vr6+7d0sfBvLizr6uno6IAoqKlqayws7i+xc7Z7uvr6+vr6+vr6+vr6+vr6+vr6+vr6+7e0sfCvLezr6uno6IAoqKmqq6xtbq/xc3a7uvr6+vr6+vr6+vr6+vr6+vr6+vr6+7e08fBvLezr6uno6IAoqKmqa2xtLm/xc3Z7uvr6+vr6+vr6+vr6+vr6+vr6+vr6+7e0sfCvLezr6uno6IAoqKmqq2xtbm/xM3Z7uvr6+vr6+vr6+vr6+vr6+vr6+vr6+7e08jCvLezr6uno6IAoqKmqa2xtbm/xc3Z7uvr6+vr6+vr6+vr6+vr6+vr6+vr6+7d0sfBu7eyrquno6IAoqKlqa2xtbm/xc7Z7uvr6+vr6+vr6+vr6+vr6+vr6+vr6+7e08fBu7ezr6uno6IAoqKlqa2wtLm+xM3Z7uvr6+vr6+vr6+vr6+vr6+vr6+vr6+7e0cfBu7ezr6uno6IAoqKlqa2xtbm/xc3Z7uvr6+vr6+vr6+vr6+vr6+vr6+vr6+7e08jCvLezr6unpKIAoqKlqayws7m/xM7a7uvr6+vr6+vr6+vr6+vr6+vr6+vr6+7d0sfBu7eyrquno6IAoqKlqaywtLm/xc7a7uvr6+vr6+vr6+vr6+vr6+vr6+vr6+7e0sfCvLezr6uno6IAoqKmqa2wtbm/xc7a7uvr6+vr6+vr6+vr6+vr6+vr6+vr6+7d0sfBu7eyrquno6IAoqKmqq6ytbq/xM3Z7uvr6+vr6+vr6+vr6+vr6+vr6+vr6+7e0sfBu7eyrquno6IAoqKlqaywtLm+xc3a7uvr6+vr6+vr6+vr6+vr6+vr6+vr6+7e0sfBvLeyr6uno6IAoqKlqaywtbq/xc7Z7uvr6+vr6+vr6+vr6+vr6+vr6+vr6+7e0sfCu7eyrqqno6IAoqKlqayws7i+xM7Z7uvr6+vr6+vr6+vr6+vr6+vr6+vr6+7e0sfBu7eyrqqno6IAoqKlqa2wtLq/xc7Z7uvr6+vr6+vr6+vr6+vr6+vr6+vr6+7e0sfBvLayrquno6IAoqKlqaywtbm/xM3Z7+vr6+vr6+vr6+vr6+vr6+vr6+vr6+/e0sjCvLezr6unpKIAoqKlqaywtLm/xM3Z7+vr6+vr6+vr6+vr6+vr6+vr6+vr6+/e0sfBu7eyrqunpKIAoqKlqaywtbm/xM3Z8Ovr6+vr6+vr6+vr6+vr6+vr6+vr6/De0sfBvLezr6uopKIAoqKlqayxtbq/xc3Z8evr6+vr6+vr6+vr6+vr6+vr6+vr6/De0sjCvLezr6uopaIAoqKlqaywtbrAxs7Z8uvr6+vr6+vr6+vr6+vr6+vr6+vr6/He0sjCvLezr6yopKIAoqKlqaywtbm/xc7Z8+vr6+vr6+vr6+vr6+vr6+vr6+vr6/Pe0sfBvLeyrqqnpKMAoqKlqa2wtLi+xc3Z9evr6+vr6+vr6+vr6+vr6+vr6+vr6/Te0sjBu7ezr6uopKMAo6KlqaywtLm/xc7Z+fTx8PDv7+7u7u7u7u7u7u7v7/Dx8/jh0sjCvLezrquopaMAo6Omqa2xtbnAxtbe/dbW1tbW1tbW1tbW1tbW1tbW1tbX1v3g2cnCvLeyr6uopaQApKWnq66ytbrAzNHJycnJycnJycnJycnJycnJycnJycnJycnJyc7Dvbezr6yppqQApKWnqq2xtbrFwsHCwsHCwsLCwsLCwsLCwsLCwcLCwcLBwcLCwsLGw7i0sKyppqQApaSnqq2xtr+8vLy8u7u7u7y7vLu7u7y8vLy8u7y8vLy7vLu8vLy7wL20sKyppqUApqSnqq2zu7a3t7e3t7e3t7e2t7e3t7a3t7e2t7e3t7e2t7e3uLe2try5sKyqp6YAqKeprK+3s7OzsrOzsrKzs7KysrKzsrOzsrOys7KysrKysrOzs7Oys7O4ta2qqKcAqairrbSwsLCwsLCwr6+vr66ur6+vr6+vrq+vr66urq+ur6+vr6+wsLCvtbKrqakAqqmrsq2urq6tra2trKyrq6urq6urq6urq6urq6urq6urrKysrKytra2trbOwqqoArauxrKyrq6uqqqmpqKioqKenqKioqKeop6enqKenp6inqKmpqamqqqurrKyxra0Ar7Ksq6qpqainp6ampaWlpKSkpaSkpKSkpKSkpKSkpKSkpaWmpqanqKipqqursbAAtbGurKuqqKinpqWlpKSko6OioqOjoqOjo6Ojo6Ojo6SkpKSlpaanp6ioqqytsLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+  "flat": "AP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//////8AAAAAAAD///8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP8A/////wAA////////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP8A////AP8AAP//AP//AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP8A//////8AAP//AP//AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP8AAP///wAAAP//////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP////////8AAAD///8A/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP8AAP//AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP8A/wAAAAAAAAAAAAAAAAAAAAD//////////////////wAAAAAAAAAAAAAAAAAAAP8A/wAAAAAAAAAAAAAA/////////////////////////////wAAAAAAAAAAAAAAAP8A/wAAAAAAAAAAAAAA//////////////////////////////8AAAAAAAAAAAAAAP8A/wAAAAAAAAAAAAAA//////////////////////////////8AAAAAAAAAAAAAAP8A/wAAAAAAAAAAAAAA//////////////////////////////8AAAAAAAAAAAAAAP8A/wAAAAAAAAAAAAAA/////////////////////////////wAAAAAAAAAAAAAAAP8A/wAAAAAAAAAAAAAA/////////////////////////////wAAAAAAAAAAAAAAAP8A/wAAAAAAAAAAAAAA/////////////////////////////wAAAAAAAAAAAAAAAP8A/wAAAAAAAAAAAAAA/////////////////////////////wAAAAAAAAAAAAAAAP8A/wAAAAAAAAAAAAAA/////////////////////////////wAAAAAAAAAAAAAAAP8A/wAAAAAAAAAAAAAA/////////////////////////////wAAAAAAAAAAAAAAAP8A/wAAAAAAAAAAAAAA//////////////////////////////8AAAAAAAAAAAAAAP8A/wAAAAAAAAAAAAAA//////////////////////////////8AAAAAAAAAAAAAAP8A/wAAAAAAAAAAAAAA//////////////////////////////8AAAAAAAAAAAAAAP8A/wAAAAAAAAAAAAAA//////////////////////////////8AAAAAAAAAAAAAAP8A/wAAAAAAAAAAAAAA//////////////////////////////8AAAAAAAAAAAAAAP8A/wAAAAAAAAAAAAAA//////////////////////////////8AAAAAAAAAAAAAAP8A/wAAAAAAAAAAAAAA//////////////////////////////8AAAAAAAAAAAAAAP8A/wAAAAAAAAAAAAAA//////////////////////////////8AAAAAAAAAAAAAAP8A/wAAAAAAAAAAAAAA//////////////////////////////8AAAAAAAAAAAAAAP8A/wAAAAAAAAAAAAAA//////////////////////////////8AAAAAAAAAAAAAAP8A/wAAAAAAAAAAAAAA//////////////////////////////8AAAAAAAAAAAAAAP8A/wAAAAAAAAAAAAAA//////////////////////////////8AAAAAAAAAAAAAAP8A/wAAAAAAAAAAAAAA//////////////////////////////8AAAAAAAAAAAAAAP8A/wAAAAAAAAAAAAAA//////////////////////////////8AAAAAAAAAAAAAAP8A/wAAAAAAAAAAAAAA//////////////////////////////8AAAAAAAAAAAAAAP8A/wAAAAAAAAAAAAAA//////////////////////////////8AAAAAAAAAAAAAAP8AAAAAAAAAAAAAAAAA//////////////////////////////8AAAAAAAAAAAAAAP8AAAAAAAAAAAAAAAAA//////////////////////////////8AAAAAAAAAAAAAAP8AAAAAAAAAAAAAAAAA//////////////////////////////8AAAAAAAAAAAAAAP8AAAAAAAAAAAAAAAAA//////////////////////////////8AAAAAAAAAAAAAAP8AAAAAAAAAAAAAAAAA//////////////////////////////8AAAAAAAAAAAAAAP8AAAAAAAAAAAAAAAAA//////////////////////////////8AAAAAAAAAAAAAAP8AAAAAAAAAAAAAAAAA//////////////////////////////8AAAAAAAAAAAAAAP8AAAAAAAAAAAAAAAAA//////////////////////////////8AAAAAAAAAAAAAAP8AAAAAAAAAAAAAAAAA//////////////////////////////8AAAAAAAAAAAAAAP8AAAAAAAAAAAAAAAAA//////////////////////////////8AAAAAAAAAAAAAAP8AAAAAAAAAAAAAAAAA//////////////////////////////8AAAAAAAAAAAAAAP8AAAAAAAAAAAAAAAAA//////////////////////////////8AAAAAAAAAAAAAAP8AAAAAAAAAAAAAAAAA//////////////////////////////8AAAAAAAAAAAAAAP8AAAAAAAAAAAAAAAAA//////////////////////////////8AAAAAAAAAAAAAAP8AAAAAAAAAAAAAAAAA//////////////////////////////8AAAAAAAAAAAAAAP8AAAAAAAAAAAAAAAAA//////////////////////////////8AAAAAAAAAAAAAAP8AAAAAAAAAAAAAAAAA//////////////////////////////8AAAAAAAAAAAAAAP8AAAAAAAAAAAAAAAAA//////////////////////////////8AAAAAAAAAAAAAAP8AAAAAAAAAAAAAAAAA//////////////////////////////8AAAAAAAAAAAAAAP8AAAAAAAAAAAAAAAAA//////////////////////////////8AAAAAAAAAAAAAAP8AAAAAAAAAAAAAAAAA//////////////////////////////8AAAAAAAAAAAAAAP8AAAAAAAAAAAAAAAAA//////////////////////////////8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//////////////////////////////8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//////////////////////////////8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//////////////////////////////8AAAAAAAAAAAAAAAAA/wAAAAAAAAAAAAAA//////////////////////////////8AAAAAAAAAAAAAAAAA/wAAAAAAAAAAAAAA/////////////////////////////wAAAAAAAAAAAAAAAAAA/wAAAAAAAAAAAAAAAAAA////////////////////////AAAAAAAAAAAAAAAAAAAA/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP8A/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP8A/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP8A////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/wAAAAAA/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP8AAAAAAAD//wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/AAD///8AAP//AP8A/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP///wAA//8AAAD///8A/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP////8AAAAAAAAA//8A/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP///////wAAAAAAAAAAAP8AAAAA////////////AAAAAAAAAAAAAAAAAAAAAAAAAP///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+ }
+}

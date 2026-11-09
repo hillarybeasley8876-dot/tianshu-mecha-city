@@ -1,0 +1,78 @@
+[
+ {"t": 0.0, "look_rate": [0, 0]},
+ {"t": 0.4, "player": {"method": "invulnerable_for", "args": [120.0]}},
+
+ {"t": 1.0, "press": ["move_forward"]},
+ {"t": 6.0, "release": ["move_forward"]},
+
+ {"t": 6.3, "tap": ["boost"]},
+ {"t": 7.0, "tap": ["boost"]},
+ {"t": 8.0, "tap": ["assault"]},
+
+ {"t": 9.2, "tap": ["jump"]},
+ {"t": 11.4, "tap": ["jump"]},
+
+ {"t": 12.6, "press": ["fire"]},
+ {"t": 14.2, "release": ["fire"]},
+ {"t": 14.5, "tap": ["fire"]},
+ {"t": 14.9, "tap": ["fire"]},
+ {"t": 15.6, "tap": ["reload"]},
+
+ {"t": 17.4, "tap": ["weapon_next"]},
+ {"t": 18.2, "press": ["fire"]},
+ {"t": 23.0, "release": ["fire"]},
+ {"t": 24.4, "press": ["fire"]},
+ {"t": 27.4, "release": ["fire"]},
+
+ {"t": 28.4, "tap": ["weapon_next"]},
+ {"t": 29.0, "tap": ["missiles"]},
+ {"t": 30.4, "tap": ["missiles"]},
+
+ {"t": 32.2, "tap": ["melee"]},
+ {"t": 32.7, "tap": ["melee"]},
+ {"t": 33.2, "tap": ["melee"]},
+ {"t": 34.0, "press": ["melee"]},
+ {"t": 34.8, "release": ["melee"]},
+
+ {"t": 36.0, "press": ["guard"]},
+ {"t": 38.0, "release": ["guard"]},
+
+ {"t": 39.0, "tap": ["burst"]},
+ {"t": 41.6, "tap": ["fins"]},
+ {"t": 43.6, "tap": ["well"]},
+ {"t": 46.0, "tap": ["rift_step"]},
+ {"t": 48.0, "tap": ["anchor"]},
+
+ {"t": 49.6, "player": {"method": "add_overdrive", "args": [100.0]}},
+ {"t": 50.0, "tap": ["overdrive"]},
+ {"t": 51.0, "tap": ["lock_on"]},
+ {"t": 51.6, "press": ["fire"]},
+ {"t": 56.0, "release": ["fire"]},
+
+ {"t": 57.0, "press": ["guard"]},
+ {"t": 59.0, "release": ["guard"]},
+ {"t": 60.0, "tap": ["melee"]},
+ {"t": 60.5, "tap": ["melee"]},
+
+ {"t": 62.0, "press": ["fire"]},
+ {"t": 66.0, "release": ["fire"]},
+ {"t": 66.6, "tap": ["missiles"]},
+
+ {"t": 68.4, "player": {"method": "add_overdrive", "args": [100.0]}},
+ {"t": 68.8, "tap": ["overdrive"]},
+ {"t": 69.6, "press": ["fire"]},
+ {"t": 74.0, "release": ["fire"]},
+ {"t": 74.6, "tap": ["burst"]},
+ {"t": 77.0, "tap": ["fins"]},
+
+ {"t": 79.0, "press": ["move_forward"]},
+ {"t": 80.0, "tap": ["melee"]},
+ {"t": 80.5, "tap": ["melee"]},
+ {"t": 81.0, "tap": ["melee"]},
+ {"t": 82.0, "release": ["move_forward"]},
+ {"t": 82.4, "press": ["fire"]},
+ {"t": 86.0, "release": ["fire"]},
+ {"t": 86.6, "tap": ["missiles"]},
+
+ {"t": 88.0, "end": true}
+]

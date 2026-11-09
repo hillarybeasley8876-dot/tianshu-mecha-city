@@ -1,0 +1,6 @@
+{
+  "_doc": "m3_spitter -- dash out of the acid arc. The spitter's telegraph fires as it lobs, and the arc takes about a second to land, so the boost goes out 1.1 s later.",
+  "rules": [
+    { "on": "telegraph", "kind": "ranged", "after": 1.1, "press": "boost", "hold": 0.05, "max": 3 }
+  ]
+}

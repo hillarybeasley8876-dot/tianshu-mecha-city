@@ -1,0 +1,13 @@
+[
+ { "t": 0.0,  "look_rate": [0, 0] },
+ { "t": 0.6,  "tap": ["lock_on"] },
+ { "t": 1.2,  "tap": ["boost"] },
+ { "t": 1.5,  "player": { "method": "debug_perfect_dodge", "args": [] } },
+ { "t": 3.0,  "tap": ["melee"] },
+ { "t": 3.6,  "tap": ["melee"] },
+ { "t": 4.8,  "tap": ["boost"] },
+ { "t": 5.1,  "player": { "method": "debug_perfect_dodge", "args": [] } },
+ { "t": 6.6,  "tap": ["melee"] },
+ { "t": 7.2,  "tap": ["melee"] },
+ { "t": 9.5,  "end": true }
+]

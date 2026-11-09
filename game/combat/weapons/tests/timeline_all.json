@@ -1,0 +1,17 @@
+[
+  {"t": 0.5, "tap": ["fire"]},
+  {"t": 0.8, "tap": ["fire"]},
+  {"t": 1.1, "tap": ["fire"]},
+  {"t": 1.6, "press": ["fire"]},
+  {"t": 2.9, "release": ["fire"]},
+  {"t": 3.8, "tap": ["weapon_next"]},
+  {"t": 4.4, "player": {"method": "debug_aim", "args": [[0, 12, -140]]}},
+  {"t": 4.6, "press": ["fire"]},
+  {"t": 12.9, "release": ["fire"]},
+  {"t": 13.5, "tap": ["fire"]},
+  {"t": 17.0, "tap": ["weapon_prev"]},
+  {"t": 17.6, "player": {"method": "debug_aim", "args": [[4, 16, -90]]}},
+  {"t": 18.0, "press": ["missiles"]},
+  {"t": 20.5, "release": ["missiles"]},
+  {"t": 24.0, "end": true}
+]

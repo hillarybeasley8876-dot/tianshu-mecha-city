@@ -1,0 +1,15 @@
+{
+  "_doc": "A6 Sky Garden bearing sweep (trailer unit, r3). The showcase rigs are placed by data, not by eye: `az` is every 15 deg, and probe_stage.gd's default camera set turns each bearing into four cameras (low d=44 h=3, mid d=46 h=14, crane d=50 h=32, wide d=60 h=10). The `NNN_low` rows are the deck-level arc the showcase orbits and low rigs live on. Godot bearing: 0 = +X, 90 = +Z; 225 puts the lens between the sun and the hero at --tod=0.6.",
+  "stages": [
+    {
+      "id": "A6_sweep",
+      "spawn": [-60.0, 155.0, 450.0],
+      "yaw": 225.0,
+      "note": "A6 Sky Garden main deck (+144), the showcase stage",
+      "foes": ["ripper", "ripper", "ripper", "ripper", "ripper", "ripper", "mantis", "mantis"],
+      "foe_dist": 24.0,
+      "az": [0.0, 15.0, 30.0, 45.0, 60.0, 75.0, 90.0, 105.0, 120.0, 135.0, 150.0, 165.0,
+             180.0, 195.0, 210.0, 225.0, 240.0, 255.0, 270.0, 285.0, 300.0, 315.0, 330.0, 345.0]
+    }
+  ]
+}

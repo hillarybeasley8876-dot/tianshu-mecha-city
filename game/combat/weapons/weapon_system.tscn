@@ -1,0 +1,60 @@
+[gd_scene load_steps=16 format=3]
+
+[ext_resource type="Script" path="res://combat/weapons/weapon_system.gd" id="1_ws"]
+[ext_resource type="Script" path="res://combat/weapons/rifle.gd" id="2_rifle"]
+[ext_resource type="Script" path="res://combat/weapons/gatling.gd" id="3_gatling"]
+[ext_resource type="Script" path="res://combat/weapons/hailstorm.gd" id="4_hailstorm"]
+[ext_resource type="Script" path="res://combat/weapons/tuning/rifle_tuning.gd" id="5_rt"]
+[ext_resource type="Script" path="res://combat/weapons/tuning/gatling_tuning.gd" id="6_gt"]
+[ext_resource type="Script" path="res://combat/weapons/tuning/missile_tuning.gd" id="7_mt"]
+[ext_resource type="Script" path="res://combat/projectiles/beam_pool.gd" id="8_beams"]
+[ext_resource type="Script" path="res://combat/projectiles/spark_pool.gd" id="9_sparks"]
+[ext_resource type="Script" path="res://combat/projectiles/casing_pool.gd" id="10_casings"]
+[ext_resource type="Script" path="res://combat/projectiles/projectile_manager.gd" id="11_bullets"]
+[ext_resource type="Script" path="res://combat/projectiles/missile_manager.gd" id="12_missiles"]
+
+[sub_resource type="Resource" id="RifleTuning"]
+script = ExtResource("5_rt")
+
+[sub_resource type="Resource" id="GatlingTuning"]
+script = ExtResource("6_gt")
+
+[sub_resource type="Resource" id="MissileTuning"]
+script = ExtResource("7_mt")
+
+[node name="WeaponSystem" type="Node3D"]
+script = ExtResource("1_ws")
+
+[node name="Beams" type="Node3D" parent="."]
+top_level = true
+script = ExtResource("8_beams")
+
+[node name="Sparks" type="Node3D" parent="."]
+top_level = true
+script = ExtResource("9_sparks")
+
+[node name="Casings" type="Node3D" parent="."]
+top_level = true
+script = ExtResource("10_casings")
+
+[node name="Bullets" type="Node3D" parent="."]
+top_level = true
+script = ExtResource("11_bullets")
+tuning = SubResource("GatlingTuning")
+
+[node name="Missiles" type="Node3D" parent="."]
+top_level = true
+script = ExtResource("12_missiles")
+tuning = SubResource("MissileTuning")
+
+[node name="Rifle" type="Node3D" parent="."]
+script = ExtResource("2_rifle")
+tuning = SubResource("RifleTuning")
+
+[node name="Gatling" type="Node3D" parent="."]
+script = ExtResource("3_gatling")
+tuning = SubResource("GatlingTuning")
+
+[node name="Hailstorm" type="Node3D" parent="."]
+script = ExtResource("4_hailstorm")
+tuning = SubResource("MissileTuning")

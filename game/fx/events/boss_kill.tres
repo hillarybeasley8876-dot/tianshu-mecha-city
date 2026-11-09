@@ -1,0 +1,33 @@
+[gd_resource type="Resource" script_class="FeelEvent" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://fx/feel_event.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = &"boss_kill"
+hitstop_kind = 2
+hitstop_seconds = 0.15
+trauma = 0.45
+flash_color = Color(1, 1, 1, 0.25)
+flash_frames = 2
+fov_delta = -3.0
+fov_seconds = 0.4
+slow_scale = 0.2
+slow_seconds = 1.2
+vfx = Array[StringName]([&"kill_large", &"kill_large", &"kill_large", &"shockwave_ring"])
+vfx_delays = PackedFloat32Array(0, 0.15, 0.35, 0)
+vfx_scale = 1.6
+decal = &"scorch_ring"
+light_color = Color(1, 0.54, 0.17, 1)
+light_energy = 12.0
+light_range = 30.0
+light_frames = 5
+audio = Array[StringName]([&"kill_large_transient", &"kill_large_body", &"kill_large_sub",
+&"kill_large_tail", &"kill_large_debris", &"ui_kill_confirm"])
+rumble_weak = 0.5
+rumble_strong = 0.9
+rumble_ms = 350
+falloff = 400.0
+cooldown = 0.3
+ring_radius = 26.0
+ring_seconds = 0.3

@@ -1,0 +1,15 @@
+[
+  {"t": 0.3, "player": {"method": "debug_teleport", "args": [[0, 44, 0], 0]}},
+  {"t": 0.5, "player": {"method": "debug_air", "args": [true]}},
+  {"t": 0.7, "player": {"method": "debug_lock", "args": [-1]}},
+  {"t": 0.75, "player": {"method": "debug_aim", "args": [[0, 40, -22]]}},
+  {"t": 1.0, "tap": ["melee"]},
+  {"t": 1.45, "tap": ["melee"]},
+  {"t": 2.6, "player": {"method": "debug_air", "args": [false]}},
+  {"t": 2.8, "player": {"method": "debug_teleport", "args": [[0, 8, 0], 0]}},
+  {"t": 3.2, "player": {"method": "debug_close", "args": [0, 10]}},
+  {"t": 3.4, "player": {"method": "debug_stagger", "args": [0]}},
+  {"t": 3.6, "player": {"method": "debug_lock", "args": [0]}},
+  {"t": 4.0, "tap": ["melee"]},
+  {"t": 6.5, "end": true}
+]

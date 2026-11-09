@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="FeelEvent" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://fx/feel_event.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = &"anchor_latch"
+trauma = 0.05
+post = Array[StringName]([&"speed_lines"])
+speed_lines = 0.2
+post_seconds = 0.2
+vfx = Array[StringName]([&"spark_bullet"])
+vfx_scale = 0.5
+audio = Array[StringName]([&"anchor_twang", &"anchor_clank"])
+rumble_weak = 0.2
+rumble_strong = 0.1
+rumble_ms = 50
+falloff = 80.0
+cooldown = 0.2

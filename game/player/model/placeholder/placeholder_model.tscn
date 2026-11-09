@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://player/model/placeholder/placeholder_model.gd" id="1"]
+
+[node name="PlaceholderModel" type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -7.5, 0)
+script = ExtResource("1")

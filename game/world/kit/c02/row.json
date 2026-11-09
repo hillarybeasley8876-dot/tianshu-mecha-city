@@ -1,0 +1,119 @@
+{
+ "id": "c02",
+ "band": "civic",
+ "districts": [
+  "D4"
+ ],
+ "archetypes": [
+  "colonnade",
+  "slab"
+ ],
+ "tags": [],
+ "tileable": false,
+ "glb": "c02/c02.glb",
+ "tris": 20000,
+ "budget": 20000,
+ "tex": 1024,
+ "size": [
+  33.236,
+  78.676,
+  52.0
+ ],
+ "footprint": [
+  33.24,
+  78.68
+ ],
+ "aspect": 0.9834,
+ "parts_kept": 1,
+ "parts_dropped": 0,
+ "look": {
+  "neon_pct": 1.06,
+  "interior_pct": 0.28,
+  "wall_px": 181344,
+  "wall_pct": 17.29,
+  "top_px": 28614,
+  "top_pct": 2.73,
+  "emit_masked_pct": 58.47,
+  "luma_before": 0.2729,
+  "luma_after": 0.3247,
+  "gain": 1.246,
+  "pane_before": 0.02,
+  "pane_after": 0.02,
+  "pane_carved": 4.4,
+  "wall_luma": 0.2176329493522644,
+  "rough_before": 0.212,
+  "rough_after": 0.636,
+  "metal_before": 0.051,
+  "metal_after": 0.051,
+  "normal_flat_pct": 58.47,
+  "orm_flat_pct": 58.47,
+  "walls": 494,
+  "pane_pct": 4.4,
+  "pane_px": 46176,
+  "uv_px": 182252,
+  "wall_m2": 20579.5,
+  "texel_m2": 0.1129,
+  "small_pct": 9.86,
+  "pruned_pct": 9.86,
+  "side": 1024,
+  "wall_area_pct": 75.23,
+  "top_area_pct": 23.5
+ },
+ "weld": 0.0,
+ "open_edges": 16,
+ "custom_normals_cleared": 1,
+ "planar": {
+  "planar_pct": 55.21,
+  "regions": 90,
+  "faces_moved": 5300,
+  "verts_moved": 5300,
+  "max_move_m": 0.2755,
+  "regions_rejected": 1366,
+  "verts_skipped": 96,
+  "planes_found": 90
+ },
+ "plane_normals": {
+  "plane_area_pct": 93.81,
+  "plane_face_pct": 73.11,
+  "plane_regions": 1640,
+  "dev_m": 0.787
+ },
+ "win": "c02/c02_win.png",
+ "file_kb": 2668,
+ "far": {
+  "glb": "c02/c02_far.glb",
+  "tris": 3998,
+  "tex": 256,
+  "file_kb": 580,
+  "open_before": 16,
+  "open_after": 13,
+  "holes_filled": 0,
+  "tear": 0.812,
+  "gate": {
+   "holes": 0.0,
+   "views": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "detail": 0.0,
+   "limit": 0.02,
+   "pass": true
+  }
+ },
+ "roof": {
+  "cell_m": 2.0,
+  "nx": 17,
+  "ny": 40,
+  "origin": [
+   -16.618,
+   -39.338
+  ],
+  "z0": 0.0,
+  "z_span": 52.0,
+  "flat_deg": 15.0,
+  "h": "+fn5+fn5+fn5+fn5+fn5+az5+fn5+fn5+fn5+fn5+fn55Pn5+fn5+fn5+fn5+fn5+fnm+fn5+f7+/fn5+fn5+fn5+fkC+fn5/v79+fn5+fn5+fn5AAL5+fn5+fn5+fn5+fn5+fkAAvn5+fn5+fn5+fn5+fn5+QAB+fn5+fn5+fn5+fn5+fn5AAL5+fn5+fr7+/n5+fn5+fkA6Pn5+fn5+vv7+fn5+fn5+QDo+fn5+fn6+/v5+fn5+fn5AAL5+fn5+fr7+/n5+fn5+fkAAvn5+fn5+vv7+fn5+fn5+QAC+fn5+fn6+/v5+fn5+fn5AAL5+fn5+fr7+/n5+fn5+fkAkfn5+fn5+vv7+fn5+fn5+QDo+fn5+fn6+/v5+fn5+fn5AAL5+fn5+fr7+/n5+fn5+fkAAvn5+fn5+vv7+fn5+fn5+QAC+fn5+fn6+/v5+fn5+fn5AOj5+fn5+fr7+/n5+fn5+fkA6Pn6+fn5+/v7+fn5+fn5+QAC+fr5+fn7+/v5+fn5+fn5AAL5+vn5+fv7+/n5+fn5+fkAAvn6+fn5+/v7+fn5+fn5+QDo+fr5+fn7+/v5+fn5+fn5AOj5+vn5+fv7+/n5+fn5+fkA6Pn6+fn5+/v7+fn5+fn5+QAC+fr5+fn7+/v5+fn5+fn5AAL5+vn5+fv7+/n5+fn5+fkAAvn6+vn5+/v7+fn5+fn5+QAC+fn6+fn7+/v5+fn5+fn5AF35+fn5+fv7+/n5+fn5+fkA6Pn5+fn5+fn5+fn5/Pn5+QDo+fn5/v7/+fn5+fn8+fn5AAL6+fn+/v75+fn5+fn5+fkAAvr5+fn5+fn5+fz7+fn5+QDo+vn5+fn5+fn5+fn5+fn5APX6+fn5+fn5+fn5+fn5+fkAAAAAAAAAAAAAAAAAAAAAAAA=",
+  "flat": "/////////////////////wD/////////////////////AP////////////////////8A//////////////////////8A////////////////////AP////////////////////8A/////////////////////wAA////////////////////AP////////////////////8A/////////////////////wD/////////////////////AP////////////////////8A/////////////////////wD/////////////////////AP////////////////////8AAP///////////////////wD/////////////////////AP////////////////////8A/////////////////////wD/////////////////////AP////////////////////8AAP///////////////////wD/////////////////////AP////////////////////8A/////////////////////wD/////////////////////AP////////////////////8A/////////////////////wD/////////////////////AP////////////////////8A/////////////////////wD/////////////////////AAD//////////////wD///8A////////////////AP///wD/////////////////////AP////////////////////8A//////////////8A/////wD/////////////////////AP////////////////////8AAAAAAAAAAAAAAAAAAAAAAAA="
+ }
+}

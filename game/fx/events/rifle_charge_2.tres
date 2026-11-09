@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="FeelEvent" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://fx/feel_event.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = &"rifle_charge_2"
+trauma = 0.1
+fov_delta = 4.0
+fov_seconds = 0.2
+vfx = Array[StringName]([&"muzzle_ring", &"spark_bullet"])
+vfx_scale = 1.1
+light_color = Color(0.31, 0.9, 1, 1)
+light_energy = 4.0
+light_range = 18.0
+light_frames = 2
+audio = Array[StringName]([&"beam_charge_stage_2", &"beam_charge_stage_click"])
+rumble_weak = 0.2
+rumble_strong = 0.3
+rumble_ms = 60
+falloff = 40.0
+cooldown = 0.15

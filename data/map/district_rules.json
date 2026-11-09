@@ -1,0 +1,1538 @@
+{
+ "_comment": "District rules for tools/map/build_layout.py. Footprints and role content from ref/research/level-design-vertical.md §4.4 + docs/MAP.md §4. Heights snap to the 4 m facade module. `tier_h` is a global band; each district's `tier_mix` says how often a site gets which tier.",
+ "global": {
+  "seed": 20261101,
+  "tier_h": {
+   "A": [
+    16,
+    32
+   ],
+   "B": [
+    48,
+    80
+   ],
+   "C": [
+    128,
+    176
+   ],
+   "D": [
+    200,
+    240
+   ],
+   "E": [
+    360,
+    360
+   ]
+  },
+  "tier_footprint": {
+   "A": [
+    24,
+    40
+   ],
+   "B": [
+    40,
+    64
+   ],
+   "C": [
+    56,
+    88
+   ],
+   "D": [
+    72,
+    104
+   ]
+  },
+  "spire_center": [
+   0,
+   120
+  ],
+  "spire_radius": 70,
+  "spire_cap_r": 280,
+  "spire_roof_walk_min_tier": "C",
+  "l4_band": [
+   120,
+   180
+  ],
+  "street_wall_band": [
+   48,
+   80
+  ],
+  "spire_cap_top": 176
+ },
+ "decks": [
+  {
+   "id": "A3_court",
+   "kind": "plaza",
+   "district": "D4",
+   "arena": "A3",
+   "shape": "rect",
+   "center": [
+    0,
+    -120
+   ],
+   "size": [
+    200,
+    140
+   ],
+   "rot": 0,
+   "z": -20,
+   "thickness": 4,
+   "parapet": 0
+  },
+  {
+   "id": "A3_terrace",
+   "kind": "terrace",
+   "district": "D4",
+   "arena": "A3",
+   "shape": "rect",
+   "center": [
+    0,
+    -30
+   ],
+   "size": [
+    230,
+    90
+   ],
+   "rot": 0,
+   "z": 16,
+   "thickness": 4,
+   "parapet": 5
+  },
+  {
+   "id": "S5_forum",
+   "kind": "plaza",
+   "district": "D4",
+   "shape": "rect",
+   "center": [
+    0,
+    330
+   ],
+   "size": [
+    220,
+    200
+   ],
+   "rot": 0,
+   "z": 32,
+   "thickness": 4,
+   "parapet": 5
+  },
+  {
+   "id": "S3_collar",
+   "kind": "skydeck",
+   "district": "D4",
+   "shape": "ring",
+   "center": [
+    0,
+    120
+   ],
+   "r_in": 90,
+   "r_out": 152,
+   "z": 80,
+   "thickness": 6,
+   "parapet": 5,
+   "under_clear": 74
+  },
+  {
+   "id": "S4_roof_ring",
+   "kind": "skydeck",
+   "district": "D4",
+   "shape": "ring",
+   "center": [
+    0,
+    120
+   ],
+   "r_in": 56,
+   "r_out": 104,
+   "z": 160,
+   "thickness": 6,
+   "parapet": 6,
+   "under_clear": 74
+  },
+  {
+   "id": "B1_crown",
+   "kind": "crown",
+   "district": "D4",
+   "arena": "B",
+   "shape": "ring",
+   "center": [
+    0,
+    120
+   ],
+   "r_in": 40,
+   "r_out": 150,
+   "z": 224,
+   "thickness": 6,
+   "parapet": 6,
+   "_comment": "MAP §4: the Crown is CIRCULAR (Ø 300 m) with a stepped rim, four 24 m fins at 45 deg and a Ø 80 m central core. The core is a raised drum the Spire shaft passes through, so the deck is a ring.",
+   "rim_steps": [
+    {
+     "r": 150,
+     "z": 224,
+     "rise": 8
+    },
+    {
+     "r": 126,
+     "z": 232,
+     "rise": 8
+    },
+    {
+     "r": 104,
+     "z": 240,
+     "rise": 8
+    }
+   ],
+   "fins": [
+    {
+     "angle_deg": 45.0,
+     "reach": 24,
+     "width": 16,
+     "height": 24
+    },
+    {
+     "angle_deg": 135.0,
+     "reach": 24,
+     "width": 16,
+     "height": 24
+    },
+    {
+     "angle_deg": 225.0,
+     "reach": 24,
+     "width": 16,
+     "height": 24
+    },
+    {
+     "angle_deg": 315.0,
+     "reach": 24,
+     "width": 16,
+     "height": 24
+    }
+   ],
+   "core": {
+    "r": 40,
+    "height": 32
+   }
+  },
+  {
+   "id": "A6_sky_garden",
+   "kind": "garden",
+   "district": "D7",
+   "arena": "A6",
+   "shape": "rect",
+   "center": [
+    -60,
+    -450
+   ],
+   "size": [
+    240,
+    200
+   ],
+   "rot": 0,
+   "z": 144,
+   "thickness": 6,
+   "parapet": 5,
+   "under_clear": 138
+  },
+  {
+   "id": "F5_crystal",
+   "kind": "platform",
+   "district": "D7",
+   "shape": "rect",
+   "center": [
+    -40,
+    -330
+   ],
+   "size": [
+    300,
+    36
+   ],
+   "rot": -10,
+   "z": 176,
+   "thickness": 6,
+   "parapet": 4,
+   "under_clear": 26
+  },
+  {
+   "id": "F6_skydeck",
+   "kind": "skydeck",
+   "district": "D7",
+   "shape": "rect",
+   "center": [
+    60,
+    -360
+   ],
+   "size": [
+    190,
+    130
+   ],
+   "rot": 0,
+   "z": 80,
+   "thickness": 6,
+   "parapet": 5,
+   "under_clear": 74
+  },
+  {
+   "id": "K2_knot_l1",
+   "kind": "platform",
+   "district": "D2",
+   "arena": "A2",
+   "shape": "ring",
+   "center": [
+    -470,
+    -40
+   ],
+   "r_in": 0,
+   "r_out": 105,
+   "z": 16,
+   "thickness": 4,
+   "parapet": 5,
+   "under_clear": 12
+  },
+  {
+   "id": "K3_knot_l2",
+   "kind": "platform",
+   "district": "D2",
+   "arena": "A2",
+   "shape": "ring",
+   "center": [
+    -470,
+    -40
+   ],
+   "r_in": 0,
+   "r_out": 108,
+   "z": 32,
+   "thickness": 4,
+   "parapet": 5,
+   "under_clear": 12
+  },
+  {
+   "id": "K4_knot_flyover",
+   "kind": "platform",
+   "district": "D2",
+   "arena": "A2",
+   "shape": "ring",
+   "center": [
+    -470,
+    -40
+   ],
+   "r_in": 70,
+   "r_out": 132,
+   "z": 56,
+   "thickness": 6,
+   "parapet": 5,
+   "under_clear": 18
+  },
+  {
+   "id": "K5_knot_crown",
+   "kind": "platform",
+   "district": "D2",
+   "arena": "A2",
+   "shape": "rect",
+   "center": [
+    -470,
+    -40
+   ],
+   "size": [
+    230,
+    90
+   ],
+   "rot": 8,
+   "z": 80,
+   "thickness": 6,
+   "parapet": 5,
+   "under_clear": 18
+  },
+  {
+   "id": "A1_dock",
+   "kind": "plaza",
+   "district": "D1",
+   "arena": "A1",
+   "shape": "rect",
+   "center": [
+    -470,
+    -360
+   ],
+   "size": [
+    230,
+    70
+   ],
+   "rot": 0,
+   "z": -12,
+   "thickness": 4,
+   "parapet": 0
+  },
+  {
+   "id": "H3_crane_cab",
+   "kind": "platform",
+   "district": "D1",
+   "shape": "rect",
+   "center": [
+    -520,
+    -330
+   ],
+   "size": [
+    44,
+    44
+   ],
+   "rot": 0,
+   "z": 48,
+   "thickness": 4,
+   "parapet": 5
+  },
+  {
+   "id": "O3_square",
+   "kind": "plaza",
+   "district": "D3",
+   "shape": "rect",
+   "center": [
+    -440,
+    240
+   ],
+   "size": [
+    170,
+    150
+   ],
+   "rot": -8,
+   "z": 32,
+   "thickness": 4,
+   "parapet": 4
+  },
+  {
+   "id": "W3_foundry_l2",
+   "kind": "platform",
+   "district": "D6",
+   "arena": "A5",
+   "shape": "rect",
+   "center": [
+    470,
+    -200
+   ],
+   "size": [
+    300,
+    240
+   ],
+   "rot": 0,
+   "z": 32,
+   "thickness": 4,
+   "parapet": 4,
+   "under_clear": 28,
+   "lattice": true
+  },
+  {
+   "id": "W4_foundry_l3",
+   "kind": "platform",
+   "district": "D6",
+   "arena": "A5",
+   "shape": "rect",
+   "center": [
+    470,
+    -200
+   ],
+   "size": [
+    260,
+    200
+   ],
+   "rot": 0,
+   "z": 80,
+   "thickness": 6,
+   "parapet": 5,
+   "under_clear": 42,
+   "lattice": true
+  },
+  {
+   "id": "W5_stack_perch",
+   "kind": "platform",
+   "district": "D6",
+   "shape": "rect",
+   "center": [
+    600,
+    -80
+   ],
+   "size": [
+    52,
+    52
+   ],
+   "rot": 0,
+   "z": 144,
+   "thickness": 4,
+   "parapet": 5
+  },
+  {
+   "id": "M3_bridge_mid",
+   "kind": "platform",
+   "district": "D5",
+   "arena": "A4",
+   "shape": "rect",
+   "center": [
+    460,
+    420
+   ],
+   "size": [
+    150,
+    38
+   ],
+   "rot": 0,
+   "z": 80,
+   "thickness": 6,
+   "parapet": 5,
+   "under_clear": 42
+  },
+  {
+   "id": "M4_roofline",
+   "kind": "terrace",
+   "district": "D5",
+   "arena": "A4",
+   "shape": "rect",
+   "center": [
+    500,
+    540
+   ],
+   "size": [
+    170,
+    130
+   ],
+   "rot": 0,
+   "z": 128,
+   "thickness": 6,
+   "parapet": 5
+  },
+  {
+   "id": "H0_pier",
+   "kind": "platform",
+   "district": "D1",
+   "shape": "rect",
+   "center": [
+    -540,
+    -570
+   ],
+   "size": [
+    180,
+    120
+   ],
+   "rot": 20,
+   "z": 0,
+   "thickness": 4,
+   "parapet": 5,
+   "over_water": true
+  },
+  {
+   "id": "O2_terrace",
+   "kind": "terrace",
+   "district": "D3",
+   "shape": "rect",
+   "center": [
+    -430,
+    150
+   ],
+   "size": [
+    150,
+    90
+   ],
+   "rot": -8,
+   "z": 16,
+   "thickness": 4,
+   "parapet": 4
+  },
+  {
+   "id": "S6_steps",
+   "kind": "terrace",
+   "district": "D4",
+   "shape": "rect",
+   "center": [
+    -150,
+    150
+   ],
+   "size": [
+    170,
+    110
+   ],
+   "rot": 0,
+   "z": 16,
+   "thickness": 4,
+   "parapet": 5
+  },
+  {
+   "id": "O5_pagoda_crown",
+   "kind": "terrace",
+   "district": "D3",
+   "shape": "rect",
+   "center": [
+    -520,
+    430
+   ],
+   "size": [
+    56,
+    56
+   ],
+   "rot": 0,
+   "z": 128,
+   "thickness": 4,
+   "parapet": 5
+  },
+  {
+   "id": "M7_arcology_roof",
+   "kind": "terrace",
+   "district": "D5",
+   "shape": "rect",
+   "center": [
+    640,
+    640
+   ],
+   "size": [
+    110,
+    110
+   ],
+   "rot": 0,
+   "z": 160,
+   "thickness": 6,
+   "parapet": 5
+  }
+ ],
+ "named_streets": {
+  "_comment": "width override per graph edge key '<from>><to>'; kind avenue >= 80 m.",
+  "K1>A3": {
+   "kind": "avenue",
+   "width": 64,
+   "name": "West Avenue",
+   "w_r1": 88
+  },
+  "A3>F2": {
+   "kind": "avenue",
+   "width": 68,
+   "name": "Spire Avenue S",
+   "w_r1": 96
+  },
+  "A1>H5": {
+   "kind": "avenue",
+   "width": 64,
+   "name": "Canal Road W",
+   "w_r1": 80
+  },
+  "H5>F2": {
+   "kind": "avenue",
+   "width": 64,
+   "name": "Canal Road",
+   "w_r1": 80
+  },
+  "F2>H6": {
+   "kind": "avenue",
+   "width": 64,
+   "name": "Canal Road E",
+   "w_r1": 80
+  },
+  "A3>W1": {
+   "kind": "street",
+   "width": 48,
+   "name": "Foundry Approach",
+   "w_r1": 56
+  },
+  "O3>S5": {
+   "kind": "avenue",
+   "width": 64,
+   "name": "Ridge Avenue",
+   "w_r1": 80
+  },
+  "O3>O4": {
+   "kind": "street",
+   "width": 40,
+   "name": "Pagoda Street"
+  },
+  "A5>H6": {
+   "kind": "street",
+   "width": 48,
+   "name": "Foundry South Road",
+   "w_r1": 56
+  },
+  "M1>A4": {
+   "kind": "street",
+   "width": 48,
+   "name": "Canyon Approach",
+   "w_r1": 56
+  },
+  "V6>A4": {
+   "kind": "street",
+   "width": 48,
+   "name": "Canyon East Road",
+   "w_r1": 56
+  },
+  "K1>O1": {
+   "kind": "street",
+   "width": 40,
+   "name": "Terrace Foot Road"
+  },
+  "F2>F3": {
+   "kind": "street",
+   "width": 48,
+   "name": "Tower Lobby Street",
+   "w_r1": 48
+  }
+ },
+ "arenas": {
+  "A1": {
+   "name": "Container Yard",
+   "center": [
+    -430,
+    -420
+   ],
+   "size": [
+    260,
+    200
+   ],
+   "rot": 0,
+   "tiers": [
+    -12,
+    0,
+    16,
+    48
+   ],
+   "main_tier": 0,
+   "cover_spacing": 50,
+   "cover_soft": 0.35,
+   "sockets": 4,
+   "towers": {
+    "count": 4,
+    "height": [
+     24.0,
+     32.0
+    ],
+    "size": [
+     26.0,
+     34.0
+    ],
+    "spacing": 150.0,
+    "kind": "container_stack",
+    "_comment": "lead r4 point 3: the Container Yard is named for stacked boxes - four real towers so C14 finds full cover"
+   }
+  },
+  "A2": {
+   "name": "Interchange Knot",
+   "center": [
+    -470,
+    -40
+   ],
+   "size": [
+    300,
+    300
+   ],
+   "rot": 0,
+   "tiers": [
+    0,
+    16,
+    32,
+    56,
+    80
+   ],
+   "main_tier": 0,
+   "cover_spacing": 52,
+   "cover_soft": 0.32,
+   "sockets": 5
+  },
+  "A3": {
+   "name": "Spire Plaza",
+   "center": [
+    0,
+    -120
+   ],
+   "size": [
+    280,
+    200
+   ],
+   "rot": 0,
+   "tiers": [
+    -20,
+    0,
+    16
+   ],
+   "main_tier": 0,
+   "cover_spacing": 46,
+   "cover_soft": 0.38,
+   "sockets": 5
+  },
+  "A4": {
+   "name": "Megablock Canyon",
+   "center": [
+    460,
+    420
+   ],
+   "size": [
+    110,
+    400
+   ],
+   "rot": 0,
+   "tiers": [
+    32,
+    80,
+    128
+   ],
+   "main_tier": 32,
+   "cover_spacing": 44,
+   "cover_soft": 0.3,
+   "sockets": 6
+  },
+  "A5": {
+   "name": "Foundry Decks",
+   "center": [
+    470,
+    -200
+   ],
+   "size": [
+    300,
+    240
+   ],
+   "rot": 0,
+   "tiers": [
+    0,
+    32,
+    80,
+    144
+   ],
+   "main_tier": 0,
+   "cover_spacing": 48,
+   "cover_soft": 0.36,
+   "sockets": 5
+  },
+  "A6": {
+   "name": "Sky Garden",
+   "center": [
+    -60,
+    -450
+   ],
+   "size": [
+    240,
+    200
+   ],
+   "rot": 0,
+   "tiers": [
+    144,
+    176
+   ],
+   "main_tier": 144,
+   "cover_spacing": 42,
+   "cover_soft": 0.34,
+   "sockets": 4
+  },
+  "B": {
+   "name": "Crown Deck",
+   "center": [
+    0,
+    120
+   ],
+   "size": [
+    300,
+    300
+   ],
+   "rot": 0,
+   "tiers": [
+    208,
+    224,
+    240
+   ],
+   "main_tier": 224,
+   "cover_spacing": 44,
+   "cover_soft": 0.0,
+   "sockets": 3,
+   "_shape": "disc",
+   "open_cover": {
+    "core_r": 40.0,
+    "core_band": 40.0,
+    "rim_band": 30.0,
+    "fin_band": 18.0,
+    "_comment": "boss r1: the Crown stays open - low cover on the rim steps, beside the 4 fins and against the core only"
+   }
+  }
+ },
+ "districts": {
+  "D1": {
+   "name": "Harbor",
+   "footprint": [
+    -700,
+    -700,
+    -250,
+    -260
+   ],
+   "ground_z": 0,
+   "dock_z": -12,
+   "layers": [
+    "L0",
+    "L1",
+    "L2"
+   ],
+   "streets": {
+    "mode": "grid",
+    "angle_deg": 12,
+    "avenue_spacing": 300,
+    "avenue_width": 64,
+    "street_spacing": 150,
+    "street_width": 44,
+    "alley_spacing": 95,
+    "alley_width": 28,
+    "avenue_w_r1": 80,
+    "street_w_r1": 48,
+    "alley_w_r1": 28
+   },
+   "buildings": {
+    "tier_mix": {
+     "A": 0.72,
+     "B": 0.28
+    },
+    "site": [
+     86,
+     86
+    ],
+    "density": 0.72,
+    "archetypes": [
+     "warehouse",
+     "stack",
+     "industrial",
+     "slab"
+    ],
+    "setback": 6,
+    "tier_h": {
+     "A": [
+      16,
+      32
+     ],
+     "B": [
+      48,
+      64
+     ],
+     "C": [
+      80,
+      96
+     ],
+     "D": [
+      96,
+      96
+     ]
+    },
+    "lot": [
+     40,
+     56
+    ],
+    "coverage": 0.4,
+    "wall_cap": 64,
+    "_coverage_note": "share of BUILDABLE land (MAP §4 revised, lead r2 answer 2)"
+   },
+   "landmarks": [
+    "cranes"
+   ],
+   "arenas": [
+    "A1"
+   ]
+  },
+  "D2": {
+   "name": "Interchange Knot",
+   "footprint": [
+    -700,
+    -260,
+    -250,
+    150
+   ],
+   "ground_z": 0,
+   "layers": [
+    "L0",
+    "L1",
+    "L2",
+    "L3"
+   ],
+   "streets": {
+    "mode": "radial",
+    "angle_deg": 0,
+    "centre": [
+     -470,
+     -40
+    ],
+    "avenue_spacing": 0,
+    "avenue_width": 64,
+    "street_spacing": 190,
+    "street_width": 44,
+    "alley_spacing": 110,
+    "alley_width": 28,
+    "avenue_w_r1": 80,
+    "street_w_r1": 48,
+    "alley_w_r1": 28
+   },
+   "buildings": {
+    "tier_mix": {
+     "A": 0.25,
+     "B": 0.5,
+     "C": 0.25
+    },
+    "site": [
+     92,
+     92
+    ],
+    "density": 0.72,
+    "archetypes": [
+     "slab",
+     "setback",
+     "podium_tower"
+    ],
+    "setback": 6,
+    "tier_h": {
+     "A": [
+      16,
+      32
+     ],
+     "B": [
+      48,
+      72
+     ],
+     "C": [
+      96,
+      144
+     ],
+     "D": [
+      160,
+      176
+     ]
+    },
+    "lot": [
+     44,
+     56
+    ],
+    "coverage": 0.5,
+    "wall_cap": 144,
+    "_coverage_note": "share of BUILDABLE land (MAP §4 revised, lead r2 answer 2)"
+   },
+   "landmarks": [
+    "knot"
+   ],
+   "arenas": [
+    "A2"
+   ]
+  },
+  "D3": {
+   "name": "Old Town Terraces",
+   "footprint": [
+    -688,
+    150,
+    -200,
+    688
+   ],
+   "ground_z": 32,
+   "terraces": [
+    16,
+    48
+   ],
+   "layers": [
+    "L0",
+    "L1",
+    "L2",
+    "L4"
+   ],
+   "streets": {
+    "mode": "contour",
+    "angle_deg": -8,
+    "avenue_spacing": 0,
+    "avenue_width": 40,
+    "street_spacing": 160,
+    "street_width": 40,
+    "alley_spacing": 62,
+    "alley_width": 26,
+    "avenue_w_r1": 40,
+    "street_w_r1": 40,
+    "alley_w_r1": 26
+   },
+   "buildings": {
+    "tier_mix": {
+     "A": 0.55,
+     "B": 0.42,
+     "C": 0.03
+    },
+    "site": [
+     52,
+     52
+    ],
+    "density": 0.92,
+    "archetypes": [
+     "terrace",
+     "pagoda",
+     "slab",
+     "setback"
+    ],
+    "setback": 4,
+    "tier_h": {
+     "A": [
+      16,
+      32
+     ],
+     "B": [
+      40,
+      56
+     ],
+     "C": [
+      64,
+      80
+     ],
+     "D": [
+      96,
+      96
+     ]
+    },
+    "lot": [
+     26,
+     56
+    ],
+    "coverage": 0.65,
+    "wall_cap": 56,
+    "_coverage_note": "share of BUILDABLE land (MAP §4 revised, lead r2 answer 2)",
+    "fabric": "terrace"
+   },
+   "landmarks": [
+    "pagoda"
+   ],
+   "arenas": []
+  },
+  "D4": {
+   "name": "Spire & Civic Core",
+   "footprint": [
+    -250,
+    -250,
+    240,
+    700
+   ],
+   "ground_z": 0,
+   "layers": [
+    "L0",
+    "L1",
+    "L2",
+    "L3",
+    "L4",
+    "L5"
+   ],
+   "streets": {
+    "mode": "grid",
+    "angle_deg": 0,
+    "avenue_spacing": 330,
+    "avenue_width": 68,
+    "street_spacing": 160,
+    "street_width": 46,
+    "alley_spacing": 100,
+    "alley_width": 28,
+    "avenue_w_r1": 96,
+    "street_w_r1": 52,
+    "alley_w_r1": 28
+   },
+   "buildings": {
+    "tier_mix": {
+     "A": 0.18,
+     "B": 0.42,
+     "C": 0.28,
+     "D": 0.12
+    },
+    "site": [
+     96,
+     96
+    ],
+    "density": 0.7,
+    "archetypes": [
+     "podium_tower",
+     "setback",
+     "slab",
+     "twisted"
+    ],
+    "setback": 8,
+    "tier_h": {
+     "A": [
+      16,
+      32
+     ],
+     "B": [
+      48,
+      72
+     ],
+     "C": [
+      96,
+      144
+     ],
+     "D": [
+      160,
+      200
+     ]
+    },
+    "lot": [
+     44,
+     60
+    ],
+    "coverage": 0.5,
+    "wall_cap": 200,
+    "podium_tier_mix": {
+     "C": 0.55,
+     "D": 0.45
+    },
+    "_coverage_note": "share of BUILDABLE land (MAP §4 revised, lead r2 answer 2)"
+   },
+   "quarters": [
+    {
+     "tag": "d4q",
+     "name": "Civic Quarter",
+     "_comment": "MAP §4 D4 / lead r2 point 1: the plateau north of the Forum was a void that the Crown looks at through the whole boss fight. A street grid on +32 continuing the D5 corridor grain, tied south to the Forum (S5) and east to the Ring Viaduct's M1 leg. Heights rise 48-144 m toward the north edge so the Spire reads in front of a backdrop from the south.",
+     "footprint": [
+      -160,
+      450,
+      250,
+      680
+     ],
+     "ground_z": 32,
+     "streets": {
+      "mode": "grid",
+      "angle_deg": 0,
+      "avenue_spacing": 0,
+      "avenue_width": 64,
+      "street_spacing": 110,
+      "street_width": 44,
+      "alley_spacing": 0,
+      "alley_width": 0,
+      "avenue_w_r1": 80,
+      "street_w_r1": 48,
+      "alley_w_r1": 0,
+      "spines": [
+       {
+        "kind": "street",
+        "width": 48,
+        "name": "Civic Axis",
+        "_comment": "continues the Forum's north edge (S5) straight up the quarter",
+        "points": [
+         [
+          0,
+          430
+         ],
+         [
+          0,
+          700
+         ]
+        ]
+       },
+       {
+        "kind": "street",
+        "width": 44,
+        "name": "Quarter Link",
+        "_comment": "ties the grid east to the Ring Viaduct's M1 leg at (260,330)",
+        "points": [
+         [
+          -160,
+          474
+         ],
+         [
+          250,
+          474
+         ],
+         [
+          258,
+          360
+         ]
+        ]
+       }
+      ]
+     },
+     "buildings": {
+      "tier_mix": {
+       "B": 0.34,
+       "C": 0.52,
+       "D": 0.14
+      },
+      "site": [
+       88,
+       88
+      ],
+      "density": 0.86,
+      "archetypes": [
+       "setback",
+       "podium_tower",
+       "slab",
+       "colonnade"
+      ],
+      "setback": 6,
+      "tier_h": {
+       "A": [
+        24,
+        32
+       ],
+       "B": [
+        48,
+        72
+       ],
+       "C": [
+        80,
+        128
+       ],
+       "D": [
+        128,
+        144
+       ]
+      },
+      "north_rise": {
+       "y0": 450,
+       "y1": 680,
+       "h0": 48,
+       "h1": 144
+      },
+      "lot": [
+       56,
+       64
+      ],
+      "coverage": 0.5,
+      "wall_cap": 144,
+      "podium_tier_mix": {
+       "C": 0.6,
+       "D": 0.4
+      }
+     }
+    }
+   ],
+   "landmarks": [
+    "spire",
+    "hologram"
+   ],
+   "arenas": [
+    "A3",
+    "BOSS"
+   ]
+  },
+  "D5": {
+   "name": "Megablocks",
+   "footprint": [
+    240,
+    150,
+    700,
+    700
+   ],
+   "ground_z": 32,
+   "layers": [
+    "L2",
+    "L3",
+    "L4"
+   ],
+   "streets": {
+    "mode": "grid",
+    "angle_deg": 0,
+    "avenue_spacing": 0,
+    "avenue_width": 64,
+    "street_spacing": 170,
+    "street_width": 48,
+    "alley_spacing": 0,
+    "alley_width": 0,
+    "avenue_w_r1": 80,
+    "street_w_r1": 56,
+    "alley_w_r1": 0
+   },
+   "buildings": {
+    "tier_mix": {
+     "B": 0.25,
+     "C": 0.55,
+     "D": 0.2
+    },
+    "site": [
+     150,
+     150
+    ],
+    "density": 0.82,
+    "archetypes": [
+     "megablock",
+     "setback",
+     "podium_tower"
+    ],
+    "setback": 8,
+    "tier_h": {
+     "A": [
+      24,
+      32
+     ],
+     "B": [
+      56,
+      80
+     ],
+     "C": [
+      128,
+      176
+     ],
+     "D": [
+      184,
+      200
+     ]
+    },
+    "lot": [
+     80,
+     96
+    ],
+    "coverage": 0.75,
+    "wall_cap": 200,
+    "podium_tier_mix": {
+     "C": 0.5,
+     "D": 0.5
+    },
+    "_coverage_note": "share of BUILDABLE land (MAP §4 revised, lead r2 answer 2)"
+   },
+   "landmarks": [
+    "block9"
+   ],
+   "arenas": [
+    "A4"
+   ]
+  },
+  "D6": {
+   "name": "Foundry Works",
+   "footprint": [
+    240,
+    -560,
+    700,
+    150
+   ],
+   "ground_z": 0,
+   "layers": [
+    "L0",
+    "L1",
+    "L2",
+    "L3",
+    "L4"
+   ],
+   "streets": {
+    "mode": "grid",
+    "angle_deg": 0,
+    "avenue_spacing": 0,
+    "avenue_width": 64,
+    "street_spacing": 180,
+    "street_width": 48,
+    "alley_spacing": 120,
+    "alley_width": 30,
+    "avenue_w_r1": 80,
+    "street_w_r1": 56,
+    "alley_w_r1": 32
+   },
+   "buildings": {
+    "tier_mix": {
+     "A": 0.3,
+     "B": 0.55,
+     "C": 0.15
+    },
+    "site": [
+     110,
+     110
+    ],
+    "density": 0.5,
+    "archetypes": [
+     "industrial",
+     "stack",
+     "warehouse",
+     "slab"
+    ],
+    "setback": 10,
+    "tier_h": {
+     "A": [
+      24,
+      40
+     ],
+     "B": [
+      48,
+      80
+     ],
+     "C": [
+      96,
+      144
+     ],
+     "D": [
+      144,
+      160
+     ]
+    },
+    "lot": [
+     48,
+     64
+    ],
+    "coverage": 0.5,
+    "wall_cap": 144,
+    "_coverage_note": "share of BUILDABLE land (MAP §4 revised, lead r2 answer 2)"
+   },
+   "landmarks": [
+    "stacks"
+   ],
+   "arenas": [
+    "A5"
+   ]
+  },
+  "D7": {
+   "name": "Financial Skyline",
+   "footprint": [
+    -250,
+    -560,
+    240,
+    -250
+   ],
+   "ground_z": 0,
+   "layers": [
+    "L1",
+    "L2",
+    "L3",
+    "L4"
+   ],
+   "streets": {
+    "mode": "grid",
+    "angle_deg": 0,
+    "avenue_spacing": 0,
+    "avenue_width": 64,
+    "street_spacing": 280,
+    "street_width": 44,
+    "alley_spacing": 0,
+    "alley_width": 0,
+    "avenue_w_r1": 88,
+    "street_w_r1": 48,
+    "alley_w_r1": 0
+   },
+   "buildings": {
+    "tier_mix": {
+     "A": 0.08,
+     "B": 0.24,
+     "C": 0.44,
+     "D": 0.24
+    },
+    "site": [
+     120,
+     120
+    ],
+    "density": 0.78,
+    "archetypes": [
+     "podium_tower",
+     "slab",
+     "twisted",
+     "setback"
+    ],
+    "setback": 6,
+    "tier_h": {
+     "A": [
+      24,
+      32
+     ],
+     "B": [
+      64,
+      96
+     ],
+     "C": [
+      128,
+      176
+     ],
+     "D": [
+      200,
+      240
+     ]
+    },
+    "lot": [
+     72,
+     88
+    ],
+    "coverage": 0.6,
+    "wall_cap": 240,
+    "podium_tier_mix": {
+     "C": 0.45,
+     "D": 0.55
+    },
+    "_coverage_note": "share of BUILDABLE land (MAP §4 revised, lead r2 answer 2)"
+   },
+   "landmarks": [
+    "crystal_bridge"
+   ],
+   "arenas": [
+    "A6"
+   ]
+  }
+ }
+}

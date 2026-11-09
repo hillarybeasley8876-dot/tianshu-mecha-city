@@ -1,0 +1,16 @@
+[
+ { "t": 1, "cmd": "god" },
+ { "t": 2, "cmd": "wait_state", "args": ["tutorial", 45] },
+ { "t": 3, "cmd": "kill_spire", "args": [0] },
+ { "t": 3, "cmd": "clear_arena", "args": ["A1"] },
+ { "t": 4, "cmd": "kill_spire", "args": [1] },
+ { "t": 5, "cmd": "kill_spire", "args": [2] },
+ { "t": 6, "cmd": "wait_state", "args": ["boss_gate", 20] },
+ { "t": 7, "cmd": "state" },
+ { "t": 8, "cmd": "goto", "args": ["S4", 8] },
+ { "t": 9, "cmd": "shot", "args": ["crowncheck_pad"] },
+ { "t": 10, "cmd": "wait_state", "args": ["boss", 40] },
+ { "t": 11, "cmd": "state" },
+ { "t": 12, "cmd": "dump" },
+ { "t": 13, "cmd": "shot", "args": ["crowncheck_boss"] }
+]

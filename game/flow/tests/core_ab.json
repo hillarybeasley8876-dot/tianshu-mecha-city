@@ -1,0 +1,22 @@
+[
+ { "t": 1, "cmd": "god" },
+ { "t": 2, "cmd": "wait_state", "args": ["tutorial", 60] },
+ { "t": 4, "cmd": "clear_arena", "args": ["A1"] },
+ { "t": 6, "cmd": "wait_state", "args": ["district", 90] },
+ { "t": 40, "cmd": "core_stand", "args": [2, 62] },
+ { "t": 44, "cmd": "look_at", "args": [-48, 175, 435] },
+ { "t": 46, "cmd": "dump" },
+ { "t": 50, "cmd": "shot", "args": ["coreab_sealed"] },
+ { "t": 55, "cmd": "hurt_spire", "args": [2, 3500, "pod_0"] },
+ { "t": 58, "cmd": "hurt_spire", "args": [2, 3500, "pod_1"] },
+ { "t": 61, "cmd": "hurt_spire", "args": [2, 3500, "pod_2"] },
+ { "t": 64, "cmd": "hurt_spire", "args": [2, 3500, "pod_3"] },
+ { "t": 68, "cmd": "core_stand", "args": [2, 62] },
+ { "t": 70, "cmd": "look_at", "args": [-48, 175, 435] },
+ { "t": 74, "cmd": "shot", "args": ["coreab_open"] },
+ { "t": 78, "cmd": "core_stand", "args": [2, 26] },
+ { "t": 80, "cmd": "look_at", "args": [-48, 175, 435] },
+ { "t": 84, "cmd": "shot", "args": ["coreab_near"] },
+ { "t": 88, "cmd": "state" },
+ { "t": 90, "cmd": "report" }
+]

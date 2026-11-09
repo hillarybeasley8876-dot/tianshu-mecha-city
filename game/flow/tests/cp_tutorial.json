@@ -1,0 +1,97 @@
+[
+ {
+  "t": 1,
+  "cmd": "wait_state",
+  "args": [
+   "tutorial",
+   120
+  ]
+ },
+ {
+  "t": 2,
+  "cmd": "mark",
+  "args": [
+   "cp1_tutorial_start"
+  ]
+ },
+ {
+  "t": 3,
+  "cmd": "probe"
+ },
+ {
+  "t": 4,
+  "cmd": "goto",
+  "args": [
+   "A1",
+   12
+  ]
+ },
+ {
+  "t": 5,
+  "cmd": "wait_arena",
+  "args": [
+   "A1",
+   25
+  ]
+ },
+ {
+  "t": 6,
+  "cmd": "shot",
+  "args": [
+   "cp1_a_yard_fight"
+  ]
+ },
+ {
+  "t": 7,
+  "cmd": "lethal"
+ },
+ {
+  "t": 8,
+  "cmd": "wait_state",
+  "args": [
+   "game_over",
+   12
+  ]
+ },
+ {
+  "t": 9,
+  "cmd": "probe"
+ },
+ {
+  "t": 10,
+  "cmd": "shot",
+  "args": [
+   "cp1_b_tutorial_dead"
+  ]
+ },
+ {
+  "t": 11,
+  "cmd": "retry"
+ },
+ {
+  "t": 11,
+  "cmd": "wait_state",
+  "args": [
+   "tutorial",
+   12
+  ]
+ },
+ {
+  "t": 12,
+  "cmd": "probe"
+ },
+ {
+  "t": 13,
+  "cmd": "shot",
+  "args": [
+   "cp1_c_tutorial_respawn"
+  ]
+ },
+ {
+  "t": 14,
+  "cmd": "mark",
+  "args": [
+   "cp1_respawned"
+  ]
+ }
+]

@@ -1,0 +1,6 @@
+{
+  "_doc": "Undertow Well / gravity slam on a wide orbit — the pull needs room to read.",
+  "id": "orbit_wide", "rig": "orbit", "kind": "combat", "from": 0.0, "to": 14.0,
+  "radius": 56.0, "height": 20.0, "rate": -7.0, "start": 250.0,
+  "look": [0.0, 0.0, 0.0], "frame": [0.0, 0.0], "fov": 50.0, "min_bbox": 0.22
+}

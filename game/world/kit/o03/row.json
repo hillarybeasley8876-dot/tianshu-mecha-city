@@ -1,0 +1,119 @@
+{
+ "id": "o03",
+ "band": "oldtown",
+ "districts": [
+  "D3"
+ ],
+ "archetypes": [
+  "slab",
+  "terrace"
+ ],
+ "tags": [],
+ "tileable": false,
+ "glb": "o03/o03.glb",
+ "tris": 20000,
+ "budget": 20000,
+ "tex": 1024,
+ "size": [
+  10.456,
+  9.678,
+  30.0
+ ],
+ "footprint": [
+  10.46,
+  9.68
+ ],
+ "aspect": 0.3353,
+ "parts_kept": 1,
+ "parts_dropped": 0,
+ "look": {
+  "neon_pct": 0.58,
+  "interior_pct": 0.06,
+  "wall_px": 67452,
+  "wall_pct": 6.43,
+  "top_px": 19643,
+  "top_pct": 1.87,
+  "emit_masked_pct": 40.64,
+  "luma_before": 0.3813,
+  "luma_after": 0.2518,
+  "gain": 0.629,
+  "pane_before": 0.0,
+  "pane_after": 0.01,
+  "pane_carved": 0.62,
+  "wall_luma": 0.23424118757247925,
+  "rough_before": 0.569,
+  "rough_after": 0.801,
+  "metal_before": 0.031,
+  "metal_after": 0.031,
+  "normal_flat_pct": 40.64,
+  "orm_flat_pct": 40.64,
+  "walls": 322,
+  "pane_pct": 0.62,
+  "pane_px": 1625,
+  "uv_px": 21680,
+  "wall_m2": 1379.7,
+  "texel_m2": 0.0636,
+  "small_pct": 68.34,
+  "pruned_pct": 68.34,
+  "side": 512,
+  "wall_area_pct": 68.61,
+  "top_area_pct": 23.08
+ },
+ "weld": 0.0,
+ "open_edges": 19,
+ "custom_normals_cleared": 1,
+ "planar": {
+  "planar_pct": 48.58,
+  "regions": 89,
+  "faces_moved": 2617,
+  "verts_moved": 2617,
+  "max_move_m": 0.2832,
+  "regions_rejected": 4231,
+  "verts_skipped": 108,
+  "planes_found": 90
+ },
+ "plane_normals": {
+  "plane_area_pct": 57.99,
+  "plane_face_pct": 23.55,
+  "plane_regions": 182,
+  "dev_m": 0.5
+ },
+ "win": "o03/o03_win.png",
+ "file_kb": 2865,
+ "far": {
+  "glb": "o03/o03_far.glb",
+  "tris": 7221,
+  "tex": 256,
+  "file_kb": 1005,
+  "open_before": 23,
+  "open_after": 75,
+  "holes_filled": 0,
+  "tear": 3.261,
+  "gate": {
+   "holes": 0.0,
+   "views": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "detail": 0.0,
+   "limit": 0.02,
+   "pass": true
+  }
+ },
+ "roof": {
+  "cell_m": 2.0,
+  "nx": 6,
+  "ny": 5,
+  "origin": [
+   -5.228,
+   -4.839
+  ],
+  "z0": 0.0,
+  "z_span": 30.0,
+  "flat_deg": 15.0,
+  "h": "7e3t+O8A7e3t+u8A7e3t+O8A7fzt/O8A7e3t++8A",
+  "flat": "////AAAA/////wAA////AAAA////AAAA////AAAA"
+ }
+}

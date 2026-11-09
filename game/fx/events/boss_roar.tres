@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="FeelEvent" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://fx/feel_event.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = &"boss_roar"
+trauma = 0.4
+vfx = Array[StringName]([&"dust_ring"])
+vfx_scale = 2.0
+audio = Array[StringName]([&"boss_roar"])
+rumble_weak = 0.3
+rumble_strong = 0.6
+rumble_ms = 600
+falloff = 300.0
+cooldown = 1.0

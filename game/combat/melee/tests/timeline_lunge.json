@@ -1,0 +1,5 @@
+[
+  {"t": 0.3, "player": {"method": "debug_lock", "args": [2]}},
+  {"t": 0.6, "tap": ["melee"]},
+  {"t": 2.6, "end": true}
+]

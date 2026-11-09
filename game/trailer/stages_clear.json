@@ -1,0 +1,26 @@
+{
+  "_doc": "Foreground-clutter sweep (trailer unit, r5). The three showcase segments that filmed under a skybridge -- g2_assault, g3_jump and g7_melee -- are re-placed from this: probe_clear.gd reports, per bearing and lens height, how much of the frame is scenery within 70 m of the lens and what the nearest piece is. A bearing with near=0.00 films clear sky over open deck. Spawns are the ones those three takes actually use.",
+  "stages": [
+    {
+      "id": "A6_main",
+      "spawn": [-60.0, 155.0, 450.0],
+      "yaw": 225.0,
+      "note": "the showcase stage; g7_melee and g5_dodge fight here",
+      "az": [0.0, 30.0, 60.0, 90.0, 120.0, 150.0, 180.0, 210.0, 240.0, 270.0, 300.0, 330.0]
+    },
+    {
+      "id": "A6_jump",
+      "spawn": [-60.0, 155.0, 415.0],
+      "yaw": 0.0,
+      "note": "g3_jump's spawn -- the deck the jump take uses",
+      "az": [0.0, 30.0, 60.0, 90.0, 120.0, 150.0, 180.0, 210.0, 240.0, 270.0, 300.0, 330.0]
+    },
+    {
+      "id": "A6_assault",
+      "spawn": [-83.0, 155.0, 427.0],
+      "yaw": 45.0,
+      "note": "g2_assault's arena mark -- the ram lane",
+      "az": [0.0, 30.0, 60.0, 90.0, 120.0, 150.0, 180.0, 210.0, 240.0, 270.0, 300.0, 330.0]
+    }
+  ]
+}

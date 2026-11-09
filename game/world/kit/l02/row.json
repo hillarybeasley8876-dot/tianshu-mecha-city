@@ -1,0 +1,124 @@
+{
+ "id": "l02",
+ "band": "industrial",
+ "districts": [
+  "D1",
+  "D2"
+ ],
+ "archetypes": [
+  "warehouse",
+  "industrial",
+  "slab"
+ ],
+ "tags": [
+  "long"
+ ],
+ "tileable": false,
+ "glb": "l02/l02.glb",
+ "tris": 20000,
+ "budget": 20000,
+ "tex": 1024,
+ "size": [
+  31.429,
+  146.765,
+  22.0
+ ],
+ "footprint": [
+  31.43,
+  146.76
+ ],
+ "aspect": 3.0871,
+ "parts_kept": 1,
+ "parts_dropped": 0,
+ "look": {
+  "neon_pct": 3.34,
+  "interior_pct": 0.0,
+  "emit_off": 1,
+  "wall_px": 170831,
+  "wall_pct": 16.29,
+  "top_px": 163140,
+  "top_pct": 15.56,
+  "emit_masked_pct": 57.8,
+  "luma_before": 0.3245,
+  "luma_after": 0.233,
+  "gain": 0.678,
+  "pane_before": 0.01,
+  "pane_after": 0.01,
+  "pane_carved": 1.94,
+  "wall_luma": 0.219392329454422,
+  "rough_before": 0.631,
+  "rough_after": 0.831,
+  "metal_before": 0.027,
+  "metal_after": 0.027,
+  "normal_flat_pct": 57.8,
+  "orm_flat_pct": 57.8,
+  "walls": 21,
+  "pane_pct": 1.94,
+  "pane_px": 5074,
+  "uv_px": 21354,
+  "wall_m2": 3578.9,
+  "texel_m2": 0.1676,
+  "small_pct": 3.37,
+  "pruned_pct": 3.37,
+  "side": 512,
+  "wall_area_pct": 37.65,
+  "top_area_pct": 54.13
+ },
+ "weld": 0.0001,
+ "open_edges": 64,
+ "custom_normals_cleared": 1,
+ "planar": {
+  "planar_pct": 70.81,
+  "regions": 90,
+  "faces_moved": 4773,
+  "verts_moved": 4773,
+  "max_move_m": 0.3495,
+  "regions_rejected": 1464,
+  "verts_skipped": 125,
+  "planes_found": 90
+ },
+ "plane_normals": {
+  "plane_area_pct": 95.41,
+  "plane_face_pct": 62.21,
+  "plane_regions": 657,
+  "dev_m": 1.468
+ },
+ "win": "l02/l02_win.png",
+ "file_kb": 2227,
+ "far": {
+  "glb": "l02/l02_far.glb",
+  "tris": 3994,
+  "tex": 256,
+  "file_kb": 522,
+  "open_before": 64,
+  "open_after": 81,
+  "holes_filled": 0,
+  "tear": 1.266,
+  "gate": {
+   "holes": 0.0,
+   "views": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "detail": 0.0,
+   "limit": 0.02,
+   "pass": true
+  }
+ },
+ "roof": {
+  "cell_m": 2.0,
+  "nx": 16,
+  "ny": 74,
+  "origin": [
+   -15.714,
+   -73.382
+  ],
+  "z0": 0.0,
+  "z_span": 22.0,
+  "flat_deg": 15.0,
+  "h": "5unp6enp6enp6enp6enpAOTm5ubn5+bm5eXl5eXl5QDk5ufo6Ojm5eXl5eXl5eQA5Obn/fz7+/r6+fj39/b1AOTm5/z7+vr5+Pj39/b29QDk5ebx8O/u7u3s6+vq6egAfOPj6Ojn5ubl5eTj4+LifHzg4OXk4+Pi4eDg397d3Hx84eHr6unp6Ofn5uXl5ON8fOjo/f38+/n49/b29fT0e3zl5fT08/Py8e/u7e3s63t84+Ps7Ozr6urp6Ojn5uZ7fODg5uXl5OTj4+Li4eHge3ze3uLh4ODf3t7d3Nzb2n2D6Ojz8vLx8O/v7u3s7Ot+g+fn/v39/Pv6+fj39/b1fp7k4/Py8vHx8PDv7+/u7n6d4eDp6ejo6Ofn5ubl5eR+n93c4eHh4eDg39/e3N3dfp3e3ufm5eTj4uHg4N/e3X6W6Oj+/fz8+/r5+Pb29vV+g+Tk9/b19fTz8/Lx8fDvfXzj4e3s7Ovq6uno6Ofm5n184N7l5eXk5OTj4uDg3tx9fNzc4uHh4ODf39/e3t3de3zo6P79/Pz7+vn4+Pf29Xt85ub79/b29fX09PPz8O17fOPj7+7t7ezr6urp6Ofme3zg4Ofn5uXk4+Pi4eHg4Ht83d3k4+Lj4ODg3t3e29p7fOfn9fTz8vHw7+7t7Ozre3zo6P79/Pz7+vn49/b29Xt85eXx8PDv7u7t7Ovr6ul7guLi6+rp6ejn5ubl5OTje4Pf3+Tk4+Lh4eDf397d3Xue3+Dp6Ofm5eTj4uHg3957nenp/v38/Pv6+fj39vb1e57m5vLy8fDw7+7u7ezs63uW4+Pt7Ovr6uno6Ofm5uV7l+Dg5+bl5eTj4+Lh4eDfe4Pd3ePi4eHg397d3Nva2Xt86ur7+vn5+Pf29fTz8vF7fOnp/v38+/v6+fj39vX1e3zm5u3t7Ozr6+rq6eno6Hx84+Pm5uXl5OTj4+Hg4N97fOLi4uHg4eHh4N7e3t3de3zi4vT18/Lx8fDv7u3s63t84uL+/fz7+/r5+Pf29fV7fOLi7e3s7Ovr6urp6ejoe3zi4ubl5eXk5OPj4uLh4Xt84OLg4ODg4N/f3tvb2tp7fObn7u3t7Ovq6uno6Ofme4Pq6f79/Pv7+vn49/b19XuD5uby8fHw7+7s6+vq6ul7nePj6eno6Ofn5ubl5eTke57g4OTj4+Lh4eDg39/e3nue3+Dn5+bm5eTk4+Pi4uF7n+bo/v38+/v6+fj39vX0e4Tj5fb29fX09PPy8e/t7HuW4OLp6ejo5+fm5uXl5OR7fN3f4+Li4eHg4N/f3t7de3zi4uXk5OPj4+Li4eHh4Ht86Ojv7+7u7u7t7ezs7Ot8fObm/v38+/r6+fj39vX0fXzj4+7t7Ozr6urp6Ojn53184eHg39/e3t3c3Nva2tl9fN/f5OPj4+Li4uHh4eDgfeLk5u3t7Ozs6+vq6urp6QDi5Obz8/Ly8vHx8fDw8O8A4uTm+fn4+Pj39/f29vb2AOLk5ubm5ubm5ubm5ubm5gDi5OXl5eXl5eXm5ubm5uag4uPj4+Pj4+Tk5eXl5ubmAAAAAAAAAAAAAAAAAAAAAAA=",
+  "flat": "/wAAAAAAAAAAAAAAAAAAAAD//////////////////wD///////////////////8A////////////////////AP///wAAAAAAAAAAAAD//wD///////////////////8A////AAAAAAAAAAAAAP//////////////////////////AAAAAAAAAAAAAAAAAAD//////////wD//////////////wAAAAAAAP////////////8A////AP///////////////////////////////////////////////////wAAAAAAAAAAAAAAAAAAAAD/AP///////////////////wD//wAAAAAAAAAAAAAAAP8A//8AAAAAAAAAAAAAAAD/AP///////////////////wAAAAAAAAAAAAAAAAAA//8A////////////////////AP//AAAAAAAAAAAAAAAAAP///wAAAAAAAAAAAAAAAAD///////////////////8A/wAAAAAAAP//////////AP////////////////////////8AAAAAAAAAAAAAAAD/////AAAAAAAAAP////////////8AAAAAAAAAAAD//////////////////////////wAAAAAAAAAAAAAAAAAA//////////////////////////8AAAAAAAAAAAAAAAD/AP//AAAAAAAAAAAAAAAA/////wAAAAAAAAAAAAAAAP//AAAAAAAAAAAAAAAAAAD/AP///////////////////wD///////////////////8A////////////////////AP///////////////////////wD/////////////////AAAAAAAAAAAAAAAAAAD//////////////////////////wAAAAAAAAAAAAAAAAD///8AAAAAAAAAAAAAAAD///////////8A/////////////wAAAAAAAAAAAAAAAP//////////////////////////AAAAAAAAAAAAAAAA/////wAAAAAAAAAAAAAAAP///////////////wAAAAD//wAAAAAAAAAAAAAAAAAA/wD///////////////////8A//8AAAAAAAAA/////////////////////////////wD///////////////////8AAAAAAAAAAAAAAAAAAAD/AP///////////////////////wAAAAAAAAAAAAAAAP8A//8AAAAAAAAAAAAAAAD/////AAAAAAAAAAAAAAAA//8AAAAAAAAAAAAAAAAAAP////8AAAAAAAAAAAAAAAAA/////////////////////////wAAAAAAAAAAAAAAAP////8AAAAAAAAAAAAAAAD//wAA/wAAAAAAAAAAAAAA/////////////////////wD///////////////////8A////////////////////AP///////////////////wD///////////////////8A////////////////////AAAAAAAAAAAAAAAAAAAAAAA="
+ }
+}

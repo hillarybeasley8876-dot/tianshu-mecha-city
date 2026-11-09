@@ -1,0 +1,28 @@
+[gd_resource type="Resource" script_class="FeelEvent" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://fx/feel_event.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = &"hurt_heavy"
+hitstop_kind = 2
+hitstop_seconds = 0.083
+trauma = 0.5
+kick_deg = 1.5
+kick_dir = Vector3(0, 0, 1)
+kick_seconds = 0.25
+post = Array[StringName]([&"vignette", &"chromatic"])
+vignette = 0.6
+vignette_color = Color(0.55, 0.03, 0.03, 1)
+chromatic_px = 3.0
+post_seconds = 0.35
+fov_delta = -3.0
+fov_seconds = 0.2
+vfx = Array[StringName]([&"debris", &"dust_puff"])
+vfx_scale = 0.9
+audio = Array[StringName]([&"hurt_heavy_transient", &"hurt_heavy_body", &"hurt_heavy_sub",
+&"cockpit_alarm"])
+rumble_weak = 0.6
+rumble_strong = 0.8
+rumble_ms = 300
+cooldown = 0.15

@@ -1,0 +1,31 @@
+[
+ {
+  "name": "T1fac",
+  "pos": [
+   39,
+   108,
+   -476
+  ],
+  "look": [
+   94,
+   108,
+   -531
+  ],
+  "fov": 45
+ },
+ {
+  "name": "S04fight",
+  "pos": [
+   -208.0,
+   46.0,
+   -282.0
+  ],
+  "look": [
+   -200.0,
+   41.0,
+   -260.0
+  ],
+  "fov": 62,
+  "note": "trailer s04 combat: --spawn=-200,39.5,-260,180 seen from the gameplay camera"
+ }
+]

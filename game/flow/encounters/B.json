@@ -1,0 +1,7 @@
+{
+  "_note": "Crown Deck (MAP §2): the boss arena. The boss unit owns the fight, so flow runs no waves here — the file exists so the director does not report a missing table.",
+  "arena": "B",
+  "label": "天枢之冠 CROWN DECK",
+  "music": 1.0,
+  "waves": []
+}

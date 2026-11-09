@@ -1,0 +1,121 @@
+{
+ "id": "h01",
+ "band": "industrial",
+ "districts": [
+  "D1"
+ ],
+ "archetypes": [
+  "warehouse"
+ ],
+ "tags": [
+  "long"
+ ],
+ "tileable": false,
+ "glb": "h01/h01.glb",
+ "tris": 19999,
+ "budget": 20000,
+ "tex": 1024,
+ "size": [
+  11.66,
+  37.544,
+  14.0
+ ],
+ "footprint": [
+  11.66,
+  37.54
+ ],
+ "aspect": 1.4945,
+ "parts_kept": 1,
+ "parts_dropped": 0,
+ "look": {
+  "neon_pct": 5.48,
+  "interior_pct": 0.0,
+  "emit_off": 1,
+  "wall_px": 59563,
+  "wall_pct": 5.68,
+  "top_px": 28715,
+  "top_pct": 2.74,
+  "emit_masked_pct": 40.05,
+  "luma_before": 0.3474,
+  "luma_after": 0.2321,
+  "gain": 0.633,
+  "pane_before": 0.04,
+  "pane_after": 0.04,
+  "pane_carved": 0.22,
+  "wall_luma": 0.22656512260437012,
+  "rough_before": 0.506,
+  "rough_after": 0.776,
+  "metal_before": 0.024,
+  "metal_after": 0.024,
+  "normal_flat_pct": 40.05,
+  "orm_flat_pct": 40.05,
+  "walls": 22,
+  "pane_pct": 0.22,
+  "pane_px": 575,
+  "uv_px": 6487,
+  "wall_m2": 691.3,
+  "texel_m2": 0.1066,
+  "small_pct": 44.82,
+  "pruned_pct": 44.82,
+  "side": 512,
+  "wall_area_pct": 51.82,
+  "top_area_pct": 41.09
+ },
+ "weld": 0.0,
+ "open_edges": 12,
+ "custom_normals_cleared": 1,
+ "planar": {
+  "planar_pct": 62.64,
+  "regions": 82,
+  "faces_moved": 3979,
+  "verts_moved": 3979,
+  "max_move_m": 0.3484,
+  "regions_rejected": 3409,
+  "verts_skipped": 194,
+  "planes_found": 90
+ },
+ "plane_normals": {
+  "plane_area_pct": 73.41,
+  "plane_face_pct": 37.51,
+  "plane_regions": 141,
+  "dev_m": 0.5
+ },
+ "win": "h01/h01_win.png",
+ "file_kb": 2785,
+ "far": {
+  "glb": "h01/h01_far.glb",
+  "tris": 4192,
+  "tex": 256,
+  "file_kb": 651,
+  "open_before": 12,
+  "open_after": 43,
+  "holes_filled": 0,
+  "tear": 3.583,
+  "gate": {
+   "holes": 0.0,
+   "views": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "detail": 0.0,
+   "limit": 0.02,
+   "pass": true
+  }
+ },
+ "roof": {
+  "cell_m": 2.0,
+  "nx": 6,
+  "ny": 19,
+  "origin": [
+   -5.83,
+   -18.772
+  ],
+  "z0": 0.0,
+  "z_span": 14.0,
+  "flat_deg": 15.0,
+  "h": "vLi4uLi8uLjjuLi8uLi4uLi8uLi4y7i8uLi4wbi8uLi4uLi8uLi4uLi8uLjgv7i8uLi4vri8uLi4uLm8uLj9+bi8uLi4uLi8uLi4uLi8uLi4zLi8uLi4uLi8uLi4uLi9uLi4wLi+uLi4uLi/vbu9wMHA",
+  "flat": "////////////////////////////////////////////////////////////////////AP//////////////AP//////////////////////////////////////////////////////////AAD/AAD/"
+ }
+}

@@ -1,0 +1,13 @@
+[
+ { "t": 1,  "cmd": "wait_state", "args": ["tutorial", 90] },
+ { "t": 2,  "cmd": "probe" },
+ { "t": 3,  "cmd": "lethal" },
+ { "t": 4,  "cmd": "wait_state", "args": ["game_over", 12] },
+ { "t": 5,  "cmd": "probe" },
+ { "t": 6,  "cmd": "shot", "args": ["smoke_dead"] },
+ { "t": 7,  "cmd": "retry" },
+ { "t": 8,  "cmd": "wait_state", "args": ["tutorial", 12] },
+ { "t": 9,  "cmd": "probe" },
+ { "t": 10, "cmd": "shot", "args": ["smoke_respawn"] },
+ { "t": 11, "cmd": "report" }
+]

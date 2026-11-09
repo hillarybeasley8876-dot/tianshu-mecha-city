@@ -1,0 +1,21 @@
+[
+ { "t": 1,  "cmd": "wait_state", "args": ["tutorial", 120] },
+ { "t": 2,  "cmd": "clear_arena", "args": ["A1"] },
+ { "t": 3,  "cmd": "wait_state", "args": ["district", 20] },
+ { "t": 4,  "cmd": "goto", "args": ["A2", 14] },
+ { "t": 5,  "cmd": "approach_spire", "args": [0, 45, 18] },
+ { "t": 6,  "cmd": "mark", "args": ["hive_a2"] },
+ { "t": 7,  "cmd": "film_collapse", "args": [0, 8, 0.25] },
+ { "t": 8,  "cmd": "probe" },
+ { "t": 20, "cmd": "goto", "args": ["A5", 14] },
+ { "t": 21, "cmd": "approach_spire", "args": [1, 45, 18] },
+ { "t": 22, "cmd": "mark", "args": ["hive_a5"] },
+ { "t": 23, "cmd": "film_collapse", "args": [1, 8, 0.25] },
+ { "t": 24, "cmd": "probe" },
+ { "t": 40, "cmd": "goto", "args": ["A6", 14] },
+ { "t": 41, "cmd": "approach_spire", "args": [2, 45, 18] },
+ { "t": 42, "cmd": "mark", "args": ["hive_a6"] },
+ { "t": 43, "cmd": "film_collapse", "args": [2, 8, 0.25] },
+ { "t": 44, "cmd": "probe" },
+ { "t": 60, "cmd": "report" }
+]

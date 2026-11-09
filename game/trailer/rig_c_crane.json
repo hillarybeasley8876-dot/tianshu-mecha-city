@@ -1,0 +1,6 @@
+{
+  "_doc": "Corona Fins on a rising crane: the drones leave the shoulders and the camera climbs with them.",
+  "id": "crane_fins", "rig": "crane", "kind": "combat", "from": 0.0, "to": 14.0,
+  "az": 225.0, "dist": 48.0, "from_h": 4.0, "to_h": 34.0,
+  "look": [0.0, 0.0, 0.0], "frame": [0.0, 0.0], "fov": 50.0, "min_bbox": 0.26
+}

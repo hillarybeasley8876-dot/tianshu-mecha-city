@@ -1,0 +1,394 @@
+{
+ "actions": {
+  "attack": "bite",
+  "attack_1": "bite",
+  "attack_2": "bite",
+  "bite": "bite",
+  "death": "death",
+  "hit": "hit",
+  "hit_light": "hit",
+  "idle": "idle",
+  "leap": "leap",
+  "run": "run",
+  "scuttle": "scuttle",
+  "stagger": "hit",
+  "walk": "walk"
+ },
+ "bones": [
+  "bone_10",
+  "bone_11",
+  "bone_12",
+  "bone_13",
+  "bone_14",
+  "bone_15",
+  "bone_16",
+  "bone_17",
+  "bone_18",
+  "bone_19",
+  "bone_20",
+  "bone_21",
+  "bone_22",
+  "bone_23",
+  "bone_24",
+  "bone_25",
+  "bone_26",
+  "bone_27",
+  "bone_28",
+  "bone_29",
+  "bone_30",
+  "bone_31",
+  "bone_32",
+  "bone_33",
+  "bone_34",
+  "bone_35",
+  "bone_36",
+  "bone_37",
+  "bone_4",
+  "bone_48",
+  "bone_5",
+  "bone_6",
+  "bone_7",
+  "bone_8",
+  "bone_9",
+  "tripo::0_Left_Limb_0",
+  "tripo::0_Left_Limb_1",
+  "tripo::0_Left_Limb_2",
+  "tripo::0_Left_Limb_3",
+  "tripo::0_Left_Limb_4",
+  "tripo::0_Right_Limb_0",
+  "tripo::1_Left_Limb_0",
+  "tripo::1_Right_Limb_0",
+  "tripo::1_Right_Limb_1",
+  "tripo::1_Right_Limb_2",
+  "tripo::1_Right_Limb_3",
+  "tripo::1_Right_Limb_4",
+  "tripo::Root",
+  "tripo::Spine_0",
+  "tripo::Spine_1",
+  "tripo::Tail_0",
+  "tripo::Tail_1",
+  "tripo::Tail_2",
+  "tripo::Tail_3",
+  "tripo::Tail_4",
+  "tripo::Tail_5"
+ ],
+ "clips": {
+  "bite": {
+   "length": 0.7,
+   "loop": false
+  },
+  "death": {
+   "length": 1.2,
+   "loop": false
+  },
+  "hit": {
+   "length": 0.4,
+   "loop": false
+  },
+  "idle": {
+   "length": 2.0,
+   "loop": true
+  },
+  "leap": {
+   "length": 1.0,
+   "loop": false
+  },
+  "run": {
+   "length": 0.6,
+   "loop": true
+  },
+  "scuttle": {
+   "length": 0.333,
+   "loop": true
+  },
+  "walk": {
+   "length": 2.533,
+   "loop": true
+  }
+ },
+ "gait": {
+  "idle": [
+   {
+    "clean_max": 1000000000.0,
+    "clip": "idle",
+    "stride": 0.0
+   }
+  ],
+  "run": [
+   {
+    "clean_max": 13.29,
+    "clip": "run",
+    "stride": 2.492
+   },
+   {
+    "clean_max": 39.55,
+    "clip": "scuttle",
+    "stride": 7.416
+   }
+  ],
+  "walk": [
+   {
+    "clean_max": 2.2,
+    "clip": "walk",
+    "stride": 0.412
+   },
+   {
+    "clean_max": 13.29,
+    "clip": "run",
+    "stride": 2.492
+   },
+   {
+    "clean_max": 39.55,
+    "clip": "scuttle",
+    "stride": 7.416
+   }
+  ]
+ },
+ "grounded": true,
+ "locomotion": {
+  "idle": "idle",
+  "run": "run",
+  "walk": "walk"
+ },
+ "lod_dist_m": 120.0,
+ "look": {
+  "albedo_gain": 0.432,
+  "emission_energy": 2.0,
+  "flash_energy": 1.0,
+  "metallic_cap": 0.15,
+  "pod_boost": 2.3,
+  "rim_color": [
+   0.608,
+   1.0,
+   0.227
+  ],
+  "rim_gain": 0.6,
+  "roughness_floor": 0.35,
+  "tell_energy": 5.0
+ },
+ "shadow": false,
+ "size": {
+  "axis": "length",
+  "height": 4.157,
+  "target": 6.0,
+  "value": 6.0
+ },
+ "sockets": {
+  "back": {
+   "bone": "",
+   "pos": [
+    0.0,
+    2.5771,
+    -0.4988
+   ]
+  },
+  "chest": {
+   "bone": "",
+   "pos": [
+    0.0,
+    2.5771,
+    0.4157
+   ]
+  },
+  "claw_l": {
+   "bone": "bone_12",
+   "pos": [
+    1.1334,
+    0.7128,
+    -1.3007
+   ]
+  },
+  "claw_r": {
+   "bone": "bone_27",
+   "pos": [
+    -1.1581,
+    0.5959,
+    -1.1604
+   ]
+  },
+  "core": {
+   "bone": "",
+   "pos": [
+    0.0,
+    2.1614,
+    -0.0
+   ]
+  },
+  "hand_l": {
+   "bone": "bone_12",
+   "pos": [
+    1.1334,
+    0.7128,
+    -1.3007
+   ]
+  },
+  "hand_r": {
+   "bone": "bone_27",
+   "pos": [
+    -1.1581,
+    0.5959,
+    -1.1604
+   ]
+  },
+  "mouth": {
+   "bone": "bone_8",
+   "pos": [
+    0.011,
+    2.2795,
+    -2.1658
+   ]
+  },
+  "muzzle": {
+   "bone": "bone_8",
+   "pos": [
+    0.011,
+    2.2795,
+    -2.1658
+   ]
+  },
+  "weak_0": {
+   "bone": "",
+   "faces": 14,
+   "pos": [
+    -0.4135,
+    2.6396,
+    -1.2766
+   ],
+   "score": 0.7011
+  },
+  "weak_1": {
+   "bone": "",
+   "faces": 14,
+   "pos": [
+    0.4706,
+    2.2883,
+    0.5088
+   ],
+   "score": 0.656
+  },
+  "weak_2": {
+   "bone": "",
+   "faces": 13,
+   "pos": [
+    0.4119,
+    2.6487,
+    -1.2709
+   ],
+   "score": 0.731
+  }
+ },
+ "speed_scale_max": 4.0,
+ "speed_scale_min": 0.6,
+ "stride_detail": {
+  "idle": {
+   "airborne": false,
+   "contacts": 4,
+   "cycle_s": 2.033,
+   "feet": [
+    "bone_23",
+    "bone_34",
+    "tripo::0_Left_Limb_4",
+    "tripo::1_Right_Limb_4"
+   ],
+   "root": 0.0,
+   "stance_frac": 1.0,
+   "stance_speed": 0.0,
+   "strays": [
+    "bone_12",
+    "bone_17",
+    "bone_19",
+    "bone_21",
+    "bone_27",
+    "bone_28",
+    "bone_32",
+    "bone_36"
+   ],
+   "stride": 0.036,
+   "sweep_m": 0.073
+  },
+  "run": {
+   "airborne": false,
+   "contacts": 4,
+   "cycle_s": 0.633,
+   "feet": [
+    "bone_23",
+    "bone_34",
+    "tripo::0_Left_Limb_4",
+    "tripo::1_Right_Limb_4"
+   ],
+   "root": 0.0,
+   "stance_frac": 0.224,
+   "stance_speed": 0.552,
+   "strays": [
+    "bone_12",
+    "bone_17",
+    "bone_19",
+    "bone_21",
+    "bone_27",
+    "bone_28",
+    "bone_32",
+    "bone_36"
+   ],
+   "stride": 2.492,
+   "sweep_m": 1.578
+  },
+  "scuttle": {
+   "airborne": false,
+   "contacts": 4,
+   "cycle_s": 0.367,
+   "feet": [
+    "bone_23",
+    "bone_34",
+    "tripo::0_Left_Limb_4",
+    "tripo::1_Right_Limb_4"
+   ],
+   "root": 0.0,
+   "stance_frac": 0.159,
+   "stance_speed": 4.654,
+   "strays": [
+    "bone_12",
+    "bone_17",
+    "bone_19",
+    "bone_21",
+    "bone_28",
+    "bone_32",
+    "bone_36"
+   ],
+   "stride": 7.416,
+   "sweep_m": 2.719
+  },
+  "walk": {
+   "airborne": false,
+   "contacts": 4,
+   "cycle_s": 2.567,
+   "feet": [
+    "bone_23",
+    "bone_34",
+    "tripo::0_Left_Limb_4",
+    "tripo::1_Right_Limb_4"
+   ],
+   "root": 0.0,
+   "stance_frac": 0.302,
+   "stance_speed": -0.026,
+   "strays": [
+    "bone_12",
+    "bone_17",
+    "bone_19",
+    "bone_21",
+    "bone_27",
+    "bone_28",
+    "bone_32",
+    "bone_36"
+   ],
+   "stride": 0.412,
+   "sweep_m": 1.056
+  }
+ },
+ "stride_speed": {
+  "idle": 0.0,
+  "run": 2.492,
+  "scuttle": 7.416,
+  "walk": 0.412
+ },
+ "type": "ripper"
+}

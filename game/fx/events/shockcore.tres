@@ -1,0 +1,31 @@
+[gd_resource type="Resource" script_class="FeelEvent" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://fx/feel_event.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = &"shockcore"
+hitstop_kind = 1
+hitstop_seconds = 0.0667
+trauma = 0.3
+flash_color = Color(1, 1, 1, 0.3)
+flash_frames = 2
+post = Array[StringName]([&"radial_blur"])
+radial_blur = 0.05
+post_seconds = 0.1
+vfx = Array[StringName]([&"shockwave_ring"])
+vfx_scale = 1.0
+decal = &"scorch_ring"
+light_color = Color(0.31, 0.9, 1, 1)
+light_energy = 9.0
+light_range = 26.0
+light_frames = 3
+audio = Array[StringName]([&"shockcore_inhale", &"shockcore_boom"])
+rumble_weak = 0.4
+rumble_strong = 1.0
+rumble_ms = 220
+falloff = 180.0
+cooldown = 0.3
+ring_radius = 32.0
+ring_seconds = 0.18
+ring_color = Color(0.31, 0.9, 1, 1)

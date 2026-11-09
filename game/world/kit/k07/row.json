@@ -1,0 +1,164 @@
+{
+ "id": "k07",
+ "band": "cover",
+ "districts": [],
+ "archetypes": [],
+ "tags": [
+  "hard",
+  "tall"
+ ],
+ "tileable": false,
+ "glb": "k07/k07.glb",
+ "tris": 12000,
+ "budget": 12000,
+ "tex": 1024,
+ "size": [
+  10.273,
+  13.579,
+  16.0
+ ],
+ "footprint": [
+  10.27,
+  13.58
+ ],
+ "aspect": 0.7382,
+ "parts_kept": 1,
+ "parts_dropped": 0,
+ "look": {
+  "cover_material": 1,
+  "emit_off": 1,
+  "neon_pct": 0.0,
+  "interior_pct": 0.0,
+  "weld_groups": 24527,
+  "weld_deg": 18.0,
+  "folded_pct": 0.0,
+  "uv_islands": 8819,
+  "island_px_med": 2.3,
+  "island_px_p10": 0.2,
+  "uv_fill_pct": 7.67,
+  "mpt": 0.118,
+  "mpt_p95": 0.1908,
+  "seam_texels": 0.85,
+  "value_sigma_m": 2.0,
+  "chroma_sigma_m": 0.45,
+  "fit": {
+   "p50": 0.4801,
+   "p97": 0.5822,
+   "gamma": 0.546,
+   "gain": 1.075,
+   "fit": 1
+  },
+  "accent_pct": 7.25,
+  "accent_groups": 1,
+  "acc1_pct": 0.3,
+  "acc1_val": 0.137,
+  "hazard_pct": 0.06,
+  "hazard_bands": 1,
+  "alb_v_std": 0.0495,
+  "alb_v_p05": 0.4133,
+  "alb_v_p95": 0.5719,
+  "band": [
+   0.72,
+   0.8
+  ],
+  "class": "paint",
+  "seam_pct": 18.71,
+  "wear_pct": 89.65,
+  "grime_pct": 9.57,
+  "cover_pct": 5.83,
+  "v_p50": 0.7445,
+  "v_p97": 0.8097,
+  "luma_p50": 0.7426,
+  "concept": "k07-1-1.png",
+  "ab_mean": [
+   1.942,
+   2.035
+  ],
+  "ab_std": [
+   6.909,
+   4.633
+  ],
+  "ab_ref": [
+   -0.055,
+   1.392
+  ],
+  "accent_pull_pct": 7.25,
+  "v_p50_file": 0.7451,
+  "side": 0,
+  "pane_px": 0,
+  "walls": 0,
+  "small_pct": 0.0,
+  "pruned_pct": 0.0,
+  "wall_area_pct": 62.72,
+  "top_area_pct": 30.02
+ },
+ "weld": 0.0,
+ "open_edges": 7,
+ "custom_normals_cleared": 1,
+ "planar": {
+  "planar_pct": 60.96,
+  "regions": 88,
+  "faces_moved": 1473,
+  "verts_moved": 1473,
+  "max_move_m": 0.3446,
+  "regions_rejected": 2022,
+  "verts_skipped": 62,
+  "planes_found": 90
+ },
+ "plane_normals": {
+  "plane_area_pct": 64.05,
+  "plane_face_pct": 19.53,
+  "plane_regions": 104,
+  "dev_m": 0.5
+ },
+ "win": "k07/k07_win.png",
+ "file_kb": 1555,
+ "lod": {
+  "glb": "k07/k07_lod.glb",
+  "tris": 4810,
+  "file_kb": 900,
+  "reshaded": 1,
+  "plane_normals": {
+   "plane_area_pct": 59.24,
+   "plane_face_pct": 12.54,
+   "plane_regions": 146,
+   "dev_m": 0.5
+  }
+ },
+ "far": {
+  "glb": "k07/k07_far.glb",
+  "tris": 4633,
+  "tex": 256,
+  "file_kb": 637,
+  "open_before": 7,
+  "open_after": 25,
+  "holes_filled": 0,
+  "tear": 3.571,
+  "gate": {
+   "holes": 0.0,
+   "views": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "detail": 0.0,
+   "limit": 0.02,
+   "pass": true
+  }
+ },
+ "roof": {
+  "cell_m": 2.0,
+  "nx": 6,
+  "ny": 7,
+  "origin": [
+   -5.136,
+   -6.789
+  ],
+  "z0": 0.0,
+  "z_span": 16.0,
+  "flat_deg": 15.0,
+  "h": "AAAAAAAAnrrZ2dgAnrunp6cAnrqnp6cAILqnvKoAKaf836cAAACpcAAA",
+  "flat": "AAAAAAAA/wAAAAAAAAD///8A//////8A/wD///8A//8AAP8AAAAA/wAA"
+ }
+}

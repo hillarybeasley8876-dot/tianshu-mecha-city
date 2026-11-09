@@ -1,0 +1,30 @@
+[gd_resource type="Resource" script_class="FeelEvent" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://fx/feel_event.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = &"plunge_land"
+hitstop_kind = 1
+hitstop_seconds = 0.1
+trauma = 0.4
+flash_color = Color(0.9, 0.95, 1, 0.2)
+flash_frames = 2
+fov_delta = -3.0
+fov_seconds = 0.2
+vfx = Array[StringName]([&"dust_ring", &"debris", &"shockwave_ring"])
+vfx_scale = 1.5
+decal = &"land_crater"
+light_color = Color(0.58, 0.55, 0.5, 1)
+light_energy = 5.0
+light_range = 16.0
+light_frames = 3
+audio = Array[StringName]([&"plunge_whistle", &"plunge_boom", &"plunge_sub_60hz"])
+rumble_weak = 0.6
+rumble_strong = 1.0
+rumble_ms = 260
+falloff = 120.0
+cooldown = 0.2
+ring_radius = 10.0
+ring_seconds = 0.2
+ring_color = Color(0.58, 0.55, 0.5, 1)

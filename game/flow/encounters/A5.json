@@ -1,0 +1,57 @@
+{
+  "arena": "A5",
+  "label": "铸造甲板 FOUNDRY DECKS",
+  "music": 0.8,
+  "waves": [
+    {
+      "id": "A5_w1",
+      "start": { "kind": "on_enter" },
+      "groups": [
+        { "type": "ripper", "count": 6, "socket": "A5_sp1", "escalate": true },
+        { "type": "ripper", "count": 5, "socket": "A5_sp5", "escalate": true }
+      ]
+    },
+    {
+      "id": "A5_w2",
+      "start": { "kind": "previous_half" },
+      "groups": [
+        { "type": "spitter", "count": 3, "socket": "A5_sp2" },
+        { "type": "ripper", "count": 6, "socket": "A5_sp4", "escalate": true }
+      ]
+    },
+    {
+      "id": "A5_w3",
+      "start": { "kind": "previous_half" },
+      "groups": [
+        { "type": "harrier", "count": 3, "socket": "A5_sp3" },
+        { "type": "mantis", "count": 2, "socket": "A5_sp1" }
+      ]
+    },
+    {
+      "id": "A5_w4",
+      "start": { "kind": "timer", "delay": 10.0 },
+      "groups": [
+        { "type": "juggernaut", "count": 1, "socket": "A5_sp4" },
+        { "type": "spitter", "count": 2, "socket": "A5_sp2" },
+        { "type": "ripper", "count": 6, "socket": "A5_sp5", "escalate": true }
+      ]
+    },
+    {
+      "id": "A5_w5",
+      "start": { "kind": "previous_half" },
+      "groups": [
+        { "type": "mantis", "count": 3, "socket": "A5_sp3" },
+        { "type": "ripper", "count": 8, "socket": "A5_sp1", "escalate": true }
+      ]
+    },
+    {
+      "id": "A5_w6",
+      "start": { "kind": "previous_cleared" },
+      "groups": [
+        { "type": "juggernaut", "count": 1, "socket": "A5_sp4" },
+        { "type": "harrier", "count": 4, "socket": "A5_sp3" },
+        { "type": "spitter", "count": 2, "socket": "A5_sp2" }
+      ]
+    }
+  ]
+}

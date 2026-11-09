@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="FeelEvent" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://fx/feel_event.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = &"block"
+trauma = 0.08
+vfx = Array[StringName]([&"spark_bullet"])
+vfx_scale = 0.8
+light_color = Color(0.31, 0.9, 1, 1)
+light_energy = 2.5
+light_range = 9.0
+light_frames = 2
+audio = Array[StringName]([&"shield_block_clank"])
+rumble_weak = 0.3
+rumble_strong = 0.2
+rumble_ms = 60
+falloff = 40.0
+cooldown = 0.05

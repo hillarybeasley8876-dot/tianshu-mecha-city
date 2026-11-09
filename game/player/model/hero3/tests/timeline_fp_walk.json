@@ -1,0 +1,7 @@
+[
+ { "t": 0.0,  "player": { "method": "debug_teleport", "args": [[-560.0, 7.5, 600.0], 0.0] } },
+ { "t": 0.8,  "tap": ["camera_toggle"] },
+ { "t": 2.0,  "press": ["move_forward"] },
+ { "t": 6.0,  "release": ["move_forward"] },
+ { "t": 6.6,  "end": true }
+]

@@ -1,0 +1,116 @@
+{
+ "id": "s05",
+ "band": "street",
+ "districts": [],
+ "archetypes": [],
+ "tags": [
+  "pylon"
+ ],
+ "tileable": false,
+ "glb": "s05/s05.glb",
+ "tris": 11999,
+ "budget": 12000,
+ "tex": 1024,
+ "size": [
+  7.514,
+  8.698,
+  28.0
+ ],
+ "footprint": [
+  7.51,
+  8.7
+ ],
+ "aspect": 0.2887,
+ "parts_kept": 1,
+ "parts_dropped": 0,
+ "look": {
+  "neon_pct": 2.69,
+  "interior_pct": 0.03,
+  "wall_px": 117561,
+  "wall_pct": 11.21,
+  "top_px": 28442,
+  "top_pct": 2.71,
+  "emit_masked_pct": 40.53,
+  "luma_before": 0.4204,
+  "luma_after": 0.285,
+  "gain": 0.642,
+  "pane_before": 0.0,
+  "pane_after": 0.0,
+  "pane_carved": 0.47,
+  "wall_luma": 0.2624758780002594,
+  "rough_before": 0.333,
+  "rough_after": 0.7,
+  "metal_before": 0.024,
+  "metal_after": 0.024,
+  "normal_flat_pct": 40.53,
+  "orm_flat_pct": 40.53,
+  "walls": 10,
+  "pane_pct": 0.47,
+  "pane_px": 1231,
+  "uv_px": 7710,
+  "wall_m2": 204.4,
+  "texel_m2": 0.0265,
+  "small_pct": 37.1,
+  "pruned_pct": 37.1,
+  "side": 512,
+  "wall_area_pct": 74.1,
+  "top_area_pct": 17.07
+ },
+ "weld": 0.0,
+ "open_edges": 26,
+ "custom_normals_cleared": 1,
+ "planar": {
+  "planar_pct": 55.35,
+  "regions": 44,
+  "faces_moved": 1447,
+  "verts_moved": 1447,
+  "max_move_m": 0.2912,
+  "regions_rejected": 2289,
+  "verts_skipped": 23,
+  "planes_found": 51
+ },
+ "plane_normals": {
+  "plane_area_pct": 63.99,
+  "plane_face_pct": 25.1,
+  "plane_regions": 71,
+  "dev_m": 0.5
+ },
+ "win": "s05/s05_win.png",
+ "file_kb": 1849,
+ "far": {
+  "glb": "s05/s05_far.glb",
+  "tris": 3991,
+  "tex": 256,
+  "file_kb": 587,
+  "open_before": 25,
+  "open_after": 56,
+  "holes_filled": 0,
+  "tear": 2.24,
+  "gate": {
+   "holes": 0.0,
+   "views": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "detail": 0.0,
+   "limit": 0.02,
+   "pass": true
+  }
+ },
+ "roof": {
+  "cell_m": 2.0,
+  "nx": 4,
+  "ny": 5,
+  "origin": [
+   -3.757,
+   -4.349
+  ],
+  "z0": 0.0,
+  "z_span": 28.0,
+  "flat_deg": 15.0,
+  "h": "9PX19vT19fb09fX29PX19gAAAAA=",
+  "flat": "/////////////////////wAAAAA="
+ }
+}

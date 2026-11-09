@@ -1,0 +1,56 @@
+{
+ "presets": {
+  "idle": "idle",
+  "walk": "walk",
+  "run": "run",
+  "hit_light": "hit_to_body_01",
+  "turn": "turn"
+ },
+ "motions": [
+  [
+   "slash_1",
+   1.2,
+   "A huge tall thin alien insectoid creature with long scythe blades for forearms slashes horizontally with its right blade arm from right to left, stepping forward"
+  ],
+  [
+   "slash_2",
+   1.2,
+   "A huge tall thin alien insectoid creature with long scythe blades for forearms slashes back from left to right with its left blade arm, stepping forward"
+  ],
+  [
+   "slash_3",
+   1.6,
+   "A huge tall thin alien insectoid creature with long scythe blades for forearms raises both blade arms high and brings them down together in a crossing overhead strike"
+  ],
+  [
+   "grab",
+   1.6,
+   "A huge tall thin alien insectoid creature with long scythe blades for forearms lunges forward and snaps both blade arms closed in front of it to grab and pin something"
+  ],
+  [
+   "sidestep_l",
+   1.0,
+   "A huge tall thin alien insectoid creature with long scythe blades for forearms quickly sidesteps to its left in a low crouch, keeping its blades raised"
+  ],
+  [
+   "sidestep_r",
+   1.0,
+   "A huge tall thin alien insectoid creature with long scythe blades for forearms quickly sidesteps to its right in a low crouch, keeping its blades raised"
+  ],
+  [
+   "threat",
+   2.0,
+   "A huge tall thin alien insectoid creature with long scythe blades for forearms rears up, spreads its blade arms wide and shrieks in a threatening display"
+  ],
+  [
+   "stagger",
+   1.4,
+   "A huge tall thin alien insectoid creature with long scythe blades for forearms is hit hard, reels backward off balance with blades flailing, then recovers"
+  ],
+  [
+   "death",
+   2.4,
+   "A huge tall thin alien insectoid creature with long scythe blades for forearms convulses, collapses to its knees and falls forward onto the ground, motionless"
+  ]
+ ]
+}

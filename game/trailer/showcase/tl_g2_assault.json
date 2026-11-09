@@ -1,0 +1,91 @@
+[
+ {
+  "t": 0.0,
+  "look_rate": [
+   0,
+   0
+  ]
+ },
+ {
+  "t": 0.6,
+  "tap": [
+   "lock_on"
+  ]
+ },
+ {
+  "t": 1.2,
+  "tap": [
+   "assault"
+  ]
+ },
+ {
+  "t": 1.35,
+  "press": [
+   "move_forward"
+  ]
+ },
+ {
+  "t": 2.35,
+  "tap": [
+   "melee"
+  ]
+ },
+ {
+  "t": 2.6,
+  "release": [
+   "move_forward"
+  ]
+ },
+ {
+  "t": 4.2,
+  "tap": [
+   "assault"
+  ]
+ },
+ {
+  "t": 4.35,
+  "press": [
+   "move_forward"
+  ]
+ },
+ {
+  "t": 5.35,
+  "tap": [
+   "melee"
+  ]
+ },
+ {
+  "t": 5.6,
+  "release": [
+   "move_forward"
+  ]
+ },
+ {
+  "t": 6.8,
+  "tap": [
+   "assault"
+  ]
+ },
+ {
+  "t": 6.95,
+  "press": [
+   "move_forward"
+  ]
+ },
+ {
+  "t": 7.95,
+  "tap": [
+   "melee"
+  ]
+ },
+ {
+  "t": 8.2,
+  "release": [
+   "move_forward"
+  ]
+ },
+ {
+  "t": 10.5,
+  "end": true
+ }
+]

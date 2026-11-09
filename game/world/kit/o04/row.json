@@ -1,0 +1,119 @@
+{
+ "id": "o04",
+ "band": "oldtown",
+ "districts": [
+  "D3"
+ ],
+ "archetypes": [
+  "pagoda",
+  "terrace"
+ ],
+ "tags": [],
+ "tileable": false,
+ "glb": "o04/o04.glb",
+ "tris": 19999,
+ "budget": 20000,
+ "tex": 1024,
+ "size": [
+  22.273,
+  28.507,
+  20.0
+ ],
+ "footprint": [
+  22.27,
+  28.51
+ ],
+ "aspect": 1.2599,
+ "parts_kept": 1,
+ "parts_dropped": 0,
+ "look": {
+  "neon_pct": 10.67,
+  "interior_pct": 0.59,
+  "wall_px": 73976,
+  "wall_pct": 7.05,
+  "top_px": 75554,
+  "top_pct": 7.21,
+  "emit_masked_pct": 49.82,
+  "luma_before": 0.2297,
+  "luma_after": 0.2461,
+  "gain": 1.045,
+  "pane_before": 0.01,
+  "pane_after": 0.01,
+  "pane_carved": 0.48,
+  "wall_luma": 0.21236732602119446,
+  "rough_before": 0.851,
+  "rough_after": 0.926,
+  "metal_before": 0.039,
+  "metal_after": 0.039,
+  "normal_flat_pct": 49.82,
+  "orm_flat_pct": 49.82,
+  "walls": 546,
+  "pane_pct": 0.48,
+  "pane_px": 1263,
+  "uv_px": 21380,
+  "wall_m2": 1653.3,
+  "texel_m2": 0.0773,
+  "small_pct": 48.89,
+  "pruned_pct": 48.89,
+  "side": 512,
+  "wall_area_pct": 39.26,
+  "top_area_pct": 44.78
+ },
+ "weld": 0.0,
+ "open_edges": 5,
+ "custom_normals_cleared": 1,
+ "planar": {
+  "planar_pct": 47.09,
+  "regions": 90,
+  "faces_moved": 3762,
+  "verts_moved": 3762,
+  "max_move_m": 0.3495,
+  "regions_rejected": 3413,
+  "verts_skipped": 63,
+  "planes_found": 90
+ },
+ "plane_normals": {
+  "plane_area_pct": 63.82,
+  "plane_face_pct": 37.31,
+  "plane_regions": 392,
+  "dev_m": 0.5
+ },
+ "win": "o04/o04_win.png",
+ "file_kb": 3025,
+ "far": {
+  "glb": "o04/o04_far.glb",
+  "tris": 5889,
+  "tex": 256,
+  "file_kb": 877,
+  "open_before": 10,
+  "open_after": 99,
+  "holes_filled": 0,
+  "tear": 9.9,
+  "gate": {
+   "holes": 0.0,
+   "views": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "detail": 0.0,
+   "limit": 0.02,
+   "pass": true
+  }
+ },
+ "roof": {
+  "cell_m": 2.0,
+  "nx": 12,
+  "ny": 15,
+  "origin": [
+   -11.137,
+   -14.253
+  ],
+  "z0": 0.0,
+  "z_span": 20.0,
+  "flat_deg": 15.0,
+  "h": "X6ejoZ+jpJ+fpq8AVKmura2tra2tq1YAVKm1u7u7u7u3q1YAVKm0v8vOzsi3q1YAVKm0v8rV4ci3q1YAVam0v8rV3sm3q1YAVam0v8rV3cm3q1cAVqm0v8rm3si4q1cAVqy2v8rV3sm0qVcAVqq0v8rV3cm3q1YAVKm0v8rY1Mm3q1YAVKm0wL6/v7+3q1YAVKmwsLCwsbCxq1YAV6mlpaWlpqWlp6oAAAAAAAAAAAAAAAAA",
+  "flat": "AAAAAAAAAAAAAAAAAAAAAAAAAAAA/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/wAAAAAAAAAAAAAA/wAAAAAAAAAAAAD//wAAAAAAAAAAAAAA/wAAAAAAAAAAAAAA/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+ }
+}

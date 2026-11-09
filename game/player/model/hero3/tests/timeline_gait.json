@@ -1,0 +1,12 @@
+[
+ { "t": 0.0,  "player": { "method": "debug_teleport", "args": [[-420.0, 8.0, 320.0], 0.0] } },
+ { "t": 0.6,  "pad": { "axis": ["ly", -0.5] } },
+ { "t": 6.6,  "pad": { "axis": ["ly", 0.0] } },
+ { "t": 7.2,  "pad": { "axis": ["ly", -1.0] } },
+ { "t": 13.2, "pad": { "axis": ["ly", 0.0] } },
+ { "t": 13.8, "press": ["boost"], "pad": { "axis": ["ly", -1.0] } },
+ { "t": 19.8, "release": ["boost"], "pad": { "axis": ["ly", 0.0] } },
+ { "t": 20.4, "pad": { "axis": ["ly", -1.0] } },
+ { "t": 23.4, "pad": { "axis": ["ly", 0.0] } },
+ { "t": 26.0, "end": true }
+]

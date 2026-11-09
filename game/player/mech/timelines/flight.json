@@ -1,0 +1,13 @@
+[
+ { "t": 0.0,  "player": { "method": "debug_teleport", "args": [[-100.0, 7.6, 60.0], 0.0] } },
+ { "t": 0.5,  "tap": ["jump"] },
+ { "t": 0.75, "tap": ["jump"] },
+ { "t": 1.3,  "press": ["jump"], "look_rate": [0, -22] },
+ { "t": 4.4,  "release": ["jump"], "look_rate": [0, 0] },
+ { "t": 4.7,  "look": [-900, 0] },
+ { "t": 5.4,  "tap": ["assault"] },
+ { "t": 6.6,  "tap": ["assault"] },
+ { "t": 7.0,  "press": ["descend"], "look_rate": [0, 30] },
+ { "t": 10.0, "release": ["descend"], "look_rate": [0, 0] },
+ { "t": 11.5, "end": true }
+]

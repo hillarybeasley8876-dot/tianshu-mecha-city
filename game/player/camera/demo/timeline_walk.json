@@ -1,0 +1,5 @@
+[
+ { "t": 0.0,  "press": ["move_forward"] },
+ { "t": 8.0,  "release": ["move_forward"] },
+ { "t": 8.4,  "end": true }
+]

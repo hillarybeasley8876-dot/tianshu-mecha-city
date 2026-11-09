@@ -1,0 +1,293 @@
+{
+  "_doc": "city-build proposed vista cameras (lead r3 metrics): each keeps the subject and the bearing of data/vistas.json (within 35 deg), may move up to 150 m and rise 60 m, and must have the subject unobstructed over 4 % of the frame with at most 15 % of the UPPER HALF of a 16x9 ray grid blocked within 120 m (no ceilings). Review and adopt.",
+  "vistas": [
+    {
+      "ceiling": 0.0,
+      "declared_ok": false,
+      "desc": "Insertion Pier -> NE across the canal at the backlit Spire",
+      "fov": 50.0,
+      "id": "V1",
+      "look_blender": [
+        0.0,
+        120.0,
+        200.0
+      ],
+      "look_godot": [
+        0.0,
+        200.0,
+        -120.0
+      ],
+      "moved_m": 18.0,
+      "near_clutter": 0.0,
+      "ok": true,
+      "pos_blender": [
+        -583.0,
+        -640.0,
+        32.0
+      ],
+      "pos_godot": [
+        -583.0,
+        32.0,
+        640.0
+      ],
+      "status": "adopted from city-build solver r2 (2026-11-02)",
+      "subject_block_m": 848.0,
+      "subject_dist_m": 972.0,
+      "subject_frac": 0.044,
+      "subject_open": true,
+      "subject_reach": 0.67
+    },
+    {
+      "ceiling": 0.0,
+      "declared_ok": true,
+      "desc": "Top of the Knot (+80) -> east to the Spire",
+      "fov": 50.0,
+      "id": "V2",
+      "look_blender": [
+        0.0,
+        120.0,
+        180.0
+      ],
+      "look_godot": [
+        0.0,
+        180.0,
+        -120.0
+      ],
+      "moved_m": 0.0,
+      "near_clutter": 0.0,
+      "ok": true,
+      "pos_blender": [
+        -514.5,
+        -105.1,
+        112.0
+      ],
+      "pos_godot": [
+        -514.5,
+        112.0,
+        105.1
+      ],
+      "status": "adopted from city-build solver r2 (2026-11-02)",
+      "subject_block_m": 462.0,
+      "subject_dist_m": 566.0,
+      "subject_frac": 0.132,
+      "subject_open": true,
+      "subject_reach": 0.78
+    },
+    {
+      "ceiling": 0.05,
+      "declared_ok": true,
+      "desc": "Old Town terraces (+64) -> ESE over the terraces, pagoda left, Spire far",
+      "fov": 50.0,
+      "id": "V3",
+      "look_blender": [
+        0.0,
+        200.0,
+        150.0
+      ],
+      "look_godot": [
+        0.0,
+        150.0,
+        -200.0
+      ],
+      "moved_m": 0.0,
+      "near_clutter": 0.0,
+      "ok": true,
+      "pos_blender": [
+        -636.9,
+        372.6,
+        64.0
+      ],
+      "pos_godot": [
+        -636.9,
+        64.0,
+        -372.6
+      ],
+      "status": "adopted from city-build solver r2 (2026-11-02)",
+      "subject_block_m": 654.0,
+      "subject_dist_m": 665.0,
+      "subject_frac": 0.096,
+      "subject_open": true,
+      "subject_reach": 0.89
+    },
+    {
+      "ceiling": 0.0,
+      "declared_ok": false,
+      "desc": "Megablock canyon floor -> up at Block 9 and the koi-dragon hologram",
+      "fov": 58.0,
+      "id": "V4",
+      "look_blender": [
+        330.0,
+        250.0,
+        150.0
+      ],
+      "look_godot": [
+        330.0,
+        150.0,
+        -250.0
+      ],
+      "moved_m": 125.3,
+      "near_clutter": 0.0,
+      "ok": false,
+      "pos_blender": [
+        480.0,
+        410.0,
+        100.0
+      ],
+      "pos_godot": [
+        480.0,
+        100.0,
+        -410.0
+      ],
+      "status": "to re-solve (city-build r3): r2 solution framed a ceiling/clutter",
+      "subject_block_m": 134.0,
+      "subject_dist_m": 225.0,
+      "subject_frac": 0.696,
+      "subject_open": true,
+      "subject_reach": 0.33
+    },
+    {
+      "ceiling": 0.0,
+      "declared_ok": false,
+      "desc": "Foundry deck (+44) -> reactor stacks and plumes",
+      "fov": 50.0,
+      "id": "V5",
+      "look_blender": [
+        600.0,
+        -80.0,
+        110.0
+      ],
+      "look_godot": [
+        600.0,
+        110.0,
+        80.0
+      ],
+      "moved_m": 161.6,
+      "near_clutter": 0.0,
+      "ok": false,
+      "pos_blender": [
+        250.0,
+        -300.0,
+        104.0
+      ],
+      "pos_godot": [
+        250.0,
+        104.0,
+        300.0
+      ],
+      "status": "to re-solve (city-build r3): r2 solution framed a ceiling/clutter",
+      "subject_block_m": 317.0,
+      "subject_dist_m": 413.0,
+      "subject_frac": 0.248,
+      "subject_open": true,
+      "subject_reach": 0.44
+    },
+    {
+      "ceiling": 0.0,
+      "declared_ok": true,
+      "desc": "Sky Garden (+156) -> the Spire across the Financial towers",
+      "fov": 50.0,
+      "id": "V6",
+      "look_blender": [
+        0.0,
+        120.0,
+        200.0
+      ],
+      "look_godot": [
+        0.0,
+        200.0,
+        -120.0
+      ],
+      "moved_m": 0.0,
+      "near_clutter": 0.0,
+      "ok": true,
+      "pos_blender": [
+        -42.0,
+        -500.0,
+        176.0
+      ],
+      "pos_godot": [
+        -42.0,
+        176.0,
+        500.0
+      ],
+      "status": "adopted from city-build solver r2 (2026-11-02)",
+      "subject_block_m": 500.0,
+      "subject_dist_m": 622.0,
+      "subject_frac": 0.108,
+      "subject_open": true,
+      "subject_reach": 0.67
+    },
+    {
+      "ceiling": 0.0,
+      "declared_ok": false,
+      "desc": "Spire Plaza (0) -> straight up the Spire",
+      "fov": 65.0,
+      "id": "V7",
+      "look_blender": [
+        0.0,
+        120.0,
+        300.0
+      ],
+      "look_godot": [
+        0.0,
+        300.0,
+        -120.0
+      ],
+      "moved_m": 95.7,
+      "near_clutter": 0.0,
+      "ok": false,
+      "pos_blender": [
+        85.0,
+        -200.0,
+        52.0
+      ],
+      "pos_godot": [
+        85.0,
+        52.0,
+        200.0
+      ],
+      "status": "to re-solve (city-build r3): r2 solution framed a ceiling/clutter",
+      "subject_block_m": 277.0,
+      "subject_dist_m": 414.0,
+      "subject_frac": 0.164,
+      "subject_open": true,
+      "subject_reach": 0.22
+    },
+    {
+      "ceiling": 0.0,
+      "declared_ok": false,
+      "desc": "Crown deck (+240) panorama at storm",
+      "fov": 55.0,
+      "id": "V8",
+      "look_blender": [
+        150.0,
+        260.0,
+        215.0
+      ],
+      "look_godot": [
+        150.0,
+        215.0,
+        -260.0
+      ],
+      "moved_m": 104.0,
+      "near_clutter": 0.0,
+      "ok": true,
+      "pos_blender": [
+        -37.8,
+        -50.0,
+        320.0
+      ],
+      "pos_godot": [
+        -37.8,
+        320.0,
+        50.0
+      ],
+      "status": "adopted from city-build solver r2 (2026-11-02)",
+      "subject_block_m": -1.0,
+      "subject_dist_m": 377.0,
+      "subject_frac": 0.256,
+      "subject_open": true,
+      "subject_reach": 0.56
+    }
+  ]
+}

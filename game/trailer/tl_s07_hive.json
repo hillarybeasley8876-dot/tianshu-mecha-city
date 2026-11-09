@@ -1,0 +1,9 @@
+[
+ { "t": 0.0,  "player": { "method": "debug_teleport", "args": [[440.0, 87.0, 200.0], 235.0] } },
+ { "t": 0.05, "look_rate": [0, 0] },
+ { "t": 1.2,  "tap": ["melee"] },
+ { "t": 1.7,  "tap": ["melee"] },
+ { "t": 2.4,  "press": ["fire"] },
+ { "t": 4.2,  "release": ["fire"] },
+ { "t": 6.0,  "end": true }
+]

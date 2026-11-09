@@ -1,0 +1,25 @@
+{
+  "arena": "A1",
+  "label": "集装箱场 CONTAINER YARD",
+  "music": 0.5,
+  "waves": [
+    {
+      "id": "A1_w1",
+      "start": { "kind": "on_enter" },
+      "groups": [{ "type": "ripper", "count": 4, "socket": "A1_sp1" }]
+    },
+    {
+      "id": "A1_w2",
+      "start": { "kind": "previous_half" },
+      "groups": [
+        { "type": "ripper", "count": 4, "socket": "A1_sp2" },
+        { "type": "ripper", "count": 3, "socket": "A1_sp4" }
+      ]
+    },
+    {
+      "id": "A1_w3",
+      "start": { "kind": "previous_cleared" },
+      "groups": [{ "type": "mantis", "count": 1, "socket": "A1_sp3" }]
+    }
+  ]
+}

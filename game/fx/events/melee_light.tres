@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="FeelEvent" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://fx/feel_event.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = &"melee_light"
+hitstop_kind = 1
+hitstop_seconds = 0.0833
+trauma = 0.15
+fov_delta = 4.0
+fov_seconds = 0.2
+vfx = Array[StringName]([&"spark_bullet"])
+vfx_scale = 1.2
+light_color = Color(0.31, 0.9, 1, 1)
+light_energy = 3.0
+light_range = 10.0
+light_frames = 2
+audio = Array[StringName]([&"melee_light_transient", &"melee_light_body", &"melee_servo"])
+rumble_weak = 0.4
+rumble_strong = 0.2
+rumble_ms = 80
+falloff = 60.0
+cooldown = 0.03

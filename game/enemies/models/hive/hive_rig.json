@@ -1,0 +1,135 @@
+{
+ "actions": {},
+ "bones": [],
+ "clips": {},
+ "gait": {},
+ "grounded": true,
+ "locomotion": {},
+ "lod_dist_m": 0.0,
+ "look": {
+  "albedo_gain": 0.268,
+  "emission_energy": 1.1,
+  "flash_energy": 0.8,
+  "metallic_cap": 0.1,
+  "pod_boost": 2.3,
+  "rim_color": [
+   0.608,
+   1.0,
+   0.227
+  ],
+  "rim_gain": 0.45,
+  "roughness_floor": 0.4,
+  "tell_energy": 5.0
+ },
+ "pod_cover": {
+  "channels": 4,
+  "cover": [
+   0.00204,
+   0.00608,
+   0.02436,
+   0.00676
+  ]
+ },
+ "pod_mask": "res://enemies/models/hive/hive_pods.png",
+ "shadow": true,
+ "size": {
+  "axis": "height",
+  "height": 60.0,
+  "target": 60.0,
+  "value": 60.0
+ },
+ "sockets": {
+  "back": {
+   "bone": "",
+   "pos": [
+    0.0,
+    37.2,
+    -7.2
+   ]
+  },
+  "chest": {
+   "bone": "",
+   "pos": [
+    0.0,
+    37.2,
+    6.0
+   ]
+  },
+  "core": {
+   "bone": "",
+   "pos": [
+    0.0,
+    31.2,
+    -0.0
+   ]
+  },
+  "pod_0": {
+   "bone": "",
+   "faces": 155,
+   "pos": [
+    0.0726,
+    18.7889,
+    -8.5299
+   ],
+   "score": 0.8966
+  },
+  "pod_1": {
+   "bone": "",
+   "faces": 341,
+   "pos": [
+    1.0132,
+    27.7921,
+    -6.6922
+   ],
+   "score": 0.8726
+  },
+  "pod_2": {
+   "bone": "",
+   "faces": 1207,
+   "pos": [
+    0.8345,
+    40.4455,
+    0.1822
+   ],
+   "score": 0.8052
+  },
+  "pod_3": {
+   "bone": "",
+   "faces": 210,
+   "pos": [
+    0.3951,
+    54.2961,
+    -0.2708
+   ],
+   "score": 0.7674
+  },
+  "weak_0": {
+   "bone": "",
+   "faces": 484,
+   "pos": [
+    -3.5272,
+    14.8512,
+    -1.2044
+   ],
+   "score": 0.6377
+  },
+  "weak_1": {
+   "bone": "",
+   "faces": 478,
+   "pos": [
+    4.1709,
+    14.5949,
+    -1.091
+   ],
+   "score": 0.6482
+  }
+ },
+ "states": {
+  "collision": "HiveCollision",
+  "cracked": "HiveCracked",
+  "destroyed": "HiveDestroyed",
+  "intact": "Hive"
+ },
+ "static": true,
+ "type": "hive"
+}

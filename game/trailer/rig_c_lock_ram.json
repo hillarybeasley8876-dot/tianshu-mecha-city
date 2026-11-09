@@ -1,0 +1,24 @@
+{
+  "_doc": "the assault-boost ram kick, straight at the lens. r3: lowered from y=171 for the same reason as rig_c_lock_dash (lead r3 note 3).",
+  "id": "lock_ram",
+  "rig": "wide",
+  "kind": "combat",
+  "from": 0.0,
+  "to": 12.0,
+  "pos": [
+    -99.0,
+    153.0,
+    412.0
+  ],
+  "look_at": [
+    -60.0,
+    151.0,
+    450.0
+  ],
+  "frame": [
+    0.0,
+    0.0
+  ],
+  "fov": 55.0,
+  "min_bbox": 0.16
+}

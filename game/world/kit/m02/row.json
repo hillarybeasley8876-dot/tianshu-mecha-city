@@ -1,0 +1,118 @@
+{
+ "id": "m02",
+ "band": "megablock",
+ "districts": [
+  "D5"
+ ],
+ "archetypes": [
+  "megablock"
+ ],
+ "tags": [],
+ "tileable": false,
+ "glb": "m02/m02.glb",
+ "tris": 40000,
+ "budget": 40000,
+ "tex": 1024,
+ "size": [
+  40.078,
+  75.1,
+  160.0
+ ],
+ "footprint": [
+  40.08,
+  75.1
+ ],
+ "aspect": 0.3429,
+ "parts_kept": 1,
+ "parts_dropped": 0,
+ "look": {
+  "neon_pct": 2.01,
+  "interior_pct": 0.37,
+  "wall_px": 197824,
+  "wall_pct": 18.87,
+  "top_px": 63298,
+  "top_pct": 6.04,
+  "emit_masked_pct": 66.65,
+  "luma_before": 0.3529,
+  "luma_after": 0.3,
+  "gain": 0.85,
+  "pane_before": 0.0,
+  "pane_after": 0.01,
+  "pane_carved": 5.5,
+  "wall_luma": 0.21882718801498413,
+  "rough_before": 0.208,
+  "rough_after": 0.64,
+  "metal_before": 0.039,
+  "metal_after": 0.039,
+  "normal_flat_pct": 66.65,
+  "orm_flat_pct": 66.65,
+  "walls": 758,
+  "pane_pct": 5.5,
+  "pane_px": 57640,
+  "uv_px": 199149,
+  "wall_m2": 41805.6,
+  "texel_m2": 0.2099,
+  "small_pct": 5.22,
+  "pruned_pct": 5.22,
+  "side": 1024,
+  "wall_area_pct": 65.88,
+  "top_area_pct": 27.81
+ },
+ "weld": 0.0,
+ "open_edges": 4,
+ "custom_normals_cleared": 1,
+ "planar": {
+  "planar_pct": 44.09,
+  "regions": 90,
+  "faces_moved": 8303,
+  "verts_moved": 8303,
+  "max_move_m": 0.3485,
+  "regions_rejected": 3071,
+  "verts_skipped": 747,
+  "planes_found": 90
+ },
+ "plane_normals": {
+  "plane_area_pct": 95.22,
+  "plane_face_pct": 84.58,
+  "plane_regions": 3985,
+  "dev_m": 1.6
+ },
+ "win": "m02/m02_win.png",
+ "file_kb": 4319,
+ "far": {
+  "glb": "m02/m02_far.glb",
+  "tris": 3998,
+  "tex": 256,
+  "file_kb": 554,
+  "open_before": 4,
+  "open_after": 24,
+  "holes_filled": 0,
+  "tear": 6.0,
+  "gate": {
+   "holes": 0.0,
+   "views": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "detail": 0.0,
+   "limit": 0.02,
+   "pass": true
+  }
+ },
+ "roof": {
+  "cell_m": 2.0,
+  "nx": 21,
+  "ny": 38,
+  "origin": [
+   -20.039,
+   -37.55
+  ],
+  "z0": 0.0,
+  "z_span": 160.0,
+  "flat_deg": 15.0,
+  "h": "AAAAAPz8AAAAAAAAAAD8/AAAAAAA6vj5+/z8+fn5+fn5+fn8/Pr5+ekA6vn5+vz8+fn5+fn5+fn8/Pn5+eoA6vn5+vz8+fn5+fn5+fn8/Pn5+eoA/v//////+fn5+fn5+fn///////4A/v//////+fn5+fn5+fn///////4A/v//////+fn5+fn5+fn///////4A/v//////+fn5+fn5+fn///////4A/v//////+fn5+fn5+fn///////4A/v//////+fn5+fn5+fn///////4A8fLy8vLy8vLy8vLy8vLy8vLy8vEA8fLy9/j28vLy8vLy8vLy+Pjy8vEA8fL2+fn59/Ly8vLy8vb5+fn48vEA8fL1+fn59/Ly8vLy8vb4+fn48vEA8fL3+Pj48vLy8vLy8vL49/j38vEA8fL3+fn48vLy8vLy8vL4+fn38vEA8fL3+fn48vLy8vLy8vL4+fn28vAA8fLy8vjy8vLy8vLy8vLy+PLy8vAA8fLy8vjy8vLy8vLy8vLy+PLy8vAA8fLy8vjy8vLy8vLy8vLy+PLy8vAA8fLy9/jy8vLy8vLy8vLy+PLy8vAA8fLy+Pj38vLy8vLy8vL39/fy8vAA8fLy9/f38vLy8vLy8vL39/fy8vEA8fLy+Pj48vLy8vLy8vL4+Pjy8vEA8fL3+fn48vLy8vLy8vb5+fny8vEA8fL3+fn58vLy8vLy8vb5+fny8vEA8fLy8vLy8vLy8vLy8vLy8vLy8vEA8fLy8vLy8vLy8vLy8vLy8vLy8vEA/v//////+fn5+fn5+fn///////kA/v//////+fn5+fn5+fn///////kA/v//////+fn5+fn5+fn///////sA/v//////+fn5+fn5+fn///////sA/v//////+fn5+fn5+fn///////sA/v//////+fn5+fn5+fn//////+oA6vn5+vz8+fn5+fn5+fn8/Pn5+eoA6vn5+vz8+fn5+fn5+fn8/Pn5+eoA6vj4+/z8+fj4+Pj4+Pn8/Pr4+OoAAAAAAPAAAAAAAAAAAAD19wAAAAAA",
+  "flat": "AAAAAP//AAAAAAAAAAD//wAAAAAAAAAAAP///////////////wAAAAAAAP//AP///////////////wD//wAAAP//AP///////////////////wAAAP///////////////////////wAAAP///////////////////////wAAAP///////////////////////wAAAP///////////////////////wAAAP///////////////////////wAAAP///////////////////////wAA//////////////////////////8A////AAAA////////////AAD///8A//8AAP8AAP///////wAA/wAA//8A//8AAP8AAP///////wAAAAAA//8A//8A/wD///////////8AAP8A//8A//8AAP8A////////////AAAA//8A//8AAP8A//////////8A/wAA//8A/////wD///////////////////8A/////wD///////////////////8A//////////////////////////8A////AAD/////////////AP////8A////AAAA//////////8AAAD///8A////AAAA//////////8AAAD///8A////AP////////////////////8AAP8AAAAA/////////wAA/wD///8AAP8AAAAA/////////wAA/wD///8AAP///////////////////////wAAAP//////AP///////////////wAAAP///////////////////////wAAAP///////////////////////wAAAP///////////////////////wAAAP///////////////////////wAAAP///////////////////////wAAAP///////////////////////wAAAP//AP///////////////////wAAAP//AP///////////////wD//wAAAP//AP//AAAAAAAAAAD//wAA/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+ }
+}

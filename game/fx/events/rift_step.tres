@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="FeelEvent" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://fx/feel_event.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = &"rift_step"
+trauma = 0.05
+post = Array[StringName]([&"chromatic"])
+chromatic_px = 2.0
+post_seconds = 0.05
+fov_delta = 8.0
+fov_seconds = 0.07
+vfx = Array[StringName]([&"shockwave_ring", &"steam"])
+vfx_scale = 0.5
+light_color = Color(0.69, 0.3, 1, 1)
+light_energy = 4.0
+light_range = 10.0
+light_frames = 2
+audio = Array[StringName]([&"rift_reverse_whoosh", &"rift_thump"])
+rumble_weak = 0.3
+rumble_strong = 0.2
+rumble_ms = 60
+cooldown = 0.2
+ring_radius = 4.0
+ring_seconds = 0.18
+ring_color = Color(0.69, 0.3, 1, 1)

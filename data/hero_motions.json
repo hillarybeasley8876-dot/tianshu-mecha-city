@@ -1,0 +1,206 @@
+{
+ "_doc": "Hero animation clips for Tripo text-to-motion / presets on the rigged proxy (job hero_body_front). label = SPEC §10 id. Prompts describe a 16 m heavy battle robot; keep the clips short and readable.",
+ "presets": {
+  "idle": "idle",
+  "walk": "walk",
+  "run": "run",
+  "jump": "jump",
+  "fall": "fall",
+  "land_heavy": "jump_down",
+  "hit_light": "hit_to_body_01",
+  "hit_heavy": "hit_to_body_02",
+  "turn": "turn"
+ },
+ "motions": [
+  [
+   "dash_f",
+   1.0,
+   "A giant heavy battle robot bursts forward with a sudden thruster dash, torso leaning far forward, arms swept back, then settles into a combat stance"
+  ],
+  [
+   "dash_b",
+   1.0,
+   "A giant heavy battle robot dashes backward in a sudden thruster burst, leaning back with knees bent, arms forward for balance, then settles into a combat stance"
+  ],
+  [
+   "dash_l",
+   1.0,
+   "A giant heavy battle robot dashes sideways to its left in a sudden burst, body tilted into the motion, legs together, then settles into a combat stance"
+  ],
+  [
+   "dash_r",
+   1.0,
+   "A giant heavy battle robot dashes sideways to its right in a sudden burst, body tilted into the motion, legs together, then settles into a combat stance"
+  ],
+  [
+   "slide",
+   3.0,
+   "A giant robot skates forward at high speed on its feet like ice skating, low wide stance, torso leaning forward, arms relaxed back, holding the pose"
+  ],
+  [
+   "hover",
+   3.0,
+   "A giant robot hovers in the air with legs slightly bent and dangling, arms out to the sides for balance, gently bobbing"
+  ],
+  [
+   "fly",
+   3.0,
+   "A giant robot flies forward like a superhero, body horizontal, legs straight back together, arms close to the body, holding the flying pose"
+  ],
+  [
+   "melee_l1",
+   1.2,
+   "A giant heavy battle robot performs a fast horizontal sword slash from right to left with its right hand, stepping forward with the left foot"
+  ],
+  [
+   "melee_l2",
+   1.2,
+   "A giant heavy battle robot performs a fast backhand horizontal sword slash from left to right with its right hand, stepping forward"
+  ],
+  [
+   "melee_l3",
+   1.6,
+   "A giant heavy battle robot performs a powerful spinning 360 degree sword slash with its right hand, finishing low in a wide stance"
+  ],
+  [
+   "lunge",
+   1.4,
+   "A giant heavy battle robot lunges forward with a long stabbing sword thrust of its right arm, body fully extended, then recovers"
+  ],
+  [
+   "charge_slash",
+   2.4,
+   "A giant heavy battle robot raises a sword high over its head with both hands, pauses gathering power, then smashes it straight down in a huge overhead strike"
+  ],
+  [
+   "air_l1",
+   1.2,
+   "A giant robot in mid air slashes a sword diagonally downward with its right hand while its legs tuck up"
+  ],
+  [
+   "air_l2",
+   1.2,
+   "A giant robot in mid air slashes a sword upward with its right hand in a rising arc while its legs swing down"
+  ],
+  [
+   "return_cut",
+   1.2,
+   "A giant heavy battle robot counterattacks instantly with a fast rising diagonal sword slash after blocking, stepping in"
+  ],
+  [
+   "execution",
+   2.4,
+   "A giant battle robot grabs an enemy in front with its left hand and drives a sword through it with its right hand, then pulls the sword out and steps back"
+  ],
+  [
+   "guard_up",
+   1.0,
+   "A giant robot raises its left forearm shield in front of its chest and braces in a low defensive stance, holding the guard"
+  ],
+  [
+   "parry",
+   0.8,
+   "A giant robot snaps its left forearm shield outward in a sharp quick deflection, knocking an attack aside"
+  ],
+  [
+   "catch_hold",
+   2.0,
+   "A giant robot extends its left palm forward with fingers spread as if holding an invisible force field, legs braced, holding the pose"
+  ],
+  [
+   "catch_release",
+   1.0,
+   "A giant robot thrusts both palms forward forcefully releasing an energy blast, leaning into it"
+  ],
+  [
+   "fire_r",
+   0.8,
+   "A giant robot fires a heavy rifle held in its right hand, the arm extended forward at shoulder height, absorbing the recoil"
+  ],
+  [
+   "charge_r",
+   1.6,
+   "A giant robot braces in a wide stance and aims a heavy rifle forward with both hands, holding steady while charging, then fires with strong recoil"
+  ],
+  [
+   "reload",
+   1.4,
+   "A giant robot pulls a rifle close to its chest and slams a new magazine into it with its left hand, then raises it again"
+  ],
+  [
+   "missile_launch",
+   1.2,
+   "A giant robot plants its feet, leans forward and hunches its shoulders as shoulder missile pods fire a salvo, absorbing the recoil"
+  ],
+  [
+   "anchor_fire",
+   1.0,
+   "A giant robot thrusts its left arm forward and upward firing a grappling cable, the body following the arm"
+  ],
+  [
+   "rift_out",
+   0.6,
+   "A giant robot crouches low and coils as if about to vanish in a teleport burst"
+  ],
+  [
+   "rift_in",
+   0.8,
+   "A giant robot appears from a crouch and rises sharply into an attack stance"
+  ],
+  [
+   "fins_send",
+   1.2,
+   "A giant robot spreads both arms wide and then points its right arm forward commanding a swarm of drones to attack"
+  ],
+  [
+   "burst",
+   1.4,
+   "A giant robot pulls its arms inward to its chest, crouches gathering energy, then throws its arms and chest outward releasing a huge shockwave"
+  ],
+  [
+   "well_throw",
+   1.2,
+   "A giant robot throws a heavy grenade overhand with its left arm, stepping forward"
+  ],
+  [
+   "plunge_dive",
+   1.2,
+   "A giant robot dives straight down from the air head first then flips to feet first with a sword raised above its head"
+  ],
+  [
+   "plunge_land",
+   1.4,
+   "A giant robot slams down onto the ground from a great height driving a sword into the ground, kneeling on one knee, then rises"
+  ],
+  [
+   "overdrive_ignite",
+   1.6,
+   "A giant robot clenches its fists and throws its arms and head back, powering up with great energy, then lowers into a fierce combat stance"
+  ],
+  [
+   "lance_fire",
+   3.0,
+   "A giant robot braces in a very wide stance holding a huge beam weapon forward with both hands, firing a continuous blast, slowly sweeping it from left to right"
+  ],
+  [
+   "stagger",
+   1.4,
+   "A giant robot is hit hard and staggers backward two steps, losing balance, then regains its stance"
+  ],
+  [
+   "land_light",
+   1.0,
+   "A giant robot lands on its feet from a short jump with a small knee bend and recovers to stand"
+  ],
+  [
+   "ram_kick",
+   1.0,
+   "A giant robot flies forward and delivers a powerful flying front kick with its right leg"
+  ],
+  [
+   "death",
+   2.5,
+   "A giant battle robot is destroyed: it shudders, drops to its knees and collapses face down onto the ground, motionless"
+  ]
+ ]
+}

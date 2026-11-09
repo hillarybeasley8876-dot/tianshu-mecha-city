@@ -1,0 +1,71 @@
+[gd_scene load_steps=13 format=3]
+
+[ext_resource type="Script" path="res://player/camera/camera_rig.gd" id="1_rig"]
+[ext_resource type="Script" path="res://player/camera/camera_look.gd" id="2_look"]
+[ext_resource type="Script" path="res://player/camera/camera_blend.gd" id="8_blend"]
+[ext_resource type="Script" path="res://player/camera/camera_fov.gd" id="3_fov"]
+[ext_resource type="Script" path="res://player/camera/camera_cinematic.gd" id="7_cine"]
+[ext_resource type="Script" path="res://player/camera/camera_feel.gd" id="9_feel"]
+[ext_resource type="Script" path="res://player/camera/camera_large.gd" id="10_large"]
+[ext_resource type="Script" path="res://player/camera/camera_lock.gd" id="11_lock"]
+[ext_resource type="Script" path="res://player/camera/camera_flight.gd" id="12_flight"]
+[ext_resource type="Script" path="res://player/camera/camera_hero_cull.gd" id="13_cull"]
+[ext_resource type="Script" path="res://player/camera/camera_follow.gd" id="14_follow"]
+[ext_resource type="Script" path="res://player/camera/camera_arm.gd" id="4_arm"]
+[ext_resource type="Script" path="res://player/camera/camera_shake.gd" id="5_shake"]
+[ext_resource type="PackedScene" path="res://player/camera/cockpit_frame.tscn" id="6_cockpit"]
+
+[node name="CameraRig" type="Node3D"]
+script = ExtResource("1_rig")
+
+[node name="Look" type="Node" parent="."]
+script = ExtResource("2_look")
+
+[node name="Blend" type="Node" parent="."]
+script = ExtResource("8_blend")
+
+[node name="Fov" type="Node" parent="."]
+script = ExtResource("3_fov")
+
+[node name="Cinematic" type="Node" parent="."]
+script = ExtResource("7_cine")
+
+[node name="Feel" type="Node" parent="."]
+script = ExtResource("9_feel")
+
+[node name="Large" type="Node" parent="."]
+script = ExtResource("10_large")
+
+[node name="Lock" type="Node" parent="."]
+script = ExtResource("11_lock")
+
+[node name="Flight" type="Node" parent="."]
+script = ExtResource("12_flight")
+
+[node name="HeroCull" type="Node" parent="."]
+script = ExtResource("13_cull")
+
+[node name="Follow" type="Node" parent="."]
+script = ExtResource("14_follow")
+
+[node name="Yaw" type="Node3D" parent="."]
+
+[node name="Pitch" type="Node3D" parent="Yaw"]
+
+[node name="Shoulder" type="Node3D" parent="Yaw/Pitch"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0, 0)
+
+[node name="Arm" type="Node3D" parent="Yaw/Pitch/Shoulder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 42)
+script = ExtResource("4_arm")
+length = 42.0
+
+[node name="Shake" type="Node3D" parent="Yaw/Pitch/Shoulder/Arm"]
+script = ExtResource("5_shake")
+
+[node name="Cam" type="Camera3D" parent="Yaw/Pitch/Shoulder/Arm/Shake"]
+fov = 55.0
+near = 0.15
+far = 4000.0
+
+[node name="Cockpit" parent="." instance=ExtResource("6_cockpit")]

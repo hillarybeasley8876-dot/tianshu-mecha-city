@@ -1,0 +1,6 @@
+[
+ { "t": 0.0,  "look_rate": [0, 0] },
+ { "t": 0.5,  "tap": ["weapon_next"] },
+ { "t": 1.4,  "tap": ["camera_toggle"] },
+ { "t": 6.4,  "end": true }
+]

@@ -1,0 +1,120 @@
+{
+ "id": "m04",
+ "band": "megablock",
+ "districts": [
+  "D5"
+ ],
+ "archetypes": [
+  "megablock"
+ ],
+ "tags": [
+  "hole"
+ ],
+ "tileable": false,
+ "glb": "m04/m04.glb",
+ "tris": 39999,
+ "budget": 40000,
+ "tex": 1024,
+ "size": [
+  29.94,
+  86.29,
+  140.0
+ ],
+ "footprint": [
+  29.94,
+  86.29
+ ],
+ "aspect": 0.3631,
+ "parts_kept": 1,
+ "parts_dropped": 0,
+ "look": {
+  "neon_pct": 1.96,
+  "interior_pct": 0.07,
+  "wall_px": 116815,
+  "wall_pct": 11.14,
+  "top_px": 31408,
+  "top_pct": 3.0,
+  "emit_masked_pct": 50.62,
+  "luma_before": 0.3294,
+  "luma_after": 0.2985,
+  "gain": 0.911,
+  "pane_before": 0.06,
+  "pane_after": 0.07,
+  "pane_carved": 2.74,
+  "wall_luma": 0.2224128544330597,
+  "rough_before": 0.318,
+  "rough_after": 0.691,
+  "metal_before": 0.02,
+  "metal_after": 0.02,
+  "normal_flat_pct": 50.62,
+  "orm_flat_pct": 50.62,
+  "walls": 1049,
+  "pane_pct": 2.75,
+  "pane_px": 115155,
+  "uv_px": 458941,
+  "wall_m2": 31440.4,
+  "texel_m2": 0.0685,
+  "small_pct": 11.49,
+  "pruned_pct": 11.49,
+  "side": 2048,
+  "wall_area_pct": 74.05,
+  "top_area_pct": 20.66
+ },
+ "weld": 0.0,
+ "open_edges": 10,
+ "custom_normals_cleared": 1,
+ "planar": {
+  "planar_pct": 46.26,
+  "regions": 90,
+  "faces_moved": 4641,
+  "verts_moved": 4641,
+  "max_move_m": 0.3488,
+  "regions_rejected": 2028,
+  "verts_skipped": 540,
+  "planes_found": 90
+ },
+ "plane_normals": {
+  "plane_area_pct": 93.35,
+  "plane_face_pct": 60.36,
+  "plane_regions": 1883,
+  "dev_m": 1.4
+ },
+ "win": "m04/m04_win.png",
+ "file_kb": 4820,
+ "far": {
+  "glb": "m04/m04_far.glb",
+  "tris": 3998,
+  "tex": 256,
+  "file_kb": 583,
+  "open_before": 10,
+  "open_after": 15,
+  "holes_filled": 0,
+  "tear": 1.5,
+  "gate": {
+   "holes": 0.0,
+   "views": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "detail": 0.0,
+   "limit": 0.02,
+   "pass": true
+  }
+ },
+ "roof": {
+  "cell_m": 2.0,
+  "nx": 15,
+  "ny": 44,
+  "origin": [
+   -14.97,
+   -43.145
+  ],
+  "z0": 0.0,
+  "z_span": 140.0,
+  "flat_deg": 15.0,
+  "h": "AAAAACd3iIgGAAAAAAAAdsDAwN7e3t7egYGtsrVs3Nzc3N7e3t7e3d3d3d3b3Nzi4uTk5OTk4ODg4ODX3Nzi4uPj4+Pk39/f3+Dd3Nzi4uPj4+Pk39/f3+BN3Nzi4uTj4+Tk4ODg4OBN3Nzi4ubm5+bm4ODg4OBN3Nzc5Obm5+bm4ODg4N1MAEDD5Obm5+bm4ODg4MNAAMPk5ebm5+bm5eXl5eVAAMLj5eXl5eXl5OTk5OTCAMPj5OTk5OTk5OTk5OTDAMLj5OTk5OTk5OTk5OTCAMLj5OTk5OTk5OTk5OTCAMPj5OTk5OTk5OTk5OTDAMPk5OTk5OTk5OTk5OTDAMPk5OTk5OTk5OTk5OTDAMPk5OTk5OTk5OTk5OTDAMPk5OTk5OTk5OTk5OTDAMPk5OTk5OTk5OTk5OTDAMPk5OTk5OTk5OTk5OTDAMPk5OTk5OTk5OTk5OTDAMPk5OTk5OTk5OTk5OTDAMPk5OTk5OTk5OTk5OTCAMPk5OTk5OTk5OTk5OTCAMPk5OTk5OTk5OTk5OTCAMPk5OTk5OTk5OTk5OTCAMPk5OTk5OTk5OTk5OTCAMPk5eXl5ubl5OTk5OTCAMPl5eXm5ubl5eXl5eXCAMLCxODl5eXl4ODgwsLCAMLCwuDl5eXl4ODgwsJAAEDCwuDg4ODg4ODgwsJAANzc3ODx8fHx6+Dg3d1A3Nzi3+Dx8fHx8eDg3+Bc3Nzi4ODx8fHx8eDg4OBP3Nzi39/x8PHw8N/f3+BZ3Nzi39/x8PHw8N/f3+DV3Nzi4t/w7vHu7uDg4OB73Nzc3N7e3t7e3d3d3d14JcDAwN7e3t7ep6fR09ZTAFtOUSaIiMsGAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+  "flat": "AAAAAAAAAP//AAAAAAAAAP////////////8AAAAA//////////////////8A//////////////////8A/////////////////wD//////////////////wAA/////////wD///8A/wAA/////////////////wAA//////////8A////////AP////////8A/////wAAAAAA/////////////wAAAAAA/////////////wD/AAAA/////////////wD/AAAA/////////////wAAAAAA/////////////wAAAAAA/////////////wD/AAAA/////////////wAAAP8A/////////////wD/AP8A/////////////wD/AP8A/////////////wD/AP8A/////////////wD/AP8A/////////////wD/AP8A/////////////wD/AP8A/////////////wD/AP8A/////////////wD/AP8A/////////////wD/AAAA/////////////wD/AAAA/////////////wD/AAAA/////////////wD/AAAA/////////////wAAAAAA//8A/wD//////wAAAP//AP////////////8AAAD/////////////////AP////////////////8AAP//////////AP////8A////AP///////wD///8A////AP//////////////////////////AP////8A////////////AP////8A/////wAAAP8AAAAAAP8A//////////////////8AAAAA////////AAAAAAAAAAAAAAD/AAD/AAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+ }
+}

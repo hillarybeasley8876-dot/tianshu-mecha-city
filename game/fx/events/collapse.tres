@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="FeelEvent" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://fx/feel_event.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = &"collapse"
+hitstop_kind = 1
+hitstop_seconds = 0.0667
+trauma = 0.25
+flash_color = Color(0.69, 0.3, 1, 0.32)
+flash_frames = 3
+vfx = Array[StringName]([&"spark_burst", &"steam", &"shockwave_ring"])
+vfx_scale = 1.0
+light_color = Color(0.69, 0.3, 1, 1)
+light_energy = 8.0
+light_range = 18.0
+light_frames = 3
+audio = Array[StringName]([&"collapse_reverse_cymbal", &"collapse_boom"])
+rumble_weak = 0.4
+rumble_strong = 0.7
+rumble_ms = 180
+falloff = 150.0
+cooldown = 0.3
+ring_radius = 20.0
+ring_seconds = 0.2
+ring_color = Color(0.69, 0.3, 1, 1)

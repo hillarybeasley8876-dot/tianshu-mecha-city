@@ -1,0 +1,9 @@
+[
+ { "t": 0.0,  "look_rate": [0, 0] },
+ { "t": 0.4,  "tap": ["lock_on"] },
+ { "t": 1.2,  "tap": ["boost"] },
+ { "t": 1.5,  "player": { "method": "debug_perfect_dodge", "args": [] } },
+ { "t": 2.6,  "tap": ["melee"] },
+ { "t": 3.2,  "tap": ["melee"] },
+ { "t": 5.0,  "end": true }
+]

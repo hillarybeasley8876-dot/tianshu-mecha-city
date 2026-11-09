@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="FeelEvent" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://fx/feel_event.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = &"assault_boost"
+trauma = 0.1
+post = Array[StringName]([&"radial_blur", &"speed_lines"])
+radial_blur = 0.06
+speed_lines = 1.0
+post_seconds = 0.5
+fov_delta = 10.0
+fov_seconds = 0.25
+vfx = Array[StringName]([&"thruster_burst", &"shockwave_ring"])
+vfx_scale = 1.2
+audio = Array[StringName]([&"assault_boost_boom", &"boost_roar_loop"])
+rumble_weak = 0.3
+rumble_strong = 0.5
+rumble_ms = 250
+cooldown = 0.3
+ring_radius = 8.0
+ring_seconds = 0.2
+ring_color = Color(0.7, 0.92, 1, 1)

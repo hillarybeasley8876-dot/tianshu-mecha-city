@@ -1,0 +1,7 @@
+{
+  "_doc": "shot 7 — the A5 hive spire, close: the hero in the foreground trading fire with it. Camera north-west of the spire so the low sun stays behind it.",
+  "keys": [
+    {"t": 0.0, "pos": [392, 92, 248], "look": [462, 112, 166], "fov": 50},
+    {"t": 5.5, "pos": [412, 108, 222], "look": [464, 126, 162], "fov": 44}
+  ]
+}

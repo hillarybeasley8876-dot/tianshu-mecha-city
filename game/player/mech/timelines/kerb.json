@@ -1,0 +1,6 @@
+[
+ { "t": 0.0,  "player": { "method": "debug_teleport", "args": [[-120.0, 7.6, 40.0], 0.0] } },
+ { "t": 0.6,  "press": ["move_forward"] },
+ { "t": 6.0,  "release": ["move_forward"] },
+ { "t": 7.0,  "end": true }
+]

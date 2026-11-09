@@ -1,0 +1,20 @@
+[
+ { "t": 0.0,  "look_rate": [0, 0] },
+ { "t": 0.5,  "press": ["move_forward"] },
+ { "t": 1.2,  "tap": ["boost"] },
+ { "t": 2.0,  "tap": ["boost"] },
+ { "t": 2.8,  "press": ["move_left"] },
+ { "t": 3.2,  "tap": ["boost"] },
+ { "t": 3.9,  "release": ["move_left"] },
+ { "t": 4.3,  "press": ["move_right"] },
+ { "t": 4.7,  "tap": ["boost"] },
+ { "t": 5.3,  "release": ["move_right"] },
+ { "t": 5.7,  "press": ["move_back"] },
+ { "t": 6.1,  "tap": ["boost"] },
+ { "t": 6.7,  "release": ["move_back"] },
+ { "t": 7.1,  "press": ["move_forward"] },
+ { "t": 7.3,  "press": ["boost"] },
+ { "t": 9.6,  "release": ["boost"] },
+ { "t": 10.0, "release": ["move_forward"] },
+ { "t": 11.5, "end": true }
+]

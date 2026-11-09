@@ -1,0 +1,31 @@
+[gd_resource type="Resource" script_class="FeelEvent" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://fx/feel_event.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = &"overdrive_ignite"
+trauma = 0.2
+post = Array[StringName]([&"vignette", &"speed_lines"])
+vignette = 0.35
+vignette_color = Color(0.949, 0.757, 0.306, 1)
+speed_lines = 0.25
+post_seconds = 0.5
+fov_delta = -6.0
+fov_seconds = 0.3
+slow_scale = 0.3
+slow_seconds = 0.25
+vfx = Array[StringName]([&"steam", &"thruster_burst", &"shockwave_ring"])
+vfx_scale = 1.2
+light_color = Color(1, 0.78, 0.35, 1)
+light_energy = 8.0
+light_range = 20.0
+light_frames = 4
+audio = Array[StringName]([&"overdrive_swell", &"overdrive_roar"])
+rumble_weak = 0.3
+rumble_strong = 0.7
+rumble_ms = 300
+cooldown = 0.5
+ring_radius = 12.0
+ring_seconds = 0.22
+ring_color = Color(1, 0.78, 0.35, 1)

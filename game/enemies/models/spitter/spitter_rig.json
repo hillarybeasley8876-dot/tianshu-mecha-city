@@ -1,0 +1,300 @@
+{
+ "actions": {
+  "attack": "fire",
+  "attack_1": "fire",
+  "chaff": "fire",
+  "death": "death",
+  "fire": "fire",
+  "hit": "hit",
+  "hit_light": "hit",
+  "idle": "idle",
+  "lob": "fire",
+  "scuttle": "scuttle",
+  "stagger": "hit",
+  "walk": "walk"
+ },
+ "bones": [
+  "Launcher_0",
+  "Launcher_1",
+  "LegBL_0",
+  "LegBL_1",
+  "LegBL_2",
+  "LegBR_0",
+  "LegBR_1",
+  "LegBR_2",
+  "LegFL_0",
+  "LegFL_1",
+  "LegFL_2",
+  "LegFR_0",
+  "LegFR_1",
+  "LegFR_2",
+  "Root",
+  "Sac",
+  "Spine_0",
+  "Spine_1",
+  "Spine_2"
+ ],
+ "clips": {
+  "death": {
+   "length": 1.4,
+   "loop": false
+  },
+  "fire": {
+   "length": 1.0,
+   "loop": false
+  },
+  "hit": {
+   "length": 0.5,
+   "loop": false
+  },
+  "idle": {
+   "length": 1.833,
+   "loop": true
+  },
+  "scuttle": {
+   "length": 0.5,
+   "loop": true
+  },
+  "walk": {
+   "length": 1.0,
+   "loop": true
+  }
+ },
+ "gait": {
+  "idle": [
+   {
+    "clean_max": 1000000000.0,
+    "clip": "idle",
+    "stride": 0.0
+   }
+  ],
+  "run": [
+   {
+    "clean_max": 4.67,
+    "clip": "walk",
+    "stride": 1.806
+   },
+   {
+    "clean_max": 22.03,
+    "clip": "scuttle",
+    "stride": 8.511
+   }
+  ],
+  "walk": [
+   {
+    "clean_max": 4.67,
+    "clip": "walk",
+    "stride": 1.806
+   },
+   {
+    "clean_max": 22.03,
+    "clip": "scuttle",
+    "stride": 8.511
+   }
+  ]
+ },
+ "grounded": true,
+ "locomotion": {
+  "idle": "idle",
+  "run": "walk",
+  "walk": "walk"
+ },
+ "lod_dist_m": 120.0,
+ "look": {
+  "albedo_gain": 0.366,
+  "emission_energy": 2.0,
+  "flash_energy": 0.95,
+  "metallic_cap": 0.15,
+  "pod_boost": 2.3,
+  "rim_color": [
+   0.608,
+   1.0,
+   0.227
+  ],
+  "rim_gain": 0.6,
+  "roughness_floor": 0.35,
+  "tell_energy": 5.0
+ },
+ "shadow": false,
+ "size": {
+  "axis": "height",
+  "height": 12.0,
+  "target": 12.0,
+  "value": 12.0
+ },
+ "sockets": {
+  "back": {
+   "bone": "",
+   "pos": [
+    0.0,
+    7.44,
+    -1.44
+   ]
+  },
+  "chest": {
+   "bone": "",
+   "pos": [
+    0.0,
+    7.44,
+    1.2
+   ]
+  },
+  "claw_l": {
+   "bone": "LegFL_2",
+   "pos": [
+    -2.6961,
+    3.4985,
+    -1.3111
+   ]
+  },
+  "claw_r": {
+   "bone": "LegFR_2",
+   "pos": [
+    2.7643,
+    3.5168,
+    -1.0999
+   ]
+  },
+  "core": {
+   "bone": "",
+   "pos": [
+    0.0,
+    6.24,
+    -0.0
+   ]
+  },
+  "hand_l": {
+   "bone": "LegFL_2",
+   "pos": [
+    -2.6961,
+    3.4985,
+    -1.3111
+   ]
+  },
+  "hand_r": {
+   "bone": "LegFR_2",
+   "pos": [
+    2.7643,
+    3.5168,
+    -1.0999
+   ]
+  },
+  "mouth": {
+   "bone": "Launcher_1",
+   "pos": [
+    0.0116,
+    8.1182,
+    -4.2061
+   ]
+  },
+  "muzzle": {
+   "bone": "Launcher_1",
+   "pos": [
+    0.0116,
+    8.1182,
+    -4.2061
+   ]
+  },
+  "weak_0": {
+   "bone": "",
+   "faces": 33,
+   "pos": [
+    1.6127,
+    6.5516,
+    -1.1438
+   ],
+   "score": 0.5619
+  },
+  "weak_1": {
+   "bone": "",
+   "faces": 14,
+   "pos": [
+    3.2901,
+    3.5868,
+    3.8668
+   ],
+   "score": 0.5995
+  },
+  "weak_2": {
+   "bone": "",
+   "faces": 14,
+   "pos": [
+    -3.2518,
+    3.5868,
+    3.926
+   ],
+   "score": 0.6421
+  },
+  "weak_3": {
+   "bone": "",
+   "faces": 13,
+   "pos": [
+    -3.4142,
+    3.9399,
+    -1.7623
+   ],
+   "score": 0.6627
+  }
+ },
+ "speed_scale_max": 2.2,
+ "speed_scale_min": 0.6,
+ "stride_detail": {
+  "idle": {
+   "airborne": false,
+   "contacts": 4,
+   "cycle_s": 1.867,
+   "feet": [
+    "LegBL_2",
+    "LegBR_2",
+    "LegFL_2",
+    "LegFR_2"
+   ],
+   "root": 0.0,
+   "stance_frac": 1.0,
+   "stance_speed": 0.0,
+   "strays": [],
+   "stride": 0.0,
+   "sweep_m": 0.0
+  },
+  "scuttle": {
+   "airborne": false,
+   "contacts": 4,
+   "cycle_s": 0.533,
+   "feet": [
+    "LegBL_2",
+    "LegBR_2",
+    "LegFL_2",
+    "LegFR_2"
+   ],
+   "root": 0.0,
+   "stance_frac": 0.203,
+   "stance_speed": -1.06,
+   "strays": [],
+   "stride": 8.511,
+   "sweep_m": 4.539
+  },
+  "walk": {
+   "airborne": false,
+   "contacts": 4,
+   "cycle_s": 1.033,
+   "feet": [
+    "LegBL_2",
+    "LegBR_2",
+    "LegFL_2",
+    "LegFR_2"
+   ],
+   "root": 0.0,
+   "stance_frac": 0.153,
+   "stance_speed": 0.94,
+   "strays": [],
+   "stride": 1.806,
+   "sweep_m": 1.866
+  }
+ },
+ "stride_speed": {
+  "idle": 0.0,
+  "scuttle": 8.511,
+  "walk": 1.806
+ },
+ "type": "spitter"
+}

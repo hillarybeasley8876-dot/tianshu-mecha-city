@@ -1,0 +1,1519 @@
+{
+ "meta": {
+  "units": "m",
+  "up": "Z",
+  "H": 16.0,
+  "J": 40.0,
+  "R_min": 150.0,
+  "R_max": 250.0,
+  "v_boost": 42.0,
+  "g": 25.5,
+  "capsule_r": 4.0,
+  "capsule_h": 16.0,
+  "free_climb": 32.0,
+  "hard_step": 48.0,
+  "dodge": 24.0,
+  "v_assault": 84.0,
+  "ceiling": 260.0,
+  "half": 700.0,
+  "skyline_half": 900.0,
+  "floor_module": 4.0
+ },
+ "nodes": [
+  {
+   "id": "H0",
+   "name": "Insertion Pier",
+   "district": "D1",
+   "layer": "L1",
+   "pos": [
+    -560.0,
+    -600.0,
+    0.0
+   ],
+   "type": "start"
+  },
+  {
+   "id": "A1",
+   "name": "Container Yard",
+   "district": "D1",
+   "layer": "L1",
+   "pos": [
+    -430.0,
+    -420.0,
+    0.0
+   ],
+   "type": "arena",
+   "arena": "A1"
+  },
+  {
+   "id": "H3",
+   "name": "Crane Cab",
+   "district": "D1",
+   "layer": "L2+",
+   "pos": [
+    -520.0,
+    -330.0,
+    48.0
+   ],
+   "type": "reward"
+  },
+  {
+   "id": "H4",
+   "name": "Harbor Portal",
+   "district": "D1",
+   "layer": "L1",
+   "pos": [
+    -330.0,
+    -290.0,
+    0.0
+   ],
+   "type": "connector"
+  },
+  {
+   "id": "H5",
+   "name": "Canal Road West",
+   "district": "D1",
+   "layer": "L1",
+   "pos": [
+    -240.0,
+    -520.0,
+    0.0
+   ],
+   "type": "path"
+  },
+  {
+   "id": "U1",
+   "name": "West Junction",
+   "district": "D2",
+   "layer": "L0",
+   "pos": [
+    -250.0,
+    -190.0,
+    -40.0
+   ],
+   "type": "hub"
+  },
+  {
+   "id": "K1",
+   "name": "Knot Base",
+   "district": "D2",
+   "layer": "L1",
+   "pos": [
+    -470.0,
+    -60.0,
+    0.0
+   ],
+   "type": "arena",
+   "arena": "A2"
+  },
+  {
+   "id": "K2",
+   "name": "Knot Ramp Ring",
+   "district": "D2",
+   "layer": "L1+",
+   "pos": [
+    -430.0,
+    -10.0,
+    16.0
+   ],
+   "type": "arena",
+   "arena": "A2"
+  },
+  {
+   "id": "K3",
+   "name": "Knot Deck / Viaduct W",
+   "district": "D2",
+   "layer": "L2",
+   "pos": [
+    -470.0,
+    -40.0,
+    32.0
+   ],
+   "type": "arena",
+   "arena": "A2"
+  },
+  {
+   "id": "K4",
+   "name": "Knot Flyover",
+   "district": "D2",
+   "layer": "L2+",
+   "pos": [
+    -560.0,
+    -120.0,
+    56.0
+   ],
+   "type": "arena",
+   "arena": "A2"
+  },
+  {
+   "id": "K5",
+   "name": "Knot Crown / Rail Spur",
+   "district": "D2",
+   "layer": "L3",
+   "pos": [
+    -470.0,
+    -40.0,
+    80.0
+   ],
+   "type": "arena",
+   "arena": "A2"
+  },
+  {
+   "id": "O1",
+   "name": "Terrace Foot",
+   "district": "D3",
+   "layer": "L1",
+   "pos": [
+    -420.0,
+    110.0,
+    0.0
+   ],
+   "type": "connector"
+  },
+  {
+   "id": "O2",
+   "name": "Terrace Mid",
+   "district": "D3",
+   "layer": "L1+",
+   "pos": [
+    -430.0,
+    150.0,
+    16.0
+   ],
+   "type": "connector"
+  },
+  {
+   "id": "O3",
+   "name": "Old Town Square",
+   "district": "D3",
+   "layer": "L2",
+   "pos": [
+    -440.0,
+    240.0,
+    32.0
+   ],
+   "type": "hub"
+  },
+  {
+   "id": "O4",
+   "name": "Stilt Pagoda Base",
+   "district": "D3",
+   "layer": "L2",
+   "pos": [
+    -520.0,
+    430.0,
+    32.0
+   ],
+   "type": "landmark"
+  },
+  {
+   "id": "O5",
+   "name": "Pagoda Crown",
+   "district": "D3",
+   "layer": "L4",
+   "pos": [
+    -520.0,
+    430.0,
+    128.0
+   ],
+   "type": "reward"
+  },
+  {
+   "id": "O6",
+   "name": "Cliff Cache",
+   "district": "D3",
+   "layer": "L2",
+   "pos": [
+    -650.0,
+    620.0,
+    32.0
+   ],
+   "type": "reward"
+  },
+  {
+   "id": "O7",
+   "name": "Mine Shaft Top",
+   "district": "D3",
+   "layer": "L2",
+   "pos": [
+    -580.0,
+    300.0,
+    32.0
+   ],
+   "type": "connector"
+  },
+  {
+   "id": "U4",
+   "name": "Mine Shaft Bottom",
+   "district": "D3",
+   "layer": "L0",
+   "pos": [
+    -580.0,
+    300.0,
+    -40.0
+   ],
+   "type": "connector"
+  },
+  {
+   "id": "A3",
+   "name": "Spire Plaza",
+   "district": "D4",
+   "layer": "L1",
+   "pos": [
+    0.0,
+    -120.0,
+    0.0
+   ],
+   "type": "arena",
+   "arena": "A3"
+  },
+  {
+   "id": "S1b",
+   "name": "Plaza Terraces",
+   "district": "D4",
+   "layer": "L1+",
+   "pos": [
+    0.0,
+    -30.0,
+    16.0
+   ],
+   "type": "arena",
+   "arena": "A3"
+  },
+  {
+   "id": "S2",
+   "name": "Spire Root Station",
+   "district": "D4",
+   "layer": "L0",
+   "pos": [
+    0.0,
+    -240.0,
+    -40.0
+   ],
+   "type": "hub"
+  },
+  {
+   "id": "S3s",
+   "name": "Spire Collar S",
+   "district": "D4",
+   "layer": "L3",
+   "pos": [
+    0.0,
+    10.0,
+    80.0
+   ],
+   "type": "hub"
+  },
+  {
+   "id": "S3e",
+   "name": "Spire Collar E",
+   "district": "D4",
+   "layer": "L3",
+   "pos": [
+    110.0,
+    120.0,
+    80.0
+   ],
+   "type": "connector"
+  },
+  {
+   "id": "S3n",
+   "name": "Spire Collar N",
+   "district": "D4",
+   "layer": "L3",
+   "pos": [
+    0.0,
+    230.0,
+    80.0
+   ],
+   "type": "connector"
+  },
+  {
+   "id": "S3w",
+   "name": "Spire Collar W",
+   "district": "D4",
+   "layer": "L3",
+   "pos": [
+    -110.0,
+    120.0,
+    80.0
+   ],
+   "type": "connector"
+  },
+  {
+   "id": "S4",
+   "name": "Spire Roof Ring",
+   "district": "D4",
+   "layer": "L4",
+   "pos": [
+    0.0,
+    210.0,
+    160.0
+   ],
+   "type": "hub"
+  },
+  {
+   "id": "B1",
+   "name": "Crown Deck (boss)",
+   "district": "D4",
+   "layer": "L5",
+   "pos": [
+    0.0,
+    120.0,
+    224.0
+   ],
+   "type": "boss",
+   "arena": "BOSS"
+  },
+  {
+   "id": "S5",
+   "name": "Upper Civic Forum",
+   "district": "D4",
+   "layer": "L2",
+   "pos": [
+    0.0,
+    330.0,
+    32.0
+   ],
+   "type": "hub"
+  },
+  {
+   "id": "S6",
+   "name": "Spire Steps",
+   "district": "D4",
+   "layer": "L1+",
+   "pos": [
+    -150.0,
+    150.0,
+    16.0
+   ],
+   "type": "connector"
+  },
+  {
+   "id": "U5",
+   "name": "Spire North Root",
+   "district": "D4",
+   "layer": "L0",
+   "pos": [
+    0.0,
+    260.0,
+    -40.0
+   ],
+   "type": "connector"
+  },
+  {
+   "id": "F2",
+   "name": "Financial Avenue",
+   "district": "D7",
+   "layer": "L1",
+   "pos": [
+    0.0,
+    -420.0,
+    0.0
+   ],
+   "type": "hub"
+  },
+  {
+   "id": "F3",
+   "name": "Tower Lift Lobby",
+   "district": "D7",
+   "layer": "L1",
+   "pos": [
+    -120.0,
+    -360.0,
+    0.0
+   ],
+   "type": "connector"
+  },
+  {
+   "id": "F4",
+   "name": "Sky Garden",
+   "district": "D7",
+   "layer": "L4",
+   "pos": [
+    -60.0,
+    -450.0,
+    144.0
+   ],
+   "type": "arena",
+   "arena": "A6"
+  },
+  {
+   "id": "F5",
+   "name": "Crystal Bridge",
+   "district": "D7",
+   "layer": "L4",
+   "pos": [
+    -40.0,
+    -330.0,
+    176.0
+   ],
+   "type": "landmark"
+  },
+  {
+   "id": "F6",
+   "name": "Financial Skydeck",
+   "district": "D7",
+   "layer": "L3",
+   "pos": [
+    60.0,
+    -360.0,
+    80.0
+   ],
+   "type": "hub"
+  },
+  {
+   "id": "F7",
+   "name": "Financial Updraft",
+   "district": "D7",
+   "layer": "L1",
+   "pos": [
+    -170.0,
+    -500.0,
+    0.0
+   ],
+   "type": "connector"
+  },
+  {
+   "id": "H6",
+   "name": "Canal Road East",
+   "district": "D6",
+   "layer": "L1",
+   "pos": [
+    260.0,
+    -520.0,
+    0.0
+   ],
+   "type": "path"
+  },
+  {
+   "id": "V2",
+   "name": "Viaduct SW",
+   "district": "D1",
+   "layer": "L2",
+   "pos": [
+    -330.0,
+    -330.0,
+    32.0
+   ],
+   "type": "path"
+  },
+  {
+   "id": "V3",
+   "name": "Viaduct S",
+   "district": "D7",
+   "layer": "L2",
+   "pos": [
+    0.0,
+    -300.0,
+    32.0
+   ],
+   "type": "path"
+  },
+  {
+   "id": "V4",
+   "name": "Viaduct SE",
+   "district": "D6",
+   "layer": "L2",
+   "pos": [
+    330.0,
+    -330.0,
+    32.0
+   ],
+   "type": "path"
+  },
+  {
+   "id": "V5",
+   "name": "Viaduct E",
+   "district": "D6",
+   "layer": "L2",
+   "pos": [
+    520.0,
+    -40.0,
+    32.0
+   ],
+   "type": "path"
+  },
+  {
+   "id": "V6",
+   "name": "Plateau Landing E",
+   "district": "D5",
+   "layer": "L2",
+   "pos": [
+    420.0,
+    170.0,
+    32.0
+   ],
+   "type": "connector"
+  },
+  {
+   "id": "V7",
+   "name": "Plateau Departure W",
+   "district": "D3",
+   "layer": "L2",
+   "pos": [
+    -400.0,
+    170.0,
+    32.0
+   ],
+   "type": "connector"
+  },
+  {
+   "id": "W1",
+   "name": "Foundry Gate",
+   "district": "D6",
+   "layer": "L1",
+   "pos": [
+    250.0,
+    -120.0,
+    0.0
+   ],
+   "type": "path"
+  },
+  {
+   "id": "A5",
+   "name": "Foundry Floor",
+   "district": "D6",
+   "layer": "L1",
+   "pos": [
+    470.0,
+    -200.0,
+    0.0
+   ],
+   "type": "arena",
+   "arena": "A5"
+  },
+  {
+   "id": "W3",
+   "name": "Foundry Deck",
+   "district": "D6",
+   "layer": "L2",
+   "pos": [
+    470.0,
+    -220.0,
+    32.0
+   ],
+   "type": "arena",
+   "arena": "A5"
+  },
+  {
+   "id": "W4",
+   "name": "Foundry Gantry / Rail Stn",
+   "district": "D6",
+   "layer": "L3",
+   "pos": [
+    470.0,
+    -200.0,
+    80.0
+   ],
+   "type": "arena",
+   "arena": "A5"
+  },
+  {
+   "id": "W5",
+   "name": "Reactor Stack Perch",
+   "district": "D6",
+   "layer": "L4",
+   "pos": [
+    600.0,
+    -80.0,
+    144.0
+   ],
+   "type": "reward"
+  },
+  {
+   "id": "W7",
+   "name": "Foundry Portal",
+   "district": "D6",
+   "layer": "L1",
+   "pos": [
+    300.0,
+    -300.0,
+    0.0
+   ],
+   "type": "connector"
+  },
+  {
+   "id": "W8",
+   "name": "Escarpment Ramp Foot",
+   "district": "D6",
+   "layer": "L1",
+   "pos": [
+    380.0,
+    40.0,
+    0.0
+   ],
+   "type": "connector"
+  },
+  {
+   "id": "U3",
+   "name": "East Junction",
+   "district": "D4",
+   "layer": "L0",
+   "pos": [
+    200.0,
+    -220.0,
+    -40.0
+   ],
+   "type": "hub"
+  },
+  {
+   "id": "U6",
+   "name": "Maglev Depot",
+   "district": "D4",
+   "layer": "L0",
+   "pos": [
+    120.0,
+    -120.0,
+    -40.0
+   ],
+   "type": "reward"
+  },
+  {
+   "id": "M1",
+   "name": "Ridge Avenue East",
+   "district": "D5",
+   "layer": "L2",
+   "pos": [
+    260.0,
+    330.0,
+    32.0
+   ],
+   "type": "path"
+  },
+  {
+   "id": "A4",
+   "name": "Canyon Floor",
+   "district": "D5",
+   "layer": "L2",
+   "pos": [
+    460.0,
+    420.0,
+    32.0
+   ],
+   "type": "arena",
+   "arena": "A4"
+  },
+  {
+   "id": "M3",
+   "name": "Canyon Skybridge",
+   "district": "D5",
+   "layer": "L3",
+   "pos": [
+    460.0,
+    420.0,
+    80.0
+   ],
+   "type": "arena",
+   "arena": "A4"
+  },
+  {
+   "id": "M4",
+   "name": "Canyon Roofline",
+   "district": "D5",
+   "layer": "L4",
+   "pos": [
+    500.0,
+    540.0,
+    128.0
+   ],
+   "type": "arena",
+   "arena": "A4"
+  },
+  {
+   "id": "M5",
+   "name": "Through-Block Station",
+   "district": "D5",
+   "layer": "L3",
+   "pos": [
+    330.0,
+    250.0,
+    80.0
+   ],
+   "type": "hub"
+  },
+  {
+   "id": "M6b",
+   "name": "Megablock Lift Base",
+   "district": "D5",
+   "layer": "L2",
+   "pos": [
+    600.0,
+    330.0,
+    32.0
+   ],
+   "type": "connector"
+  },
+  {
+   "id": "M7",
+   "name": "Arcology Roof Cache",
+   "district": "D5",
+   "layer": "L4",
+   "pos": [
+    640.0,
+    640.0,
+    160.0
+   ],
+   "type": "reward"
+  }
+ ],
+ "edges": [
+  {
+   "from": "H0",
+   "to": "A1",
+   "kind": "path",
+   "bidir": true,
+   "tags": []
+  },
+  {
+   "from": "A1",
+   "to": "H5",
+   "kind": "path",
+   "bidir": true,
+   "tags": []
+  },
+  {
+   "from": "A1",
+   "to": "H4",
+   "kind": "path",
+   "bidir": true,
+   "tags": []
+  },
+  {
+   "from": "H4",
+   "to": "U1",
+   "kind": "ramp",
+   "bidir": true,
+   "tags": []
+  },
+  {
+   "from": "A1",
+   "to": "H3",
+   "kind": "stairs",
+   "bidir": false,
+   "tags": [
+    "steps:2"
+   ]
+  },
+  {
+   "from": "H3",
+   "to": "A1",
+   "kind": "drop",
+   "bidir": false,
+   "tags": []
+  },
+  {
+   "from": "A1",
+   "to": "V2",
+   "kind": "edgejump",
+   "bidir": true,
+   "tags": []
+  },
+  {
+   "from": "H5",
+   "to": "F2",
+   "kind": "path",
+   "bidir": true,
+   "tags": []
+  },
+  {
+   "from": "H4",
+   "to": "K1",
+   "kind": "path",
+   "bidir": true,
+   "tags": []
+  },
+  {
+   "from": "K1",
+   "to": "U1",
+   "kind": "ramp",
+   "bidir": true,
+   "tags": []
+  },
+  {
+   "from": "K1",
+   "to": "K2",
+   "kind": "ramp",
+   "bidir": true,
+   "tags": []
+  },
+  {
+   "from": "K2",
+   "to": "K3",
+   "kind": "ramp",
+   "bidir": true,
+   "tags": []
+  },
+  {
+   "from": "K3",
+   "to": "K4",
+   "kind": "ramp",
+   "bidir": true,
+   "tags": []
+  },
+  {
+   "from": "K4",
+   "to": "K5",
+   "kind": "ramp",
+   "bidir": true,
+   "tags": []
+  },
+  {
+   "from": "K1",
+   "to": "K3",
+   "kind": "edgejump",
+   "bidir": true,
+   "tags": []
+  },
+  {
+   "from": "K3",
+   "to": "V2",
+   "kind": "path",
+   "bidir": true,
+   "tags": []
+  },
+  {
+   "from": "K3",
+   "to": "V7",
+   "kind": "path",
+   "bidir": true,
+   "tags": []
+  },
+  {
+   "from": "K5",
+   "to": "S3w",
+   "kind": "rail",
+   "bidir": true,
+   "tags": []
+  },
+  {
+   "from": "K1",
+   "to": "O1",
+   "kind": "path",
+   "bidir": true,
+   "tags": []
+  },
+  {
+   "from": "K1",
+   "to": "A3",
+   "kind": "path",
+   "bidir": true,
+   "tags": []
+  },
+  {
+   "from": "O1",
+   "to": "O2",
+   "kind": "edgejump",
+   "bidir": true,
+   "tags": []
+  },
+  {
+   "from": "O2",
+   "to": "O3",
+   "kind": "edgejump",
+   "bidir": true,
+   "tags": []
+  },
+  {
+   "from": "V7",
+   "to": "O1",
+   "kind": "edgejump",
+   "bidir": true,
+   "tags": []
+  },
+  {
+   "from": "O3",
+   "to": "V7",
+   "kind": "path",
+   "bidir": true,
+   "tags": []
+  },
+  {
+   "from": "O3",
+   "to": "O4",
+   "kind": "path",
+   "bidir": true,
+   "tags": []
+  },
+  {
+   "from": "O4",
+   "to": "O5",
+   "kind": "stairs",
+   "bidir": false,
+   "tags": [
+    "steps:3"
+   ]
+  },
+  {
+   "from": "O5",
+   "to": "O4",
+   "kind": "drop",
+   "bidir": false,
+   "tags": []
+  },
+  {
+   "from": "O4",
+   "to": "O6",
+   "kind": "path",
+   "bidir": true,
+   "tags": []
+  },
+  {
+   "from": "O3",
+   "to": "O7",
+   "kind": "path",
+   "bidir": true,
+   "tags": []
+  },
+  {
+   "from": "O7",
+   "to": "U4",
+   "kind": "drop",
+   "bidir": false,
+   "tags": []
+  },
+  {
+   "from": "U4",
+   "to": "O7",
+   "kind": "lift",
+   "bidir": false,
+   "tags": []
+  },
+  {
+   "from": "U4",
+   "to": "U1",
+   "kind": "tunnel",
+   "bidir": true,
+   "tags": []
+  },
+  {
+   "from": "O3",
+   "to": "S5",
+   "kind": "path",
+   "bidir": true,
+   "tags": []
+  },
+  {
+   "from": "A3",
+   "to": "S1b",
+   "kind": "edgejump",
+   "bidir": true,
+   "tags": []
+  },
+  {
+   "from": "A3",
+   "to": "S2",
+   "kind": "ramp",
+   "bidir": true,
+   "tags": []
+  },
+  {
+   "from": "S1b",
+   "to": "S3s",
+   "kind": "lift",
+   "bidir": true,
+   "tags": []
+  },
+  {
+   "from": "S3s",
+   "to": "A3",
+   "kind": "drop",
+   "bidir": false,
+   "tags": []
+  },
+  {
+   "from": "S3s",
+   "to": "S3e",
+   "kind": "path",
+   "bidir": true,
+   "tags": []
+  },
+  {
+   "from": "S3e",
+   "to": "S3n",
+   "kind": "path",
+   "bidir": true,
+   "tags": []
+  },
+  {
+   "from": "S3n",
+   "to": "S3w",
+   "kind": "path",
+   "bidir": true,
+   "tags": []
+  },
+  {
+   "from": "S3w",
+   "to": "S3s",
+   "kind": "path",
+   "bidir": true,
+   "tags": []
+  },
+  {
+   "from": "S3n",
+   "to": "S4",
+   "kind": "lift",
+   "bidir": true,
+   "tags": []
+  },
+  {
+   "from": "S4",
+   "to": "B1",
+   "kind": "vcat",
+   "bidir": false,
+   "tags": []
+  },
+  {
+   "from": "B1",
+   "to": "S4",
+   "kind": "drop",
+   "bidir": false,
+   "tags": []
+  },
+  {
+   "from": "B1",
+   "to": "A3",
+   "kind": "lift",
+   "bidir": false,
+   "tags": []
+  },
+  {
+   "from": "S4",
+   "to": "S5",
+   "kind": "drop",
+   "bidir": false,
+   "tags": []
+  },
+  {
+   "from": "S5",
+   "to": "S3n",
+   "kind": "lift",
+   "bidir": true,
+   "tags": []
+  },
+  {
+   "from": "A3",
+   "to": "S6",
+   "kind": "edgejump",
+   "bidir": true,
+   "tags": []
+  },
+  {
+   "from": "S6",
+   "to": "S5",
+   "kind": "edgejump",
+   "bidir": true,
+   "tags": []
+  },
+  {
+   "from": "S2",
+   "to": "U1",
+   "kind": "tunnel",
+   "bidir": true,
+   "tags": []
+  },
+  {
+   "from": "S2",
+   "to": "U3",
+   "kind": "tunnel",
+   "bidir": true,
+   "tags": []
+  },
+  {
+   "from": "S2",
+   "to": "U5",
+   "kind": "tunnel",
+   "bidir": true,
+   "tags": []
+  },
+  {
+   "from": "U5",
+   "to": "S5",
+   "kind": "lift",
+   "bidir": true,
+   "tags": []
+  },
+  {
+   "from": "U3",
+   "to": "U6",
+   "kind": "tunnel",
+   "bidir": true,
+   "tags": []
+  },
+  {
+   "from": "A3",
+   "to": "F2",
+   "kind": "path",
+   "bidir": true,
+   "tags": []
+  },
+  {
+   "from": "A3",
+   "to": "W1",
+   "kind": "path",
+   "bidir": true,
+   "tags": []
+  },
+  {
+   "from": "V3",
+   "to": "F2",
+   "kind": "edgejump",
+   "bidir": true,
+   "tags": []
+  },
+  {
+   "from": "V3",
+   "to": "A3",
+   "kind": "ramp",
+   "bidir": true,
+   "tags": []
+  },
+  {
+   "from": "F2",
+   "to": "F3",
+   "kind": "path",
+   "bidir": true,
+   "tags": []
+  },
+  {
+   "from": "F3",
+   "to": "F6",
+   "kind": "lift",
+   "bidir": true,
+   "tags": []
+  },
+  {
+   "from": "F6",
+   "to": "S3s",
+   "kind": "rail",
+   "bidir": true,
+   "tags": []
+  },
+  {
+   "from": "F6",
+   "to": "W4",
+   "kind": "rail",
+   "bidir": true,
+   "tags": []
+  },
+  {
+   "from": "F6",
+   "to": "F4",
+   "kind": "stairs",
+   "bidir": false,
+   "tags": [
+    "steps:2"
+   ]
+  },
+  {
+   "from": "F4",
+   "to": "F6",
+   "kind": "drop",
+   "bidir": false,
+   "tags": []
+  },
+  {
+   "from": "F7",
+   "to": "F4",
+   "kind": "vent",
+   "bidir": false,
+   "tags": []
+  },
+  {
+   "from": "F4",
+   "to": "F2",
+   "kind": "drop",
+   "bidir": false,
+   "tags": []
+  },
+  {
+   "from": "F4",
+   "to": "F5",
+   "kind": "edgejump",
+   "bidir": true,
+   "tags": []
+  },
+  {
+   "from": "F5",
+   "to": "S4",
+   "kind": "lcat",
+   "bidir": false,
+   "tags": []
+  },
+  {
+   "from": "H5",
+   "to": "F7",
+   "kind": "path",
+   "bidir": true,
+   "tags": []
+  },
+  {
+   "from": "F2",
+   "to": "H6",
+   "kind": "path",
+   "bidir": true,
+   "tags": []
+  },
+  {
+   "from": "V2",
+   "to": "V3",
+   "kind": "path",
+   "bidir": true,
+   "tags": []
+  },
+  {
+   "from": "V3",
+   "to": "V4",
+   "kind": "path",
+   "bidir": true,
+   "tags": []
+  },
+  {
+   "from": "V3",
+   "to": "F6",
+   "kind": "lift",
+   "bidir": true,
+   "tags": []
+  },
+  {
+   "from": "V4",
+   "to": "W3",
+   "kind": "path",
+   "bidir": true,
+   "tags": []
+  },
+  {
+   "from": "V4",
+   "to": "V5",
+   "kind": "path",
+   "bidir": true,
+   "tags": []
+  },
+  {
+   "from": "V5",
+   "to": "V6",
+   "kind": "path",
+   "bidir": true,
+   "tags": []
+  },
+  {
+   "from": "W1",
+   "to": "A5",
+   "kind": "path",
+   "bidir": true,
+   "tags": []
+  },
+  {
+   "from": "A5",
+   "to": "W3",
+   "kind": "edgejump",
+   "bidir": true,
+   "tags": []
+  },
+  {
+   "from": "W3",
+   "to": "W4",
+   "kind": "vcat",
+   "bidir": false,
+   "tags": []
+  },
+  {
+   "from": "W4",
+   "to": "W3",
+   "kind": "drop",
+   "bidir": false,
+   "tags": []
+  },
+  {
+   "from": "A5",
+   "to": "W4",
+   "kind": "lift",
+   "bidir": true,
+   "tags": []
+  },
+  {
+   "from": "A5",
+   "to": "W5",
+   "kind": "vent",
+   "bidir": false,
+   "tags": []
+  },
+  {
+   "from": "W5",
+   "to": "A5",
+   "kind": "drop",
+   "bidir": false,
+   "tags": []
+  },
+  {
+   "from": "A5",
+   "to": "H6",
+   "kind": "path",
+   "bidir": true,
+   "tags": []
+  },
+  {
+   "from": "H6",
+   "to": "W7",
+   "kind": "path",
+   "bidir": true,
+   "tags": []
+  },
+  {
+   "from": "W7",
+   "to": "U3",
+   "kind": "ramp",
+   "bidir": true,
+   "tags": []
+  },
+  {
+   "from": "W1",
+   "to": "W8",
+   "kind": "path",
+   "bidir": true,
+   "tags": []
+  },
+  {
+   "from": "W8",
+   "to": "V6",
+   "kind": "ramp",
+   "bidir": true,
+   "tags": []
+  },
+  {
+   "from": "V5",
+   "to": "A5",
+   "kind": "edgejump",
+   "bidir": true,
+   "tags": []
+  },
+  {
+   "from": "W4",
+   "to": "M5",
+   "kind": "rail",
+   "bidir": true,
+   "tags": []
+  },
+  {
+   "from": "V6",
+   "to": "M1",
+   "kind": "path",
+   "bidir": true,
+   "tags": []
+  },
+  {
+   "from": "M1",
+   "to": "S5",
+   "kind": "path",
+   "bidir": true,
+   "tags": []
+  },
+  {
+   "from": "M1",
+   "to": "A4",
+   "kind": "path",
+   "bidir": true,
+   "tags": []
+  },
+  {
+   "from": "V6",
+   "to": "A4",
+   "kind": "path",
+   "bidir": true,
+   "tags": []
+  },
+  {
+   "from": "A4",
+   "to": "M3",
+   "kind": "stairs",
+   "bidir": false,
+   "tags": [
+    "steps:2"
+   ]
+  },
+  {
+   "from": "M3",
+   "to": "A4",
+   "kind": "drop",
+   "bidir": false,
+   "tags": []
+  },
+  {
+   "from": "M3",
+   "to": "M4",
+   "kind": "vcat",
+   "bidir": false,
+   "tags": []
+  },
+  {
+   "from": "M4",
+   "to": "M3",
+   "kind": "drop",
+   "bidir": false,
+   "tags": []
+  },
+  {
+   "from": "M3",
+   "to": "M5",
+   "kind": "path",
+   "bidir": true,
+   "tags": []
+  },
+  {
+   "from": "M5",
+   "to": "S3e",
+   "kind": "rail",
+   "bidir": true,
+   "tags": []
+  },
+  {
+   "from": "A4",
+   "to": "M6b",
+   "kind": "path",
+   "bidir": true,
+   "tags": []
+  },
+  {
+   "from": "M6b",
+   "to": "M4",
+   "kind": "lift",
+   "bidir": true,
+   "tags": []
+  },
+  {
+   "from": "M4",
+   "to": "M7",
+   "kind": "edgejump",
+   "bidir": false,
+   "tags": []
+  },
+  {
+   "from": "M7",
+   "to": "M4",
+   "kind": "drop",
+   "bidir": false,
+   "tags": []
+  },
+  {
+   "from": "M4",
+   "to": "S4",
+   "kind": "lcat",
+   "bidir": false,
+   "tags": []
+  },
+  {
+   "from": "M1",
+   "to": "M5",
+   "kind": "lift",
+   "bidir": true,
+   "tags": []
+  },
+  {
+   "from": "F3",
+   "to": "F4",
+   "kind": "vcat",
+   "bidir": false,
+   "tags": []
+  }
+ ]
+}

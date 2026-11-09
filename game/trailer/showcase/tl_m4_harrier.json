@@ -1,0 +1,49 @@
+[
+ {
+  "t": 0.0,
+  "look_rate": [
+   0,
+   0
+  ]
+ },
+ {
+  "t": 0.6,
+  "tap": [
+   "lock_on"
+  ]
+ },
+ {
+  "t": 1.4,
+  "press": [
+   "missiles"
+  ]
+ },
+ {
+  "t": 3.6,
+  "release": [
+   "missiles"
+  ]
+ },
+ {
+  "t": 5.0,
+  "tap": [
+   "lock_next"
+  ]
+ },
+ {
+  "t": 5.6,
+  "press": [
+   "missiles"
+  ]
+ },
+ {
+  "t": 8.0,
+  "release": [
+   "missiles"
+  ]
+ },
+ {
+  "t": 11.5,
+  "end": true
+ }
+]

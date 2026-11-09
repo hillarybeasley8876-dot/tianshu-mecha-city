@@ -1,0 +1,6 @@
+{
+  "_doc": "g8_weapon -- tap fire as the gatling's vent needle crosses its mark: the perfect vent (Superheated Clock).",
+  "rules": [
+    { "on": "vent", "press": "fire", "hold": 0.05, "window": 0.05, "max": 2 }
+  ]
+}

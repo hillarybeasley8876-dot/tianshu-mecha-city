@@ -1,0 +1,13 @@
+[
+  {"t": 0.4, "player": {"method": "debug_lock", "args": [-1]}},
+  {"t": 0.6, "press": ["guard"]},
+  {"t": 2.2, "release": ["guard"]},
+  {"t": 2.4, "player": {"method": "debug_spit", "args": []}},
+  {"t": 3.15, "press": ["guard"]},
+  {"t": 5.0, "release": ["guard"]},
+  {"t": 5.4, "player": {"method": "debug_spit", "args": []}},
+  {"t": 6.63, "press": ["guard"]},
+  {"t": 6.78, "release": ["guard"]},
+  {"t": 6.9, "tap": ["melee"]},
+  {"t": 8.2, "end": true}
+]

@@ -1,0 +1,359 @@
+{
+ "actions": {
+  "attack": "swipe",
+  "attack_1": "swipe",
+  "beam_breath": "beam_breath",
+  "climb_over": "climb_over",
+  "core_break": "core_break",
+  "death": "death",
+  "death_fall": "death_fall",
+  "hit": "hit",
+  "hit_light": "hit",
+  "idle": "idle",
+  "phase_roar": "phase_roar",
+  "roar": "roar",
+  "stagger": "stagger",
+  "stomp": "stomp",
+  "summon": "summon",
+  "swipe": "swipe",
+  "tail_sweep": "tail_sweep",
+  "walk": "walk"
+ },
+ "bones": [
+  "BoneRoot",
+  "Head",
+  "Hip",
+  "Jaw",
+  "L_Calf",
+  "L_CalfTwist01",
+  "L_CalfTwist02",
+  "L_Clavicle",
+  "L_Claw1",
+  "L_Claw2",
+  "L_Claw3",
+  "L_ElbowShareBone",
+  "L_Eye",
+  "L_Foot",
+  "L_Forearm",
+  "L_ForearmTwist01",
+  "L_ForearmTwist02",
+  "L_Hand",
+  "L_KneeShareBone",
+  "L_Thigh",
+  "L_ThighTwist01",
+  "L_ThighTwist02",
+  "L_ToeBase",
+  "L_Upperarm",
+  "L_UpperarmTwist01",
+  "L_UpperarmTwist02",
+  "NeckTwist01",
+  "NeckTwist02",
+  "Pelvis",
+  "R_Calf",
+  "R_CalfTwist01",
+  "R_CalfTwist02",
+  "R_Clavicle",
+  "R_Claw1",
+  "R_Claw2",
+  "R_Claw3",
+  "R_ElbowShareBone",
+  "R_Eye",
+  "R_Foot",
+  "R_Forearm",
+  "R_ForearmTwist01",
+  "R_ForearmTwist02",
+  "R_Hand",
+  "R_KneeShareBone",
+  "R_Thigh",
+  "R_ThighTwist01",
+  "R_ThighTwist02",
+  "R_ToeBase",
+  "R_Upperarm",
+  "R_UpperarmTwist01",
+  "R_UpperarmTwist02",
+  "Spine01",
+  "Spine02",
+  "Tail_0",
+  "Tail_1",
+  "Tail_2",
+  "Tail_3",
+  "Tail_4",
+  "Tail_5",
+  "Waist"
+ ],
+ "clips": {
+  "beam_breath": {
+   "length": 3.967,
+   "loop": false
+  },
+  "climb_over": {
+   "length": 4.133,
+   "loop": false
+  },
+  "core_break": {
+   "length": 1.467,
+   "loop": false
+  },
+  "death": {
+   "length": 2.967,
+   "loop": false
+  },
+  "death_fall": {
+   "length": 3.633,
+   "loop": false
+  },
+  "hit": {
+   "length": 1.3,
+   "loop": false
+  },
+  "idle": {
+   "length": 15.333,
+   "loop": true
+  },
+  "phase_roar": {
+   "length": 3.133,
+   "loop": false
+  },
+  "roar": {
+   "length": 2.333,
+   "loop": false
+  },
+  "stagger": {
+   "length": 1.733,
+   "loop": false
+  },
+  "stomp": {
+   "length": 1.967,
+   "loop": false
+  },
+  "summon": {
+   "length": 3.467,
+   "loop": false
+  },
+  "swipe": {
+   "length": 1.967,
+   "loop": false
+  },
+  "tail_sweep": {
+   "length": 2.633,
+   "loop": false
+  },
+  "walk": {
+   "length": 2.333,
+   "loop": true
+  }
+ },
+ "gait": {
+  "idle": [
+   {
+    "clean_max": 1000000000.0,
+    "clip": "idle",
+    "stride": 0.0
+   }
+  ],
+  "run": [
+   {
+    "clean_max": 45.24,
+    "clip": "walk",
+    "stride": 17.48
+   }
+  ],
+  "walk": [
+   {
+    "clean_max": 45.24,
+    "clip": "walk",
+    "stride": 17.48
+   }
+  ]
+ },
+ "grounded": true,
+ "locomotion": {
+  "idle": "idle",
+  "run": "walk",
+  "walk": "walk"
+ },
+ "lod_dist_m": 120.0,
+ "look": {
+  "albedo_gain": 0.348,
+  "emission_energy": 2.2,
+  "flash_energy": 0.75,
+  "metallic_cap": 0.18,
+  "pod_boost": 2.3,
+  "rim_color": [
+   0.608,
+   1.0,
+   0.227
+  ],
+  "rim_gain": 0.55,
+  "roughness_floor": 0.35,
+  "tell_energy": 5.0
+ },
+ "shadow": true,
+ "size": {
+  "axis": "height",
+  "height": 60.0,
+  "target": 60.0,
+  "value": 60.0
+ },
+ "sockets": {
+  "back": {
+   "bone": "",
+   "pos": [
+    0.0,
+    37.2,
+    -7.2
+   ]
+  },
+  "chest": {
+   "bone": "",
+   "pos": [
+    0.0,
+    37.2,
+    6.0
+   ]
+  },
+  "claw_l": {
+   "bone": "L_Hand",
+   "pos": [
+    -18.1519,
+    27.8793,
+    -20.3608
+   ]
+  },
+  "claw_r": {
+   "bone": "R_Hand",
+   "pos": [
+    15.7517,
+    28.1793,
+    -20.3108
+   ]
+  },
+  "core": {
+   "bone": "",
+   "pos": [
+    0.0,
+    31.2,
+    -0.0
+   ]
+  },
+  "hand_l": {
+   "bone": "L_Hand",
+   "pos": [
+    -18.1519,
+    27.8793,
+    -20.3608
+   ]
+  },
+  "hand_r": {
+   "bone": "R_Hand",
+   "pos": [
+    15.7517,
+    28.1793,
+    -20.3108
+   ]
+  },
+  "mouth": {
+   "bone": "Jaw",
+   "pos": [
+    -2.9645,
+    51.6985,
+    -24.3196
+   ]
+  },
+  "muzzle": {
+   "bone": "Jaw",
+   "pos": [
+    -2.9645,
+    51.6985,
+    -24.3196
+   ]
+  },
+  "weak_0": {
+   "bone": "",
+   "faces": 838,
+   "pos": [
+    9.2956,
+    47.0575,
+    -9.991
+   ],
+   "score": 0.6966
+  },
+  "weak_1": {
+   "bone": "",
+   "faces": 451,
+   "pos": [
+    0.8685,
+    20.0144,
+    0.0482
+   ],
+   "score": 0.6734
+  },
+  "weak_2": {
+   "bone": "",
+   "faces": 174,
+   "pos": [
+    8.591,
+    45.2333,
+    -22.3025
+   ],
+   "score": 0.7456
+  },
+  "weak_3": {
+   "bone": "",
+   "faces": 102,
+   "pos": [
+    8.6478,
+    38.6339,
+    -9.9299
+   ],
+   "score": 0.6762
+  }
+ },
+ "speed_scale_max": 2.2,
+ "speed_scale_min": 0.28,
+ "stride_detail": {
+  "idle": {
+   "airborne": false,
+   "contacts": 2,
+   "cycle_s": 15.367,
+   "feet": [
+    "L_ToeBase",
+    "R_ToeBase"
+   ],
+   "root": 0.0,
+   "stance_frac": 0.053,
+   "stance_speed": -1.055,
+   "strays": [
+    "L_CalfTwist02",
+    "R_CalfTwist02",
+    "Tail_5"
+   ],
+   "stride": 0.754,
+   "sweep_m": 11.58
+  },
+  "walk": {
+   "airborne": false,
+   "contacts": 2,
+   "cycle_s": 2.367,
+   "feet": [
+    "L_ToeBase",
+    "R_ToeBase"
+   ],
+   "root": 0.0,
+   "stance_frac": 0.049,
+   "stance_speed": 77.74,
+   "strays": [
+    "L_CalfTwist02",
+    "R_CalfTwist02",
+    "Tail_5"
+   ],
+   "stride": 17.48,
+   "sweep_m": 41.369
+  }
+ },
+ "stride_speed": {
+  "idle": 0.0,
+  "walk": 17.48
+ },
+ "type": "titan"
+}

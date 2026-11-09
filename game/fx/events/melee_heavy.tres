@@ -1,0 +1,32 @@
+[gd_resource type="Resource" script_class="FeelEvent" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://fx/feel_event.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = &"melee_heavy"
+hitstop_kind = 1
+hitstop_seconds = 0.15
+trauma = 0.3
+kick_deg = 1.0
+kick_dir = Vector3(0, 0, -1)
+kick_seconds = 0.18
+fov_delta = -2.0
+fov_seconds = 0.2
+vfx = Array[StringName]([&"spark_burst", &"impact_star", &"shockwave_ring"])
+vfx_scale = 1.0
+decal = &"scorch"
+light_color = Color(0.31, 0.9, 1, 1)
+light_energy = 6.0
+light_range = 14.0
+light_frames = 3
+audio = Array[StringName]([&"melee_heavy_transient", &"melee_heavy_body", &"melee_heavy_sub",
+&"melee_servo"])
+rumble_weak = 0.6
+rumble_strong = 0.6
+rumble_ms = 150
+falloff = 90.0
+cooldown = 0.05
+ring_radius = 8.0
+ring_seconds = 0.18
+ring_color = Color(0.31, 0.9, 1, 1)

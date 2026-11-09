@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="FeelEvent" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://fx/feel_event.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = &"gatling_overheat"
+trauma = 0.12
+kick_deg = 0.4
+kick_dir = Vector3(0, 1, 0)
+kick_seconds = 0.15
+flash_color = Color(1, 1, 1, 0.18)
+flash_frames = 2
+vfx = Array[StringName]([&"steam"])
+vfx_scale = 0.8
+audio = Array[StringName]([&"alarm_caution", &"gatling_vent_hiss"])
+rumble_weak = 0.4
+rumble_strong = 0.5
+rumble_ms = 140
+falloff = 40.0
+cooldown = 0.5

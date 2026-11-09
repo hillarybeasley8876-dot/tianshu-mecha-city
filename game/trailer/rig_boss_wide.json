@@ -1,0 +1,7 @@
+{
+  "_doc": "the Brood Titan framed by the trailer kit instead of the showcase's own camera, which keeps the hero centred on the Crown's red dome with the Titan off screen for the first 20 s (boss_shot.tscn). Orbits the 60 m boss at 130 m so the hero fighting at its feet is in the same frame.",
+  "id": "boss_orbit", "rig": "orbit", "kind": "free", "subject": "BroodTitan", "height_m": 60.0,
+  "from": 0.0, "to": 45.0,
+  "radius": 130.0, "height": 34.0, "rate": 3.5, "start": 205.0,
+  "look": [0.0, 12.0, 0.0], "frame": [0.0, 0.0], "fov": 48.0, "min_bbox": 0.30
+}

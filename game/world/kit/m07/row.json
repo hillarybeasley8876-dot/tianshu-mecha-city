@@ -1,0 +1,123 @@
+{
+ "id": "m07",
+ "band": "megablock",
+ "districts": [
+  "D4",
+  "D5"
+ ],
+ "archetypes": [
+  "podium_tower",
+  "megablock",
+  "slab"
+ ],
+ "tags": [
+  "hole"
+ ],
+ "tileable": false,
+ "glb": "m07/m07.glb",
+ "tris": 40000,
+ "budget": 40000,
+ "tex": 1024,
+ "size": [
+  57.774,
+  139.176,
+  132.0
+ ],
+ "footprint": [
+  57.77,
+  139.18
+ ],
+ "aspect": 0.6793,
+ "parts_kept": 1,
+ "parts_dropped": 0,
+ "look": {
+  "neon_pct": 3.85,
+  "interior_pct": 0.0,
+  "wall_px": 238139,
+  "wall_pct": 22.71,
+  "top_px": 92264,
+  "top_pct": 8.8,
+  "emit_masked_pct": 64.79,
+  "luma_before": 0.4461,
+  "luma_after": 0.3122,
+  "gain": 0.673,
+  "pane_before": 0.02,
+  "pane_after": 0.04,
+  "pane_carved": 6.63,
+  "wall_luma": 0.2252170294523239,
+  "rough_before": 0.435,
+  "rough_after": 0.742,
+  "metal_before": 0.02,
+  "metal_after": 0.02,
+  "normal_flat_pct": 64.79,
+  "orm_flat_pct": 64.79,
+  "walls": 1146,
+  "pane_pct": 6.63,
+  "pane_px": 69509,
+  "uv_px": 241753,
+  "wall_m2": 51917.3,
+  "texel_m2": 0.2148,
+  "small_pct": 3.5,
+  "pruned_pct": 3.5,
+  "side": 1024,
+  "wall_area_pct": 66.27,
+  "top_area_pct": 31.52
+ },
+ "weld": 0.0,
+ "open_edges": 23,
+ "custom_normals_cleared": 1,
+ "planar": {
+  "planar_pct": 74.81,
+  "regions": 90,
+  "faces_moved": 7129,
+  "verts_moved": 7129,
+  "max_move_m": 0.2624,
+  "regions_rejected": 1894,
+  "verts_skipped": 427,
+  "planes_found": 90
+ },
+ "plane_normals": {
+  "plane_area_pct": 96.47,
+  "plane_face_pct": 64.31,
+  "plane_regions": 1366,
+  "dev_m": 1.392
+ },
+ "win": "m07/m07_win.png",
+ "file_kb": 4339,
+ "far": {
+  "glb": "m07/m07_far.glb",
+  "tris": 3996,
+  "tex": 256,
+  "file_kb": 576,
+  "open_before": 23,
+  "open_after": 71,
+  "holes_filled": 0,
+  "tear": 3.087,
+  "gate": {
+   "holes": 0.0,
+   "views": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "detail": 0.0,
+   "limit": 0.02,
+   "pass": true
+  }
+ },
+ "roof": {
+  "cell_m": 2.0,
+  "nx": 29,
+  "ny": 70,
+  "origin": [
+   -28.887,
+   -69.588
+  ],
+  "z0": 0.0,
+  "z_span": 132.0,
+  "flat_deg": 15.0,
+  "h": "4Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo5wDi4+Pj4+Pj4+Pj4+Pj7+/t4+Pj4+Pe4+/v8OPjAOLj4+Pj4+Pj4+Pj4+/w8PDj4+Pj4+Pj8PDw7+MA4uPj4+Pj4+Pj4+Pj7/Dw8O7j4+Pj4+/w8PDv49ni4+Pj7Ozs7Ozs7Ozv8PDw7Ozs7Ozs7PHx8PDj1OLj4+Ps7Ozs7Ozs7Ozv7+zs7Ozs7Ozs7PDw4+Pa4uPj4+zs7Pv7+/v7+/v7+/v7+/v77Ozs7OPj4wDi4+Pj8O7s+/v7+/v7+/v7+/v7+/vs7PDu4+PjAOLj4+Pu7uz7+/v7+/v7+/v7+/v7++zs7u7j4+PY4uPj4/Du7Pv7+/v7+/v7+/v7+/v77Ozw7uPj49Li4+Pj7Ozs+/v7+/v7+/v7+/v7+/vs7Ozs4+Pj1uLj4+Ps7Oz7+/v7+/v7+/v7+/v7++zs7Ozj4+MA4uPj4+zs7Pv7+/v7+/v7+/v7+/v77Ozs7OPj49fi4+Pj7Ozs+/v7+/v7+/v7+/v7+/vs7Ozs4+Pj2OLj8fHx7+/v7+/v7+/v7+/v7+/v7+/v8PHy8uMA4vDy8vLw7+/v7+/v7+/v7+/v7+/v7+/y8vLy8Nji8PLy8vHv7+/v7+/v7+/v7+/v7+/v7/Ly8vLvAOLj8vLy8O/v7+/v7+/v7+/v7+/v7+/v8vLy8uMA4uPj7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/j4wDi4+Pv7+/v7+/v7+/v7+/v7+/v7+/v7+/v4+PjAOLj4+7u7u7u7u7u7+/v7+/v7+7u7u7u7u7j4+MA4uPj7u7u7u7u7u7v7+/v7+/v7u7u7u7u7uPj4wDi4+Pu7u7u7u7u7u/v7+/v7+/u7u7u7u7u4+PjAOLj4+7u7u7u7u7u7+/v7+/v7+7u7u7u7u7j4+MA4uPv8PDu7u7////////////////u7u7w8PDj4wDi4/Dw8O/u7v///////////////+7u7vHx8fDjAOLj8PDw7u7u////////////////7u7u8fHx8OMA4uPj7O7u7u7////////////////u7u7u8PDj4wDi4+Pk7u7u7v///////////////+7u7u7u4+PjAOLj4+/v7+/v/////////////+/v7+/v7+/j4+MA4uPj7+/v7+//////////////7+/v7+/v7+Pj4wDi4+Pv7+/v7//////////////v7+/v7+/v4+PjAOLj4+/v7+/v/////////////+/v7+/v7+/j4+MA4uPj7+/v7+//////////////7+/v7+/v7+Pj4wDi4+Pv7+/v7//////////////v7+/v7+/v4+PjAOLj4+/v7+/v/////////////+/v7+/v7+/j4+MA4uPw8PDv7+/v7+/v7+/v7+/v7+/v7+/v8PDj4wDi8PHy8vDv7+/v7+/v7+/v7+/v7+/v7/Hy8vLjAOLw8vLy8e/v7+/v7+/v7+/v7+/v7+/v8vLy8uMA4u/x8vLw7+/v7+/v7+/v7+/v7+/v7+/y8vLy4wDj4+/w8O/v7+/v7+/v7+/v7+/v7+/v7+/w8OPjAOPj4+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/j4+MA4+Pj7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+Pj4wDi4+Pv7+/v7+/v7+/v7+/v7+/v7+/v7+/v4+PjAOLj4+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/j4+MA4uPj7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+Pj4wDi4+Pv7+/v7+/v7+/v7+/v7+/v7+/v7+/v4+PjAOLj4+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/j4+MA4uPj4+zs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OPj4wDi4+Pj7Ozs+/v7+/v7+/v7+/v7+/vs7Ozs4+PjAOLj4+Ps7Oz7+/v7+/v7+/v7+/v7++zs7Ozj4+MA4uPj7+zs7Pv7+/v7+/v7+/v7+/v77Ozs7+Pj4wDi4/Hx8fDs+/v7+/v7+/v7+/v7+/vs7PDx8fDjAOLw8fHx8Oz7+/v7+/v7+/v7+/v7++zv8fHx8eMA4u/x8fHx7Pv7+/v7+/v7+/v7+/v77Ozy8vHx4wDj4/Dw8Ozs+/v7+/v7+/v7+/v7+/vs7Ozw8e/jAOPj4+Ps7Oz7+/v7+/v7+/v7+/v7++zs7Ozj4+MA4+Pj4+zs7Pv7+/v7+/v7+/v7+/v77Ozs7OPj4wDj4+Pj7Ozs+/v7+/v7+/v7+/v7+/vs7Ozs4+PjAOPj4+Pw7Oz7+/v7+/v7+/v7+/v7++zs8Ozj4+PZ4+Pj4+7u7Pv7+/v7+/v7+/v7+/v77Ozu7uPj49nj4+Pj8O7s7Ozs7Ozs7Ozs7Ozs7Ozs7PDu4+Pj2OPj4+Ps7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozj4+PY4+Pj4+zs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OPj49jj4+Pj7Ozs7Ozs7Ozs8PDw7Ozs7Ozs7PDw8OPj2OPj4+Pj4+Pj4+Pj4/Dw8PDv4+Pj4+Pj8PDw7+MA4+Pj4+Pj4+Pj4+Pj7/Dw8O/j4+Pj4+/w8PDv49nj4+Pj4+Pj4+Pj4+Pj8PDw4+Pj4+Pe4/Dw8OPjAOPj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj497j4+Pj4+MAAAAAANkAAAAAAAAAANjXAAAAAAAAAAAAAAAAAAA=",
+  "flat": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA////////////////AAAA/////////wAA////AAD///////////////////////////////////8AAP//////////////AP///wD//////wD///8A/wAA//////////////8A/////////////////wD//wD///////////////8AAP///////////wAA//8AAP///////wD//////////////////////////wAA////AP//AP///////////////////wAA////AAD///////8A////////////////////////////AP////8A/wD///////////////////////////8A////////AP///////////////////////////wD///////8A//////////////////////////8AAP///////wD//////////////////////////wAA////////AP//////////////////////////AAD///8AAAD///////////////////////////8AAAD///8A////////////////////////////AAAAAP///wD/////AP////////////////////8AAAD/AP8AAP////8A//////////////////////8AAP///////////wD//////////////////wD//wAA////////////AP//////////////////////AAD///////////////////////////////////8AAP//AP///////////////////////////////wAA//8A////////////////////////////////AAD//wD///////////////////////////////8AAP8AAAD///////////////////////8AAP///wAA/wD//wD//////////////////////////wD/AAD/AP//////AP//////////////////////AP8AAP//AP////8A//////////////////8AAAD//wAA//8A/////wD/////////////////////////AAD//wAAAAAAAP///////////wAAAAAAAAD///8AAP////////8A/////////////////////////wAA/////////wD/////////////////////////AAD/////////AP////////////////////////8AAP////////8A/////////////////////////wAA/////////wD/////////////////////////AAD/////////AP////////////////////////8AAP8AAAD//////////////////////////wD//wAAAP///wD//////////////////////wD/////AAAA////AP////////////////////////////8AAAAA//8A//////////////////////8A//8A/wAA/wD/AP////////////////////////8A////AAD///////////////////////////////////8AAP///////////////////////////////////wAA////////////////////////////////////AAD///////////////////////////////////8AAP///////////////////////////////////wAA////////////////////////////////////AAD///////////////////////////////////8AAP///////////////////////////////////wAA////////AP//////////////////////////AAD///////8A//////////////////////////8AAP//AP///wD/////////////////////AP///wAA////AAD/AP///////////////////////wD/AAAA////AP8A//////////////////8A//////8AAAD///8A/wD//////////////////////////wAA/wAAAP//AP////////////////////8AAAD/AAD///////8A//////////////////////////8AAP///////////////////////////////////wAA////////////////////////////////////AAD//////////////////////////////wD///8AAP////////////////////////////////////8A////AP///////////////////////wD//////wD///8A//////////////////////////////8AAP////////////////////////////////////8A////////////////AP8A//////////8A/////wD///////////////////8A////////////AP8AAP///////////////////////////wD///8A//8A////////////////AAD//////////wD/////AAD///////////////////////////////////8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA="
+ }
+}

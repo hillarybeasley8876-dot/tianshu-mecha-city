@@ -1,0 +1,24 @@
+{
+ "_doc": "city-art r15/r16b — the sky panorama manifest (game/world/art/sky/README.md). `active` names the plate mc_sky blends in as its cloud field; `sun_az_deg` is the plate's own sun azimuth measured off the file by tmp/city-art/r15/rgbe.py; `ref` is its median luminance, which becomes the shader's `pano_ref` so only the plate's STRUCTURE is taken and its exposure never fights the dome's. An index file, not a directory scan: the shipped .app has no tests/ and no DirAccess walk (see the export-safety rule).",
+ "dir": "res://world/art/sky/",
+ "active": "kloppenheim_06_puresky",
+ "blend": 0.5,
+ "panos": {
+  "kloppenheim_06_puresky": {
+   "file": "kloppenheim_06_puresky_4k.hdr",
+   "sun_az_deg": 29.225,
+   "ref": 0.416,
+   "gain": 1.0,
+   "source": "https://polyhaven.com/a/kloppenheim_06_puresky",
+   "licence": "CC0"
+  },
+  "belfast_sunset_puresky": {
+   "file": "belfast_sunset_puresky_4k.hdr",
+   "sun_az_deg": 35.595,
+   "ref": 0.687,
+   "gain": 1.0,
+   "source": "https://polyhaven.com/a/belfast_sunset_puresky",
+   "licence": "CC0"
+  }
+ }
+}

@@ -1,0 +1,38 @@
+{
+ "note": "Layout coordinates (X east, Y north, Z up), the same space kit_assign.json uses. A clear lane 90 m south of the A6 sky garden's edge at the garden's own height: open sky above, the skyline behind, nothing within 40 m (checked against every building and cover box in city_layout.json). Godot position of the first model: (-220, 144, 640). Nothing of any kind is within 45 m of any of the twelve slots.",
+ "origin": [
+  -220.0,
+  -640.0,
+  144.0
+ ],
+ "spacing": 40.0,
+ "models": [
+  "k01",
+  "k02",
+  "k03",
+  "k04",
+  "k05",
+  "k06",
+  "k07",
+  "k08",
+  "k09",
+  "k10",
+  "k11",
+  "k12"
+ ],
+ "yaws": [
+  180,
+  180,
+  90,
+  180,
+  0,
+  180,
+  90,
+  180,
+  0,
+  0,
+  0,
+  180
+ ],
+ "yaw_note": "per-model yaw chosen by tools/citykit/fidelity_sheet.py --pick: the brightest of the yaws shot, so no model is judged back-lit"
+}

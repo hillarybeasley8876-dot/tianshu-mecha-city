@@ -1,0 +1,120 @@
+{
+ "id": "h02",
+ "band": "industrial",
+ "districts": [
+  "D1"
+ ],
+ "archetypes": [
+  "slab",
+  "setback"
+ ],
+ "tags": [],
+ "tileable": false,
+ "glb": "h02/h02.glb",
+ "tris": 19999,
+ "budget": 20000,
+ "tex": 1024,
+ "size": [
+  19.153,
+  19.406,
+  56.0
+ ],
+ "footprint": [
+  19.15,
+  19.41
+ ],
+ "aspect": 0.3443,
+ "parts_kept": 1,
+ "parts_dropped": 0,
+ "look": {
+  "neon_pct": 3.57,
+  "interior_pct": 0.0,
+  "emit_off": 1,
+  "wall_px": 155763,
+  "wall_pct": 14.85,
+  "top_px": 47999,
+  "top_pct": 4.58,
+  "emit_masked_pct": 51.15,
+  "luma_before": 0.3617,
+  "luma_after": 0.2354,
+  "gain": 0.608,
+  "pane_before": 0.01,
+  "pane_after": 0.02,
+  "pane_carved": 1.56,
+  "wall_luma": 0.2154424637556076,
+  "rough_before": 0.161,
+  "rough_after": 0.617,
+  "metal_before": 0.02,
+  "metal_after": 0.02,
+  "normal_flat_pct": 51.15,
+  "orm_flat_pct": 51.15,
+  "walls": 53,
+  "pane_pct": 1.56,
+  "pane_px": 4090,
+  "uv_px": 22964,
+  "wall_m2": 1288.8,
+  "texel_m2": 0.0561,
+  "small_pct": 26.44,
+  "pruned_pct": 26.44,
+  "side": 512,
+  "wall_area_pct": 72.13,
+  "top_area_pct": 24.16
+ },
+ "weld": 0.0,
+ "open_edges": 23,
+ "custom_normals_cleared": 1,
+ "planar": {
+  "planar_pct": 59.52,
+  "regions": 90,
+  "faces_moved": 4135,
+  "verts_moved": 4135,
+  "max_move_m": 0.3428,
+  "regions_rejected": 2644,
+  "verts_skipped": 84,
+  "planes_found": 90
+ },
+ "plane_normals": {
+  "plane_area_pct": 75.26,
+  "plane_face_pct": 43.86,
+  "plane_regions": 203,
+  "dev_m": 0.56
+ },
+ "win": "h02/h02_win.png",
+ "file_kb": 2464,
+ "far": {
+  "glb": "h02/h02_far.glb",
+  "tris": 3993,
+  "tex": 256,
+  "file_kb": 574,
+  "open_before": 25,
+  "open_after": 64,
+  "holes_filled": 0,
+  "tear": 2.56,
+  "gate": {
+   "holes": 0.0,
+   "views": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "detail": 0.0,
+   "limit": 0.02,
+   "pass": true
+  }
+ },
+ "roof": {
+  "cell_m": 2.0,
+  "nx": 10,
+  "ny": 10,
+  "origin": [
+   -9.577,
+   -9.703
+  ],
+  "z0": 0.0,
+  "z_span": 56.0,
+  "flat_deg": 15.0,
+  "h": "AMnMzMzMzMwAAMnJycnJycnJyQDMycnS0tLJycnJzMnJ0tLSycnJyczJ0tLS0tLSycnMydLS0tLS0snJzMnJ0tLSycnJyczJydLS0snJyckAycnJz8/JyckAAADJycnJyckAAA==",
+  "flat": "AAAAAAAAAAAAAP//////////AAAA////////////AP///////////wD///////////8A////////////AP///////////wD///////////8AAP////////8AAAD///////8AAA=="
+ }
+}

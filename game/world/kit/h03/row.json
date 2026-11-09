@@ -1,0 +1,122 @@
+{
+ "id": "h03",
+ "band": "industrial",
+ "districts": [
+  "D1"
+ ],
+ "archetypes": [
+  "warehouse",
+  "industrial"
+ ],
+ "tags": [
+  "long"
+ ],
+ "tileable": false,
+ "glb": "h03/h03.glb",
+ "tris": 19999,
+ "budget": 20000,
+ "tex": 1024,
+ "size": [
+  73.817,
+  21.165,
+  18.0
+ ],
+ "footprint": [
+  73.82,
+  21.16
+ ],
+ "aspect": 2.1959,
+ "parts_kept": 1,
+ "parts_dropped": 0,
+ "look": {
+  "neon_pct": 5.26,
+  "interior_pct": 0.0,
+  "emit_off": 1,
+  "wall_px": 161189,
+  "wall_pct": 15.37,
+  "top_px": 85142,
+  "top_pct": 8.12,
+  "emit_masked_pct": 54.19,
+  "luma_before": 0.3202,
+  "luma_after": 0.2288,
+  "gain": 0.687,
+  "pane_before": 0.0,
+  "pane_after": 0.01,
+  "pane_carved": 1.01,
+  "wall_luma": 0.2207694798707962,
+  "rough_before": 0.369,
+  "rough_after": 0.714,
+  "metal_before": 0.035,
+  "metal_after": 0.035,
+  "normal_flat_pct": 54.19,
+  "orm_flat_pct": 54.19,
+  "walls": 38,
+  "pane_pct": 1.01,
+  "pane_px": 2658,
+  "uv_px": 12422,
+  "wall_m2": 1122.8,
+  "texel_m2": 0.0904,
+  "small_pct": 16.23,
+  "pruned_pct": 16.23,
+  "side": 512,
+  "wall_area_pct": 47.93,
+  "top_area_pct": 37.28
+ },
+ "weld": 0.0,
+ "open_edges": 23,
+ "custom_normals_cleared": 1,
+ "planar": {
+  "planar_pct": 53.75,
+  "regions": 90,
+  "faces_moved": 3570,
+  "verts_moved": 3570,
+  "max_move_m": 0.3471,
+  "regions_rejected": 1979,
+  "verts_skipped": 645,
+  "planes_found": 90
+ },
+ "plane_normals": {
+  "plane_area_pct": 81.55,
+  "plane_face_pct": 51.27,
+  "plane_regions": 759,
+  "dev_m": 0.738
+ },
+ "win": "h03/h03_win.png",
+ "file_kb": 2432,
+ "far": {
+  "glb": "h03/h03_far.glb",
+  "tris": 3996,
+  "tex": 256,
+  "file_kb": 570,
+  "open_before": 24,
+  "open_after": 55,
+  "holes_filled": 0,
+  "tear": 2.292,
+  "gate": {
+   "holes": 0.0,
+   "views": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "detail": 0.0,
+   "limit": 0.02,
+   "pass": true
+  }
+ },
+ "roof": {
+  "cell_m": 2.0,
+  "nx": 37,
+  "ny": 11,
+  "origin": [
+   -36.909,
+   -10.582
+  ],
+  "z0": 0.0,
+  "z_span": 18.0,
+  "flat_deg": 15.0,
+  "h": "AAAAAAAAAAAAAAAAAAA1NTU1AAAAAAAAAAAAAAAAAAAAAAAAAM7Ozre3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7fOzs7R5tvBx+Dy1tL25snj9dbU8uLH5vTT2PPfyeX00djz38ff2+fRP73x7M7o9uTd9uzT6fXg3fTqz+v12uP26tLv9Nvm+OfR7fK9Pz/O7PHh6Prp4Pbv3Oz25OP37Nzv9eDn+ere8vTe6/nn4vnqzj8/4uv44uj67uD38Nvt9+Xl+u7b8Pbh6vzr3fL03u355+X859s/P9Hq9uLo+u3h9+/b7ffl4/ft3e734en5697x9N7u+efl9unbPz++6e7V6Pno3vfs0+z35t706tHr99vo9ejV7fTe6fnn1u3rvj8/3fHlyeHy2dT35Mrh8dfV8OHJ5+/T2PHhzefv0tnz38ng9MU/AOW3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t8HOAAAAAAAAAAAAAAAAAAAANTU1NQAAAAAAAAAAAAAAAAAAAAAAAAA=",
+  "flat": "AAAAAAAAAAAAAAAAAAD/////AAAAAAAAAAAAAAAAAAAAAAAAAP//////////////////////////////////////////////////AP///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP8A//////8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD///8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP//AAAAAAAAAAAAAAAAAAAAAAD/AAAAAAAAAAAAAAAAAAAAAP///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//8AAAAAAP//AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/AAAAAP///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/AAAAAAAAAP//AAD/////////////////////////////////////////////AAAAAAAAAAAAAAAAAAAA/////wAAAAAAAAAAAAAAAAAAAAAAAAA="
+ }
+}

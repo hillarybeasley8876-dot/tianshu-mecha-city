@@ -1,0 +1,17 @@
+# Known-issues allow-list for the test host (game/tools/test_host.gd) and tools/suites.sh.
+# One entry per line, `|`-separated. Blank lines and `#` comments are ignored.
+#
+#   kind | suite (res:// path) | key | tag | reason
+#
+# kind=error : key is the EXACT error message Godot logged (no wildcards, no prefixes). The host
+#              prints "TEST KNOWN-ERROR <tag> <suite>" and does not fail the run on it.
+# kind=red   : key is the number of failed checks the suite is expected to report. tools/suites.sh
+#              prints "TEST KNOWN-ERROR <tag> <suite>" and does not count it as a new red; a DIFFERENT
+#              number of failures still goes red.
+#
+# Every entry is removed the day its fix lands. An error that is not listed here is a real failure.
+error|res://enemies/tests/test_spawner.gd|EnemySpawner: unknown enemy type 'dragon'|deliberate-negative-spawner-dragon|test_spawner asks the spawner for a type that does not exist, to prove it reports the miss instead of crashing
+error|res://world/art/tests/test_art.gd|InfectionField: cannot register 'huge', only 4 hive slots exist|deliberate-negative-art-huge|test_art registers a fifth hive site on purpose, to prove the infection field refuses it
+error|res://tools/tests/fixture_known_error.gd|fixture: an error the allow-list knows about|fixture-known-error|tooling's own Gate 4 fixture: it proves the host suppresses exactly one allow-listed message and exits 0
+red|res://world/art/tests/test_occlusion.gd|1|test-occlusion-stale-premise|city-art r16 item 8 (lead finding test-occlusion-stale-premise): the suite asserts at :109 that some design rows have NO kit model, and since city-kit r9 all 358 stand on one, so it fails by construction. city-art owns the rewrite; drop this row when reviews/city-art-r16.md item 8 lands
+red|res://world/art/tests/test_design_copy.gd|3|map-r8-unbuilt|lead decision 11-06: the map is FROZEN at the built r7 layout for the demo. city-layout r8 (437e0b9, 318 buildings / 76 decks) is committed but not built; the game, the trailer and the showcase all use the r7 city (358 / 77). This turns green when city-build rebuilds on the r8/r8b layout, which waits for the user after the demo.

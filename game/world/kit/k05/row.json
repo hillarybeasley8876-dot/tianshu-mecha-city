@@ -1,0 +1,164 @@
+{
+ "id": "k05",
+ "band": "cover",
+ "districts": [],
+ "archetypes": [],
+ "tags": [
+  "soft",
+  "line"
+ ],
+ "tileable": false,
+ "glb": "k05/k05.glb",
+ "tris": 11999,
+ "budget": 12000,
+ "tex": 1024,
+ "size": [
+  3.135,
+  10.242,
+  6.0
+ ],
+ "footprint": [
+  3.13,
+  10.24
+ ],
+ "aspect": 0.9444,
+ "parts_kept": 3,
+ "parts_dropped": 0,
+ "look": {
+  "cover_material": 1,
+  "emit_off": 1,
+  "neon_pct": 0.0,
+  "interior_pct": 0.0,
+  "weld_groups": 23789,
+  "weld_deg": 18.0,
+  "folded_pct": 0.0,
+  "uv_islands": 8376,
+  "island_px_med": 0.8,
+  "island_px_p10": 0.0,
+  "uv_fill_pct": 2.25,
+  "mpt": 0.0866,
+  "mpt_p95": 0.2591,
+  "seam_texels": 1.16,
+  "value_sigma_m": 2.0,
+  "chroma_sigma_m": 0.45,
+  "fit": {
+   "p50": 0.4073,
+   "p97": 0.4274,
+   "gamma": 1.8,
+   "gain": 1.259,
+   "fit": 1
+  },
+  "accent_pct": 1.98,
+  "accent_groups": 1,
+  "acc1_pct": 0.04,
+  "acc1_val": 0.423,
+  "hazard_pct": 0.43,
+  "hazard_bands": 1,
+  "alb_v_std": 0.0119,
+  "alb_v_p05": 0.3901,
+  "alb_v_p95": 0.4272,
+  "band": [
+   0.25,
+   0.4
+  ],
+  "class": "steel",
+  "seam_pct": 20.23,
+  "wear_pct": 68.77,
+  "grime_pct": 43.11,
+  "cover_pct": 2.12,
+  "v_p50": 0.2666,
+  "v_p97": 0.72,
+  "luma_p50": 0.2547,
+  "concept": "k05-1-1.png",
+  "ab_mean": [
+   0.334,
+   5.315
+  ],
+  "ab_std": [
+   1.036,
+   1.662
+  ],
+  "ab_ref": [
+   0.843,
+   4.676
+  ],
+  "accent_pull_pct": 1.98,
+  "v_p50_file": 0.2745,
+  "side": 0,
+  "pane_px": 0,
+  "walls": 0,
+  "small_pct": 0.0,
+  "pruned_pct": 0.0,
+  "wall_area_pct": 44.34,
+  "top_area_pct": 28.41
+ },
+ "weld": 0.0001,
+ "open_edges": 27,
+ "custom_normals_cleared": 1,
+ "planar": {
+  "planar_pct": 13.63,
+  "regions": 6,
+  "faces_moved": 554,
+  "verts_moved": 554,
+  "max_move_m": 0.2296,
+  "regions_rejected": 705,
+  "verts_skipped": 5,
+  "planes_found": 6
+ },
+ "plane_normals": {
+  "plane_area_pct": 24.66,
+  "plane_face_pct": 12.04,
+  "plane_regions": 19,
+  "dev_m": 0.5
+ },
+ "win": "k05/k05_win.png",
+ "file_kb": 1386,
+ "lod": {
+  "glb": "k05/k05_lod.glb",
+  "tris": 2794,
+  "file_kb": 529,
+  "reshaded": 1,
+  "plane_normals": {
+   "plane_area_pct": 24.92,
+   "plane_face_pct": 11.52,
+   "plane_regions": 27,
+   "dev_m": 0.5
+  }
+ },
+ "far": {
+  "glb": "k05/k05_far.glb",
+  "tris": 3990,
+  "tex": 256,
+  "file_kb": 513,
+  "open_before": 28,
+  "open_after": 67,
+  "holes_filled": 9,
+  "tear": 2.393,
+  "gate": {
+   "holes": 0.0,
+   "views": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "detail": 0.0,
+   "limit": 0.02,
+   "pass": true
+  }
+ },
+ "roof": {
+  "cell_m": 2.0,
+  "nx": 2,
+  "ny": 6,
+  "origin": [
+   -1.567,
+   -5.121
+  ],
+  "z0": 0.0,
+  "z_span": 6.0,
+  "flat_deg": 15.0,
+  "h": "lgCDAHQscQB6AAAA",
+  "flat": "/wD/AAAA/wD/AAAA"
+ }
+}

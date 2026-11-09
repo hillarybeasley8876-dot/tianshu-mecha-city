@@ -1,0 +1,25 @@
+[gd_resource type="Resource" script_class="FeelEvent" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://fx/feel_event.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = &"gatling_vent_perfect"
+trauma = 0.06
+fov_delta = 3.0
+fov_seconds = 0.2
+vfx = Array[StringName]([&"steam", &"shockwave_ring"])
+vfx_scale = 0.6
+light_color = Color(0.9, 0.94, 1, 1)
+light_energy = 3.0
+light_range = 10.0
+light_frames = 2
+audio = Array[StringName]([&"gatling_vent_hiss", &"ui_vent_chime"])
+rumble_weak = 0.3
+rumble_strong = 0.2
+rumble_ms = 80
+falloff = 30.0
+cooldown = 0.3
+ring_radius = 4.0
+ring_seconds = 0.15
+ring_color = Color(0.9, 0.94, 1, 1)

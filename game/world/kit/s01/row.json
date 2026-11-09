@@ -1,0 +1,135 @@
+{
+ "id": "s01",
+ "band": "street",
+ "districts": [],
+ "archetypes": [
+  "podium_tower",
+  "slab",
+  "megablock",
+  "terrace",
+  "setback"
+ ],
+ "tags": [
+  "podium",
+  "frontage"
+ ],
+ "tileable": false,
+ "glb": "s01/s01.glb",
+ "tris": 11999,
+ "budget": 12000,
+ "tex": 1024,
+ "size": [
+  13.353,
+  27.692,
+  12.0
+ ],
+ "footprint": [
+  13.35,
+  27.69
+ ],
+ "aspect": 1.6025,
+ "parts_kept": 1,
+ "parts_dropped": 0,
+ "look": {
+  "neon_pct": 0.98,
+  "interior_pct": 0.01,
+  "wall_px": 113799,
+  "wall_pct": 10.85,
+  "top_px": 53070,
+  "top_pct": 5.06,
+  "emit_masked_pct": 46.27,
+  "luma_before": 0.3519,
+  "luma_after": 0.2802,
+  "gain": 0.767,
+  "pane_before": 0.03,
+  "pane_after": 0.04,
+  "pane_carved": 0.38,
+  "wall_luma": 0.25389227271080017,
+  "rough_before": 0.42,
+  "rough_after": 0.735,
+  "metal_before": 0.027,
+  "metal_after": 0.027,
+  "normal_flat_pct": 46.27,
+  "orm_flat_pct": 46.27,
+  "walls": 31,
+  "pane_pct": 0.38,
+  "pane_px": 1007,
+  "uv_px": 12413,
+  "wall_m2": 550.6,
+  "texel_m2": 0.0444,
+  "small_pct": 38.33,
+  "pruned_pct": 38.33,
+  "side": 512,
+  "wall_area_pct": 50.44,
+  "top_area_pct": 46.9
+ },
+ "weld": 0.0,
+ "open_edges": 15,
+ "custom_normals_cleared": 1,
+ "planar": {
+  "planar_pct": 58.82,
+  "regions": 88,
+  "faces_moved": 2746,
+  "verts_moved": 2746,
+  "max_move_m": 0.3456,
+  "regions_rejected": 1954,
+  "verts_skipped": 77,
+  "planes_found": 90
+ },
+ "plane_normals": {
+  "plane_area_pct": 79.02,
+  "plane_face_pct": 41.89,
+  "plane_regions": 222,
+  "dev_m": 0.5
+ },
+ "win": "s01/s01_win.png",
+ "file_kb": 1839,
+ "lod": {
+  "glb": "s01/s01_lod.glb",
+  "tris": 5999,
+  "file_kb": 1325,
+  "reshaded": 1,
+  "plane_normals": {
+   "plane_area_pct": 84.66,
+   "plane_face_pct": 33.84,
+   "plane_regions": 269,
+   "dev_m": 0.5
+  }
+ },
+ "far": {
+  "glb": "s01/s01_far.glb",
+  "tris": 3994,
+  "tex": 256,
+  "file_kb": 582,
+  "open_before": 15,
+  "open_after": 39,
+  "holes_filled": 0,
+  "tear": 2.6,
+  "gate": {
+   "holes": 0.0,
+   "views": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "detail": 0.0,
+   "limit": 0.02,
+   "pass": true
+  }
+ },
+ "roof": {
+  "cell_m": 2.0,
+  "nx": 7,
+  "ny": 14,
+  "origin": [
+   -6.677,
+   -13.846
+  ],
+  "z0": 0.0,
+  "z_span": 12.0,
+  "flat_deg": 15.0,
+  "h": "8Pzw8Pz97fDw8PDw8O3w/Pzw/fDu8PDw8PDw7vDw8PDw8O7w8PDw8PDu8PDw8PDw7vDw8PDw8O7w8PDw8PDt8PDw8PDw7fD8/PDw8O3w/Pzv9/Dt8PDw8PDw7fDw8PDw8O0=",
+  "flat": "////////AP////////////////////////////////////////////////////////////////////////8A////////AP///////wD///////8A////////AP///////wA="
+ }
+}
